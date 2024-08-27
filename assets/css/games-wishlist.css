@@ -1,0 +1,231 @@
+.site-main {
+	margin-left : 0;
+}
+
+#wish-ps {
+	background : var(--ps-color);
+}
+
+#wish-steam {
+	background-color : var(--dark-grey-steam);
+}
+
+#wish-nintendo {
+	background-color : var(--nintendo-color);
+}
+
+.platinum-steam { width : 12.28%; background-color : var(--blue-steam);}
+
+.no-wished-game-background {
+	width : 97%;
+	margin : auto;
+	padding : 10px;
+	box-shadow: 0px 0px 5px var(--dark-grey-steam);
+	text-align: center;
+	color : var(--nintendo-color);
+}
+
+#wish-steam-background {
+	background-color : var(--light-grey-steam);
+}
+
+.games-show-steam {
+   margin: 10px;
+   overflow: hidden;
+   position: relative;
+   box-shadow: 0px 0px 5px var(--dark-grey-steam);
+}
+
+.games-show-steam .mask,
+.games-show-steam .content {
+   width: 308px;
+   height: 140px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+
+.games-show-steam > img {
+   display: block;
+   position: relative;
+	 margin : auto;
+	 height : 432px;
+	 min-width : 288px;
+}
+
+.games-show-steam h2 {
+   text-transform: uppercase;
+   text-align: center;
+   position: relative;
+   font-size: 16px;
+   padding: 10px;
+   background: rgba(0, 0, 0, 0.8);
+   margin: 20px 0 0 0;
+}
+
+.effect-show-steam .mask-1,
+.effect-show-steam .mask-2 {
+    height: 600px;
+    width: 600px;
+    background: rgba(23,29,37,0.5);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    transition: all 0.3s ease-in-out 0.6s;
+}
+.effect-show-steam .mask-1 {
+    left: auto;
+    right: 0;
+    transform: rotate(34.2deg) translateX(-260px);
+    transform-origin: 100% 0%;
+}
+.effect-show-steam .mask-2 {
+    top: auto;
+    bottom: 0;
+    transform: rotate(34.2deg) translateX(260px);
+    transform-origin: 0% 100%;
+}
+.effect-show-steam .content {
+	background : black;
+    height: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    width: 361px;
+    overflow: hidden;
+    transform: rotate(-33.5deg) translate(-112px, 166px);
+    transform-origin: 0% 100%;
+    transition: all 0.4s ease-in-out 0.3s;
+}
+.effect-show-steam h2 {
+    background: black;
+    margin-top: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.effect-show-steam:hover .content {
+    height: 140px;
+    width: 308px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    top: 34.5%;
+    transform: rotate(0deg) translate(0, 0);
+		position : absolute;
+		left : 0;
+}
+
+.effect-show-steam:hover .mask-1,
+.effect-show-steam:hover .mask-2 {
+    transition-delay: 0s;
+}
+.effect-show-steam:hover .mask-1 {
+    transform: rotate(34.2deg) translateX(0);
+}
+.effect-show-steam:hover .mask-2 {
+    transform: rotate(34.2deg) translateX(0);
+}	
+
+.games-trophies {
+	background : black;
+}
+
+.platined-steam,
+.not-platined-steam,
+.without-achievements-steam {
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	width : 288px;
+	height : 432px;
+	padding : 10px;
+}
+
+.platined-steam:before,
+.platined-steam:after {
+	content : ' ';
+	position : absolute;
+	width : 600px;
+	height : 600px;
+	background-image : conic-gradient(transparent,transparent,transparent, var(--blue-steam));
+	animation : animate 3s linear infinite;
+}
+
+.platined-steam:after,
+.without-platine-steam:after {
+	animation-delay : -1.5s;
+	z-index : -1;
+}
+
+@keyframes animate 
+{
+	0%
+	{
+		transform : rotate(0deg);
+	}
+	100%
+	{
+		transform : rotate(360deg);
+	}
+}
+
+.not-completed-steam {
+	background-image :
+    linear-gradient(black, black),
+    url("https://zupimages.net/up/23/28/w9k3.png");
+  background-blend-mode : saturation;
+	background-repeat : no-repeat;
+	width : 100%;
+	height : 70px;
+	padding-left : 70px;
+	display : flex;
+	flex-wrap : wrap;
+	align-items : center;
+	justify-content : center;
+}
+
+.completed-steam {
+	background-image : url("https://zupimages.net/up/23/28/w9k3.png");
+	background-repeat : no-repeat;
+	width : 100%;
+	height : 70px;
+	padding-left : 70px;
+	display : flex;
+	flex-wrap : wrap;
+	align-items : center;
+	justify-content : center;
+}
+
+.percent-games-steam {
+	background : var(--light-grey-steam);
+	margin-right : 10px;
+	width : 100%;
+	height : 24px;
+	position : relative;
+}
+
+.percent-games-steam > div {
+	background-color : var(--blue-steam);
+	position : absolute;
+	top : 0;
+	left : 0;
+	height : 24px;
+}
+
+
+.no-achievement-game {
+	background-color : black!important;
+	width : 100%;
+}
+
+.zero-percent {
+	width : 100%;
+	background-color : var(--light-grey-steam)!important;
+}
+
+.cent-percent {
+	width : 100%;
+}
+
+.no-achievement-game:after { content : ' Pas de succès '; }

@@ -1,0 +1,392 @@
+/*RACINE & CSS GENERAL */
+:root {
+	--white-color : #fff;
+	--second-color : #0072ce;
+	--platine-color : #A0B2C6;
+	--gold-color : #cf9836;
+	--silver-color : #9ea6a8;
+	--bronze-color : #b65f52;
+	--no-platine-img : url("https://static.psthc.fr/trophees_ps5/2020-platinum-impossible-small.png");
+	--platine-img : url("https://static.psthc.fr/trophees_ps5/2020-platinum-trophy-small.png");
+	--gold-img : url("https://static.psthc.fr/trophees_ps5/2020-gold-trophy-small.png");
+	--silver-img : url("https://static.psthc.fr/trophees_ps5/2020-silver-trophy-small.png");
+	--bronze-img : url("https://static.psthc.fr/trophees_ps5/2020-bronze-trophy-small.png");
+	--light-grey-steam : #393f48;
+	--blue-steam : #166bcc;
+	--dark-grey-steam : #24282f;
+	--nintendo-color : #c00000;
+	--ps-color : url("../images/menu-background.jpg") no-repeat top center;
+}
+
+
+@font-face {
+	font-family: Lobster;
+	src: url('../fonts/Lobster_1.3-webfont.eot');
+	src: url('../fonts/Lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Lobster_1.3-webfont.woff2') format('woff2'),
+		 url('../fonts/Lobster_1.3-webfont.woff') format('woff'),
+		 url('../fonts/Lobster_1.3-webfont.ttf') format('truetype'),
+		 url('../fonts/Lobster_1.3-webfont.svg#lobster_1.3regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: La Chata;
+	src: url('../fonts/La-chata-normal.eot');
+	src: url('../fonts/La-chata-normal.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/La-chata-normal.woff2') format('woff2'),
+		 url('../fonts/La-chata-normal.woff') format('woff'),
+		 url('../fonts/La-chata-normal.ttf') format('truetype'),
+		 url('../fonts/La-chata-normal.svg#lobster_1.3regular') format('svg');
+		 font-weight: normal;
+	font-style: normal;
+}
+
+html {
+  height : 100%;
+}
+
+body {
+	margin : 0;
+	padding : 0;
+	color : var(--white-color);
+	font-family : Roboto;
+	line-height : 150%;
+	height : 100%;
+}
+
+a { color : var(--white-color);}
+
+/*HEADER & NAVIGATION*/
+.site-header {
+	background-image : url("https://zupimages.net/up/23/28/0nj8.jpg");
+	background-repeat : no-repeat;
+	background-size : 100%;
+	background-attachment : center center;
+    margin : 0;
+	box-shadow : 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	height : 84px;
+	position : fixed;
+	top : 0;
+	left : 0;
+	z-index : 1;
+	width : 100%;
+}
+
+.site {
+  width : 100%;
+  position : relative;
+  min-height : 100%;
+}
+
+.limits {
+	margin : 0 150px;
+	display : flex;
+	justify-content : space-between;
+}
+
+.main {
+  width : 1096px;
+  margin : 50px auto 0;
+  position : relative;
+  min-height : 100%;
+  padding-bottom : 165px;
+}
+
+.site-navigation {
+  padding : 0;
+  list-style : none;
+  text-align : right;
+}
+
+.header-icon {
+  background : url("https://zupimages.net/up/23/28/vs30.png") no-repeat 0 center scroll;
+  width : 18%;
+  background-size : 100%;
+}
+
+.site-navigation__sub-item {
+	display : inline-block;
+}
+
+.link,
+.sub-link {
+  text-decoration: none;
+  font-family : 'Noto Sans';
+  display : inline-block;
+  vertical-align : top;
+  position : relative;
+  padding : 30px;
+  transition : 0.2s;
+  text-transform : uppercase;
+  font-size: 1rem;
+}
+
+.sub-link {
+  padding : 30px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.link:hover {
+  background : var(--white-color);
+  color : var(--second-color);
+	font-weight : bold;
+}
+
+.selected:after {
+  position: absolute;
+  display: block;
+  content: "";
+  border-style: solid;
+  border-width: 8px;
+  border-color: transparent transparent var(--white-color) transparent;
+  bottom: 0;
+  right: 45%;
+}
+
+.selected:hover:after {
+	border-color : transparent transparent var(--second-color) transparent;
+}
+
+.list {
+  font-size: 0;
+  transition: 400ms max-height ease;
+	
+}
+
+/*SIDEBAR*/
+.site-sidebar__back {
+	width : 250px;
+	position : fixed;
+	left : 0;
+	top : 84px;
+	height : 100%;
+	background : var(--white-color);
+	box-shadow : 8px 0 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.site-sidebar__avatar img {
+	width : 250px;
+}
+
+.site-sidebar__pseudo {
+	text-align : center;
+	margin : 10px 0 0 0;
+	text-transform: uppercase;
+	color : var(--second-color);
+	font-size : 2rem;
+}
+
+.site-sidebar__list {
+	margin : 10px auto;
+	padding : 0;
+	list-style : none;
+}
+
+.item-line {
+	background : var(--second-color);
+	padding : 5px;
+	text-align : center;
+	text-transform: uppercase;
+  	margin-top : 20px;
+	font-size : 13px;
+}
+
+.trophies-pictures {
+	width : 17px;
+	height : 17px;
+	background-repeat : no-repeat;
+	margin : 5px;
+}
+
+.no-platine-picture {
+	width : 17px;
+	background-image : var(--no-platine-img);
+}
+
+.platine-picture {
+	width : 17px;
+	background-image : var(--platine-img);
+}
+
+.gold-picture {
+	background-image : var(--gold-img);
+}
+
+.silver-picture {
+	background-image : var(--silver-img);
+}
+
+.bronze-picture {
+	background-image : var(--bronze-img);
+}
+
+.block-trophies {
+	font-size : 13px;
+	text-align : center;
+	color : var(--second-color);
+	margin : 10px auto;
+}
+
+.trophies,
+.games-trophies {
+	text-align : center;
+	width : 100%;
+	padding-top : 3px;
+	display : flex;
+	align-items : baseline;
+	justify-content : center;
+}
+
+.percentage-background {
+	width : 100%;
+}
+
+.percentage-bar {
+	position : relative;
+	height : 24px;
+	box-shadow : 0 0px 16px 0 rgba(0, 0, 0, 0.2);
+	color : var(--white-color);
+}
+
+.percentage-width {
+	position : absolute;
+	top : 0;
+	left : 0;
+}
+
+.fas { font-family : "Font Awesome 5 Free"; margin-right : 10px;}
+.fas fa-trophy:before {
+	content : "\f091";
+}
+
+/*PAGES PRINCIPALES*/
+.site-main {
+	margin-left : 250px;
+	margin-top : 134px;
+	padding-bottom : 155px;
+}
+
+.section-title {
+	background : var(--second-color);
+	text-align : center;
+	font-size : 3rem;
+	text-transform : uppercase;
+	font-family : 'Noto Sans';
+	margin : 50px 1.5rem;
+	padding : 30px;
+}
+
+.first-section, 
+.second-section {
+	margin : auto;
+	display : flex;
+	flex-wrap : wrap;
+	justify-content : space-evenly;
+	gap : 1.5em;
+	margin-top : 30px;
+}
+
+.games-trophies {
+	font-family: 'Roboto';
+	font-style: italic;
+	font-size: 13px;
+	position: relative;
+	padding: 10px 0;
+	text-align: center;
+	align-items : center;
+	justify-content : center;
+	margin-bottom : 0;
+}
+
+.games-trophies .completion-nintendo { width : 100%; }
+
+.site-footer {
+	background : var(--second-color);
+	margin : 0;
+	width : 100%;
+	position : absolute;
+	bottom : 0;
+	z-index : 1;
+}
+
+.social-list {
+  margin : 0;
+  padding : 20px 0 40px;
+  text-align : center;
+}
+
+.site-footer__sub-item + .site-footer__sub-item {
+  margin-left : 10px;
+}
+
+.site-navigation__link {
+  display : block;
+  height : 48px;
+  width : 48px;
+}
+
+.twitch,
+.youtube,
+.twitter,
+.facebook,
+.discord {
+  width : 48px;
+  height : 48px;
+  display : inline-block;
+  border-radius : 50px;
+  background-image : url("../images/sprites.png");
+  background-repeat: no-repeat;
+}
+
+.twitch {
+  background-position : 0 0;
+}
+
+.twitch:hover {
+	background-position : 0 -48px;
+}
+
+.youtube {
+	background-position : -48px 0;
+}
+
+.youtube:hover {
+	background-position : -48px -48px;
+}
+
+.twitter {
+	background-position : -96px 0;
+}
+
+.twitter:hover {
+	background-position : -96px -48px;
+}
+
+.facebook {
+	background-position : -144px 0;
+}
+
+.facebook:hover {
+	background-position : -144px -48px;
+}
+  
+.discord {
+	background-position : -192px 0;
+}
+
+.discord:hover {
+	background-position : -192px -48px;
+}
+
+.copyright {
+  text-align : center;
+  padding : 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .first-section {
+        flex-direction: column;
+    }
+}

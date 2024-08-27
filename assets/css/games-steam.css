@@ -1,0 +1,299 @@
+/*RACINE & CSS GENERAL */
+html,
+.percentage-bar {
+	background : var(--light-grey-steam);
+}
+
+.link:hover { color : var(--light-grey-steam); }
+.selected:hover:after { border-color : transparent transparent var(--light-grey-steam) transparent; }
+
+/*SIDEBAR*/
+.footer-steam,
+#copyright-steam { background : #171d25; }
+
+.site-sidebar__back { background : var(--dark-grey-steam); }
+
+.section-title {
+	background : var(--dark-grey-steam);
+}
+
+.achievement-line {
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
+
+.site-sidebar-achievement {
+	 width : 20px;
+	 height : 20px;
+}
+
+.site-sidebar__p,
+.site-sidebar__items .trophies {
+	color : var(--white-color);
+}
+
+.site-sidebar__pseudo { color : var(--white-color); }
+
+
+.trophies,
+.games-trophies {
+	text-align : center;
+	width : 100%;
+	padding-top : 3px;
+	display : flex;
+	align-items : center;
+	justify-content : center;
+}
+
+.site-header {
+  background-color : #171d25;
+  background-image : none;  
+}
+
+.platinum-steam { width : 12.28%; background-color : var(--blue-steam);}
+
+.games-show-steam {
+   margin: 10px;
+   overflow: hidden;
+   position: relative;
+   box-shadow: 0px 0px 5px var(--dark-grey-steam);
+}
+
+.games-show-steam .mask,
+.games-show-steam .content {
+   width: 308px;
+   height: 140px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+
+.games-show-steam > img {
+   display: block;
+   position: relative;
+	 margin : auto;
+	 height : 432px;
+	 min-width : 288px;
+}
+
+.games-show-steam h2 {
+   text-transform: uppercase;
+   text-align: center;
+   position: relative;
+   font-size: 16px;
+   padding: 10px;
+   background: rgba(0, 0, 0, 0.8);
+   margin: 20px 0 0 0;
+}
+
+.effect-show-steam .mask-1,
+.effect-show-steam .mask-2 {
+    height: 600px;
+    width: 600px;
+    background: rgba(23,29,37,0.5);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    transition: all 0.3s ease-in-out 0.6s;
+}
+.effect-show-steam .mask-1 {
+    left: auto;
+    right: 0;
+    transform: rotate(34.2deg) translateX(-260px);
+    transform-origin: 100% 0%;
+}
+.effect-show-steam .mask-2 {
+    top: auto;
+    bottom: 0;
+    transform: rotate(34.2deg) translateX(260px);
+    transform-origin: 0% 100%;
+}
+.effect-show-steam .content {
+	background : black;
+    height: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    width: 361px;
+    overflow: hidden;
+    transform: rotate(-33.5deg) translate(-112px, 166px);
+    transform-origin: 0% 100%;
+    transition: all 0.4s ease-in-out 0.3s;
+}
+.effect-show-steam h2 {
+    background: black;
+    margin-top: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.effect-show-steam:hover .content {
+    height: 140px;
+    width: 308px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    top: 34.5%;
+    transform: rotate(0deg) translate(0, 0);
+		position : absolute;
+		left : 0;
+}
+
+.effect-show-steam:hover .mask-1,
+.effect-show-steam:hover .mask-2 {
+    transition-delay: 0s;
+}
+.effect-show-steam:hover .mask-1 {
+    transform: rotate(34.2deg) translateX(0);
+}
+.effect-show-steam:hover .mask-2 {
+    transform: rotate(34.2deg) translateX(0);
+}	
+
+.games-trophies {
+	background : black;
+}
+
+.platined-steam,
+.not-platined-steam,
+.without-achievements-steam {
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	width : 288px;
+	height : 432px;
+	padding : 10px;
+}
+
+.platined-steam:before,
+.platined-steam:after {
+	content : ' ';
+	position : absolute;
+	width : 600px;
+	height : 600px;
+	background-image : conic-gradient(transparent,transparent,transparent, var(--blue-steam));
+	animation : animate 3s linear infinite;
+}
+
+.platined-steam:after,
+.without-platine-steam:after {
+	animation-delay : -1.5s;
+	z-index : -1;
+}
+
+@keyframes animate 
+{
+	0%
+	{
+		transform : rotate(0deg);
+	}
+	100%
+	{
+		transform : rotate(360deg);
+	}
+}
+
+#ori { font-size : 13px; }
+#project-zero-4 { font-size : 12px; }
+#project-zero-5 { font-size : 12px; }
+
+.not-completed-steam {
+	background-image :
+    linear-gradient(black, black),
+    url("../images/steam/icon-100.png");
+  background-blend-mode : saturation;
+	background-repeat : no-repeat;
+	width : 100%;
+	height : 70px;
+	padding-left : 70px;
+	display : flex;
+	flex-wrap : wrap;
+	align-items : center;
+	justify-content : center;
+}
+
+.completed-steam {
+	background-image : url("../images/steam/icon-100.png");
+	background-repeat : no-repeat;
+	width : 100%;
+	height : 70px;
+	padding-left : 70px;
+	display : flex;
+	flex-wrap : wrap;
+	align-items : center;
+	justify-content : center;
+}
+
+.percent-games-steam {
+	background : var(--light-grey-steam);
+	margin-right : 10px;
+	width : 100%;
+	height : 24px;
+	position : relative;
+}
+
+.percent-games-steam > div {
+	background-color : var(--blue-steam);
+	position : absolute;
+	top : 0;
+	left : 0;
+	height : 24px;
+}
+
+
+.no-achievement-game {
+	background-color : black!important;
+	width : 100%;
+}
+
+.zero-percent {
+	width : 100%;
+	background-color : var(--light-grey-steam)!important;
+}
+
+.cent-percent {
+	width : 100%;
+}
+
+.no-achievement-game:after { content : ' Pas de succès '; }
+
+#biped-percent { width : 66%; }
+#bdl2-percent { width : 26%; }
+#bdl3-percent { width : 76%; }
+#bright-memory-percent { width : 50%; }
+#bright-memory-i-percent { width : 63%; }
+#evergate-percent { width : 8%; }
+#ff4-percent { width : 75%; }
+#ff6-percent { width : 3%; }
+#ff8r-percent { width : 26%; }
+#ff10-percent { width : 52%; }
+#ff12-percent { width : 19%; }
+#hollow-knight-percent { width : 71%; }
+#lost-ark-percent { width : 14%; }
+#magic-duels-percent { width : 18%; }
+#ori-percent { width : 87%; }
+#ori2-percent { width : 75%; }
+#pacify-percent { width : 36%; }
+#palworld-percent { width : 48%; }
+#path-of-exile-percent { width : 13%; }
+#phasmo-percent { width : 33%; }
+#portal-percent { width : 33%; }
+#portal-2-percent { width : 6% }
+#project-zero-4-percent { width : 68%; }
+#project-zero-5-percent { width : 53%; }
+#re5-percent { width : 75%; }
+#re6-percent { width : 41%; }
+#smite-percent { width : 1%; }
+#talesarise-percent { width : 81%; }
+#tew-percent { width : 32%; }
+#tew2-percent { width : 88%; }
+#the-first-tree-percent { width : 42%; }
+#tiny-tina-percent { width : 55%; }
+#titan-quest-percent { width : 2%; }
+#tormented-souls-percent { width : 86%; }
+#visage-percent { width : 81%; }
+#wallpaper-percent { width : 29%; }
+#warframe-percent { width : 80%; }
+#blades-percent { width : 25%; }
+#yugioh-percent { width : 10%; }

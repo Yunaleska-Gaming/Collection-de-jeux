@@ -1,0 +1,159 @@
+.site-main {
+    margin : 140px auto 0;
+    width: 95%;
+}
+
+.column-left {
+    width: 35%;
+}
+
+.column-middle {
+    width: 20%;
+}
+
+.column-right {
+    width: 41%;
+}
+
+section .section-title {
+    margin : 50px auto;
+}
+
+.index-presentation {
+    margin : auto;
+}
+
+.paragraphes-informations + .paragraphes-informations {
+    margin-top : 1rem;
+}
+
+.informations-borders {
+	padding: 10px;
+	box-shadow: 0px 0px 5px #9b9b9b;
+    background-color: var(--white-color);
+    height : 359px;
+}
+
+.index-challenges {
+    color: #000;
+    margin: 0;
+    padding: 0;
+    list-style : none;
+    font-size: 15px;
+}
+
+.index-challenges li::before {
+    content : " ► "
+}
+
+.paragraphes-informations {
+    margin: 0;
+    color: #000;
+    text-align: justify;
+    font-size: 15px;
+    overflow: auto;
+    padding: 0;
+}
+
+.twitch-title { margin : 50px auto; }
+
+.twitch-awards h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    background: var(--second-color);
+    margin: 0 0 20px 0;
+}
+
+.twitch-screen {
+    width : 1280px;
+    height : 720px;
+    padding : 10px;
+    box-shadow: 0px 0px 5px #9b9b9b;
+}
+
+.twitch-awards {
+    height : 720px;
+    padding : 10px;
+    box-shadow: 0px 0px 5px #9b9b9b;
+    width : 20%;
+}
+
+.twitch-awards img:not(.index-planning) {
+    width : 56px;
+}
+
+.index-planning { 
+    width: 100%; 
+    height : 656px;
+    object-fit: fill;
+}
+
+.twitch-section {
+    display : flex;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+}
+
+.paragraphes-informations a {
+    display: block;
+    width: 200px;
+    color: var(--white-color);
+    text-decoration: none;
+    margin: 30px auto 0;
+    background-color: var(--second-color);
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: "Noto Sans";
+    font-weight: bold;
+}
+
+.paragraphes-informations a:hover {
+    color : var(--second-color);
+    background-color: var(--white-color);
+}
+
+.index-games {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.games-panels {
+    width: 43.4%;
+}
+
+.games-panels h1 {
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .column-left, .column-middle, .column-right {
+        width: 100%;
+    }
+
+    .twitch-screen {
+        width : 97%;
+        height : 378px;
+    }
+
+    .twitch-awards {
+        width : 97%;
+    }
+
+    .index-planning {
+        object-fit: contain;
+    }
+
+    iframe {
+        width: 100%;
+        height : 378px;
+    }
+    
+    .twitch-section {
+        flex-direction: column;
+    }
+}
