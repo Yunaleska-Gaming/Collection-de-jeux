@@ -105,10 +105,6 @@ a { color : var(--white-color);}
   background-size : 100%;
 }
 
-.site-navigation__sub-item {
-	display : inline-block;
-}
-
 .link,
 .sub-link {
   text-decoration: none;
@@ -150,9 +146,9 @@ a { color : var(--white-color);}
 }
 
 .list {
-  font-size: 0;
-  transition: 400ms max-height ease;
-	
+  	font-size: 0;
+  	transition: 400ms max-height ease;
+	display: flex;
 }
 
 /*SIDEBAR*/
@@ -389,4 +385,13 @@ a { color : var(--white-color);}
     .first-section {
         flex-direction: column;
     }
+
+	.header-icon {
+        display: none;
+    }
+	
+	.limits {
+		margin: 0;
+	}
 }
+
