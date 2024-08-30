@@ -53,16 +53,14 @@ body {
 	font-family : Roboto;
 	line-height : 150%;
 	height : 100%;
+	font-size: 100%;
 }
 
 a { color : var(--white-color);}
 
 /*HEADER & NAVIGATION*/
 .site-header {
-	background-image : url("https://zupimages.net/up/23/28/0nj8.jpg");
-	background-repeat : no-repeat;
-	background-size : 100%;
-	background-attachment : center center;
+	background : var(--ps-color);
     margin : 0;
 	box-shadow : 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 	height : 84px;
@@ -80,7 +78,7 @@ a { color : var(--white-color);}
 }
 
 .limits {
-	margin : 0 150px;
+	margin : 0 2%;
 	display : flex;
 	justify-content : space-between;
 }
@@ -100,8 +98,8 @@ a { color : var(--white-color);}
 }
 
 .header-icon {
-  background : url("https://zupimages.net/up/23/28/vs30.png") no-repeat 0 center scroll;
-  width : 18%;
+  background : url("/assets/images/logo-3.png") no-repeat 0 center scroll;
+  width : 390px;
   background-size : 100%;
 }
 
@@ -271,7 +269,7 @@ a { color : var(--white-color);}
 	text-transform : uppercase;
 	font-family : 'Noto Sans';
 	margin : 50px 1.5rem;
-	padding : 30px;
+	padding : 30px 0;
 }
 
 .first-section, 
@@ -381,17 +379,37 @@ a { color : var(--white-color);}
   padding : 0;
 }
 
+@media only screen and (max-width: 1920px) {
+	.section-title { font-size: 1.5rem;}
+	.informations-borders { height: 273px;}
+}
+
 @media only screen and (max-width: 768px) {
-    .first-section {
-        flex-direction: column;
-    }
 
 	.header-icon {
         display: none;
     }
-	
 	.limits {
-		margin: 0;
+		margin: 0 2%;
+	}
+	.link, .sub-link {
+		padding: 30px 10px;
+	}
+	.list { gap : 2rem; }
+}
+
+
+@media only screen and (max-width: 480px) {
+	.list { gap : 0; }
+	.site-main { margin-left: 28%;}
+	.site-sidebar__back {width: 28%;}
+	.site-sidebar__avatar img { width: 100%;}
+	.site-sidebar__pseudo { font-size: 1rem;}
+}
+
+@media only screen and (max-height: 800px) {
+	.site-sidebar__back {
+		overflow: auto;
 	}
 }
 

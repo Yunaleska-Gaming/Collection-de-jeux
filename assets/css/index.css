@@ -56,9 +56,11 @@ section .section-title {
     padding: 0;
 }
 
+.twitch-section { width: 100%;}
+
 .twitch-title { margin : 50px auto; }
 
-.twitch-awards h2 {
+.twitch-rewards h2 {
     text-transform: uppercase;
     text-align: center;
     font-size: 16px;
@@ -68,27 +70,31 @@ section .section-title {
 }
 
 .twitch-screen {
-    width : 1280px;
-    height : 720px;
+    width : 100%;
     padding : 10px;
     box-shadow: 0px 0px 5px #9b9b9b;
 }
 
-.twitch-awards {
+iframe { width: 100%; height: 100%;}
+
+.twitch-rewards {
     height : 720px;
     padding : 10px;
     box-shadow: 0px 0px 5px #9b9b9b;
-    width : 20%;
+    width : 30%;
+    overflow: auto;
 }
 
-.twitch-awards img:not(.index-planning) {
+.twitch-rewards img:not(.index-planning) {
     width : 56px;
 }
+
+.twitch-rewards:last-of-type { width: 50%; overflow: hidden;}
 
 .index-planning { 
     width: 100%; 
     height : 656px;
-    object-fit: fill;
+    object-fit: contain;
 }
 
 .twitch-section {
@@ -131,9 +137,40 @@ section .section-title {
     margin: 0;
 }
 
+@media only screen and (max-width: 1920px) {
+    .section-title { 
+    font-size: 1.5rem; 
+    padding : 25px 0;
+    }
+    .index-games {
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .column-left, .column-middle, .column-right {
+        width: 100%;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
     .column-left, .column-middle, .column-right {
         width: 100%;
+    }
+
+    .index-presentation { height: auto;}
+
+    .index-games { 
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .games-show-ps4 + .games-show-ps5,
+    .games-show-ps5 + .games-show-steam {
+        margin-top : 30px;
     }
 
     .twitch-screen {
@@ -141,7 +178,7 @@ section .section-title {
         height : 378px;
     }
 
-    .twitch-awards {
+    .twitch-rewards, .twitch-rewards:last-of-type {
         width : 97%;
     }
 
@@ -156,5 +193,10 @@ section .section-title {
     
     .twitch-section {
         flex-direction: column;
+    }
+
+    .section-title { 
+        font-size: 1rem; 
+        padding : 20px 0;
     }
 }
