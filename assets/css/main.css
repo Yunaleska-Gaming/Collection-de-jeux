@@ -98,7 +98,7 @@ a { color : var(--white-color);}
 }
 
 .header-icon {
-  background : url("/assets/images/logo-3.png") no-repeat 0 center scroll;
+  background : url("../images/logo-3.png") no-repeat 0 center scroll;
   width : 390px;
   background-size : 100%;
 }
