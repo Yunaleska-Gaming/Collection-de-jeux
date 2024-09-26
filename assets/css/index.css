@@ -89,12 +89,12 @@ iframe { width: 100%; height: 100%;}
     width : 56px;
 }
 
-.twitch-rewards:last-of-type { width: 50%; overflow: hidden; height: 443px;}
+.twitch-rewards:last-of-type { width: 50%; /*overflow: hidden; height: 443px;*/}
 
 .index-planning { 
     width: 100%; 
-    height : 378px;
-    object-fit: contain;
+    /*height : 378px;
+    object-fit: contain;*/
 }
 
 .twitch-section {
