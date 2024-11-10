@@ -1,7 +1,7 @@
-.platinum-ps5 { width : 5.08%; background-color : var(--platine-color);}
-.gold-ps5 { width : 9.41%; background-color : var(--gold-color);}
-.silver-ps5 { width : 10.32%; background-color : var(--silver-color);}
-.bronze-ps5 { width : 12.51%; background-color : var(--bronze-color);}
+.platinum-ps5 { width : 7.14%; background-color : var(--platine-color);}
+.gold-ps5 { width : 10.5%; background-color : var(--gold-color);}
+.silver-ps5 { width : 12.84%; background-color : var(--silver-color);}
+.bronze-ps5 { width : 17.54%; background-color : var(--bronze-color);}
 
 .games-show-ps5 {
    margin: 10px;
