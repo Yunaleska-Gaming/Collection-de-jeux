@@ -1,0 +1,656 @@
+[
+    {
+        "img_src": "alan-wake.jpg",
+        "name": "Alan Wake",
+        "amount_achievement": "0/67",
+        "platined": false
+    },
+    {
+        "img_src": "aura-kingdom.jpg",
+        "name": "Aura Kingdom",
+        "amount_achievement": "0/0",
+        "platined": false
+    },
+    {
+        "img_src": "baldurs-gate-3.jpg",
+        "name": "Baldur's Gate 3",
+        "amount_achievement": "0/54",
+        "platined": false
+    },
+    {
+        "img_src": "bayonetta.jpg",
+        "name": "Bayonetta",
+        "amount_achievement": "0/50",
+        "platined": false
+    },
+    {
+        "img_src": "biped.jpg",
+        "name": "Biped",
+        "amount_achievement": "10/15",
+        "platined": false
+    },
+    {
+        "img_src": "black-desert.jpg",
+        "name": "Black Desert : Online",
+        "amount_achievement": "0/0",
+        "platined": false
+    },
+    {
+        "img_src": "borderlands-1.jpg",
+        "name": "Borderlands",
+        "amount_achievement": "6/80",
+        "platined": false
+    },
+    {
+        "img_src": "borderlands-presequel.jpg",
+        "name": "Borderlands : The Pre-Sequel",
+        "amount_achievement": "0/63",
+        "platined": false
+    },
+    {
+        "img_src": "borderlands-2.jpg",
+        "name": "Borderlands 2",
+        "amount_achievement": "20/75",
+        "platined": false
+    },
+    {
+        "img_src": "borderlands-3.jpg",
+        "name": "Borderlands 3",
+        "amount_achievement": "62/81",
+        "platined": false
+    },
+    {
+        "img_src": "bright-memory.jpg",
+        "name": "Bright Memory",
+        "amount_achievement": "6/12",
+        "platined": false
+    },
+    {
+        "img_src": "bright-memory-infinite.jpg",
+        "name": "Bright Memory : Infinite",
+        "amount_achievement": "19/30",
+        "platined": false
+    },
+    {
+        "img_src": "content-warning.jpg",
+        "name": "Content Warning",
+        "amount_achievement": "0/0",
+        "platined": false
+    },
+    {
+        "img_src": "dark-souls-1.jpg",
+        "name": "Dark Souls",
+        "amount_achievement": "0/41",
+        "platined": false
+    },
+    {
+        "img_src": "dark-souls-2.jpg",
+        "name": "Dark Souls 2",
+        "amount_achievement": "0/38",
+        "platined": false
+    },
+    {
+        "img_src": "dark-souls-3.jpg",
+        "name": "Dark Souls 3",
+        "amount_achievement": "0/43",
+        "platined": false
+    },
+    {
+        "img_src": "daymare-1998.jpg",
+        "name": "Daymare : 1998",
+        "amount_achievement": "0/45",
+        "platined": false
+    },
+    {
+        "img_src": "dead-space.jpg",
+        "name": "Dead Space",
+        "amount_achievement": "0/0",
+        "platined": false
+    },
+    {
+        "img_src": "dead-space-2.jpg",
+        "name": "Dead Space 2",
+        "amount_achievement": "0/0",
+        "platined": false
+    },
+    {
+        "img_src": "dead-space-3.jpg",
+        "name": "Dead Space 3",
+        "amount_achievement": "0/59",
+        "platined": false
+    },
+    {
+        "img_src": "elden-ring.jpg",
+        "name": "Elden Ring",
+        "amount_achievement": "30/42",
+        "platined": false
+    },
+    {
+        "img_src": "ender-lilies.jpg",
+        "name": "Ender Lilies",
+        "amount_achievement": "0/38",
+        "platined": false
+    },
+    {
+        "img_src": "evergate.jpg",
+        "name": "Evergate",
+        "amount_achievement": "4/50",
+        "platined": false
+    },
+    {
+        "img_src": "final-fantasy-3.jpg",
+        "name": "Final Fantasy III : 3D Remake",
+        "amount_achievement": "0/18",
+        "platined": false
+    },
+    {
+        "img_src": "final-fantasy-4.jpg",
+        "name": "Final Fantasy IV : 3D Remake",
+        "amount_achievement": "44/58",
+        "platined": false
+    },
+    {
+        "img_src": "final-fantasy-6.jpg",
+        "name": "Final Fantasy VI",
+        "amount_achievement": "1/28",
+        "platined": false
+    },
+    {
+        "img_src": "final-fantasy-7.jpg",
+        "name": "Final Fantasy VII",
+        "amount_achievement": "0/36",
+        "platined": false
+    },
+    {
+        "img_src": "final-fantasy-8.jpg",
+        "name": "Final Fantasy VIII",
+        "amount_achievement": "0/45",
+        "platined": false
+    },
+    {
+        "img_src": "final-fantasy-8-remastered.jpg",
+        "name": "Final Fantasy VIII Remastered",
+        "amount_achievement": "9/34",
+        "platined": false
+    },
+    {
+        "img_src": "final-fantasy-9.jpg",
+        "name": "Final Fantasy IX",
+        "amount_achievement": "0/85",
+        "platined": false
+    },
+    {
+        "img_src": "final-fantasy-10.jpg",
+        "name": "Final Fantasy X/X-2 HD Remaster",
+        "amount_achievement": "36/69",
+        "platined": false
+    },
+    {
+        "img_src": "final-fantasy-12.jpg",
+        "name": "Final Fantasy XII the Zodiac Age",
+        "amount_achievement": "8/41",
+        "platined": false
+    },
+    {
+        "img_src": "final-fantasy-13.jpg",
+        "name": "Final Fantasy XIII",
+        "amount_achievement": "0/35",
+        "platined": false
+    },
+    {
+        "img_src": "final-fantasy-13-2.jpg",
+        "name": "Final Fantasy XIII-2",
+        "amount_achievement": "0/31",
+        "platined": false
+    },
+    {
+        "img_src": "final-fantasy-13-3.jpg",
+        "name": "Lightning Returns : Final Fantasy XIII",
+        "amount_achievement": "0/42",
+        "platined": false
+    },
+    {
+        "img_src": "final-fantasy-15.jpg",
+        "name": "Final Fantasy XV",
+        "amount_achievement": "0/97",
+        "platined": false
+    },
+    {
+        "img_src": "final-fantasy-0.jpg",
+        "name": "Final Fantasy Type-0 HD",
+        "amount_achievement": "0/49",
+        "platined": false
+    },
+    {
+        "img_src": "ghost-exile.jpg",
+        "name": "Ghost Exile",
+        "amount_achievement": "0/57",
+        "platined": false
+    },
+    {
+        "img_src": "gris.jpg",
+        "name": "Gris",
+        "amount_achievement": "17/17",
+        "platined": true
+    },
+    {
+        "img_src": "have-a-nice-death.jpg",
+        "name": "Have a Nice Death",
+        "amount_achievement": "0/37",
+        "platined": false
+    },
+    {
+        "img_src": "hollow-knight.jpg",
+        "name": "Hollow Knight",
+        "amount_achievement": "45/63",
+        "platined": false
+    },
+    {
+        "img_src": "last-epoch.jpg",
+        "name": "Last Epoch",
+        "amount_achievement": "0/0",
+        "platined": false
+    },
+    {
+        "img_src": "lethal-company.jpg",
+        "name": "Lethal Company",
+        "amount_achievement": "0/0",
+        "platined": false
+    },
+    {
+        "img_src": "lies-of-p.jpg",
+        "name": "Lies of P",
+        "amount_achievement": "11/42",
+        "platined": false
+    },
+    {
+        "img_src": "little-nightmares.jpg",
+        "name": "Little Nightmares",
+        "amount_achievement": "7/22",
+        "platined": false
+    },
+    {
+        "img_src": "lost-ark.jpg",
+        "name": "Lost Ark",
+        "amount_achievement": "22/156",
+        "platined": false
+    },
+    {
+        "img_src": "magic-duels.jpg",
+        "name": "Magic Duels",
+        "amount_achievement": "9/49",
+        "platined": false
+    },
+    {
+        "img_src": "monster-hunter-world.jpg",
+        "name": "Monster Hunter World",
+        "amount_achievement": "0/100",
+        "platined": false
+    },
+    {
+        "img_src": "monster-hunter-rise.jpg",
+        "name": "Monster Hunter Rise",
+        "amount_achievement": "0/100",
+        "platined": false
+    },
+    {
+        "img_src": "nier-replicant.jpg",
+        "name": "Nier Replicant ver.1.22474487139...",
+        "amount_achievement": "0/47",
+        "platined": false
+    },
+    {
+        "img_src": "nier-automata.jpg",
+        "name": "Nier Automata",
+        "amount_achievement": "0/47",
+        "platined": false
+    },
+    {
+        "img_src": "octopath-traveler.jpg",
+        "name": "Octopath Traveler",
+        "amount_achievement": "0/88",
+        "platined": false
+    },
+    {
+        "img_src": "ori-and-the-blind-forest.jpg",
+        "name": "Ori and the Blind Forest",
+        "amount_achievement": "0/50",
+        "platined": false
+    },
+    {
+        "img_src": "ori-and-the-blind-forest-edition.jpg",
+        "name": "Ori and the Blind Forest : Definite Edtion",
+        "amount_achievement": "50/57",
+        "platined": false
+    },
+    {
+        "img_src": "ori-and-the-will-of-the-wisps.jpg",
+        "name": "Ori and the Will of the Wisps",
+        "amount_achievement": "28/37",
+        "platined": false
+    },
+    {
+        "img_src": "pacify.jpg",
+        "name": "Pacify",
+        "amount_achievement": "19/52",
+        "platined": false
+    },
+    {
+        "img_src": "palia.jpg",
+        "name": "Palia",
+        "amount_achievement": "0/52",
+        "platined": false
+    },
+    {
+        "img_src": "palworld.jpg",
+        "name": "Palworld",
+        "amount_achievement": "15/31",
+        "platined": false
+    },
+    {
+        "img_src": "path-of-exile.jpg",
+        "name": "Path of Exile",
+        "amount_achievement": "17/127",
+        "platined": false
+    },
+    {
+        "img_src": "persona-4.jpg",
+        "name": "Persona 4 : Golden",
+        "amount_achievement": "0/50",
+        "platined": false
+    },
+    {
+        "img_src": "phasmophobia.jpg",
+        "name": "Phasmophobia",
+        "amount_achievement": "21/54",
+        "platined": false
+    },
+    {
+        "img_src": "portal.jpg",
+        "name": "Portal",
+        "amount_achievement": "5/15",
+        "platined": false
+    },
+    {
+        "img_src": "portal-2.jpg",
+        "name": "Portal 2",
+        "amount_achievement": "3/51",
+        "platined": false
+    },
+    {
+        "img_src": "portal-reloaded.jpg",
+        "name": "Portal : Reloaded",
+        "amount_achievement": "0/0",
+        "platined": false
+    },
+    {
+        "img_src": "project-zero-masque-lunaire.jpg",
+        "name": "Project Zero : Le Masque de l'Eclipse Lunaire",
+        "amount_achievement": "28/41",
+        "platined": false
+    },
+    {
+        "img_src": "project-zero-la-pretresse-des-eaux-noires.jpg",
+        "name": "Project Zero : La Prêtresse des Eaux Noires",
+        "amount_achievement": "21/39",
+        "platined": false
+    },
+    {
+        "img_src": "resident-evil-0.jpg",
+        "name": "Resident Evil 0",
+        "amount_achievement": "47/47",
+        "platined": true
+    },
+    {
+        "img_src": "resident-evil-1.jpg",
+        "name": "Resident Evil",
+        "amount_achievement": "44/44",
+        "platined": true
+    },
+    {
+        "img_src": "resident-evil-2.jpg",
+        "name": "Resident Evil 2",
+        "amount_achievement": "44/44",
+        "platined": true
+    },
+    {
+        "img_src": "resident-evil-3.jpg",
+        "name": "Resident Evil 3",
+        "amount_achievement": "32/32",
+        "platined": true
+    },
+    {
+        "img_src": "resident-evil-4-hd.jpg",
+        "name": "Resident Evil 4 HD",
+        "amount_achievement": "12/12",
+        "platined": true
+    },
+    {
+        "img_src": "resident-evil-5.jpg",
+        "name": "Resident Evil 5",
+        "amount_achievement": "53/70",
+        "platined": false
+    },
+    {
+        "img_src": "resident-evil-6.jpg",
+        "name": "Resident Evil 6",
+        "amount_achievement": "33/70",
+        "platined": false
+    },
+    {
+        "img_src": "resident-evil-7.jpg",
+        "name": "Resident Evil 7",
+        "amount_achievement": "0/58",
+        "platined": false
+    },
+    {
+        "img_src": "resident-evil-8.jpg",
+        "name": "Resident Evil Village",
+        "amount_achievement": "0/56",
+        "platined": false
+    },
+    {
+        "img_src": "resident-evil-revelation.jpg",
+        "name": "Resident Evil : Revelations",
+        "amount_achievement": "14/50",
+        "platined": false
+    },
+    {
+        "img_src": "resident-evil-revelation-2.jpg",
+        "name": "Resident Evil : Revelations 2",
+        "amount_achievement": "16/43",
+        "platined": false
+    },
+    {
+        "img_src": "resident-evil-resistance.jpg",
+        "name": "Resident Evil Resistance",
+        "amount_achievement": "0/51",
+        "platined": false
+    },
+    {
+        "img_src": "scarlet-nexus.jpg",
+        "name": "Scarlet Nexus",
+        "amount_achievement": "0/53",
+        "platined": false
+    },
+    {
+        "img_src": "smite.jpg",
+        "name": "Smite",
+        "amount_achievement": "10/313",
+        "platined": false
+    },
+    {
+        "img_src": "song-of-horror.jpg",
+        "name": "Song of Horror",
+        "amount_achievement": "0/44",
+        "platined": false
+    },
+    {
+        "img_src": "spyro.jpg",
+        "name": "Spyro Reignited Trilogy",
+        "amount_achievement": "105/105",
+        "platined": true
+    },
+    {
+        "img_src": "tales-from-borderlands.jpg",
+        "name": "Tales from the Borderlands",
+        "amount_achievement": "0/35",
+        "platined": false
+    },
+    {
+        "img_src": "new-tales-from-borderlands.jpg",
+        "name": "New Tales from the Borderlands",
+        "amount_achievement": "0/26",
+        "platined": false
+    },
+    {
+        "img_src": "tales-of-symphonia.jpg",
+        "name": "Tales of Symphonia",
+        "amount_achievement": "0/39",
+        "platined": false
+    },
+    {
+        "img_src": "tales-of-vesperia.jpg",
+        "name": "Tales of Vesperia",
+        "amount_achievement": "0/53",
+        "platined": false
+    },
+    {
+        "img_src": "tales-of-zestiria.jpg",
+        "name": "Tales of Zestiria",
+        "amount_achievement": "0/56",
+        "platined": false
+    },
+    {
+        "img_src": "tales-of-berseria.jpg",
+        "name": "Tales of Berseria",
+        "amount_achievement": "0/51",
+        "platined": false
+    },
+    {
+        "img_src": "tales-of-arise.jpg",
+        "name": "Tales of Arise",
+        "amount_achievement": "47/58",
+        "platined": false
+    },
+    {
+        "img_src": "the-evil-within.jpg",
+        "name": "The Evil Within",
+        "amount_achievement": "24/71",
+        "platined": false
+    },
+    {
+        "img_src": "the-evil-within-2.jpg",
+        "name": "The Evil Within 2",
+        "amount_achievement": "46/51",
+        "platined": false
+    },
+    {
+        "img_src": "the-first-tree.jpg",
+        "name": "The First Tree",
+        "amount_achievement": "6/14",
+        "platined": false
+    },
+    {
+        "img_src": "the-kings-bird.jpg",
+        "name": "The King's Bird",
+        "amount_achievement": "0/13",
+        "platined": false
+    },
+    {
+        "img_src": "the-room-1.jpg",
+        "name": "The Room",
+        "amount_achievement": "0/5",
+        "platined": false
+    },
+    {
+        "img_src": "the-room-2.jpg",
+        "name": "The Room Two",
+        "amount_achievement": "0/7",
+        "platined": false
+    },
+    {
+        "img_src": "the-room-3.jpg",
+        "name": "The Room Three",
+        "amount_achievement": "0/10",
+        "platined": false
+    },
+    {
+        "img_src": "the-room-4.jpg",
+        "name": "The Room 4 Old Sins",
+        "amount_achievement": "0/9",
+        "platined": false
+    },
+    {
+        "img_src": "thyria.jpg",
+        "name": "Thyria",
+        "amount_achievement": "1/31",
+        "platined": false
+    },
+    {
+        "img_src": "tiny-tinas-wonderlands.jpg",
+        "name": "Tiny Tina's Wonderlands",
+        "amount_achievement": "38/47",
+        "platined": false
+    },
+    {
+        "img_src": "titan-quest.jpg",
+        "name": "Titan Quest",
+        "amount_achievement": "3/115",
+        "platined": false
+    },
+    {
+        "img_src": "tormented-souls.jpg",
+        "name": "Tormented Souls",
+        "amount_achievement": "25/29",
+        "platined": false
+    },
+    {
+        "img_src": "tunic.jpg",
+        "name": "TUNIC",
+        "amount_achievement": "36/36",
+        "platined": true
+    },
+    {
+        "img_src": "vampire-survivors.jpg",
+        "name": "Vampire Survivors",
+        "amount_achievement": "0/211",
+        "platined": false
+    },
+    {
+        "img_src": "visage.jpg",
+        "name": "Visage",
+        "amount_achievement": "22/27",
+        "platined": false
+    },
+    {
+        "img_src": "wallpaper-engine.jpg",
+        "name": "Wallpaper Engine",
+        "amount_achievement": "5/17",
+        "platined": false
+    },
+    {
+        "img_src": "warframe.jpg",
+        "name": "Warframe",
+        "amount_achievement": "156/193",
+        "platined": false
+    },
+    {
+        "img_src": "x-blades.jpg",
+        "name": "X-Blades",
+        "amount_achievement": "0/0",
+        "platined": false
+    },
+    {
+        "img_src": "blades-of-time.jpg",
+        "name": "Blades of Time",
+        "amount_achievement": "9/35",
+        "platined": false
+    },
+    {
+        "img_src": "yugioh-duel-links.jpg",
+        "name": "Yu-Gi-Oh! : Duel Links",
+        "amount_achievement": "2/20",
+        "platined": false
+    }
+]
