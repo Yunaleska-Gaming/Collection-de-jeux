@@ -1,0 +1,662 @@
+[
+    {
+        "img_src": "a-plague-tale-requiem.png",
+        "name": "A Plague Tale Requiem",
+        "bronze_trophies": "0/22",
+        "silver_trophies": "0/9",
+        "gold_trophies": "0/4",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "alan-wake.png",
+        "name": "Alan Wake Remastered",
+        "bronze_trophies": "32/42",
+        "silver_trophies": "2/5",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/17",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "aliens-fireteam-elite.png",
+        "name": "Aliens : Fireteam Elite",
+        "bronze_trophies": "0/25",
+        "silver_trophies": "0/15",
+        "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/2",
+        "silver_trophies_dlc": "0/1",
+        "gold_trophies_dlc": "0/1"
+    },
+    {
+        "img_src": "astria-ascending.png",
+        "name": "Astria ascending",
+        "bronze_trophies": "0/38",
+        "silver_trophies": "0/10",
+        "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "battlefield-2042.png",
+        "name": "Battlefield 2042",
+        "bronze_trophies": "0/20",
+        "silver_trophies": "0/10",
+        "gold_trophies": "0/4",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "biomutant.png",
+        "name": "Biomutant",
+        "bronze_trophies": "0/37",
+        "silver_trophies": "0/6",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "borderlands-3.png",
+        "name": "Borderlands 3",
+        "bronze_trophies": "0/35",
+        "silver_trophies": "0/6",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/18",
+        "silver_trophies_dlc": "0/14",
+        "gold_trophies_dlc": "0/4"
+    },
+    {
+        "img_src": "call-of-duty-cold-war.png",
+        "name": "Call of Duty : Black Ops Cold War",
+        "bronze_trophies": "0/30",
+        "silver_trophies": "0/12",
+        "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/3",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "crash-bandicoot-4.png",
+        "name": "Crash Bandicoot 4 : It's About Time",
+        "bronze_trophies": "20/40",
+        "silver_trophies": "1/9",
+        "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "daymare-1994.png",
+        "name": "Daymare : 1994 Sandcastle",
+        "bronze_trophies": "15/16",
+        "silver_trophies": "7/9",
+        "gold_trophies": "2/5",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "dead-space.png",
+        "name": "Dead Space",
+        "bronze_trophies": "28/35",
+        "silver_trophies": "3/10",
+        "gold_trophies": "0/4",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "deaths-door.png",
+        "name": "Death's Door",
+        "bronze_trophies": "0/9",
+        "silver_trophies": "0/8",
+        "gold_trophies": "0/7",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "diablo-2-resurrected.png",
+        "name": "Diablo II : Resurrected",
+        "bronze_trophies": "0/31",
+        "silver_trophies": "0/9",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "diablo-4.png",
+        "name": "Diablo IV",
+        "bronze_trophies": "7/7",
+        "silver_trophies": "4/12",
+        "gold_trophies": "0/6",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "dko.png",
+        "name": "Divine Knockout",
+        "bronze_trophies": "0/2",
+        "silver_trophies": "0/10",
+        "gold_trophies": "0/7",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "endling.png",
+        "name": "Endling",
+        "bronze_trophies": "0/12",
+        "silver_trophies": "0/8",
+        "gold_trophies": "0/7",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "evil-west.png",
+        "name": "Evil West",
+        "bronze_trophies": "0/13",
+        "silver_trophies": "0/11",
+        "gold_trophies": "0/5",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "farming-simulator-22.png",
+        "name": "Farming Simulator 22",
+        "bronze_trophies": "0/28",
+        "silver_trophies": "0/15",
+        "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "final-fantasy-crisis-core.png",
+        "name": "Crisis Core Reunion : Final Fantasy VII",
+        "bronze_trophies": "0/45",
+        "silver_trophies": "0/5",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "final-fantasy-7-remake.png",
+        "name": "Final Fantasy VII Remake",
+        "bronze_trophies": "44/44",
+        "silver_trophies": "7/7",
+        "gold_trophies": "2/2",
+        "bronze_trophies_dlc": "5/5",
+        "silver_trophies_dlc": "3/4",
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 05/11/2024"
+    },
+    {
+        "img_src": "final-fantasy-7-rebirth.png",
+        "name": "Final Fantasy VII Rebirth",
+        "bronze_trophies": "18/54",
+        "silver_trophies": "0/5",
+        "gold_trophies": "0/1",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "final-fantasy-16.png",
+        "name": "Final Fantasy XVI",
+        "bronze_trophies": "26/40",
+        "silver_trophies": "1/6",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "five-nights-at-freddys.png",
+        "name": "Five Nights at Freddy's",
+        "bronze_trophies": "0/3",
+        "silver_trophies": "0/6",
+        "gold_trophies": "0/1",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "100% non obtenu"
+    },
+    {
+        "img_src": "genshin-impact.png",
+        "name": "Genshin Impact",
+        "bronze_trophies": "1/46",
+        "silver_trophies": "2/17",
+        "gold_trophies": "1/8",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "ghostrunner.png",
+        "name": "Ghostrunner",
+        "bronze_trophies": "0/12",
+        "silver_trophies": "0/17",
+        "gold_trophies": "0/4",
+        "bronze_trophies_dlc": "0/9",
+        "silver_trophies_dlc": "0/2",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "honkai-star-rail.png",
+        "name": "Honkai: Star Rail",
+        "bronze_trophies": "27/27",
+        "silver_trophies": "7/7",
+        "gold_trophies": "4/4",
+        "bronze_trophies_dlc": "6/9",
+        "silver_trophies_dlc": "6/10",
+        "gold_trophies_dlc": "1/2"
+    },
+    {
+        "img_src": "horizon-forbidden-west.png",
+        "name": "Horizon Forbidden West",
+        "bronze_trophies": "0/50",
+        "silver_trophies": "0/7",
+        "gold_trophies": "0/1",
+        "bronze_trophies_dlc": "0/3",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "immortals-of-aveum.png",
+        "name": "Immortals of Aveum",
+        "bronze_trophies": "0/28",
+        "silver_trophies": "0/18",
+        "gold_trophies": "0/1",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "jurassic-world-evolution-2.png",
+        "name": "Jurassic World Evolution 2",
+        "bronze_trophies": "0/27",
+        "silver_trophies": "0/16",
+        "gold_trophies": "0/1",
+        "bronze_trophies_dlc": "0/8",
+        "silver_trophies_dlc": "0/2",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "kena-bridge-of-spirit.png",
+        "name": "Kena : Bridge of Spirits",
+        "bronze_trophies": "0/29",
+        "silver_trophies": "0/9",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "lies-of-p.png",
+        "name": "Lies of P",
+        "bronze_trophies": "0/26",
+        "silver_trophies": "0/13",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "little-nightmares-2.png",
+        "name": "Little Nightmares II",
+        "bronze_trophies": "6/16",
+        "silver_trophies": "4/15",
+        "gold_trophies": "1/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "maneater.png",
+        "name": "Maneater",
+        "bronze_trophies": "0/20",
+        "silver_trophies": "0/6",
+        "gold_trophies": "0/6",
+        "bronze_trophies_dlc": "0/11",
+        "silver_trophies_dlc": "0/1",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "marvel-spider-man-miles-morales.png",
+        "name": "Marvel's Spider-Man : Miles Morales",
+        "bronze_trophies": "0/37",
+        "silver_trophies": "0/10",
+        "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "nickelodeon-all-star-brawl.png",
+        "name": "Nickelodeon All Star Brawl",
+        "bronze_trophies": "0/6",
+        "silver_trophies": "0/11",
+        "gold_trophies": "0/7",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "nioh-2.png",
+        "name": "Nioh 2 Remastered",
+        "bronze_trophies": "0/48",
+        "silver_trophies": "0/5",
+        "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/39",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "nobody-saves-the-world.png",
+        "name": "Nobody Saves the World",
+        "bronze_trophies": "0/34",
+        "silver_trophies": "0/8",
+        "gold_trophies": "0/5",
+        "bronze_trophies_dlc": "0/3",
+        "silver_trophies_dlc": "0/4",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "oddworld-soulstorm.png",
+        "name": "Oddworld Soulstorm",
+        "bronze_trophies": "0/18",
+        "silver_trophies": "0/9",
+        "gold_trophies": "0/5",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "overcooked.png",
+        "name": "Overcooked All you can Eat",
+        "bronze_trophies": "0/28",
+        "silver_trophies": "0/11",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "overcooked-2.png",
+        "name": "Overcooked 2",
+        "bronze_trophies": "0/12",
+        "silver_trophies": "0/8",
+        "gold_trophies": "0/6",
+        "bronze_trophies_dlc": "0/20",
+        "silver_trophies_dlc": "0/4",
+        "gold_trophies_dlc": "0/4"
+    },
+    {
+        "img_src": "resident-evil-2.png",
+        "name": "Resident Evil 2",
+        "bronze_trophies": "28/28",
+        "silver_trophies": "9/9",
+        "gold_trophies": "4/4",
+        "bronze_trophies_dlc": "2/2",
+        "silver_trophies_dlc": "0/1",
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 17/11/2024"
+    },
+    {
+        "img_src": "resident-evil-3.png",
+        "name": "Resident Evil 3",
+        "bronze_trophies": "16/16",
+        "silver_trophies": "12/12",
+        "gold_trophies": "4/4",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 01/09/2022"
+    },
+    {
+        "img_src": "resident-evil-4.png",
+        "name": "Resident Evil 4",
+        "bronze_trophies": "25/25",
+        "silver_trophies": "10/10",
+        "gold_trophies": "4/4",
+        "bronze_trophies_dlc": "4/5",
+        "silver_trophies_dlc": "0/1",
+        "gold_trophies_dlc": "0/1",
+        "date_platined": "Platiné le 10/04/2023"
+    },
+    {
+        "img_src": "resident-evil-7.png",
+        "name": "Resident Evil 7 : Biohazard",
+        "bronze_trophies": "0/22",
+        "silver_trophies": "0/12",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/12",
+        "silver_trophies_dlc": "0/7",
+        "gold_trophies_dlc": "0/2"
+    },
+    {
+        "img_src": "resident-evil-8.png",
+        "name": "Resident Evil Village",
+        "bronze_trophies": "38/40",
+        "silver_trophies": "4/6",
+        "gold_trophies": "1/3",
+        "bronze_trophies_dlc": "0/5",
+        "silver_trophies_dlc": "0/1",
+        "gold_trophies_dlc": "0/1"
+    },
+    {
+        "img_src": "returnal.png",
+        "name": "Returnal",
+        "bronze_trophies": "0/18",
+        "silver_trophies": "0/5",
+        "gold_trophies": "0/7",
+        "bronze_trophies_dlc": "0/5",
+        "silver_trophies_dlc": "0/1",
+        "gold_trophies_dlc": "0/1"
+    },
+    {
+        "img_src": "sackboy-a-big-adventure.png",
+        "name": "Sackboy A Big Adventure",
+        "bronze_trophies": "0/32",
+        "silver_trophies": "0/10",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "saints-row.png",
+        "name": "Saints Row",
+        "bronze_trophies": "0/42",
+        "silver_trophies": "0/6",
+        "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/6",
+        "silver_trophies_dlc": "0/6",
+        "gold_trophies_dlc": "0/2"
+    },
+    {
+        "img_src": "silent-hill-short-message.png",
+        "name": "Silent Hill Short Message",
+        "bronze_trophies": "0/0",
+        "silver_trophies": "0/0",
+        "gold_trophies": "0/0",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0",
+        "without_platine": true,
+        "date_platined": "Pas de trophées"
+    },
+    {
+        "img_src": "silent-hill-2.png",
+        "name": "Silent Hill 2",
+        "bronze_trophies": "23/28",
+        "silver_trophies": "2/12",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "spirit-of-the-north.png",
+        "name": "Spirit of the North",
+        "bronze_trophies": "0/8",
+        "silver_trophies": "0/9",
+        "gold_trophies": "0/7",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "star-wars-fallen-order.png",
+        "name": "Star Wars Jedi : Fallen Order",
+        "bronze_trophies": "0/25",
+        "silver_trophies": "0/11",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "star-wars-lego.png",
+        "name": "Star Wars Lego : The Skywalker Saga",
+        "bronze_trophies": "0/32",
+        "silver_trophies": "0/10",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "stranger-of-paradise.png",
+        "name": "Stranger of Paradise",
+        "bronze_trophies": "0/35",
+        "silver_trophies": "0/7",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/35",
+        "silver_trophies_dlc": "0/2",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "stray.png",
+        "name": "Stray",
+        "bronze_trophies": "0/8",
+        "silver_trophies": "0/9",
+        "gold_trophies": "0/7",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "tales-of-arise.png",
+        "name": "Tales of Arise",
+        "bronze_trophies": "0/34",
+        "silver_trophies": "0/11",
+        "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "tekken-8.png",
+        "name": "Tekken 8",
+        "bronze_trophies": "34/34",
+        "silver_trophies": "9/9",
+        "gold_trophies": "3/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 31/10/2024"
+    },
+    {
+        "img_src": "the-callisto-protocol.png",
+        "name": "The Callisto Protocol",
+        "bronze_trophies": "0/24",
+        "silver_trophies": "0/11",
+        "gold_trophies": "0/11",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "tomb-raider-1-3.png",
+        "name": "Tomb Raider I - II - III Remastered",
+        "bronze_trophies": "0/253",
+        "silver_trophies": "0/16",
+        "gold_trophies": "0/0",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "100% non obtenu"
+    },
+    {
+        "img_src": "tormented-souls.png",
+        "name": "Tormented Souls",
+        "bronze_trophies": "0/13",
+        "silver_trophies": "0/11",
+        "gold_trophies": "0/5",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "tower-of-fantasy.png",
+        "name": "Tower of Fantasy",
+        "bronze_trophies": "0/8",
+        "silver_trophies": "0/10",
+        "gold_trophies": "0/7",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "trek-to-yomi.png",
+        "name": "Trek to Yomi",
+        "bronze_trophies": "0/9",
+        "silver_trophies": "0/14",
+        "gold_trophies": "0/5",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "valkyrie-elysium.png",
+        "name": "Valkyrie Elysium",
+        "bronze_trophies": "0/35",
+        "silver_trophies": "0/10",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "warframe.png",
+        "name": "Warframe",
+        "bronze_trophies": "21/57",
+        "silver_trophies": "5/26",
+        "gold_trophies": "2/8",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "100% non obtenu"
+    },
+    {
+        "img_src": "weird-west.png",
+        "name": "Weird West",
+        "bronze_trophies": "0/44",
+        "silver_trophies": "0/7",
+        "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    }
+]

@@ -1,7 +1,7 @@
-.platinum-ps3 { width : 38.77%; background-color : var(--platine-color);}
-.gold-ps3 { width : 44.82%; background-color : var(--gold-color);}
-.silver-ps3 { width : 54.47%; background-color : var(--silver-color);}
-.bronze-ps3 { width : 59.79%; background-color : var(--bronze-color);}
+.platinum-ps3 { background-color : var(--platine-color);}
+.gold-ps3 { background-color : var(--gold-color);}
+.silver-ps3 { background-color : var(--silver-color);}
+.bronze-ps3 { background-color : var(--bronze-color);}
 
 .games-show-ps3 {
    margin: 10px;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title>Steam</title>
@@ -7,11 +8,14 @@
     <link href="assets/css/games-steam.css" rel="stylesheet" />
     <link href="assets/images/favicon.jpg" rel="icon" />
     <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans" />
-	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
-    <meta content="" name="description" /> 
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+    <script type="module" src="assets/scripts/utils.js"></script>
+    <script type="module" src="assets/scripts/steam.js"></script>
+    <meta content="" name="description" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
+
 <body>
 
     <div class="site">
@@ -25,7 +29,7 @@
                         <li class="site-navigation__sub-item"><a class="site-navigation link" href="ps3.html">PS3</a></li>
                         <li class="site-navigation__sub-item"><a class="site-navigation link" href="ps4.html">PS4</a></li>
                         <li class="site-navigation__sub-item"><a class="site-navigation link" href="ps5.html">PS5</a></li>
-                        <li class="site-navigation__sub-item"><a class="site-navigation link selected" href="steam.html">Steam</a></li>
+                        <li class="site-navigation__sub-item"><a class="site-navigation link" href="steam.html">Steam</a></li>
                         <li class="site-navigation__sub-item"><a class="site-navigation link" href="nintendo.html">Nintendo</a></li>
                         <li class="site-navigation__sub-item"><a class="site-navigation link" href="wish-list.html">Wishlist</a></li>
                     </ul>
@@ -35,7 +39,8 @@
 
         <div class="site-sidebar__back">
             <div class="site-sidebar__avatar">
-                <img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1196590/1de5016286d9cffc6e64fffdf2e809dd1503db85.gif" />
+                <img
+                    src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1196590/1de5016286d9cffc6e64fffdf2e809dd1503db85.gif" />
             </div>
             <h3 class="site-sidebar__pseudo">Rydia</h3>
             <div class="site-sidebar__informations">
@@ -45,11 +50,12 @@
                     </li>
                     <div class="site-sidebar__items block-trophies">
                         <li class="site-sidebar__items trophies" id="games_platined">
-                            
+
                         </li>
                         <div class="site-sidebar__items percentage-background">
                             <div class="site-sidebar__items percentage-bar">
-                                <div class="site-sidebar__items percentage-width platinum-steam" id="percent_completion">
+                                <div class="site-sidebar__items percentage-width platinum-steam"
+                                    id="percent_completion">
 
                                 </div>
                             </div>
@@ -61,31 +67,25 @@
                     <li class="site-sidebar__items item-line">Premier 100% : Spyro Reignited</li>
                     <li class="site-sidebar__items item-line">Dernier 100% : Tunic</li>
                 </ul>
-                
+
             </div>
         </div>
 
         <main class="site-main">
             <h1 class="section-title">Collection Steam</h1>
             <section class="site-main__section first-section">
-        
+
                 <div id="game_container" class="first-section">
                     <!-- Container des jeux -->
                 </div>
             </section>
         </main>
-
-        <footer class="site-footer">
-            <ul class="site-footer social-list footer-steam">
-                <li class="site-footer__sub-item twitch"><a class="site-navigation__link" href="https://www.twitch.tv/yunaleska"></a></li>
-                <li class="site-footer__sub-item youtube"><a class="site-navigation__link" href="https://www.youtube.com/@YunaleskaTwitch"></a></li>
-                <li class="site-footer__sub-item twitter"><a class="site-navigation__link" href="https://x.com/YunaleskaTwitch"></a></li>
-                <li class="site-footer__sub-item facebook"><a class="site-navigation__link" href="#"></a></li>
-                <li class="site-footer__sub-item discord"><a class="site-navigation__link" href="https://discord.gg/r6M5Y2uuT4"></a></li>
-            </ul>
-            <p class="site-footer copyright" id="copyright-steam">© 2024 Rydia's Trophy's Collection. Tous droits réservés.</div>
-        </footer>
-    </div>
-<script src="assets/scripts/steam.js"></script>
+        <custom-footer></custom-footer>
+        <script src="assets/scripts/footer.js"></script>
+        <script type="module" src="assets/scripts/utils.js"></script>
+        <script type="module" src="assets/scripts/steam.js"></script>
+        <script type="module">import fetchData from './assets/scripts/steam.js';fetchData('steam');</script>
+		<script src="assets/scripts/wherami.js"></script>
 </body>
+
 </html>

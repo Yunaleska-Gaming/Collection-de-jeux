@@ -166,8 +166,8 @@ iframe { width: 100%; height: 100%;}
         flex-direction: column;
     }
 
-    .games-show-ps4 + .games-show-ps5,
-    .games-show-ps5 + .games-show-steam {
+    .games-show + .games-show,
+    .games-show + .games-show-steam {
         margin-top : 30px;
     }
 

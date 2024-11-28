@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Chrono Cross: The Radical Dreamers Edition",
+        "platform": "ps4",
+        "img_src": "chrono-cross.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Moyenne"
+    },
+    {
+        "name": "Persona 4 Golden",
+        "platform": "ps4",
+        "img_src": "persona-4-golden.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Haute"
+    },
+    {
+        "name": "Voice of Cards Trilogy",
+        "platform": "ps4",
+        "img_src": "voice-of-cards-trilogy.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Haute"
+    },
+    {
+        "name": "Assassin's Creed Ezio Collection",
+        "platform": "ps5",
+        "img_src": "assassins-creed-ezio-collection.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Haute"
+    },
+    {
+        "name": "Forspoken",
+        "platform": "ps5",
+        "img_src": "forspoken.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Basse"
+    },
+    {
+        "name": "Grandblue Fantasy Relink",
+        "platform": "ps5",
+        "img_src": "grandblue-fantasy-relink.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Haute"
+    },
+    {
+        "name": "Hogwartz Legacy",
+        "platform": "ps5",
+        "img_src": "hogwartz-legacy.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Moyenne"
+    },
+    {
+        "name": "Monster Hunter Rise",
+        "platform": "ps5",
+        "img_src": "monster-hunter-rise.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Moyenne"
+    },
+    {
+        "name": "Octopath Traveler II",
+        "platform": "ps5",
+        "img_src": "octopath-traveler-2.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Moyenne"
+    },
+    {
+        "name": "Persona 3 Reload",
+        "platform": "ps5",
+        "img_src": "persona-3-reload.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Haute"
+    },
+    {
+        "name": "Project Zero : Le Masque de l'Eclipse Lunaire",
+        "platform": "ps5",
+        "img_src": "project-zero-4.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Haute"
+    },
+    {
+        "name": "Project Zero : La Pretresse des Eaux Noires",
+        "platform": "ps5",
+        "img_src": "project-zero-5.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Haute"
+    },
+    {
+        "name": "Shin Megami Tensei V Vengeance",
+        "platform": "ps5",
+        "img_src": "shin-megami-tensei-5.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Haute"
+    },
+    {
+        "name": "Marvel's Spider Man 2",
+        "platform": "ps5",
+        "img_src": "spider-man-2.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Haute"
+    },
+    {
+        "name": "Stellar Blade",
+        "platform": "ps5",
+        "img_src": "stellar-blade.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Haute"
+    },
+    {
+        "name": "The Dark Pictures Anthology : House of Ashes",
+        "platform": "ps5",
+        "img_src": "house-of-ashes.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Moyenne"
+    },
+    {
+        "name": "The Dark Pictures Anthology : The Devil in Me",
+        "platform": "ps5",
+        "img_src": "devil-in-me.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Moyenne"
+    },
+    {
+        "name": "The Last of Us part I",
+        "platform": "ps5",
+        "img_src": "the-last-of-us-1.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Haute"
+    },
+    {
+        "name": "The Last of Us part II",
+        "platform": "ps5",
+        "img_src": "the-last-of-us-2.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Haute"
+    },
+    {
+        "name": "Tunic",
+        "platform": "ps5",
+        "img_src": "tunic.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Haute"
+    }
+]
