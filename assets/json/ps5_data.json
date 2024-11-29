@@ -203,7 +203,7 @@
     {
         "img_src": "final-fantasy-7-rebirth.png",
         "name": "Final Fantasy VII Rebirth",
-        "bronze_trophies": "18/54",
+        "bronze_trophies": "19/54",
         "silver_trophies": "0/5",
         "gold_trophies": "0/1",
         "bronze_trophies_dlc": "0/0",
@@ -234,7 +234,7 @@
     {
         "img_src": "genshin-impact.png",
         "name": "Genshin Impact",
-        "bronze_trophies": "1/46",
+        "bronze_trophies": "11/46",
         "silver_trophies": "2/17",
         "gold_trophies": "1/8",
         "bronze_trophies_dlc": "0/0",
@@ -596,14 +596,16 @@
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0",
+        "without_platine": false,
         "date_platined": "100% non obtenu"
+
     },
     {
         "img_src": "tormented-souls.png",
         "name": "Tormented Souls",
-        "bronze_trophies": "0/13",
-        "silver_trophies": "0/11",
-        "gold_trophies": "0/5",
+        "bronze_trophies": "11/13",
+        "silver_trophies": "7/11",
+        "gold_trophies": "2/5",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0"
@@ -642,7 +644,7 @@
         "img_src": "warframe.png",
         "name": "Warframe",
         "bronze_trophies": "21/57",
-        "silver_trophies": "5/26",
+        "silver_trophies": "6/26",
         "gold_trophies": "2/8",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",

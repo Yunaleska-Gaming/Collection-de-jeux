@@ -1,19 +1,15 @@
-// utils.js
 
-// Function to calculate game statistics
 export function calculateGameStats(amountAchievement) {
     const [earned, total] = amountAchievement.split('/').map(Number);
     const percent = total > 0 ? (earned / total) * 100 : 0;
     return { earned, total, percent };
 }
 
-// Function to create a game item element
 export function createSteamItem(game, percent) {
     const percentString = `${percent.toFixed()}%`;
 
     const gameDiv = document.createElement('div');
 
-    // Use classList.add() to add multiple classes conditionally
     gameDiv.classList.add(
         'games-show-steam', 
         'effect-show-steam', 
@@ -63,20 +59,12 @@ export function createPsItem(game, platform) {
         bronze: parseTrophies(game.bronze_trophies, game.bronze_trophies_dlc),
         silver: parseTrophies(game.silver_trophies, game.silver_trophies_dlc),
         gold: parseTrophies(game.gold_trophies, game.gold_trophies_dlc),
-        isCompleted: checkTrophyCompletion([game.bronze_trophies, game.silver_trophies, game.gold_trophies]),
-        isDlcCompleted: checkTrophyCompletion([game.bronze_trophies_dlc, game.silver_trophies_dlc, game.gold_trophies_dlc])
+        isCompleted: checkTrophyCompletion([game.bronze_trophies, game.silver_trophies, game.gold_trophies])
     };
 
-    // Check if "without_platine" exists and is true, default to false if undefined
     const isWithoutPlatine = game.without_platine || false;
 
-    // Determine class name
-    let className;
-    if (isWithoutPlatine) {
-        className = 'without-platine';
-    } else {
-        className = gameStats.isCompleted ? 'platined' : 'not-platined';
-    }
+    const className = isWithoutPlatine ? 'without-platine' : (gameStats.isCompleted ? 'platined' : 'not-platined');
 
     const gameDiv = document.createElement('div');
     gameDiv.className = `games-show effect-show ${className}`;
@@ -96,12 +84,25 @@ function parseSingleTrophy(trophy) {
     return { current: current || 0, total: total || 0 };
 }
 
-function checkTrophyCompletion(trophies) {
-    return trophies.every(trophy => {
+function checkTrophyCompletion(baseTrophies) {
+    const allZeroTrophies = baseTrophies.every(trophy => {
         const { current, total } = parseSingleTrophy(trophy);
-        return current === total && total !== 0;
+        return current === 0 && total === 0;
+    });
+
+    if (allZeroTrophies) {
+        return false;
+    }
+
+    return baseTrophies.every(trophy => {
+        const { current, total } = parseSingleTrophy(trophy);
+        if (total === 0) {
+            return current === 0;
+        }
+        return current === total;
     });
 }
+
 
 function hasDlcTrophies(game) {
     return (
@@ -112,14 +113,10 @@ function hasDlcTrophies(game) {
 }
 
 function buildGameHTML(game, platform, stats) {
-    const { isCompleted, isDlcCompleted } = stats;
+    const { isCompleted } = stats;
     const hasDlc = hasDlcTrophies(game);
 
-    // Check if "without_platine" is true (or undefined, default to false)
-    const isWithoutPlatine = game.without_platine || false;
-
-    // Update the platine section for "without_platine"
-    const platineSection = isWithoutPlatine
+    const platineSection = game.without_platine
         ? `<div class="trophies-pictures no-platine-picture"></div> 0/0`
         : `<div class="trophies-pictures platine-picture"></div> ${isCompleted ? '1/1' : '0/1'}`;
 
@@ -135,17 +132,16 @@ function buildGameHTML(game, platform, stats) {
                 <div class="trophies-pictures silver-picture"></div> ${game.silver_trophies}
                 <div class="trophies-pictures bronze-picture"></div> ${game.bronze_trophies}
             </div>
-            <div class="date-platined">${game.date_platined ? `Platiné le ${game.date_platined}` : 'Platine non obtenu'}</div>
-            ${hasDlc ? buildDlcHTML(game, isDlcCompleted) : ''}
+            <div class="date-platined">${game.date_platined ? `${game.date_platined}` : 'Platine non obtenu'}</div>
+            ${hasDlc ? buildDlcHTML(game) : ''}
         </div>
     `;
 }
 
-function buildDlcHTML(game, isDlcCompleted) {
+function buildDlcHTML(game) {
     return `
         <h2>DLC</h2>
         <div class="games-trophies">
-            <div class="trophies-pictures platine-picture"></div> ${isDlcCompleted ? '1/1' : '0/1'}
             <div class="trophies-pictures gold-picture"></div> ${game.gold_trophies_dlc}
             <div class="trophies-pictures silver-picture"></div> ${game.silver_trophies_dlc}
             <div class="trophies-pictures bronze-picture"></div> ${game.bronze_trophies_dlc}
@@ -153,37 +149,34 @@ function buildDlcHTML(game, isDlcCompleted) {
     `;
 }
 
-export function updateSidebarStatistics({ totalPlatinums, gamesLength, goldObtained, goldTotal, silverObtained, silverTotal, bronzeObtained, bronzeTotal }) {
+
+export function updateSidebarStatistics({ totalPlatinums, withoutPlatinum, gamesLength, goldObtained, goldTotal, silverObtained, silverTotal, bronzeObtained, bronzeTotal }) {
     const updateElement = (id, value, percent) => {
         document.getElementById(`${id}Count`).innerHTML = value;
         document.getElementById(`${id}Percent`).textContent = `${percent}%`;
         document.getElementById(`${id}Percent`).style.width = `${percent}%`;
     };
 
-    updateElement('platine', `<div class="trophies-pictures platine-picture"></div> ${totalPlatinums}/${gamesLength}`, ((totalPlatinums / gamesLength) * 100).toFixed(2));
+    updateElement('platine', `<div class="trophies-pictures platine-picture"></div> ${totalPlatinums}/${gamesLength - withoutPlatinum}`, ((totalPlatinums / gamesLength) * 100).toFixed(2));
     updateElement('gold', `<div class="trophies-pictures gold-picture"></div> ${goldObtained}/${goldTotal}`, ((goldObtained / goldTotal) * 100).toFixed(2));
     updateElement('silver', `<div class="trophies-pictures silver-picture"></div> ${silverObtained}/${silverTotal}`, ((silverObtained / silverTotal) * 100).toFixed(2));
     updateElement('bronze', `<div class="trophies-pictures bronze-picture"></div> ${bronzeObtained}/${bronzeTotal}`, ((bronzeObtained / bronzeTotal) * 100).toFixed(2));
-    document.getElementById('totalCount').textContent = `${goldObtained + silverObtained + bronzeObtained}/${goldTotal + silverTotal + bronzeTotal}`;
+    document.getElementById('totalCount').textContent = `${totalPlatinums + goldObtained + silverObtained + bronzeObtained}/${(gamesLength - withoutPlatinum) + goldTotal + silverTotal + bronzeTotal}`;
     document.getElementById('itemCount').textContent = `${gamesLength} jeux possédés`;
 }
 
-// Function to update the game count on the page
 export function updateGameCount(games, countElementId) {
     let gameType = '';
 
-    // Check the countElementId and set the appropriate game type
     if (countElementId === 'ds-count') {
         gameType = 'DS/3DS';
     } else if (countElementId === 'switch-count') {
         gameType = 'Switch';
     }
 
-    // Update the text content with the correct game type and count
     document.getElementById(countElementId).textContent = `${games.length} jeux ${gameType} possédés`;
 }
 
-// Function to render the games on the page
 export function renderGames(games, containerElementId, platform) {
     const fragment = document.createDocumentFragment();
     games.forEach(game => {
@@ -193,22 +186,18 @@ export function renderGames(games, containerElementId, platform) {
     document.getElementById(containerElementId).appendChild(fragment);
 }
 
-// Function to create a DS/3DS game item
 export function createDsGame(game) {
     return createNintendoItem(game, 'ds-nintendo', 'effect-show-nintendo');
 }
 
-// Function to create a Switch game item
 export function createSwitchGame(game) {
     return createNintendoItem(game, 'switch-nintendo', 'effect-show-switch');
 }
 
-// General function to create a game item (for DS or Switch)
 function createNintendoItem(game, platformClass, effectClass) {
     const gameDiv = document.createElement('div');
     const completionDivs = game.completions.map(completion => `<div class="completion-nintendo">${completion}</div>`).join('');
 
-    // Condition to replace the class based on platformClass
     const platformClassName = platformClass === 'ds-nintendo' ? 'games-show-nintendo' : platformClass === 'switch-nintendo' ? 'games-show-switch' : '';
 
     gameDiv.className = `${platformClassName} ${effectClass} ${platformClass}`
@@ -227,21 +216,18 @@ function createNintendoItem(game, platformClass, effectClass) {
     return gameDiv;
 }
 
-// Example function to search for a specific game on a given platform
 export async function findGame(platform, gameName) {
     try {
-        const games = await fetchGamesData(platform); // Fetch the data for the platform
-        // Use 'find' to search for the game by its name
+        const games = await fetchGamesData(platform);
         const game = games.find(game => game.name.toLowerCase() === gameName.toLowerCase());
         
-        return game || null; // Return the game if found, otherwise return null
+        return game || null;
     } catch (error) {
         console.error(`Error fetching game data for platform ${platform}:`, error);
         return null;
     }
 }
 
-// Dynamically adjust font sizes for game names based on length
 export function adjustFontSizes() {
     document.querySelectorAll('.game-name').forEach(element => {
         const length = element.textContent.length;

@@ -8,6 +8,7 @@ async function fetchData(platform) {
 
         const fragment = document.createDocumentFragment();
         let totalPlatinums = 0;
+        let withoutPlatinum = 0;
         let goldObtained = 0, goldTotal = 0;
         let silverObtained = 0, silverTotal = 0;
         let bronzeObtained = 0, bronzeTotal = 0;
@@ -22,7 +23,8 @@ async function fetchData(platform) {
             goldObtained += gameStats.gold.current;
             goldTotal += gameStats.gold.total;
 
-            if (gameStats.isCompleted) totalPlatinums++;
+            if (game.without_platine) withoutPlatinum++;
+            if (gameStats.isCompleted && !game.without_platine) totalPlatinums++;
             fragment.appendChild(gameDiv);
         });
 
@@ -30,6 +32,7 @@ async function fetchData(platform) {
         adjustFontSizes();
         updateSidebarStatistics({
             totalPlatinums,
+            withoutPlatinum,
             gamesLength: games.length,
             goldObtained,
             goldTotal,

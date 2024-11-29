@@ -174,7 +174,7 @@
     {
         "img_src": "borderlands-3.png",
         "name": "Borderlands 3",
-        "bronze_trophies": "24/35",
+        "bronze_trophies": "26/35",
         "silver_trophies": "3/6",
         "gold_trophies": "1/3",
         "bronze_trophies_dlc": "0/18",
@@ -326,7 +326,7 @@
     {
         "img_src": "dead-island-definitive.png",
         "name": "Dead Island : Definitive Edition",
-        "bronze_trophies": "2/36",
+        "bronze_trophies": "3/36",
         "silver_trophies": "0/11",
         "gold_trophies": "0/1",
         "bronze_trophies_dlc": "0/7",
@@ -336,7 +336,7 @@
     {
         "img_src": "dead-island-riptide.png",
         "name": "Dead Island Riptide",
-        "bronze_trophies": "0/20",
+        "bronze_trophies": "1/20",
         "silver_trophies": "0/11",
         "gold_trophies": "0/4",
         "bronze_trophies_dlc": "0/0",
@@ -377,8 +377,8 @@
         "img_src": "detroit-become-human.png",
         "name": "Detroit : Become Human",
         "bronze_trophies": "31/40",
-        "silver_trophies": "0/3",
-        "gold_trophies": "0/2",
+        "silver_trophies": "3/3",
+        "gold_trophies": "2/2",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0"
@@ -994,16 +994,6 @@
         "gold_trophies_dlc": "0/0"
     },
     {
-        "img_src": "mafia-3.png",
-        "name": "Mafia III",
-        "bronze_trophies": "0/50",
-        "silver_trophies": "0/4",
-        "gold_trophies": "0/1",
-        "bronze_trophies_dlc": "0/27",
-        "silver_trophies_dlc": "0/3",
-        "gold_trophies_dlc": "0/0"
-    },
-    {
         "img_src": "mafia-2.png",
         "name": "Mafia II",
         "bronze_trophies": "0/35",
@@ -1011,6 +1001,16 @@
         "gold_trophies": "0/2",
         "bronze_trophies_dlc": "0/16",
         "silver_trophies_dlc": "0/4",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "mafia-3.png",
+        "name": "Mafia III",
+        "bronze_trophies": "0/50",
+        "silver_trophies": "0/4",
+        "gold_trophies": "0/1",
+        "bronze_trophies_dlc": "0/27",
+        "silver_trophies_dlc": "0/3",
         "gold_trophies_dlc": "0/0"
     },
     {
@@ -1082,7 +1082,7 @@
         "name": "Monopoly Family Fun Pack",
         "bronze_trophies": "9/13",
         "silver_trophies": "0/1",
-        "gold_trophies": "1/",
+        "gold_trophies": "1/1",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0",
@@ -1098,7 +1098,7 @@
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0",
         "without_platine": true,
-        "date_platined": "13/07/2023"
+        "date_platined": "100% le 13/07/2023"
     },
     {
         "img_src": "monopoly-madness.png",
@@ -1113,7 +1113,7 @@
     {
         "img_src": "mortal-kombat-x.png",
         "name": "Mortal Kombat X",
-        "bronze_trophies": "31/54",
+        "bronze_trophies": "34/54",
         "silver_trophies": "1/5",
         "gold_trophies": "0/1",
         "bronze_trophies_dlc": "3/13",
@@ -1663,7 +1663,7 @@
     {
         "img_src": "the-dark-pictures-anthalogy-man-of-medan.png",
         "name": "The Dark Pictures Anthology : Man of Medan",
-        "bronze_trophies": "0/17",
+        "bronze_trophies": "2/17",
         "silver_trophies": "0/7",
         "gold_trophies": "0/6",
         "bronze_trophies_dlc": "0/0",
