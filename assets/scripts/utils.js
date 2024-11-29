@@ -64,7 +64,10 @@ export function createPsItem(game, platform) {
 
     const isWithoutPlatine = game.without_platine || false;
 
-    const className = isWithoutPlatine ? 'without-platine' : (gameStats.isCompleted ? 'platined' : 'not-platined');
+    const className = (isWithoutPlatine && game.date_platined && 
+        (game.date_platined.includes("Pas de trophées") || game.date_platined.includes("100% le")))
+        ? 'without-platine'
+        : (gameStats.isCompleted ? 'platined' : 'not-platined');
 
     const gameDiv = document.createElement('div');
     gameDiv.className = `games-show effect-show ${className}`;
@@ -157,7 +160,7 @@ export function updateSidebarStatistics({ totalPlatinums, withoutPlatinum, games
         document.getElementById(`${id}Percent`).style.width = `${percent}%`;
     };
 
-    updateElement('platine', `<div class="trophies-pictures platine-picture"></div> ${totalPlatinums}/${gamesLength - withoutPlatinum}`, ((totalPlatinums / gamesLength) * 100).toFixed(2));
+    updateElement('platine', `<div class="trophies-pictures platine-picture"></div> ${totalPlatinums}/${gamesLength - withoutPlatinum}`, ((totalPlatinums / (gamesLength - withoutPlatinum)) * 100).toFixed(2));
     updateElement('gold', `<div class="trophies-pictures gold-picture"></div> ${goldObtained}/${goldTotal}`, ((goldObtained / goldTotal) * 100).toFixed(2));
     updateElement('silver', `<div class="trophies-pictures silver-picture"></div> ${silverObtained}/${silverTotal}`, ((silverObtained / silverTotal) * 100).toFixed(2));
     updateElement('bronze', `<div class="trophies-pictures bronze-picture"></div> ${bronzeObtained}/${bronzeTotal}`, ((bronzeObtained / bronzeTotal) * 100).toFixed(2));
@@ -231,6 +234,6 @@ export async function findGame(platform, gameName) {
 export function adjustFontSizes() {
     document.querySelectorAll('.game-name').forEach(element => {
         const length = element.textContent.length;
-        element.style.fontSize = length > 20 ? '12px' : length > 15 ? '13px' : length > 10 ? '14px' : '15px';
+        element.style.fontSize = length > 20 ? '13px' : length > 15 ? '14px' : length > 10 ? '15px' : '16px';
     });
 }

@@ -127,10 +127,6 @@
     transform: rotate(34.2deg) translateX(0);
 }	
 
-.games-trophies {
-	background : black;
-}
-
 .platined-steam,
 .not-platined-steam,
 .without-achievements-steam {

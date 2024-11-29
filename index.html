@@ -20,22 +20,8 @@
 	<body>
 		<div class="site">
 		
-			<header class="site-header">
-				<div class="site-navigation limits">
-					<div class="site-navigation header-icon"></div>
-					<nav class="site-navigation__back">
-						<ul class="site-navigation list">
-							<li class="site-navigation__sub-item"><a class="site-navigation link" href="index.html">Index</a></li>
-							<li class="site-navigation__sub-item"><a class="site-navigation link" href="ps3.html">PS3</a></li>
-							<li class="site-navigation__sub-item"><a class="site-navigation link" href="ps4.html">PS4</a></li>
-							<li class="site-navigation__sub-item"><a class="site-navigation link" href="ps5.html">PS5</a></li>
-							<li class="site-navigation__sub-item"><a class="site-navigation link" href="steam.html">Steam</a></li>
-							<li class="site-navigation__sub-item"><a class="site-navigation link" href="nintendo.html">Nintendo</a></li>
-							<li class="site-navigation__sub-item"><a class="site-navigation link" href="wish-list.html">Wishlist</a></li>
-						</ul>
-					</nav>
-				</div>
-      		</header>
+			<custom-header></custom-header>
+
 			<main class="site-main">
 				<section class="site-main__section first-section">
 					<div class="column-left">
@@ -131,11 +117,16 @@
 						<div class="twitch-rewards">
 							<h2>Planning</h2>
 							<img src="assets/images/planning.png" class="index-planning" />
+							<img src="assets/images/planning-noel.png" class="index-planning" />
+							<p class="paragraphes-informations">
+								<a href="https://yunaleska-gaming.github.io/Hotte-Yunasmas-2024/" target="_blank">Voir le calendrier intéractif</a>
+							</p>
 						</div>
 					</div>
 				</section>
 			</main>
 			<custom-footer></custom-footer>
+			<script src="assets/scripts/header.js"></script>
 			<script src="assets/scripts/footer.js"></script>
 			<script type="module">import fetchData from './assets/scripts/index.js';fetchData();</script>
 			<script src="assets/scripts/wherami.js"></script>

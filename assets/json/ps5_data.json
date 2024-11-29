@@ -229,6 +229,7 @@
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0",
+        "without_platine": true,
         "date_platined": "100% non obtenu"
     },
     {
@@ -596,7 +597,7 @@
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0",
-        "without_platine": false,
+        "without_platine": true,
         "date_platined": "100% non obtenu"
 
     },
@@ -649,6 +650,7 @@
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0",
+        "without_platine": true,
         "date_platined": "100% non obtenu"
     },
     {
