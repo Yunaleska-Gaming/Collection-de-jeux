@@ -217,7 +217,7 @@
     {
         "img_src": "lies-of-p.jpg",
         "name": "Lies of P",
-        "amount_achievement": "13/42"
+        "amount_achievement": "16/42"
     },
     {
         "img_src": "little-nightmares.jpg",
@@ -483,6 +483,11 @@
         "img_src": "the-room-4.jpg",
         "name": "The Room 4 Old Sins",
         "amount_achievement": "0/9"
+    },
+    {
+        "img_src": "the-spell-brigade.jpg",
+        "name": "The Spell Brigade",
+        "amount_achievement": "50/54"
     },
     {
         "img_src": "thyria.jpg",
