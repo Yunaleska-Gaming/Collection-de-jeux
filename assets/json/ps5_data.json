@@ -259,8 +259,8 @@
         "silver_trophies": "7/7",
         "gold_trophies": "4/4",
         "bronze_trophies_dlc": "6/9",
-        "silver_trophies_dlc": "6/10",
-        "gold_trophies_dlc": "1/2"
+        "silver_trophies_dlc": "9/12",
+        "gold_trophies_dlc": "2/3"
     },
     {
         "img_src": "horizon-forbidden-west.png",
@@ -340,6 +340,16 @@
         "gold_trophies": "0/2",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "need-for-speed-hot.png",
+        "name": "Need for Speed Hot Pursuit Remastered",
+        "bronze_trophies": "0/35",
+        "silver_trophies": "0/9",
+        "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/16",
+        "silver_trophies_dlc": "0/4",
         "gold_trophies_dlc": "0/0"
     },
     {
@@ -449,7 +459,7 @@
         "img_src": "resident-evil-8.png",
         "name": "Resident Evil Village",
         "bronze_trophies": "38/40",
-        "silver_trophies": "4/6",
+        "silver_trophies": "5/6",
         "gold_trophies": "1/3",
         "bronze_trophies_dlc": "0/5",
         "silver_trophies_dlc": "0/1",
@@ -484,6 +494,16 @@
         "bronze_trophies_dlc": "0/6",
         "silver_trophies_dlc": "0/6",
         "gold_trophies_dlc": "0/2"
+    },
+    {
+        "img_src": "shin-megami-tensei-5.png",
+        "name": "Shin Megami Tensei V: Vengeance",
+        "bronze_trophies": "0/36",
+        "silver_trophies": "0/8",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
     },
     {
         "img_src": "silent-hill-short-message.png",
@@ -558,6 +578,16 @@
         "gold_trophies_dlc": "0/0"
     },
     {
+        "img_src": "suicide-squad-league.png",
+        "name": "Suicide Squac: Kill the Justice League",
+        "bronze_trophies": "0/34",
+        "silver_trophies": "0/15",
+        "gold_trophies": "0/1",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
         "img_src": "tales-of-arise.png",
         "name": "Tales of Arise",
         "bronze_trophies": "0/34",
@@ -599,7 +629,18 @@
         "gold_trophies_dlc": "0/0",
         "without_platine": true,
         "date_platined": "100% non obtenu"
-
+    },
+    {
+        "img_src": "tomb-raider-4-6.png",
+        "name": "Tomb Raider IV - V - VI Remastered",
+        "bronze_trophies": "0/x",
+        "silver_trophies": "0/x",
+        "gold_trophies": "0/0",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0",
+        "without_platine": true,
+        "date_platined": "100% non obtenu"
     },
     {
         "img_src": "tormented-souls.png",
@@ -627,6 +668,16 @@
         "bronze_trophies": "0/9",
         "silver_trophies": "0/14",
         "gold_trophies": "0/5",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "tunic.png",
+        "name": "Tunic",
+        "bronze_trophies": "0/17",
+        "silver_trophies": "0/16",
+        "gold_trophies": "0/3",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0"
@@ -660,6 +711,16 @@
         "silver_trophies": "0/7",
         "gold_trophies": "0/2",
         "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "wuthering-waves.png",
+        "name": "Wuthering Waves",
+        "bronze_trophies": "0/30",
+        "silver_trophies": "0/9",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/10",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0"
     }

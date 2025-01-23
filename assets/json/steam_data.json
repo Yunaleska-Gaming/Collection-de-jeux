@@ -1,5 +1,10 @@
 [
     {
+        "img_src": "afterimage.jpg",
+        "name": "Afterimage",
+        "amount_achievement": "0/46"
+    },
+    {
         "img_src": "alan-wake.jpg",
         "name": "Alan Wake",
         "amount_achievement": "0/67"
@@ -28,6 +33,11 @@
         "img_src": "black-desert.jpg",
         "name": "Black Desert : Online",
         "amount_achievement": "0/0"
+    },
+    {
+        "img_src": "black-myth-wukong.jpg",
+        "name": "Black Myth: Wukong",
+        "amount_achievement": "0/81"
     },
     {
         "img_src": "borderlands-1.jpg",
@@ -78,6 +88,11 @@
         "img_src": "dark-souls-3.jpg",
         "name": "Dark Souls 3",
         "amount_achievement": "0/43"
+    },
+    {
+        "img_src": "darkwood.jpg",
+        "name": "Darkwood",
+        "amount_achievement": "0/15"
     },
     {
         "img_src": "daymare-1998.jpg",
@@ -190,6 +205,11 @@
         "amount_achievement": "0/57"
     },
     {
+        "img_src": "grandblue-fantasy-relink.jpg",
+        "name": "Grandblue Fantasy: Relink",
+        "amount_achievement": "41/54"
+    },
+    {
         "img_src": "gris.jpg",
         "name": "Gris",
         "amount_achievement": "17/17"
@@ -217,7 +237,7 @@
     {
         "img_src": "lies-of-p.jpg",
         "name": "Lies of P",
-        "amount_achievement": "16/42"
+        "amount_achievement": "26/42"
     },
     {
         "img_src": "little-nightmares.jpg",
@@ -245,9 +265,14 @@
         "amount_achievement": "0/100"
     },
     {
+        "img_src": "neva.jpg",
+        "name": "Neva",
+        "amount_achievement": "0/18"
+    },
+    {
         "img_src": "nier-replicant.jpg",
         "name": "Nier Replicant ver.1.22474487139...",
-        "amount_achievement": "0/47"
+        "amount_achievement": "1/47"
     },
     {
         "img_src": "nier-automata.jpg",
@@ -258,6 +283,11 @@
         "img_src": "octopath-traveler.jpg",
         "name": "Octopath Traveler",
         "amount_achievement": "0/88"
+    },
+    {
+        "img_src": "okami-hd.jpg",
+        "name": "Okami HD",
+        "amount_achievement": "13/51"
     },
     {
         "img_src": "ori-and-the-blind-forest.jpg",
@@ -288,6 +318,11 @@
         "img_src": "palworld.jpg",
         "name": "Palworld",
         "amount_achievement": "15/31"
+    },
+    {
+        "img_src": "pankapu.jpg",
+        "name": "Pankapu",
+        "amount_achievement": "0/56"
     },
     {
         "img_src": "path-of-exile.jpg",
@@ -350,6 +385,11 @@
         "amount_achievement": "32/32"
     },
     {
+        "img_src": "resident-evil-4.jpg",
+        "name": "Resident Evil 4",
+        "amount_achievement": "23/46"
+    },
+    {
         "img_src": "resident-evil-4-hd.jpg",
         "name": "Resident Evil 4 HD",
         "amount_achievement": "12/12"
@@ -367,12 +407,12 @@
     {
         "img_src": "resident-evil-7.jpg",
         "name": "Resident Evil 7",
-        "amount_achievement": "13/58"
+        "amount_achievement": "19/58"
     },
     {
         "img_src": "resident-evil-8.jpg",
         "name": "Resident Evil Village",
-        "amount_achievement": "0/56"
+        "amount_achievement": "30/56"
     },
     {
         "img_src": "resident-evil-revelation.jpg",
@@ -390,9 +430,19 @@
         "amount_achievement": "0/51"
     },
     {
+        "img_src": "ruined-king.jpg",
+        "name": "Ruined King: A League of Legend's Story",
+        "amount_achievement": "0/52"
+    },
+    {
         "img_src": "scarlet-nexus.jpg",
         "name": "Scarlet Nexus",
         "amount_achievement": "0/53"
+    },
+    {
+        "img_src": "sekiro.jpg",
+        "name": "Sekiro: Shadow Die Twice",
+        "amount_achievement": "3/34"
     },
     {
         "img_src": "smite.jpg",
@@ -445,6 +495,11 @@
         "amount_achievement": "47/58"
     },
     {
+        "img_src": "temtem-swarm.jpg",
+        "name": "Temtem: Swarm",
+        "amount_achievement": "24/62"
+    },
+    {
         "img_src": "the-evil-within.jpg",
         "name": "The Evil Within",
         "amount_achievement": "24/71"
@@ -487,7 +542,7 @@
     {
         "img_src": "the-spell-brigade.jpg",
         "name": "The Spell Brigade",
-        "amount_achievement": "50/54"
+        "amount_achievement": "50/60"
     },
     {
         "img_src": "thyria.jpg",

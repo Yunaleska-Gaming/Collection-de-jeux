@@ -1886,6 +1886,16 @@
         "gold_trophies_dlc": "0/0"
     },
     {
+        "img_src": "tunic.png",
+        "name": "Tunic",
+        "bronze_trophies": "4/17",
+        "silver_trophies": "2/16",
+        "gold_trophies": "1/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
         "img_src": "uncharted-1.png",
         "name": "Uncharted : Drake's Fortune Remastered",
         "bronze_trophies": "31/34",
