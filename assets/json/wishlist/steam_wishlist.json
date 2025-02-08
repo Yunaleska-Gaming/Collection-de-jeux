@@ -1,8 +1,18 @@
 [
     {
+        "img_src": "biped-2.jpg",
+        "name": "Biped 2",
+        "text": "En attente de date"
+    },
+    {
+        "img_src": "borderlands-4.jpg",
+        "name": "Borderlands 4",
+        "text": "En attente de date"
+    },
+    {
         "img_src": "bravely-default-2.jpg",
         "name": "Bravely Default II",
-        "text": "Priorité : Haute"
+        "text": "Priorité : Moyenne"
     },
     {
         "img_src": "league-of-legends-convergence.jpg",
@@ -27,16 +37,11 @@
     {
         "img_src": "hollow-knight-silksong.jpg",
         "name": "Hollow Knight Silksong",
-        "text": "Priorité : Haute"
+        "text": "En attente de date"
     },
     {
         "img_src": "tormented-souls-2.jpg",
         "name": "Tormented Souls II",
-        "text": "Priorité : Haute"
-    },
-    {
-        "img_src": "wild-hearts.jpg",
-        "name": "Wild Hearts",
-        "text": "Priorité : Moyenne"
+        "text": "En attente de date"
     }
 ]

@@ -387,7 +387,7 @@
     {
         "img_src": "resident-evil-4.jpg",
         "name": "Resident Evil 4",
-        "amount_achievement": "23/46"
+        "amount_achievement": "39/46"
     },
     {
         "img_src": "resident-evil-4-hd.jpg",
@@ -588,6 +588,11 @@
         "img_src": "warframe.jpg",
         "name": "Warframe",
         "amount_achievement": "156/193"
+    },
+    {
+        "img_src": "wild-hearts.jpg",
+        "name": "Wild Hearts",
+        "amount_achievement": "0/48"
     },
     {
         "img_src": "x-blades.jpg",

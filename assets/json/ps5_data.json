@@ -528,6 +528,16 @@
         "gold_trophies_dlc": "0/0"
     },
     {
+        "img_src": "soul-reaver.png",
+        "name": "Legacy of Kain : Soul Reaver 1 & 2 Remastered",
+        "bronze_trophies": "36/42",
+        "silver_trophies": "9/11",
+        "gold_trophies": "1/1",
+        "bronze_trophies_dlc": "0/7",
+        "silver_trophies_dlc": "0/18",
+        "gold_trophies_dlc": "0/4"
+    },
+    {
         "img_src": "spirit-of-the-north.png",
         "name": "Spirit of the North",
         "bronze_trophies": "0/8",
@@ -717,9 +727,9 @@
     {
         "img_src": "wuthering-waves.png",
         "name": "Wuthering Waves",
-        "bronze_trophies": "0/30",
-        "silver_trophies": "0/9",
-        "gold_trophies": "0/3",
+        "bronze_trophies": "26/30",
+        "silver_trophies": "3/9",
+        "gold_trophies": "2/3",
         "bronze_trophies_dlc": "0/10",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0"

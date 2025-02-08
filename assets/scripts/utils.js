@@ -234,6 +234,6 @@ export async function findGame(platform, gameName) {
 export function adjustFontSizes() {
     document.querySelectorAll('.game-name').forEach(element => {
         const length = element.textContent.length;
-        element.style.fontSize = length > 20 ? '13px' : length > 15 ? '14px' : length > 10 ? '15px' : '16px';
+        element.style.fontSize = length > 25 ? '12px' : length > 20 ? '13px' : length > 15 ? '14px' : length > 10 ? '15px' : '16px';
     });
 }

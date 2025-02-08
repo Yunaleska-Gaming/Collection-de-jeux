@@ -1548,6 +1548,26 @@
         "gold_trophies_dlc": "0/0"
     },
     {
+        "img_src": "soul-reaver.png",
+        "name": "Legacy of Kain : Soul Reaver Remastered",
+        "bronze_trophies": "0/42",
+        "silver_trophies": "0/11",
+        "gold_trophies": "0/1",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "soul-reaver.png",
+        "name": "Legacy of Kain : Soul Reaver 2 Remastered",
+        "bronze_trophies": "0/7",
+        "silver_trophies": "0/18",
+        "gold_trophies": "0/4",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
         "img_src": "sniper-elite-4.png",
         "name": "Sniper Elite 4",
         "bronze_trophies": "0/38",
