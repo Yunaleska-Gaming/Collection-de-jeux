@@ -958,6 +958,26 @@
         "gold_trophies_dlc": "0/0"
     },
     {
+        "img_src": "soul-reaver.png",
+        "name": "Legacy of Kain : Soul Reaver Remastered",
+        "bronze_trophies": "0/42",
+        "silver_trophies": "0/11",
+        "gold_trophies": "0/1",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "soul-reaver.png",
+        "name": "Legacy of Kain : Soul Reaver 2 Remastered",
+        "bronze_trophies": "0/7",
+        "silver_trophies": "0/18",
+        "gold_trophies": "0/4",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
         "img_src": "sims-4.png",
         "name": "Les Sims 4",
         "bronze_trophies": "0/41",
@@ -1543,26 +1563,6 @@
         "bronze_trophies": "19/36",
         "silver_trophies": "2/10",
         "gold_trophies": "0/2",
-        "bronze_trophies_dlc": "0/0",
-        "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
-    },
-    {
-        "img_src": "soul-reaver.png",
-        "name": "Legacy of Kain : Soul Reaver Remastered",
-        "bronze_trophies": "0/42",
-        "silver_trophies": "0/11",
-        "gold_trophies": "0/1",
-        "bronze_trophies_dlc": "0/0",
-        "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
-    },
-    {
-        "img_src": "soul-reaver.png",
-        "name": "Legacy of Kain : Soul Reaver 2 Remastered",
-        "bronze_trophies": "0/7",
-        "silver_trophies": "0/18",
-        "gold_trophies": "0/4",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0"

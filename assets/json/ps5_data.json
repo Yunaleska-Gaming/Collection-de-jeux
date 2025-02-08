@@ -303,6 +303,16 @@
         "gold_trophies_dlc": "0/0"
     },
     {
+        "img_src": "soul-reaver.png",
+        "name": "Legacy of Kain : Soul Reaver 1 & 2 Remastered",
+        "bronze_trophies": "36/42",
+        "silver_trophies": "9/11",
+        "gold_trophies": "1/1",
+        "bronze_trophies_dlc": "0/7",
+        "silver_trophies_dlc": "0/18",
+        "gold_trophies_dlc": "0/4"
+    },
+    {
         "img_src": "lies-of-p.png",
         "name": "Lies of P",
         "bronze_trophies": "0/26",
@@ -528,16 +538,6 @@
         "gold_trophies_dlc": "0/0"
     },
     {
-        "img_src": "soul-reaver.png",
-        "name": "Legacy of Kain : Soul Reaver 1 & 2 Remastered",
-        "bronze_trophies": "36/42",
-        "silver_trophies": "9/11",
-        "gold_trophies": "1/1",
-        "bronze_trophies_dlc": "0/7",
-        "silver_trophies_dlc": "0/18",
-        "gold_trophies_dlc": "0/4"
-    },
-    {
         "img_src": "spirit-of-the-north.png",
         "name": "Spirit of the North",
         "bronze_trophies": "0/8",
@@ -589,7 +589,7 @@
     },
     {
         "img_src": "suicide-squad-league.png",
-        "name": "Suicide Squac: Kill the Justice League",
+        "name": "Suicide Squad : Kill the Justice League",
         "bronze_trophies": "0/34",
         "silver_trophies": "0/15",
         "gold_trophies": "0/1",
