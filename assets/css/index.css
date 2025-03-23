@@ -198,3 +198,16 @@ iframe { width: 100%; height: 100%;}
         padding : 20px 0;
     }
 }
+
+.success-index {
+    color : green;
+}
+
+.ingame-index {
+    color : blueviolet;
+}
+
+.challenge-link {
+    color: var(--second-color);
+    text-decoration: none;
+}

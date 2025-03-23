@@ -20,6 +20,16 @@
         "gold_trophies_dlc": "0/0"
     },
     {
+        "img_src": "aliens-dark-descent.png",
+        "name": "Aliens : Dark Descent",
+        "bronze_trophies": "0/36",
+        "silver_trophies": "0/5",
+        "gold_trophies": "0/4",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
         "img_src": "aliens-fireteam-elite.png",
         "name": "Aliens : Fireteam Elite",
         "bronze_trophies": "0/25",
@@ -871,6 +881,16 @@
         "bronze_trophies": "0/34",
         "silver_trophies": "0/11",
         "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "it-takes-two.png",
+        "name": "It Takes Two",
+        "bronze_trophies": "0/10",
+        "silver_trophies": "0/0",
+        "gold_trophies": "0/10",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0"
@@ -1783,6 +1803,16 @@
         "date_platined": "Platiné le 19/01/2018"
     },
     {
+        "img_src": "stanley-parable.png",
+        "name": "The Stanley Parable : Ultra Deluxe",
+        "bronze_trophies": "0/0",
+        "silver_trophies": "0/0",
+        "gold_trophies": "0/11",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
         "img_src": "theatrhythm.png",
         "name": "Theatrhythm Final Bar Line",
         "bronze_trophies": "24/24",
@@ -1827,20 +1857,53 @@
     {
         "img_src": "tomb-raider-2.png",
         "name": "Tomb Raider II Remastered",
-        "bronze_trophies": "61/62",
+        "bronze_trophies": "62/62",
         "silver_trophies": "4/4",
         "gold_trophies": "0/0",
         "bronze_trophies_dlc": "0/23",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 15/02/2025"
+        
     },
     {
         "img_src": "tomb-raider-3.png",
         "name": "Tomb Raider III Remastered",
-        "bronze_trophies": "15/50",
-        "silver_trophies": "3/10",
+        "bronze_trophies": "50/50",
+        "silver_trophies": "10/10",
         "gold_trophies": "0/0",
         "bronze_trophies_dlc": "0/21",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 02/03/2025"
+    },
+    {
+        "img_src": "tomb-raider-4.png",
+        "name": "Tomb Raider: The Last Revelation Remastered",
+        "bronze_trophies": "19/58",
+        "silver_trophies": "0/6",
+        "gold_trophies": "0/0",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "tomb-raider-5.png",
+        "name": "Tomb Raider: Chronicles Remastered",
+        "bronze_trophies": "0/40",
+        "silver_trophies": "0/6",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "tomb-raider-6.png",
+        "name": "Tomb Raider: Angel of Darkness Remastered",
+        "bronze_trophies": "0/48",
+        "silver_trophies": "0/5",
+        "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0"
     },
@@ -1952,6 +2015,36 @@
         "bronze_trophies": "0/6",
         "silver_trophies": "0/17",
         "gold_trophies": "0/5",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "voice-of-cards-dragon.png",
+        "name": "Voice of Cards : The Isle Dragon Roars",
+        "bronze_trophies": "0/36",
+        "silver_trophies": "0/7",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "voice-of-cards-forsaken.png",
+        "name": "Voice of Cards : The Forsaken Maiden",
+        "bronze_trophies": "0/24",
+        "silver_trophies": "0/14",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "voice-of-cards-beast.png",
+        "name": "Voice of Cards : The Beasts of Burden",
+        "bronze_trophies": "0/30",
+        "silver_trophies": "0/8",
+        "gold_trophies": "0/4",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0"

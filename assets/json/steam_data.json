@@ -115,6 +115,11 @@
         "amount_achievement": "0/59"
     },
     {
+        "img_src": "dying-light.jpg",
+        "name": "Dying Light",
+        "amount_achievement": "0/78"
+    },
+    {
         "img_src": "elden-ring.jpg",
         "name": "Elden Ring",
         "amount_achievement": "30/42"
@@ -123,6 +128,11 @@
         "img_src": "ender-lilies.jpg",
         "name": "Ender Lilies",
         "amount_achievement": "0/38"
+    },
+    {
+        "img_src": "ender-magnolia.jpg",
+        "name": "Ender Magnolia",
+        "amount_achievement": "0/40"
     },
     {
         "img_src": "evergate.jpg",
@@ -147,7 +157,7 @@
     {
         "img_src": "final-fantasy-7.jpg",
         "name": "Final Fantasy VII",
-        "amount_achievement": "0/36"
+        "amount_achievement": "6/36"
     },
     {
         "img_src": "final-fantasy-8.jpg",
@@ -167,7 +177,7 @@
     {
         "img_src": "final-fantasy-10.jpg",
         "name": "Final Fantasy X/X-2 HD Remaster",
-        "amount_achievement": "36/69"
+        "amount_achievement": "37/69"
     },
     {
         "img_src": "final-fantasy-12.jpg",
@@ -225,6 +235,11 @@
         "amount_achievement": "45/63"
     },
     {
+        "img_src": "journey.jpg",
+        "name": "Journey",
+        "amount_achievement": "0/14"
+    },
+    {
         "img_src": "last-epoch.jpg",
         "name": "Last Epoch",
         "amount_achievement": "0/0"
@@ -238,6 +253,11 @@
         "img_src": "lies-of-p.jpg",
         "name": "Lies of P",
         "amount_achievement": "26/42"
+    },
+    {
+        "img_src": "little-kitty.jpg",
+        "name": "Little Kitty, Big City",
+        "amount_achievement": "0/39"
     },
     {
         "img_src": "little-nightmares.jpg",
@@ -258,6 +278,11 @@
         "img_src": "monster-hunter-world.jpg",
         "name": "Monster Hunter World",
         "amount_achievement": "0/100"
+    },
+    {
+        "img_src": "mortal-kombat-1.jpg",
+        "name": "Mortal Kombat 1",
+        "amount_achievement": "0/50"
     },
     {
         "img_src": "monster-hunter-rise.jpg",
@@ -317,7 +342,7 @@
     {
         "img_src": "palworld.jpg",
         "name": "Palworld",
-        "amount_achievement": "15/31"
+        "amount_achievement": "15/44"
     },
     {
         "img_src": "pankapu.jpg",
@@ -330,6 +355,11 @@
         "amount_achievement": "17/127"
     },
     {
+        "img_src": "persona-3-reload.jpg",
+        "name": "Persona 3 : Reload",
+        "amount_achievement": "0/56"
+    },
+    {
         "img_src": "persona-4.jpg",
         "name": "Persona 4 : Golden",
         "amount_achievement": "0/50"
@@ -338,6 +368,11 @@
         "img_src": "phasmophobia.jpg",
         "name": "Phasmophobia",
         "amount_achievement": "21/54"
+    },
+    {
+        "img_src": "planet-of-lana.jpg",
+        "name": "Planet of Lana",
+        "amount_achievement": "0/25"
     },
     {
         "img_src": "portal.jpg",
@@ -387,7 +422,7 @@
     {
         "img_src": "resident-evil-4.jpg",
         "name": "Resident Evil 4",
-        "amount_achievement": "39/46"
+        "amount_achievement": "42/46"
     },
     {
         "img_src": "resident-evil-4-hd.jpg",
@@ -445,6 +480,11 @@
         "amount_achievement": "3/34"
     },
     {
+        "img_src": "silent-hill-2.jpg",
+        "name": "Silent Hill 2",
+        "amount_achievement": "0/43"
+    },
+    {
         "img_src": "smite.jpg",
         "name": "Smite",
         "amount_achievement": "10/313"
@@ -452,6 +492,11 @@
     {
         "img_src": "song-of-horror.jpg",
         "name": "Song of Horror",
+        "amount_achievement": "0/44"
+    },
+    {
+        "img_src": "song-of-nunu.jpg",
+        "name": "Song of Nunu",
         "amount_achievement": "0/44"
     },
     {
@@ -497,7 +542,7 @@
     {
         "img_src": "temtem-swarm.jpg",
         "name": "Temtem: Swarm",
-        "amount_achievement": "24/62"
+        "amount_achievement": "25/64"
     },
     {
         "img_src": "the-evil-within.jpg",
@@ -542,7 +587,12 @@
     {
         "img_src": "the-spell-brigade.jpg",
         "name": "The Spell Brigade",
-        "amount_achievement": "50/60"
+        "amount_achievement": "52/64"
+    },
+    {
+        "img_src": "them-and-us.jpg",
+        "name": "Them and Us",
+        "amount_achievement": "8/40"
     },
     {
         "img_src": "thyria.jpg",
@@ -558,6 +608,11 @@
         "img_src": "titan-quest.jpg",
         "name": "Titan Quest",
         "amount_achievement": "3/115"
+    },
+    {
+        "img_src": "tomb-raider-1-3.jpg",
+        "name": "TOmb Raider I - III Remastered",
+        "amount_achievement": "27/269"
     },
     {
         "img_src": "tormented-souls.jpg",
@@ -590,9 +645,14 @@
         "amount_achievement": "156/193"
     },
     {
+        "img_src": "wavetale.jpg",
+        "name": "Wavetale",
+        "amount_achievement": "0/14"
+    },
+    {
         "img_src": "wild-hearts.jpg",
         "name": "Wild Hearts",
-        "amount_achievement": "0/48"
+        "amount_achievement": "2/48"
     },
     {
         "img_src": "x-blades.jpg",

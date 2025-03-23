@@ -20,6 +20,16 @@
         "gold_trophies_dlc": "0/0"
     },
     {
+        "img_src": "aliens-dark-descent.png",
+        "name": "Aliens : Dark Descent",
+        "bronze_trophies": "0/36",
+        "silver_trophies": "0/5",
+        "gold_trophies": "0/4",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
         "img_src": "aliens-fireteam-elite.png",
         "name": "Aliens : Fireteam Elite",
         "bronze_trophies": "0/25",
@@ -259,7 +269,7 @@
         "silver_trophies": "7/7",
         "gold_trophies": "4/4",
         "bronze_trophies_dlc": "6/9",
-        "silver_trophies_dlc": "9/12",
+        "silver_trophies_dlc": "10/12",
         "gold_trophies_dlc": "2/3"
     },
     {
@@ -278,6 +288,16 @@
         "bronze_trophies": "0/28",
         "silver_trophies": "0/18",
         "gold_trophies": "0/1",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "it-takes-two.png",
+        "name": "It Takes Two",
+        "bronze_trophies": "0/10",
+        "silver_trophies": "0/0",
+        "gold_trophies": "0/10",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0"
@@ -629,6 +649,16 @@
         "gold_trophies_dlc": "0/0"
     },
     {
+        "img_src": "stanley-parable.png",
+        "name": "The Stanley Parable : Ultra Deluxe",
+        "bronze_trophies": "0/0",
+        "silver_trophies": "0/0",
+        "gold_trophies": "0/11",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
         "img_src": "tomb-raider-1-3.png",
         "name": "Tomb Raider I - II - III Remastered",
         "bronze_trophies": "0/253",
@@ -643,14 +673,12 @@
     {
         "img_src": "tomb-raider-4-6.png",
         "name": "Tomb Raider IV - V - VI Remastered",
-        "bronze_trophies": "0/x",
-        "silver_trophies": "0/x",
+        "bronze_trophies": "0/146",
+        "silver_trophies": "0/17",
         "gold_trophies": "0/0",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0",
-        "without_platine": true,
-        "date_platined": "100% non obtenu"
+        "gold_trophies_dlc": "0/0"
     },
     {
         "img_src": "tormented-souls.png",
