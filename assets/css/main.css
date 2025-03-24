@@ -415,7 +415,7 @@ a { color : var(--white-color);}
 
 	.link, .sub-link {
 		padding: 30px 10px;
-		font-size : 0.9rem;
+		font-size : 0.8rem;
 	}
 	.list { gap : 0; }
 	.site-main { margin-left: 28%;}
