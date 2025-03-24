@@ -385,7 +385,6 @@ a { color : var(--white-color);}
 }
 
 @media only screen and (max-width: 768px) {
-
 	.header-icon {
         display: none;
     }
@@ -398,8 +397,26 @@ a { color : var(--white-color);}
 	.list { gap : 2rem; }
 }
 
+@media only screen and (max-width: 720px) {
+	.limits {
+		margin: 0 2%;
+	}
+	.link, .sub-link {
+		padding: 30px 10px;
+		font-size : 0.9rem;
+	}
+	.list { gap : 0; }
+}
 
 @media only screen and (max-width: 480px) {
+	.limits {
+		margin: 0 2%;
+	}
+
+	.link, .sub-link {
+		padding: 30px 10px;
+		font-size : 0.9rem;
+	}
 	.list { gap : 0; }
 	.site-main { margin-left: 28%;}
 	.site-sidebar__back {width: 28%;}
@@ -412,4 +429,6 @@ a { color : var(--white-color);}
 		overflow: auto;
 	}
 }
+
+
 

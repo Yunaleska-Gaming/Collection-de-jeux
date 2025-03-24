@@ -135,6 +135,8 @@ iframe { width: 100%; height: 100%;}
     margin: 0;
 }
 
+/* RESPONSIVE */
+
 @media only screen and (max-width: 1920px) {
     .section-title { 
     font-size: 1.5rem; 

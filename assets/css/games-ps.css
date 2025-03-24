@@ -148,3 +148,117 @@
         transform : rotate(360deg);
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .site-sidebar__back {
+        position: relative;
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .site-sidebar__avatar img {
+        width: 200px;
+    }
+
+    .site-sidebar__pseudo {
+        font-size : 1.5rem;
+    }
+
+    .site-sidebar__avatar-pseudo {
+        width: 200px;
+        padding: 10px;
+    }
+
+    .block-trophies {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    #platine-responsive,
+    #gold-responsive,
+    #silver-responsive,
+    #bronze-responsive {
+        width: 100%;
+    }
+
+    .site-sidebar__informations {
+        width: 66%;
+    }
+
+    .item-line { margin-top : 12px; }
+
+    .site-main {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .site-sidebar__back {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        width: 100%;
+    }
+
+    .site-sidebar__avatar img {
+        width: 130px;
+    }
+
+    .site-sidebar__pseudo {
+        font-size : 1rem;
+    }
+
+    .site-sidebar__avatar-pseudo {
+        width: 130px;
+        padding: 10px 0 0 10px;
+    }
+
+    .block-trophies {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.8rem;
+    }
+
+    #platine-responsive,
+    #gold-responsive,
+    #silver-responsive,
+    #bronze-responsive {
+        width: 100%;
+        font-size: 0.7rem;
+    }
+
+    .item-line {
+        font-size: 0.7rem;
+    }
+
+    .site-sidebar__informations {
+        width: 65%;
+        font-size: 0.7rem;
+    }
+
+    .item-line { margin-top : 12px; }
+
+    .site-main {
+        margin-left: 0;
+    }
+
+    .games-show img {
+       width : 165px;
+    }
+
+    .game-name,
+    .games-trophies,
+    .date-platined,
+    .content h2
+    {
+        font-size: 0.7rem;
+        padding : 0;
+    }
+
+    .games-show:hover .content {
+        height: 140px;
+    }
+}
