@@ -192,6 +192,8 @@
     .site-main {
         margin-left: 0;
     }
+
+    .section-title {font-size: 1rem;}
 }
 
 @media only screen and (max-width: 480px) {
@@ -245,20 +247,59 @@
         margin-left: 0;
     }
 
-    .games-show img {
-       width : 165px;
+    .section-title {font-size: 1rem;}
+}
+
+@media only screen and (max-width: 425px) {
+    .site-sidebar__back {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        width: 100%;
     }
 
-    .game-name,
-    .games-trophies,
-    .date-platined,
-    .content h2
-    {
+    .site-sidebar__avatar img {
+        width: 80px;
+    }
+
+    .site-sidebar__pseudo {
+        font-size : 0.6rem;
+    }
+
+    .site-sidebar__avatar-pseudo {
+        width: 80px;
+        padding: 10px 0 0 10px;
+    }
+
+    .block-trophies {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.1rem;
+    }
+
+    #platine-responsive,
+    #gold-responsive,
+    #silver-responsive,
+    #bronze-responsive {
+        width: 100%;
         font-size: 0.7rem;
-        padding : 0;
     }
 
-    .games-show:hover .content {
-        height: 140px;
+    .item-line {
+        font-size: 0.7rem;
     }
+
+    .site-sidebar__informations {
+        width: 72%;
+        font-size: 0.7rem;
+    }
+
+    .item-line { margin-top : 12px; }
+
+    .site-main {
+        margin-left: 0;
+    }
+
+    .section-title {font-size: 1rem;}
 }
