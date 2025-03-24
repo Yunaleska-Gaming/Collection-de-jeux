@@ -156,6 +156,10 @@ iframe { width: 100%; height: 100%;}
 
 
 @media only screen and (max-width: 768px) {
+    .site-main {
+       margin: 0 auto;
+    }
+
     .column-left, .column-middle, .column-right {
         width: 100%;
     }
@@ -174,12 +178,12 @@ iframe { width: 100%; height: 100%;}
     }
 
     .twitch-screen {
-        width : 97%;
+        width : 95%;
         height : 378px;
     }
 
     .twitch-rewards, .twitch-rewards:last-of-type {
-        width : 97%;
+        width : 95%;
     }
 
     .index-planning {
@@ -199,6 +203,7 @@ iframe { width: 100%; height: 100%;}
         font-size: 1rem; 
         padding : 20px 0;
     }
+
 }
 
 .success-index {
