@@ -9,13 +9,18 @@ async function fetchData(platform) {
         let totalEarned = 0;
         let totalPossible = 0;
         let gamesPlatinedCount = 0;
+        let gamesWithAchievementsCount = 0;
         const fragment = document.createDocumentFragment();
 
         games.forEach(game => {
             const { earned, total, percent } = calculateGameStats(game.amount_achievement);
-            totalEarned += earned;
-            totalPossible += total;
-            if (percent === 100) gamesPlatinedCount++;
+
+            if (total > 0) {
+                totalEarned += earned;
+                totalPossible += total;
+                gamesWithAchievementsCount++;
+                if (percent === 100) gamesPlatinedCount++;
+            }
 
             const gameItem = createSteamItem(game, percent);
             fragment.appendChild(gameItem);
@@ -25,10 +30,13 @@ async function fetchData(platform) {
 
         adjustFontSizes();
 
-        const percentCompletion = (totalEarned / totalPossible) * 100;
+        const percentCompletion = totalPossible > 0 
+            ? (totalEarned / totalPossible) * 100 
+            : 0;
+            
         document.getElementById('percent_completion').textContent = `${percentCompletion.toFixed(2)}%`;
         document.getElementById('achievements_count').innerHTML = `<img src="https://zupimages.net/up/23/28/zq6r.png" class="site-sidebar-achievement" />${totalEarned}/${totalPossible}`;
-        document.getElementById('games_platined').innerHTML = `<img src="https://zupimages.net/up/23/28/w9k3.png" class="site-sidebar-achievement" /> ${gamesPlatinedCount}/${games.length}`;
+        document.getElementById('games_platined').innerHTML = `<img src="https://zupimages.net/up/23/28/w9k3.png" class="site-sidebar-achievement" /> ${gamesPlatinedCount}/${gamesWithAchievementsCount}`;
     } catch (error) {
         console.error('Error fetching the JSON file:', error);
     }

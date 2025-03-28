@@ -1,34 +1,34 @@
 [
     {
-        "img_src": "https://www.micromania.fr/dw/image/v2/BCRB_PRD/on/demandware.static/-/Sites-masterCatalog_Micromania/default/dw1429adc9/images/high-res/Jeux_switch/41113.jpg",
+        "img_src": "pokemon-soulsilver.png",
         "name": "Pokémon Argent Soulsilver",
         "completions": [
             "Pas encore joué"
         ]
     },
     {
-        "img_src": "https://www.romstation.fr/romstation/resources/games/nds/cover/78326.jpg",
-        "name": "Pokémon Cristal",
+        "img_src": "pokemon-emerald.png",
+        "name": "Pokémon Delta Emerald",
         "completions": [
             "Pas encore joué"
         ]
     },
     {
-        "img_src": "https://m.media-amazon.com/images/I/51c4DaSpEHL._AC_UF1000,1000_QL80_.jpg",
+        "img_src": "pokemon-noire.png",
         "name": "Pokémon Noire",
         "completions": [
             "Pas encore joué"
         ]
     },
     {
-        "img_src": "https://www.pokepedia.fr/images/thumb/8/82/Jaquette_de_Pok%C3%A9mon_version_Noire_2.jpeg/800px-Jaquette_de_Pok%C3%A9mon_version_Noire_2.jpeg",
+        "img_src": "pokemon-noire-2.png",
         "name": "Pokémon Noire 2",
         "completions": [
             "Pas encore joué"
         ]
     },
     {
-        "img_src": "https://static.fnac-static.com/multimedia/Images/FR/NR/d4/74/5f/6255828/1507-1/tsp20221215194204/Pokemon-Rubis-Omega-3DS.jpg",
+        "img_src": "pokemon-omega-ruby.png",
         "name": "Pokémon Rubis Oméga",
         "completions": [
             "Pas encore joué"
@@ -43,7 +43,7 @@
         ]
     },
     {
-        "img_src": "https://m.media-amazon.com/images/I/818MNsl62QL._AC_SL1500_.jpg",
+        "img_src": "pokemon-ultra-moon.png",
         "name": "Pokémon Ultra-Lune",
         "completions": [
             "8 Badges / 8 Badges",
@@ -51,28 +51,28 @@
         ]
     },
     {
-        "img_src": "https://m.media-amazon.com/images/I/71ylsFLVpmL._AC_SL1145_.jpg",
+        "img_src": "pokemon-x.png",
         "name": "Pokémon X",
         "completions": [
             "Pas encore joué"
         ]
     },
     {
-        "img_src": "https://m.media-amazon.com/images/I/618sBryrcAS._AC_UF1000,1000_QL80_.jpg",
+        "img_src": "final-fantasy-theatrhythm.png",
         "name": "Theatrhythm Final Fantasy",
         "completions": [
             "Toutes les musiques débloquées"
         ]
     },
     {
-        "img_src": "https://image.jeuxvideo.com/images/jaquettes/00050227/jaquette-theatrhythm-final-fantasy-curtain-call-nintendo-3ds-cover-avant-g-1410164451.jpg",
+        "img_src": "final-fantasy-curtain-call.png",
         "name": "Theatrhythm Final Fantasy : Curtain's Call",
         "completions": [
             "Toutes les musiques débloquées"
         ]
     },
     {
-        "img_src": "https://m.media-amazon.com/images/I/81ZJ6JqYoKL._AC_UF1000,1000_QL80_.jpg",
+        "img_src": "zelda-ocarina-of-time.png",
         "name": "The legend of zelda : Ocarina of time 3D",
         "completions": [
             "Histoire complétée",

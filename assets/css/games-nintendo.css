@@ -232,3 +232,43 @@
 	width : 305px;
 	padding : 10px;
 }
+
+@media only screen and (max-width: 768px) {
+    .site-sidebar__back {
+        position: relative;
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+		align-items: center;
+		justify-content: space-around;
+    }
+
+    .site-sidebar__avatar img { width: 100%; }
+    .site-sidebar__pseudo { font-size : 1.5rem; }
+    .site-sidebar__avatar-pseudo { width: 20%; }
+
+    .block-trophies {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+		width: 100%;
+    }
+
+    .site-sidebar__informations { width: 70%; }
+	.item-line { margin-top : 12px; padding: 0; }
+    .section-title {font-size: 1rem;}
+    .nintendo-main { margin-left: 0; }
+}
+
+@media only screen and (max-width: 480px) {
+    .site-sidebar__pseudo { font-size : 1rem; }
+    .block-trophies { gap: 0.2rem; }
+    .item-line { font-size: 0.7rem; }
+    .site-sidebar__informations { font-size: 0.7rem; }
+}
+
+@media only screen and (max-width: 425px) {
+    .site-sidebar__pseudo { font-size : 0.6rem; }
+    .block-trophies { gap: 0.1rem; }
+    .item-line { font-size: 0.6rem; }
+}

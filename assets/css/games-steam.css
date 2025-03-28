@@ -194,10 +194,6 @@ html,
 	}
 }
 
-#ori { font-size : 13px; }
-#project-zero-4 { font-size : 12px; }
-#project-zero-5 { font-size : 12px; }
-
 .not-completed-steam {
 	background-image :
     linear-gradient(black, black),
@@ -258,45 +254,42 @@ html,
 
 .no-achievement-game:after { content : ' Pas de succès '; }
 
-#biped-percent { width : 66%; }
-#bdl2-percent { width : 26%; }
-#bdl3-percent { width : 76%; }
-#bright-memory-percent { width : 50%; }
-#bright-memory-i-percent { width : 63%; }
-#elden-ring-percent { width : 71%; }
-#evergate-percent { width : 8%; }
-#ff4-percent { width : 75%; }
-#ff6-percent { width : 3%; }
-#ff8r-percent { width : 26%; }
-#ff10-percent { width : 52%; }
-#ff12-percent { width : 19%; }
-#hollow-knight-percent { width : 71%; }
-#lost-ark-percent { width : 14%; }
-#liesofp-percent { width: 21%; }
-#magic-duels-percent { width : 18%; }
-#ori-percent { width : 87%; }
-#ori2-percent { width : 75%; }
-#pacify-percent { width : 36%; }
-#palworld-percent { width : 48%; }
-#path-of-exile-percent { width : 13%; }
-#phasmo-percent { width : 38%; }
-#portal-percent { width : 33%; }
-#portal-2-percent { width : 6% }
-#project-zero-4-percent { width : 68%; }
-#project-zero-5-percent { width : 53%; }
-#re5-percent { width : 75%; }
-#re6-percent { width : 47%; }
-#re-revelations-percent {width : 28%;}
-#smite-percent { width : 1%; }
-#talesarise-percent { width : 81%; }
-#tew-percent { width : 32%; }
-#tew2-percent { width : 88%; }
-#the-first-tree-percent { width : 42%; }
-#tiny-tina-percent { width : 80%; }
-#titan-quest-percent { width : 2%; }
-#tormented-souls-percent { width : 86%; }
-#visage-percent { width : 81%; }
-#wallpaper-percent { width : 29%; }
-#warframe-percent { width : 80%; }
-#blades-percent { width : 25%; }
-#yugioh-percent { width : 10%; }
+@media only screen and (max-width: 768px) {
+    .site-sidebar__back {
+        position: relative;
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+		align-items: center;
+		justify-content: space-around;
+    }
+
+    .site-sidebar__avatar img { width: 100%; }
+    .site-sidebar__pseudo { font-size : 1.5rem; }
+    .site-sidebar__avatar-pseudo { width: 20%; }
+
+    .block-trophies {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+		width: 100%;
+    }
+
+    .site-sidebar__informations { width: 70%; }
+	.item-line { margin-top : 12px; padding: 0; }
+    .section-title {font-size: 1rem;}
+    .steam-main { margin-left: 0; }
+}
+
+@media only screen and (max-width: 480px) {
+    .site-sidebar__pseudo { font-size : 1rem; }
+    .block-trophies { gap: 0.2rem; }
+    .item-line { font-size: 0.7rem; }
+    .site-sidebar__informations { font-size: 0.7rem; }
+}
+
+@media only screen and (max-width: 425px) {
+    .site-sidebar__pseudo { font-size : 0.6rem; }
+    .block-trophies { gap: 0.1rem; }
+    .item-line { font-size: 0.6rem; }
+}

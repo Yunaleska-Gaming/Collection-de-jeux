@@ -199,21 +199,30 @@ export function createSwitchGame(game) {
 
 function createNintendoItem(game, platformClass, effectClass) {
     const gameDiv = document.createElement('div');
-    const completionDivs = game.completions.map(completion => `<div class="completion-nintendo">${completion}</div>`).join('');
+    const completionDivs = game.completions.map(completion => 
+        `<div class="completion-nintendo">${completion}</div>`
+    ).join('');
 
-    const platformClassName = platformClass === 'ds-nintendo' ? 'games-show-nintendo' : platformClass === 'switch-nintendo' ? 'games-show-switch' : '';
+    const isExternalUrl = game.img_src.startsWith('http://') || game.img_src.startsWith('https://');
+    
+    const imgSrc = isExternalUrl ? 
+        game.img_src : 
+        `assets/images/nintendo/${platformClass}/${game.img_src}`;
 
-    gameDiv.className = `${platformClassName} ${effectClass} ${platformClass}`
+    const platformClassName = platformClass === 'ds-nintendo' ? 'games-show-nintendo' : 
+                             platformClass === 'switch-nintendo' ? 'games-show-switch' : '';
+
+    gameDiv.className = `${platformClassName} ${effectClass} ${platformClass}`;
     gameDiv.innerHTML = `
-            <img src="${game.img_src}" alt="${game.name}" />
-            <div class="mask mask-1"></div>
-            <div class="mask mask-2"></div>
-            <div class="content">
-                <h2 class="game-name">${game.name}</h2>
-                <div class="games-trophies">
-                    ${completionDivs}
-                </div>
+        <img src="${imgSrc}" alt="${game.name}" />
+        <div class="mask mask-1"></div>
+        <div class="mask mask-2"></div>
+        <div class="content">
+            <h2 class="game-name">${game.name}</h2>
+            <div class="games-trophies">
+                ${completionDivs}
             </div>
+        </div>
     `;
     
     return gameDiv;

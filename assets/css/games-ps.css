@@ -155,141 +155,43 @@
         display: flex;
         gap: 1rem;
         width: 100%;
+		align-items: center;
+		justify-content: space-around;
     }
 
-    .site-sidebar__avatar img {
-        width: 200px;
-    }
-
-    .site-sidebar__pseudo {
-        font-size : 1.5rem;
-    }
-
-    .site-sidebar__avatar-pseudo {
-        width: 200px;
-        padding: 10px;
-    }
+    .site-sidebar__avatar img { width: 100%; }
+    .site-sidebar__pseudo { font-size : 1rem; }
+    .site-sidebar__avatar-pseudo { width: 20%; }
 
     .block-trophies {
         display: flex;
         justify-content: space-between;
         gap: 1rem;
+		width: 100%;
     }
 
+    .site-sidebar__informations { width: 70%; }
+	.item-line { margin-top : 12px; padding: 0; }
+    .section-title {font-size: 1rem;}
+    .ps-main { margin-left: 0; }
     #platine-responsive,
     #gold-responsive,
     #silver-responsive,
     #bronze-responsive {
         width: 100%;
+        font-size: 0.7rem;
     }
-
-    .site-sidebar__informations {
-        width: 66%;
-    }
-
-    .item-line { margin-top : 12px; }
-
-    .section-title {font-size: 1rem;}
-
-    .ps-main { margin-left: 0; }
 }
 
 @media only screen and (max-width: 480px) {
-    .site-sidebar__back {
-        position: relative;
-        display: flex;
-        align-items: center;
-        gap: 0.8rem;
-        width: 100%;
-    }
-
-    .site-sidebar__avatar img {
-        width: 130px;
-    }
-
-    .site-sidebar__pseudo {
-        font-size : 1rem;
-    }
-
-    .site-sidebar__avatar-pseudo {
-        width: 130px;
-        padding: 10px 0 0 10px;
-    }
-
-    .block-trophies {
-        display: flex;
-        justify-content: space-between;
-        gap: 0.2rem;
-    }
-
-    #platine-responsive,
-    #gold-responsive,
-    #silver-responsive,
-    #bronze-responsive {
-        width: 100%;
-        font-size: 0.7rem;
-    }
-
-    .item-line {
-        font-size: 0.7rem;
-    }
-
-    .site-sidebar__informations {
-        width: 65%;
-        font-size: 0.7rem;
-    }
-
-    .item-line { margin-top : 12px; }
-
-    .section-title {font-size: 1rem;}
+    .site-sidebar__pseudo { font-size : 0.7rem; }
+    .block-trophies { gap: 0.2rem; }
+    .item-line { font-size: 0.7rem; }
+    .site-sidebar__informations { font-size: 0.7rem; }
 }
 
 @media only screen and (max-width: 425px) {
-    .site-sidebar__back {
-        position: relative;
-        display: flex;
-        align-items: center;
-        gap: 0.8rem;
-        width: 100%;
-    }
-
-    .site-sidebar__avatar img {
-        width: 80px;
-    }
-
-    .site-sidebar__pseudo {
-        font-size : 0.6rem;
-    }
-
-    .site-sidebar__avatar-pseudo {
-        width: 80px;
-        padding: 10px 0 0 10px;
-    }
-
-    .block-trophies {
-        display: flex;
-        justify-content: space-between;
-        gap: 0.1rem;
-    }
-
-    #platine-responsive,
-    #gold-responsive,
-    #silver-responsive,
-    #bronze-responsive {
-        width: 100%;
-        font-size: 0.7rem;
-    }
-
-    .item-line {
-        font-size: 0.7rem;
-    }
-
-    .site-sidebar__informations {
-        width: 72%;
-        font-size: 0.7rem;
-    }
-
-    .item-line { margin-top : 12px; }
-
-    .section-title {font-size: 1rem;}
+    .site-sidebar__pseudo { font-size : 0.6rem; }
+    .block-trophies { gap: 0.1rem; }
+    .item-line { font-size: 0.6rem; }
 }
