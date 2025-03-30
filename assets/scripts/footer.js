@@ -22,7 +22,7 @@ class FooterElement extends HTMLElement {
                       <li class="site-footer__sub-item discord"><a class="site-navigation__link" href="https://discord.gg/r6M5Y2uuT4"></a></li>
                   </ul>
                   <p class="site-footer copyright" ${copyrightId ? `id="${copyrightId}"` : ''}>
-                    © 2024 Yunaleska's Collection. Tous droits réservés.
+                    © 2024-2025 Yunaleska's Collection. Tous droits réservés.
                   </p>
               </footer>
             `;

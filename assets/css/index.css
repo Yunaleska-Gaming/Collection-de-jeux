@@ -93,15 +93,12 @@ iframe { width: 100%; height: 100%;}
     justify-content: center;
 }
 
-.twitch-rewards img:not(.index-planning) {
+.twitch-rewards-img img {
     width : 56px;
 }
 
-.twitch-rewards:last-of-type { width: 50%;}
+.twitch-rewards:last-of-type { width: 50%; overflow: hidden;}
 
-.index-planning { 
-    width: 100%;
-}
 
 .twitch-section {
     display : flex;
@@ -239,4 +236,85 @@ iframe { width: 100%; height: 100%;}
 .challenge-link {
     color: var(--second-color);
     text-decoration: none;
+}
+
+
+/* PLANNING */
+
+#planning-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#planning-menu {
+    width: 100%;
+    text-align: center;
+    padding: 3px 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.day-slide-changer {
+    border: 0;
+    background: none;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    opacity: 0.5;
+    transition: 200ms opacity ease-in-out;
+}
+
+.day-slide-changer:hover,
+.day-slide-changer.is-active {
+    opacity: 1;
+}
+
+#planning-container {
+    transition: all 2s;
+    overflow-x: hidden;
+}
+
+.slider-days {
+    width: 3065px;
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: 300ms transform ease-in-out;
+    text-align: center;
+    align-items: center;
+}
+
+.days-content {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.day-tab {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    padding: 8px;
+    transition: 300ms opacity ease-in-out, 300ms transform ease-in-out, 300ms visibility ease-in-out;
+    transform: translateX(20px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.day.is-active {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+
+#planning-menu li img { 
+    width: 100%;
+}
+
+.planning-title { text-align: center;}
+
+.planning-title img { 
+    width: 79%;
 }
