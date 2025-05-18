@@ -90,6 +90,16 @@
         "gold_trophies_dlc": "0/0"
     },
     {
+        "img_src": "clair-obscur-33.png",
+        "name": "Clair Obscur : Expedition 33",
+        "bronze_trophies": "10/48",
+        "silver_trophies": "0/5",
+        "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
         "img_src": "crash-bandicoot-4.png",
         "name": "Crash Bandicoot 4 : It's About Time",
         "bronze_trophies": "20/40",
@@ -673,7 +683,7 @@
     {
         "img_src": "tomb-raider-4-6.png",
         "name": "Tomb Raider IV - V - VI Remastered",
-        "bronze_trophies": "0/146",
+        "bronze_trophies": "9/146",
         "silver_trophies": "0/17",
         "gold_trophies": "0/0",
         "bronze_trophies_dlc": "0/0",

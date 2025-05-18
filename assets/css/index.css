@@ -149,6 +149,10 @@ iframe { width: 100%; height: 100%;}
     color : blueviolet;
 }
 
+.hold-index {
+    color : rgb(206, 127, 36);
+}
+
 .challenge-link {
     color: var(--second-color);
     text-decoration: none;
@@ -157,13 +161,12 @@ iframe { width: 100%; height: 100%;}
 /* PLANNING */
 .week-planning {
     display: flex;
-    flex-wrap: wrap;
-    gap : 0 77px;
     justify-content: center;
+    height: 628px;
 }
 
 .week-planning img {
-    width: 25.1%;
+    object-fit: cover;
 }
 
 /* RESPONSIVE */

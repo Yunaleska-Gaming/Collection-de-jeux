@@ -70,6 +70,11 @@
         "amount_achievement": "19/30"
     },
     {
+        "img_src": "clair-obscur-33.jpg",
+        "name": "Clair Obscur : Expedition 33",
+        "amount_achievement": "30/55"
+    },
+    {
         "img_src": "content-warning.jpg",
         "name": "Content Warning",
         "amount_achievement": "0/0"
@@ -172,12 +177,12 @@
     {
         "img_src": "final-fantasy-9.jpg",
         "name": "Final Fantasy IX",
-        "amount_achievement": "0/85"
+        "amount_achievement": "7/85"
     },
     {
         "img_src": "final-fantasy-10.jpg",
         "name": "Final Fantasy X/X-2 HD Remaster",
-        "amount_achievement": "37/69"
+        "amount_achievement": "39/69"
     },
     {
         "img_src": "final-fantasy-12.jpg",
@@ -270,6 +275,11 @@
         "amount_achievement": "22/156"
     },
     {
+        "img_src": "madison.jpg",
+        "name": "MADiSON",
+        "amount_achievement": "14/32"
+    },
+    {
         "img_src": "magic-duels.jpg",
         "name": "Magic Duels",
         "amount_achievement": "9/49"
@@ -280,14 +290,14 @@
         "amount_achievement": "0/100"
     },
     {
-        "img_src": "mortal-kombat-1.jpg",
-        "name": "Mortal Kombat 1",
-        "amount_achievement": "0/50"
-    },
-    {
         "img_src": "monster-hunter-rise.jpg",
         "name": "Monster Hunter Rise",
         "amount_achievement": "0/100"
+    },
+    {
+        "img_src": "mortal-kombat-1.jpg",
+        "name": "Mortal Kombat 1",
+        "amount_achievement": "0/50"
     },
     {
         "img_src": "neva.jpg",
@@ -367,7 +377,7 @@
     {
         "img_src": "phasmophobia.jpg",
         "name": "Phasmophobia",
-        "amount_achievement": "21/54"
+        "amount_achievement": "23/54"
     },
     {
         "img_src": "planet-of-lana.jpg",
@@ -542,7 +552,7 @@
     {
         "img_src": "temtem-swarm.jpg",
         "name": "Temtem: Swarm",
-        "amount_achievement": "25/64"
+        "amount_achievement": "25/76"
     },
     {
         "img_src": "the-evil-within.jpg",
@@ -553,6 +563,11 @@
         "img_src": "the-evil-within-2.jpg",
         "name": "The Evil Within 2",
         "amount_achievement": "46/51"
+    },
+    {
+        "img_src": "the-first-berserker-khazan.jpg",
+        "name": "The First Berserker Khazan",
+        "amount_achievement": "0/57"
     },
     {
         "img_src": "the-first-tree.jpg",
@@ -587,12 +602,12 @@
     {
         "img_src": "the-spell-brigade.jpg",
         "name": "The Spell Brigade",
-        "amount_achievement": "52/64"
+        "amount_achievement": "65/73"
     },
     {
         "img_src": "them-and-us.jpg",
         "name": "Them and Us",
-        "amount_achievement": "18/40"
+        "amount_achievement": "29/40"
     },
     {
         "img_src": "thyria.jpg",
