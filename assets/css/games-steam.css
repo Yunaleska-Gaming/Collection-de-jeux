@@ -1,4 +1,12 @@
 /*RACINE & CSS GENERAL */
+::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+::-webkit-scrollbar-thumb{
+  background : #171d25;
+}
+
 html,
 .percentage-bar {
 	background : var(--light-grey-steam);

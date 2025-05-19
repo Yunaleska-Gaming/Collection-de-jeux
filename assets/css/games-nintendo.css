@@ -1,46 +1,46 @@
 /*RACINE & CSS GENERAL */
 :root {
-	--second-color : #e60012;
+    --second-color : #e60012;
 }
 
 .site-header {
-  background-color : var(--nintendo-color);
-  background-image : none;
+    background-color : var(--nintendo-color);
+    background-image : none;
 }
 
 .games-show-nintendo {
-  margin: 10px;
-  overflow: hidden;
-  position: relative;
-  box-shadow: 0px 0px 5px #9b9b9b;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 5px #9b9b9b;
 }
 
 .games-show-nintendo .mask,
 .games-show-nintendo .content {
-  width: 300px;
-  height: 200px;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
 }
 
 .games-show-nintendo > img {
-  display: block;
-  position: relative;
-	margin : auto;
-	height : 305px;
-	width : 305px;
+    display: block;
+    position: relative;
+    margin : auto;
+    height : 305px;
+    width : 305px;
 }
 
 .games-show-nintendo h2 {
-   text-transform: uppercase;
-   text-align: center;
-   position: relative;
-   font-size: 16px;
-   padding: 10px;
-   background: rgba(0, 0, 0, 0.8);
-   margin: 20px 0 0 0;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
 }
 
 
@@ -92,8 +92,8 @@
     opacity: 0.9;
     top: 31.8%;
     transform: rotate(0deg) translate(0, 0);
-		position : absolute;
-		left : 0;
+	position : absolute;
+	left : 0;
 }
 
 .effect-show-nintendo:hover .mask-1,
@@ -125,39 +125,39 @@
 /*SWITCH*/
 
 .games-show-switch  {
-  margin: 10px;
-  overflow: hidden;
-  position: relative;
-  box-shadow: 0px 0px 5px #9b9b9b;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 5px #9b9b9b;
 }
 
 .games-show-switch .mask,
 .games-show-switch .content {
-  width: 300px;
-  height: 200px;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
 }
 
 .games-show-switch > img {
-  display: block;
-  position: relative;
-	object-fit : fill;
-	margin : auto;
-	height : 495px;
-	min-width : 305px;
+    display: block;
+    position: relative;
+    object-fit : fill;
+    margin : auto;
+    height : 495px;
+    min-width : 305px;
 }
 
 .games-show-switch h2 {
-   text-transform: uppercase;
-   text-align: center;
-   position: relative;
-   font-size: 16px;
-   padding: 10px;
-   background: rgba(0, 0, 0, 0.8);
-   margin: 20px 0 0 0;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
 }
 
 
@@ -209,8 +209,8 @@
     opacity: 0.9;
     top: 38.5%;
     transform: rotate(0deg) translate(0, 0);
-		position : absolute;
-		left : 0;
+	position : absolute;
+	left : 0;
 }
 
 .effect-show-switch:hover .mask-1,

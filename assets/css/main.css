@@ -18,6 +18,14 @@
 	--ps-color : url("../images/menu-background.jpg") no-repeat top center;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+::-webkit-scrollbar-thumb{
+  background : var(--second-color);
+}
+
 
 @font-face {
 	font-family: Lobster;
