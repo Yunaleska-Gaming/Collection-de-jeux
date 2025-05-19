@@ -60,14 +60,22 @@ section .section-title {
 
 .twitch-title { margin : 50px auto; }
 
-.twitch-rewards h2 {
+.twitch-rewards h2,
+.index-challenges h2 {
     text-transform: uppercase;
     text-align: center;
     font-size: 16px;
     padding: 10px;
-    background: var(--second-color);
     margin: 0 0 20px 0;
+    color: #fff;
 }
+
+.twitch-rewards h2 { background: var(--second-color); }
+
+.success-title { background-color: rgb(68, 190, 68); }
+.ingame-title { background-color: blueviolet; margin-top : 20px !important;}
+.stopped-title { background-color: rgb(243, 183, 70); margin-top : 20px !important; }
+.future-title { background-color: var(--second-color); margin-top : 20px !important; }
 
 .twitch-screen {
     width : 100%;
@@ -162,11 +170,11 @@ iframe { width: 100%; height: 100%;}
 .week-planning {
     display: flex;
     justify-content: center;
-    height: 628px;
 }
 
 .week-planning img {
-    object-fit: cover;
+    width: 100%;
+    object-fit: contain;
 }
 
 /* RESPONSIVE */
@@ -222,10 +230,6 @@ iframe { width: 100%; height: 100%;}
 
     .twitch-rewards, .twitch-rewards:last-of-type {
         width : 97%;
-    }
-
-    .index-planning {
-        object-fit: contain;
     }
 
     iframe {
