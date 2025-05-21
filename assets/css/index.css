@@ -111,7 +111,7 @@ iframe { width: 100%; height: 100%;}
     width : 56px;
 }
 
-.twitch-rewards:last-of-type { width: 50%; overflow: hidden;}
+/*.twitch-rewards:last-of-type { width: 50%; overflow: hidden;}*/
 
 
 .twitch-section {
@@ -176,12 +176,15 @@ iframe { width: 100%; height: 100%;}
 .week-planning {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 656px;
 }
 
 .week-planning img {
-    width: 100%;
-    object-fit: contain;
+    width: 92%;
+    object-fit: scale-down;
 }
+
 
 /* RESPONSIVE */
 
