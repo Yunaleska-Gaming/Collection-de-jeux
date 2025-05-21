@@ -16,6 +16,8 @@
 	--dark-grey-steam : #24282f;
 	--nintendo-color : #c00000;
 	--ps-color : url("../images/menu-background.jpg") no-repeat top center;
+	--youtube-color : #f03;
+	--twitch-color : #9147ff;
 }
 
 ::-webkit-scrollbar {

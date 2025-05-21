@@ -41,9 +41,15 @@ section .section-title {
     padding: 0;
     list-style : none;
     font-size: 15px;
+        text-transform: uppercase;
 }
 
-.index-challenges li::before {
+.index-sublists {
+    list-style: none;
+    text-transform: none;
+}
+
+.index-challenges .index-lists::before {
     content : " ► "
 }
 
@@ -72,8 +78,8 @@ section .section-title {
 
 .twitch-rewards h2 { background: var(--second-color); }
 
-.success-title { background-color: rgb(68, 190, 68); }
-.ingame-title { background-color: blueviolet; margin-top : 20px !important;}
+.success-title { background-color: var(--youtube-color); }
+.ingame-title { background-color: var(--twitch-color); margin-top : 20px !important;}
 .stopped-title { background-color: rgb(243, 183, 70); margin-top : 20px !important; }
 .future-title { background-color: var(--second-color); margin-top : 20px !important; }
 
@@ -148,24 +154,24 @@ iframe { width: 100%; height: 100%;}
     margin: 0;
 }
 
-
-.success-index {
-    color : green;
-}
-
-.ingame-index {
-    color : blueviolet;
-}
-
-.hold-index {
-    color : rgb(206, 127, 36);
-}
-
 .challenge-link {
     color: var(--second-color);
     text-decoration: none;
 }
 
+.youtube-link:hover {
+    color: var(--youtube-color);
+}
+
+.twitch-link:hover {
+    color: var(--twitch-color);
+}
+
+.fa-youtube,
+.fa-spin { color: var(--youtube-color); }
+.fa-twitch { color: var(--twitch-color); }
+.fa-circle-pause { color: rgb(243, 183, 70); }
+.fa-question, .fa-hourglass-half { color: var(--second-color); }
 /* PLANNING */
 .week-planning {
     display: flex;
