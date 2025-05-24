@@ -1,0 +1,107 @@
+[
+    {
+        "img_src": "dirge-of-cerberus.png",
+        "name": "Dirge of Cerberus: Final Fantasy VII",
+        "amount_achievement": "0/173"
+    },
+    {
+        "img_src": "haunting-ground.png",
+        "name": "Haunting Ground",
+        "amount_achievement": "0/85"
+    },
+    {
+        "img_src": "project-zero.png",
+        "name": "Project Zero",
+        "amount_achievement": "0/105"
+    },
+    {
+        "img_src": "project-zero-2.png",
+        "name": "Project Zero II: Crimson Butterfly",
+        "amount_achievement": "0/128"
+    },
+    {
+        "img_src": "project-zero-3.png",
+        "name": "Project Zero III: The Tormented",
+        "amount_achievement": "0/80"
+    },
+    {
+        "img_src": "resident-evil-4.png",
+        "name": "Resident Evil 4",
+        "amount_achievement": "0/182"
+    },
+    {
+        "img_src": "resident-evil-cvx.png",
+        "name": "Resident Evil Code: Veronica X",
+        "amount_achievement": "0/90"
+    },
+    {
+        "img_src": "resident-evil-outbreak.png",
+        "name": "Resident Evil Outbreak",
+        "amount_achievement": "0/72"
+    },
+    {
+        "img_src": "resident-evil-outbreak-2.png",
+        "name": "Resident Evil Outbreak: File #2",
+        "amount_achievement": "0/113"
+    },
+    {
+        "img_src": "silent-hill-2.png",
+        "name": "Silent Hill 2",
+        "amount_achievement": "0/66"
+    },
+    {
+        "img_src": "silent-hill-3.png",
+        "name": "Silent Hill 3",
+        "amount_achievement": "0/66"
+    },
+    {
+        "img_src": "silent-hill-4.png",
+        "name": "Silent Hill 4: The Room",
+        "amount_achievement": "0/66"
+    },
+    {
+        "img_src": "silent-hill-shattered-memories.png",
+        "name": "Silent Hill: Shattered Memory",
+        "amount_achievement": "0/44"
+    },
+    {
+        "img_src": "soulcalibur-2.png",
+        "name": "SoulCalibur II",
+        "amount_achievement": "0/115"
+    },
+    {
+        "img_src": "soulcalibur-3.png",
+        "name": "SoulCalibur III",
+        "amount_achievement": "0/250"
+    },
+    {
+        "img_src": "tekken-4.png",
+        "name": "Tekken 4",
+        "amount_achievement": "0/69"
+    },
+    {
+        "img_src": "tekken-5.png",
+        "name": "Tekken 5",
+        "amount_achievement": "0/66"
+    },
+    {
+        "img_src": "tekken-tag-tournament.png",
+        "name": "Tekken Tag Tournament",
+        "amount_achievement": "0/118"
+    },
+    {
+        "img_src": "legend-of-spyro-1.png",
+        "name": "The Legend of Spyro: A New Beginning",
+        "amount_achievement": "0/55"
+    },
+    {
+        "img_src": "legend-of-spyro-2.png",
+        "name": "The Legend of Spyro: Dawn of the Dragon",
+        "amount_achievement": "0/55"
+    },
+    {
+        "img_src": "legend-of-spyro-3.png",
+        "name": "The Legend of Spyro: The Eternal Night",
+        "amount_achievement": "0/55"
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "img_src": "fire-emblem-path-of-radiance.png",
+        "name": "Fire Emblem: Path of Radiance",
+        "amount_achievement": "0/72"
+    },
+    {
+        "img_src": "luigi-mansion.png",
+        "name": "Luigi's Mansion",
+        "amount_achievement": "0/72"
+    },
+    {
+        "img_src": "mario-kart.png",
+        "name": "Mario Kart: Double Dash!!",
+        "amount_achievement": "0/65"
+    },
+    {
+        "img_src": "mario-party-4.png",
+        "name": "Mario Party 4",
+        "amount_achievement": "0/58"
+    },
+    {
+        "img_src": "mario-party-5.png",
+        "name": "Mario Party 5",
+        "amount_achievement": "0/55"
+    },
+    {
+        "img_src": "metroid-prime.png",
+        "name": "Metroid Prime",
+        "amount_achievement": "0/62"
+    },
+    {
+        "img_src": "metroid-prime-2.png",
+        "name": "Metroid Prime 2: Echoes",
+        "amount_achievement": "0/68"
+    },
+    {
+        "img_src": "pokemon-colosseum.png",
+        "name": "Pokémon Colosseum",
+        "amount_achievement": "0/84"
+    },
+    {
+        "img_src": "starfox-adventures.png",
+        "name": "Star Fox Adventures",
+        "amount_achievement": "0/53"
+    },
+    {
+        "img_src": "starfox-assault.png",
+        "name": "Star Fox: Assault",
+        "amount_achievement": "0/47"
+    },
+    {
+        "img_src": "super-mario-sunshine.png",
+        "name": "Super Mario Sunshine",
+        "amount_achievement": "0/148"
+    },
+    {
+        "img_src": "super-smash-melee.png",
+        "name": "Super Smash Bros. Melee",
+        "amount_achievement": "0/338"
+    },
+    {
+        "img_src": "zelda-ocarina-of-time-mq.png",
+        "name": "The Legend of Zelda: Ocarina of Time - Master Quest",
+        "amount_achievement": "0/129"
+    },
+    {
+        "img_src": "zelda-wind-waker.png",
+        "name": "The Legend of Zelda: The Wind Waker",
+        "amount_achievement": "0/126"
+    },
+    {
+        "img_src": "zelda-twilight-princess.png",
+        "name": "The Legend of Zelda: Twilight Princess",
+        "amount_achievement": "0/149"
+    }
+]

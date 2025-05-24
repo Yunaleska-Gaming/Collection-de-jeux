@@ -1,4 +1,11 @@
 /*RACINE & CSS GENERAL */
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
 :root {
 	--white-color : #fff;
 	--second-color : #0072ce;
@@ -16,6 +23,12 @@
 	--dark-grey-steam : #24282f;
 	--nintendo-color : #c00000;
 	--ps-color : url("../images/menu-background.jpg") no-repeat top center;
+	--dark-grey-retro : #161616;
+	--light-grey-retro : #202020;
+	--ps1-color : #000;
+	--ps2-color : #445c8f;
+	--gamecube-color : #8577c1;
+	--yellow-retro: rgb(255, 215, 0);
 	--youtube-color : #f03;
 	--twitch-color : #9147ff;
 }
@@ -102,8 +115,6 @@ a { color : var(--white-color);}
 }
 
 .site-navigation {
-  padding : 0;
-  list-style : none;
   text-align : right;
 }
 
@@ -115,7 +126,6 @@ a { color : var(--white-color);}
 
 .link,
 .sub-link {
-  text-decoration: none;
   font-family : 'Noto Sans';
   display : inline-block;
   vertical-align : top;
@@ -184,8 +194,6 @@ a { color : var(--white-color);}
 
 .site-sidebar__list {
 	margin : 10px auto;
-	padding : 0;
-	list-style : none;
 }
 
 .item-line {
@@ -400,6 +408,7 @@ a { color : var(--white-color);}
     }
 	.limits {
 		margin: 0 2%;
+		justify-content: center;
 	}
 	.link, .sub-link {
 		padding: 30px 10px;

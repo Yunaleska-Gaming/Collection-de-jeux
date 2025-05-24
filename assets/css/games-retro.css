@@ -1,0 +1,456 @@
+/*RACINE & CSS GENERAL */
+::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+::-webkit-scrollbar-thumb{
+  background : #121214;
+}
+
+html,
+.percentage-bar {
+	background : var(--light-grey-retro);
+}
+
+.link:hover { color : var(--light-grey-retro); }
+.selected:hover:after { border-color : transparent transparent var(--light-grey-retro) transparent; }
+
+/*SIDEBAR*/
+.footer-retro,
+#copyright-retro { background : #121214; }
+
+.site-sidebar__back { background : var(--dark-grey-retro); }
+
+.section-title:nth-of-type(1) {
+	background : var(--ps1-color);
+}
+
+.section-title:nth-of-type(2) {
+	background : var(--ps2-color);
+}
+
+.section-title:nth-of-type(3) {
+	background :  var(--gamecube-color);
+}
+
+.achievement-line {
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
+
+.site-sidebar-achievement {
+	 width : 20px;
+	 height : 20px;
+}
+
+.site-sidebar__p,
+.site-sidebar__items .trophies {
+	color : var(--yellow-retro);
+}
+
+.site-sidebar__pseudo { color : var(--second-color); }
+
+.trophies,
+.games-trophies {
+	text-align : center;
+	width : 100%;
+	padding-top : 3px;
+	display : flex;
+	align-items : center;
+	justify-content : center;
+}
+
+.site-header {
+  background-color : #121214;
+  background-image : none;  
+}
+
+.platinum-steam#percent_completion { background-color : var(--yellow-retro); color: var(--ps1-color); }
+.platinum-steam#percent_completion_ps1 { background-color : var(--ps1-color);}
+.platinum-steam#percent_completion_ps2 { background-color : var(--ps2-color);}
+.platinum-steam#percent_completion_gc { background-color : var(--gamecube-color);}
+
+
+.games-show-ps1,
+.games-show-ps2,
+.games-show-gc {
+   margin: 10px;
+   overflow: hidden;
+   position: relative;
+   box-shadow: 0px 0px 5px var(--dark-grey-retro);
+}
+
+.games-show-ps1 .mask,
+.games-show-ps1 .content,
+.games-show-ps2 .mask,
+.games-show-ps2 .content,
+.games-show-gc .mask,
+.games-show-gc .content{
+   width: 308px;
+   height: 140px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+
+.games-show-ps1 h2,
+.games-show-ps2 h2,
+.games-show-gc h2 {
+   text-transform: uppercase;
+   text-align: center;
+   position: relative;
+   font-size: 16px;
+   padding: 10px;
+   background: rgba(0, 0, 0, 0.8);
+   margin: 20px 0 0 0;
+}
+
+/* Styles PS1 */
+
+.ps1-retro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 305px;
+    padding: 10px;
+}
+
+.games-show-ps1 > img {
+    display: block;
+    position: relative;
+    margin: auto;
+    height: 305px;
+    width: 305px;
+}
+
+.effect-show-ps1 .mask-1,
+.effect-show-ps1 .mask-2 {
+    height: 600px;
+    width: 600px;
+    background: rgba(17,17,19,0.5);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    transition: all 0.3s ease-in-out 0.6s;
+}
+
+.effect-show-ps1 .mask-1 {
+    left: auto;
+    right: 0;
+    transform: rotate(44.9deg) translateX(-250px);
+    transform-origin: 100% 0%;
+}
+
+.effect-show-ps1 .mask-2 {
+    top: auto;
+    bottom: 0;
+    transform: rotate(44.9deg) translateX(250px);
+    transform-origin: 0% 100%;
+}
+
+.effect-show-ps1 .content {
+    background: rgba(0, 0, 0, 0.9);
+    height: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    width: 458px;
+    overflow: hidden;
+    transform: rotate(-33deg) translate(-112px, 166px);
+    transform-origin: 0% 100%;
+    transition: all 0.4s ease-in-out 0.3s;
+}
+
+.effect-show-ps1 h2 {
+    background: transparent;
+    margin-top: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.effect-show-ps1:hover .content {
+    height: 140px;
+    width: 325px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    top: 31.8%;
+    transform: rotate(0deg) translate(0, 0);
+    position: absolute;
+    left: 0;
+    background: black;
+}
+
+.effect-show-ps1:hover .mask-1,
+.effect-show-ps1:hover .mask-2 {
+    transition-delay: 0s;
+}
+
+.effect-show-ps1:hover .mask-1 {
+    transform: rotate(44.9deg) translateX(0);
+}
+
+.effect-show-ps1:hover .mask-2 {
+    transform: rotate(44.9deg) translateX(0);
+}
+
+
+/* Styles PS2 & GameCube */
+.ps2-retro,
+.gc-retro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    padding: 10px;
+}
+
+.games-show-ps2 > img,
+.games-show-gc > img {
+    display: block;
+    position: relative;
+    object-fit: fill;
+    margin: auto;
+    height: 495px;
+}
+
+.effect-show-ps2 .mask-1,
+.effect-show-ps2 .mask-2,
+.effect-show-gc .mask-1,
+.effect-show-gc .mask-2 {
+    height: 700px;
+    width: 700px;
+    background: rgba(17,17,19,0.5);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    transition: all 0.3s ease-in-out 0.6s;
+}
+
+.effect-show-ps2 .mask-1,
+.effect-show-gc .mask-1 {
+    left: auto;
+    right: 0;
+    transform: rotate(34.1deg) translateX(-320px);
+    transform-origin: 100% 0%;
+}
+
+.effect-show-ps2 .mask-2,
+.effect-show-gc .mask-2 {
+    top: auto;
+    bottom: 0;
+    transform: rotate(34.1deg) translateX(320px);
+    transform-origin: 0% 100%;
+}
+
+.effect-show-ps2 .content,
+.effect-show-gc .content {
+    background: rgba(0, 0, 0, 0.9);
+    height: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    width: 458px;
+    overflow: hidden;
+    transform: rotate(-34.1deg) translate(-112px, 166px);
+    transform-origin: 0% 100%;
+    transition: all 0.4s ease-in-out 0.3s;
+}
+
+.effect-show-ps2 h2,
+.effect-show-gc h2 {
+    background: transparent;
+    margin-top: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.effect-show-ps2:hover .content,
+.effect-show-gc:hover .content {
+    height: 140px;
+    width: 100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    top: 38.5%;
+    transform: rotate(0deg) translate(0, 0);
+    position: absolute;
+    left: 0;
+    background-color: black;
+}
+
+.effect-show-ps2:hover .mask-1,
+.effect-show-ps2:hover .mask-2,
+.effect-show-gc:hover .mask-1,
+.effect-show-gc:hover .mask-2 {
+    transition-delay: 0s;
+}
+
+.effect-show-ps2:hover .mask-1,
+.effect-show-gc:hover .mask-1 {
+    transform: rotate(34.1deg) translateX(0);
+}
+
+.effect-show-ps2:hover .mask-2,
+.effect-show-gc:hover .mask-2 {
+    transform: rotate(34.1deg) translateX(0);
+}
+
+
+
+/* ______ */
+
+
+.not-completed-retro {
+	background-image : url("../images/retro/not-started.png");
+    background-blend-mode : saturation;
+    background-size: contain;
+	background-repeat : no-repeat;
+	width : 100%;
+	height : 70px;
+	padding-left : 70px;
+	display : flex;
+	flex-wrap : wrap;
+	align-items : center;
+	justify-content : center;
+}
+
+.retro-started .not-completed-retro {
+    background-image : url("../images/retro/started.png");
+    background-blend-mode : saturation;
+    background-size: contain;
+	background-repeat : no-repeat;
+	width : 100%;
+	height : 70px;
+	padding-left : 70px;
+	display : flex;
+	flex-wrap : wrap;
+	align-items : center;
+	justify-content : center;
+}
+
+
+.completed-retro {
+	background-image : url("../images/retro/completed.png");
+	background-repeat : no-repeat;
+    background-size: contain;
+	width : 100%;
+	height : 70px;
+	padding-left : 70px;
+	display : flex;
+	flex-wrap : wrap;
+	align-items : center;
+	justify-content : center;
+}
+
+
+.platined-retro,
+.not-platined-retro,
+.without-achievements-retro {
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	padding : 10px;
+}
+
+#game_container_ps1 .platined-retro {
+    width : 305px;
+	height : 305px;
+}
+
+.platined-retro:before,
+.platined-retro:after {
+	content : ' ';
+	position : absolute;
+	width : 700px;
+	height : 700px;
+	background-image : conic-gradient(transparent,transparent,transparent, var(--yellow-retro));
+	animation : animate 3s linear infinite;
+}
+
+.platined-retro:after,
+.without-platine-retro:after {
+	animation-delay : -1.5s;
+	z-index : -1;
+}
+
+@keyframes animate 
+{
+	0%
+	{
+		transform : rotate(0deg);
+	}
+	100%
+	{
+		transform : rotate(360deg);
+	}
+}
+
+.percent-games-retro {
+	background : var(--light-grey-retro);
+	margin-right : 10px;
+	width : 100%;
+	height : 24px;
+	position : relative;
+}
+
+.percent-games-retro > div {
+	background-color : var(--yellow-retro);
+	position : absolute;
+	top : 0;
+	left : 0;
+	height : 24px;
+    color: var(--ps1-color);
+}
+
+.zero-percent {
+	width : 100%;
+	background-color : var(--light-grey-retro)!important;
+    color: white!important;
+}
+
+.cent-percent {
+	width : 100%;
+}
+
+.no-achievement-game:after { content : ' Pas de succès '; }
+
+@media only screen and (max-width: 768px) {
+    .site-sidebar__back {
+        position: relative;
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+		align-items: center;
+		justify-content: space-around;
+    }
+
+    .site-sidebar__avatar img { width: 100%; }
+    .site-sidebar__pseudo { font-size : 1.5rem; }
+    .site-sidebar__avatar-pseudo { width: 20%; }
+
+    .block-trophies {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+		width: 100%;
+    }
+
+    .site-sidebar__informations { width: 70%; }
+	.item-line { margin-top : 12px; padding: 0; }
+    .section-title {font-size: 1rem;}
+    .retro-main { margin-left: 0; }
+}
+
+@media only screen and (max-width: 480px) {
+    .site-sidebar__pseudo { font-size : 1rem; }
+    .block-trophies { gap: 0.2rem; }
+    .item-line { font-size: 0.7rem; }
+    .site-sidebar__informations { font-size: 0.7rem; }
+}
+
+@media only screen and (max-width: 425px) {
+    .site-sidebar__pseudo { font-size : 0.6rem; }
+    .block-trophies { gap: 0.1rem; }
+    .item-line { font-size: 0.6rem; }
+}

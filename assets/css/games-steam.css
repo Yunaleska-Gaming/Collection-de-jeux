@@ -16,6 +16,8 @@ html,
 .selected:hover:after { border-color : transparent transparent var(--light-grey-steam) transparent; }
 
 /*SIDEBAR*/
+
+
 .footer-steam,
 #copyright-steam { background : #171d25; }
 
@@ -34,6 +36,7 @@ html,
 .site-sidebar-achievement {
 	 width : 20px;
 	 height : 20px;
+     margin-right: 5px;
 }
 
 .site-sidebar__p,
@@ -59,7 +62,7 @@ html,
   background-image : none;  
 }
 
-.platinum-steam { width : 12.28%; background-color : var(--blue-steam);}
+.platinum-steam { background-color : var(--blue-steam);}
 
 .games-show-steam {
    margin: 10px;

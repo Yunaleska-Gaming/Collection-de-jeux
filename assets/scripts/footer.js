@@ -8,9 +8,15 @@ class FooterElement extends HTMLElement {
             if (page === 'steam.html') {
               ulClasses += ' footer-steam';
               copyrightId = 'copyright-steam';
-            } else if (page === 'nintendo.html') {
+            } 
+            else if (page === 'nintendo.html') {
               ulClasses += ' footer-nintendo';
               copyrightId = 'copyright-nintendo';
+            }
+
+            else if (page === 'retroachievements.html') {
+              ulClasses += ' footer-retro';
+              copyrightId = 'copyright-retro';
             }
           
             this.innerHTML = `

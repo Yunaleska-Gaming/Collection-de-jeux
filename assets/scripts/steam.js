@@ -24,6 +24,7 @@ async function fetchData(platform) {
 
             const gameItem = createSteamItem(game, percent);
             fragment.appendChild(gameItem);
+            updateCompletionTimeline(games);
         });
 
         document.getElementById('game_container').appendChild(fragment);
@@ -35,11 +36,36 @@ async function fetchData(platform) {
             : 0;
             
         document.getElementById('percent_completion').textContent = `${percentCompletion.toFixed(2)}%`;
+        document.getElementById(`percent_completion`).style.width = `${percentCompletion}%`;
         document.getElementById('achievements_count').innerHTML = `<img src="https://zupimages.net/up/23/28/zq6r.png" class="site-sidebar-achievement" />${totalEarned}/${totalPossible}`;
         document.getElementById('games_platined').innerHTML = `<img src="https://zupimages.net/up/23/28/w9k3.png" class="site-sidebar-achievement" /> ${gamesPlatinedCount}/${gamesWithAchievementsCount}`;
     } catch (error) {
         console.error('Error fetching the JSON file:', error);
     }
 }
+
+function updateCompletionTimeline(games) {
+    const completedGames = games.filter(game => {
+        const { earned, total } = calculateGameStats(game.amount_achievement);
+        return total > 0 && earned === total;
+    });
+
+    const firstGame = completedGames.at(0);
+    const lastGame = completedGames.at(-1);
+
+    const firstEl = document.getElementById('first_100');
+    const lastEl = document.getElementById('last_100');
+
+    if (firstEl) {
+        firstEl.textContent = `Premier 100% : Spyro Reignited Trilogy`;
+    }
+
+    if (lastEl) {
+        lastEl.textContent = lastGame
+            ? `Dernier 100% : ${lastGame.name}`
+            : 'Dernier 100% : -';
+    }
+}
+
 
 export default fetchData;

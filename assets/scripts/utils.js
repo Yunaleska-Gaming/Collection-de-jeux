@@ -23,7 +23,7 @@ export function createSteamItem(game, percent) {
         <div class="content">
             <h2 class="game-name">${game.name}</h2>
             <div class="games-trophies">
-                <div class="achievements-steam-logo ${percent === 100 ? 'completed-steam' : 'not-completed-steam'}">
+                <div class="not-completed-steam ${percent === 100 ? 'completed-steam' : 'not-completed-steam'}">
                     <div class="amount-achievement-steam">
                         ${game.amount_achievement}
                     </div>
@@ -45,6 +45,29 @@ export function createSteamItem(game, percent) {
     
     return gameDiv;
 }
+
+export function updateSteamSidebarStats({ totalCompleted, gamesLength, totalEarned, totalPossible }) {
+    const completionPercent = totalPossible > 0
+        ? ((totalEarned / totalPossible) * 100).toFixed(0)
+        : 0;
+
+    const percentEl = document.getElementById('percent_completion');
+    if (percentEl) {
+        percentEl.textContent = `${completionPercent}%`;
+        percentEl.style.width = `${completionPercent}%`;
+    }
+
+    const completedEl = document.getElementById('games_platined');
+    if (completedEl) {
+        completedEl.textContent = `${totalCompleted} jeux complétés / ${gamesLength}`;
+    }
+
+    const achievementsEl = document.getElementById('achievements_count');
+    if (achievementsEl) {
+        achievementsEl.textContent = `${totalEarned} / ${totalPossible} succès obtenus`;
+    }
+}
+
 
 export async function fetchGamesData(platform) {
     const filePath = `./assets/json/${platform}_data.json`;
@@ -164,8 +187,8 @@ export function updateSidebarStatistics({ totalPlatinums, withoutPlatinum, games
     updateElement('gold', `<div class="trophies-pictures gold-picture"></div> ${goldObtained}/${goldTotal}`, ((goldObtained / goldTotal) * 100).toFixed(2));
     updateElement('silver', `<div class="trophies-pictures silver-picture"></div> ${silverObtained}/${silverTotal}`, ((silverObtained / silverTotal) * 100).toFixed(2));
     updateElement('bronze', `<div class="trophies-pictures bronze-picture"></div> ${bronzeObtained}/${bronzeTotal}`, ((bronzeObtained / bronzeTotal) * 100).toFixed(2));
-    document.getElementById('totalCount').textContent = `${totalPlatinums + goldObtained + silverObtained + bronzeObtained}/${(gamesLength - withoutPlatinum) + goldTotal + silverTotal + bronzeTotal}`;
-    document.getElementById('itemCount').textContent = `${gamesLength} jeux possédés`;
+    document.getElementById('totalCount').innerHTML = `<i class="fa-solid fa-trophy"></i> ${totalPlatinums + goldObtained + silverObtained + bronzeObtained}/${(gamesLength - withoutPlatinum) + goldTotal + silverTotal + bronzeTotal}`;
+    document.getElementById('itemCount').innerHTML = `<i class="fa-solid fa-gamepad"></i> ${gamesLength} jeux possédés`;
 }
 
 export function updateGameCount(games, countElementId) {
@@ -245,4 +268,118 @@ export function adjustFontSizes() {
         const length = element.textContent.length;
         element.style.fontSize = length > 25 ? '12px' : length > 20 ? '13px' : length > 15 ? '14px' : length > 10 ? '15px' : '16px';
     });
+}
+
+export function renderPlaystationGames(games, containerElementId, platform) {
+    const fragment = document.createDocumentFragment();
+    games.forEach(game => {
+        let gameElement;
+
+        if (platform === 'ps1') {
+            gameElement = createPs1Game(game);
+        } else if (platform === 'ps2') {
+            gameElement = createPs2Game(game);
+        } else if (platform === 'gc') {
+            gameElement = createGcGame(game);
+        }
+        
+        if (gameElement) {
+            fragment.appendChild(gameElement);
+        }
+    });
+
+    document.getElementById(containerElementId).appendChild(fragment);
+}
+
+export function updatePlaystationGameCount(games, countElementId) {
+    let gameType = '';
+
+    if (countElementId === 'ps1-count') {
+        gameType = 'PS1';
+    } else if (countElementId === 'ps2-count') {
+        gameType = 'PS2';
+    }
+    else if (countElementId === 'gc-count') {
+        gameType = 'GameCube';
+    }
+
+    document.getElementById(countElementId).textContent = `${games.length} jeux ${gameType} possédés`;
+}
+
+export function createPs1Game(game) {
+    return createRetroItem(game, 'ps1-retro', 'effect-show-ps1');
+}
+
+export function createPs2Game(game) {
+    return createRetroItem(game, 'ps2-retro', 'effect-show-ps2');
+}
+
+export function createGcGame(game) {
+    return createRetroItem(game, 'gc-retro', 'effect-show-gc');
+}
+
+function createRetroItem(game, platformClass, effectClass) {
+    const { earned, total, percent } = calculateGameStats(game.amount_achievement);
+    const percentRounded = Math.round(percent);
+    const percentString = `${percentRounded}%`;
+
+    const isCompleted = percent === 100;
+    const hasAtLeastOne = earned > 0;
+
+    const completionClass = isCompleted ? 'platined-retro' : 'not-platined-retro';
+    const startedClass = hasAtLeastOne ? 'retro-started' : '';
+
+    const gameDiv = document.createElement('div');
+
+    const isExternalUrl = game.img_src.startsWith('http://') || game.img_src.startsWith('https://');
+    const folder = platformClass.includes('ps1') ? 'ps1'
+                : platformClass.includes('ps2') ? 'ps2'
+                : platformClass.includes('gc') ? 'gc'
+                : '';
+
+    const imgSrc = isExternalUrl 
+        ? game.img_src 
+        : `assets/images/retro/${folder}/${game.img_src}`;
+
+    const platformClassName = platformClass === 'ps1-retro' ? 'games-show-ps1' 
+                            : platformClass === 'ps2-retro' ? 'games-show-ps2' 
+                            : platformClass === 'gc-retro' ? 'games-show-gc'
+                            : '';
+
+    // ✅ Concatène proprement toutes les classes CSS
+    gameDiv.className = [
+        platformClassName,
+        effectClass,
+        platformClass,
+        completionClass,
+        startedClass
+    ].join(' ').trim();
+
+    gameDiv.innerHTML = `
+        <img src="${imgSrc}" alt="${game.name}" />
+        <div class="mask mask-1"></div>
+        <div class="mask mask-2"></div>
+        <div class="content">
+            <h2 class="game-name">${game.name}</h2>
+            <div class="games-trophies">
+                <div class="achievements-retro-logo ${isCompleted ? 'completed-retro' : 'not-completed-retro'}">
+                    <div class="amount-achievement-retro">
+                        ${earned}/${total}
+                    </div>
+                    <div class="percent-games-retro">
+                        ${
+                            game.amount_achievement === '0/0' 
+                            ? '<div class="no-achievement-game"></div>' 
+                            : `<div class="${percentString === '0%' ? 'zero-percent' : percentString === '100%' ? 'cent-percent' : ''}"
+                                   ${percentString !== '0%' && percentString !== '100%' ? `style="width: ${percentString};"` : ''}>
+                                ${percentString}
+                            </div>`
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+
+    return gameDiv;
 }

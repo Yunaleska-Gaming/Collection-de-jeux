@@ -1,78 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Steam</title>
-    <link href="assets/css/main.css" rel="stylesheet" />
-    <link href="assets/css/games-steam.css" rel="stylesheet" />
-    <link href="assets/images/favicon.jpg" rel="icon" />
-    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans" />
-    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
-    <script type="module" src="assets/scripts/utils.js"></script>
-    <script type="module" src="assets/scripts/steam.js"></script>
-    <meta content="" name="description" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Steam</title>
+        <link href="assets/css/main.css" rel="stylesheet" />
+        <link href="assets/css/games-steam.css" rel="stylesheet" />
+        <link href="assets/images/favicon.jpg" rel="icon" />
+        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans" />
+        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css" />
+        <script type="module" src="assets/scripts/utils.js"></script>
+        <script type="module" src="assets/scripts/steam.js"></script>
+        <meta content="" name="description" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+    </head>
 
-<body>
+    <body>
 
-    <div class="site">
+        <div class="site">
 
-        <custom-header></custom-header>
+            <custom-header></custom-header>
 
-        <div class="site-sidebar__back">
-            <div class="site-sidebar__avatar-pseudo">
-                <div class="site-sidebar__avatar">
-                    <img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1196590/1de5016286d9cffc6e64fffdf2e809dd1503db85.gif" />
+            <div class="site-sidebar__back">
+                <div class="site-sidebar__avatar-pseudo">
+                    <div class="site-sidebar__avatar">
+                        <img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/1196590/1de5016286d9cffc6e64fffdf2e809dd1503db85.gif" />
+                    </div>
+                    <h3 class="site-sidebar__pseudo">Yunaleska</h3>
                 </div>
-                <h3 class="site-sidebar__pseudo">Rydia</h3>
-            </div>
-            <div class="site-sidebar__informations">
-                <ul class="site-sidebar__list">
-                    <li class="site-sidebar__items item-line" id="itemCount">
-
-                    </li>
-                    <div class="site-sidebar__items block-trophies">
-                        <li class="site-sidebar__items trophies" id="games_platined">
+                <div class="site-sidebar__informations">
+                    <ul class="site-sidebar__list">
+                        <li class="site-sidebar__items item-line" id="itemCount">
 
                         </li>
-                        <div class="site-sidebar__items percentage-background">
-                            <div class="site-sidebar__items percentage-bar">
-                                <div class="site-sidebar__items percentage-width platinum-steam"
-                                    id="percent_completion">
+                        <div class="site-sidebar__items block-trophies">
+                            <li class="site-sidebar__items trophies" id="games_platined">
 
+                            </li>
+                            <div class="site-sidebar__items percentage-background">
+                                <div class="site-sidebar__items percentage-bar">
+                                    <div class="site-sidebar__items percentage-width platinum-steam" id="percent_completion">
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <li class="site-sidebar__items item-line achievement-line" id="achievements_count">
+                        <li class="site-sidebar__items item-line achievement-line" id="achievements_count">
 
-                    </li>
-                    <li class="site-sidebar__items item-line">Premier 100% : Spyro Reignited</li>
-                    <li class="site-sidebar__items item-line">Dernier 100% : Tunic</li>
-                </ul>
+                        </li>
+                        <li class="site-sidebar__items item-line" id="first_100">Premier 100% : -</li>
+                        <li class="site-sidebar__items item-line" id="last_100">Dernier 100% : -</li>
+                    </ul>
 
-            </div>
-        </div>
-
-        <main class="site-main steam-main">
-            <h1 class="section-title">Collection Steam</h1>
-            <section class="site-main__section first-section">
-
-                <div id="game_container" class="first-section">
-                    <!-- Container des jeux -->
                 </div>
-            </section>
-        </main>
-        <custom-footer></custom-footer>
-        <script src="assets/scripts/header.js"></script>
-        <script src="assets/scripts/footer.js"></script>
-        <script type="module" src="assets/scripts/utils.js"></script>
-        <script type="module" src="assets/scripts/steam.js"></script>
-        <script type="module">import fetchData from './assets/scripts/steam.js';fetchData('steam');</script>
-		<script src="assets/scripts/wherami.js"></script>
-</body>
+            </div>
+
+            <main class="site-main steam-main">
+                <h1 class="section-title">Collection Steam</h1>
+                <section class="site-main__section first-section">
+
+                    <div id="game_container" class="first-section">
+                        <!-- Container des jeux -->
+                    </div>
+                </section>
+            </main>
+            <custom-footer></custom-footer>
+            <script src="assets/scripts/header.js"></script>
+            <script src="assets/scripts/footer.js"></script>
+            <script type="module" src="assets/scripts/utils.js"></script>
+            <script type="module" src="assets/scripts/steam.js"></script>
+            <script type="module">import fetchData from './assets/scripts/steam.js';fetchData('steam');</script>
+            <script src="assets/scripts/wherami.js"></script>
+        </div>
+    </body>
 
 </html>

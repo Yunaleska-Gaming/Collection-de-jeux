@@ -3,6 +3,9 @@
 .silver { background-color : var(--silver-color);}
 .bronze { background-color : var(--bronze-color);}
 
+.fa-trophy,
+.fa-gamepad { margin-right: 5px; }
+
 .games-show {
    margin: 10px;
    overflow: hidden;
