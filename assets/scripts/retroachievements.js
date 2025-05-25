@@ -57,7 +57,7 @@ function updateAchievementStats(games) {
     const percentEl = document.getElementById('percent_completion');
 
     if (achievementsEl) {
-        achievementsEl.innerHTML = `<img src="../assets/images/retro/icon-achievement.png"class="site-sidebar-achievement"> ${totalEarned} / ${totalPossible} succès obtenus`;
+        achievementsEl.innerHTML = `<img src="assets/images/retro/icon-achievement.png"class="site-sidebar-achievement"> ${totalEarned} / ${totalPossible} succès obtenus`;
     }
     if (platinedEl) {
         platinedEl.textContent = `${totalCompleted} terminés à 100% / ${games.length} jeux`;
