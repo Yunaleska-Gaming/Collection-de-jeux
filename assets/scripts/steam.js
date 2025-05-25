@@ -4,7 +4,7 @@ import { calculateGameStats, createSteamItem, adjustFontSizes, fetchGamesData } 
 async function fetchData(platform) {
     try {
         const games = await fetchGamesData(platform);
-        document.getElementById('itemCount').textContent = `${games.length} jeux possédés`;
+        document.getElementById('itemCount').innerHTML = `<i class="fa-solid fa-gamepad"></i> ${games.length} jeux possédés`;
 
         let totalEarned = 0;
         let totalPossible = 0;
@@ -37,8 +37,8 @@ async function fetchData(platform) {
             
         document.getElementById('percent_completion').textContent = `${percentCompletion.toFixed(2)}%`;
         document.getElementById(`percent_completion`).style.width = `${percentCompletion}%`;
-        document.getElementById('achievements_count').innerHTML = `<img src="https://zupimages.net/up/23/28/zq6r.png" class="site-sidebar-achievement" />${totalEarned}/${totalPossible}`;
-        document.getElementById('games_platined').innerHTML = `<img src="https://zupimages.net/up/23/28/w9k3.png" class="site-sidebar-achievement" /> ${gamesPlatinedCount}/${gamesWithAchievementsCount}`;
+        document.getElementById('achievements_count').innerHTML = `<img src="../assets/images/steam/icon-achievement.png" class="site-sidebar-achievement"> ${totalEarned}/${totalPossible}`;
+        document.getElementById('games_platined').innerHTML = `<img src="../assets/images/steam/icon-100.png" class="site-sidebar-achievement"> ${gamesPlatinedCount}/${gamesWithAchievementsCount}`;
     } catch (error) {
         console.error('Error fetching the JSON file:', error);
     }

@@ -7,9 +7,7 @@
 	<link href="assets/css/games-retro.css" rel="stylesheet" />
 	<link href="assets/images/favicon.jpg" rel="icon" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
-	<script type="module" src="assets/scripts/utils.js"></script>
-	<script type="module" src="assets/scripts/retroachievements.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
@@ -30,10 +28,11 @@
 					<!-- Compteurs -->
 					<li class="site-sidebar__items item-line" id="ps1-count">Total jeux PS1</li>
 					<li class="site-sidebar__items item-line" id="ps2-count">Total jeux PS2</li>
+					<li class="site-sidebar__items item-line" id="psp-count">Total jeux PS2</li>
 					<li class="site-sidebar__items item-line" id="gc-count">Total jeux GameCube</li>
 
 					<!-- PS1 progression -->
-					<li class="site-sidebar__items trophies" id="games_platined_ps1">Jeux PS1 terminés</li>
+					<li class="site-sidebar__items trophies" id="games_platined_ps1"></li>
 					<div class="site-sidebar__items percentage-background">
 						<div class="site-sidebar__items percentage-bar">
 							<div class="site-sidebar__items percentage-width platinum-steam" id="percent_completion_ps1">0%</div>
@@ -41,13 +40,23 @@
 					</div>
 
 					<!-- PS2 progression -->
-					<li class="site-sidebar__items trophies" id="games_platined_ps2">Jeux PS2 terminés</li>
+					<li class="site-sidebar__items trophies" id="games_platined_ps2"></li>
 					<div class="site-sidebar__items percentage-background">
 						<div class="site-sidebar__items percentage-bar">
 							<div class="site-sidebar__items percentage-width platinum-steam" id="percent_completion_ps2">0%</div>
 						</div>
 					</div>
-					<li class="site-sidebar__items trophies" id="games_platined_gc">Jeux GameCube terminés</li>
+
+					<!-- PSP progression -->
+					<li class="site-sidebar__items trophies" id="games_platined_psp"></li>
+					<div class="site-sidebar__items percentage-background">
+						<div class="site-sidebar__items percentage-bar">
+							<div class="site-sidebar__items percentage-width platinum-steam" id="percent_completion_psp">0%</div>
+						</div>
+					</div>
+
+					<!-- GameCube progression -->
+					<li class="site-sidebar__items trophies" id="games_platined_gc"></li>
 					<div class="site-sidebar__items percentage-background">
 						<div class="site-sidebar__items percentage-bar">
 							<div class="site-sidebar__items percentage-width platinum-steam" id="percent_completion_gc">0%</div>
@@ -65,7 +74,6 @@
 					</div>
 
 					<li class="site-sidebar__items item-line achievement-line" id="achievements_count">
-						Succès obtenus / possibles
 					</li>
 					<li class="site-sidebar__items item-line" id="first_100">Premier 100% : -</li>
                     <li class="site-sidebar__items item-line" id="last_100">Dernier 100% : -</li>
@@ -80,6 +88,9 @@
 			<h1 class="section-title">Collection Playstation 2</h1>
 			<section class="site-main__section second-section" id="game_container_ps2"></section>
 
+			<h1 class="section-title">Collection Playstation Portable</h1>
+			<section class="site-main__section second-section" id="game_container_psp"></section>
+
 			<h1 class="section-title">Collection Gamecube</h1>
 			<section class="site-main__section second-section" id="game_container_gc"></section>
 		</main>
@@ -90,6 +101,8 @@
 	<script src="assets/scripts/header.js"></script>
 	<script src="assets/scripts/footer.js"></script>
 	<script src="assets/scripts/wherami.js"></script>
+	<script type="module" src="assets/scripts/utils.js"></script>
+	<script type="module" src="assets/scripts/retroachievements.js"></script>
 	<script type="module">import fetchData from './assets/scripts/retroachievements.js'; fetchData();</script>
 </body>
 </html>

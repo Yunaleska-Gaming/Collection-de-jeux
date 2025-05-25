@@ -200,7 +200,7 @@ export function updateGameCount(games, countElementId) {
         gameType = 'Switch';
     }
 
-    document.getElementById(countElementId).textContent = `${games.length} jeux ${gameType} possédés`;
+    document.getElementById(countElementId).innerHTML = `<i class="fa-solid fa-gamepad"></i> ${games.length} jeux ${gameType} possédés`;
 }
 
 export function renderGames(games, containerElementId, platform) {
@@ -279,9 +279,12 @@ export function renderPlaystationGames(games, containerElementId, platform) {
             gameElement = createPs1Game(game);
         } else if (platform === 'ps2') {
             gameElement = createPs2Game(game);
+        } else if (platform === 'psp') {
+            gameElement = createPspGame(game);
         } else if (platform === 'gc') {
             gameElement = createGcGame(game);
         }
+        
         
         if (gameElement) {
             fragment.appendChild(gameElement);
@@ -298,12 +301,13 @@ export function updatePlaystationGameCount(games, countElementId) {
         gameType = 'PS1';
     } else if (countElementId === 'ps2-count') {
         gameType = 'PS2';
-    }
-    else if (countElementId === 'gc-count') {
+    } else if (countElementId === 'psp-count') {
+        gameType = 'PSP';
+    } else if (countElementId === 'gc-count') {
         gameType = 'GameCube';
-    }
+    } 
 
-    document.getElementById(countElementId).textContent = `${games.length} jeux ${gameType} possédés`;
+    document.getElementById(countElementId).innerHTML = `<i class="fa-solid fa-gamepad"></i> ${games.length} jeux ${gameType} possédés`;
 }
 
 export function createPs1Game(game) {
@@ -314,9 +318,14 @@ export function createPs2Game(game) {
     return createRetroItem(game, 'ps2-retro', 'effect-show-ps2');
 }
 
+export function createPspGame(game) {
+    return createRetroItem(game, 'psp-retro', 'effect-show-psp');
+}
+
 export function createGcGame(game) {
     return createRetroItem(game, 'gc-retro', 'effect-show-gc');
 }
+
 
 function createRetroItem(game, platformClass, effectClass) {
     const { earned, total, percent } = calculateGameStats(game.amount_achievement);
@@ -334,6 +343,7 @@ function createRetroItem(game, platformClass, effectClass) {
     const isExternalUrl = game.img_src.startsWith('http://') || game.img_src.startsWith('https://');
     const folder = platformClass.includes('ps1') ? 'ps1'
                 : platformClass.includes('ps2') ? 'ps2'
+                : platformClass.includes('psp') ? 'psp'
                 : platformClass.includes('gc') ? 'gc'
                 : '';
 
@@ -342,9 +352,11 @@ function createRetroItem(game, platformClass, effectClass) {
         : `assets/images/retro/${folder}/${game.img_src}`;
 
     const platformClassName = platformClass === 'ps1-retro' ? 'games-show-ps1' 
-                            : platformClass === 'ps2-retro' ? 'games-show-ps2' 
+                            : platformClass === 'ps2-retro' ? 'games-show-ps2'
+                            : platformClass === 'psp-retro' ? 'games-show-psp'
                             : platformClass === 'gc-retro' ? 'games-show-gc'
                             : '';
+                            
 
     // ✅ Concatène proprement toutes les classes CSS
     gameDiv.className = [

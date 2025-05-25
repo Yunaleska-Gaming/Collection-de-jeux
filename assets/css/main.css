@@ -25,8 +25,9 @@
 	--ps-color : url("../images/menu-background.jpg") no-repeat top center;
 	--dark-grey-retro : #161616;
 	--light-grey-retro : #202020;
-	--ps1-color : #000;
+	--ps1-color : #666971;
 	--ps2-color : #445c8f;
+	--psp-color : #000;
 	--gamecube-color : #8577c1;
 	--yellow-retro: rgb(255, 215, 0);
 	--youtube-color : #f03;
@@ -268,10 +269,8 @@ a { color : var(--white-color);}
 	left : 0;
 }
 
-.fas { font-family : "Font Awesome 5 Free"; margin-right : 10px;}
-.fas fa-trophy:before {
-	content : "\f091";
-}
+.fa-solid { margin-right: 5px; }
+
 
 /*PAGES PRINCIPALES*/
 .site-main {

@@ -6,29 +6,33 @@ async function fetchData() {
     // Chargement des données
     const ps1Games = await fetchGamesData('ps1');
     const ps2Games = await fetchGamesData('ps2');
+    const pspGames = await fetchGamesData('psp');
     const gcGames = await fetchGamesData('gamecube');
 
     // Affichage des jeux
     renderPlaystationGames(ps1Games, 'game_container_ps1', 'ps1');
     renderPlaystationGames(ps2Games, 'game_container_ps2', 'ps2');
+    renderPlaystationGames(pspGames, 'game_container_psp', 'psp');
     renderPlaystationGames(gcGames, 'game_container_gc', 'gc');
 
     // Mise à jour des compteurs individuels
     updatePlaystationGameCount(ps1Games, 'ps1-count');
     updatePlaystationGameCount(ps2Games, 'ps2-count');
+    updatePlaystationGameCount(pspGames, 'psp-count');
     updatePlaystationGameCount(gcGames, 'gc-count');
 
     // Statistiques individuelles par plateforme
     updatePerConsoleCompletion(ps1Games, 'ps1');
     updatePerConsoleCompletion(ps2Games, 'ps2');
+    updatePerConsoleCompletion(pspGames, 'psp');
     updatePerConsoleCompletion(gcGames, 'gc');
-
+    
     // Statistiques globales (succès, complétion)
-    updateAchievementStats([...ps1Games, ...ps2Games, ...gcGames]);
+    updateAchievementStats([...ps1Games, ...ps2Games, ...pspGames, ...gcGames]);
 
     // Mise en forme
     adjustFontSizes();
-    updateCompletionTimeline([...ps1Games, ...ps2Games, ...gcGames]);
+    updateCompletionTimeline([...ps1Games, ...ps2Games,  ...pspGames, ...gcGames]);
 
 }
 
@@ -53,7 +57,7 @@ function updateAchievementStats(games) {
     const percentEl = document.getElementById('percent_completion');
 
     if (achievementsEl) {
-        achievementsEl.textContent = `${totalEarned} / ${totalPossible} succès obtenus`;
+        achievementsEl.innerHTML = `<img src="../assets/images/retro/icon-achievement.png"class="site-sidebar-achievement"> ${totalEarned} / ${totalPossible} succès obtenus`;
     }
     if (platinedEl) {
         platinedEl.textContent = `${totalCompleted} terminés à 100% / ${games.length} jeux`;
