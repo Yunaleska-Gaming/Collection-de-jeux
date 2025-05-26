@@ -266,6 +266,14 @@ html,
 .no-achievement-game:after { content : ' Pas de succès '; }
 
 @media only screen and (max-width: 768px) {
+    .site-navigation .list { 
+		background: rgba(23, 29, 37, 0.5);
+	}
+	.site-navigation__sub-item:hover .link {
+		color: var(--light-grey-steam);
+	}
+
+
     .site-sidebar__back {
         position: relative;
         display: flex;

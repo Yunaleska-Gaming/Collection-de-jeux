@@ -195,3 +195,11 @@
     .block-trophies { gap: 0.1rem; }
     .item-line { font-size: 0.6rem; }
 }
+
+@media only screen and (max-width: 360px) {
+    .trophies {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

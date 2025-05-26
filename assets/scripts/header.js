@@ -9,9 +9,12 @@ class HeaderElement extends HTMLElement {
                 <header class="site-header">
                     <div class="site-navigation limits">
                         <div class="${headerIconClass}"></div>
+                            <div class="menu-hamburger">
+                                <i class="fa-solid fa-bars icon-bars"></i>
+                                <i class="fa-solid fa-xmark icon-close"></i>
+                            </div>
                         <nav class="site-navigation__back">
                             <ul class="${headerClasses}">
-                                
                                 <li class="site-navigation__sub-item"><a class="site-navigation link" href="index.html">Index</a></li>
                                 <li class="site-navigation__sub-item"><a class="site-navigation link" href="ps3.html">PS3</a></li>
                                 <li class="site-navigation__sub-item"><a class="site-navigation link" href="ps4.html">PS4</a></li>
@@ -32,3 +35,11 @@ class HeaderElement extends HTMLElement {
 }
 
 customElements.define('custom-header', HeaderElement);
+
+const menuHamburger = document.querySelector(".menu-hamburger");
+const menuList = document.querySelector(".list");
+
+menuHamburger.addEventListener("click", () => {
+  menuList.classList.toggle("mobile-menu");
+  menuHamburger.classList.toggle("active");
+});
