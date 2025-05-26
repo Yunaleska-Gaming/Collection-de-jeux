@@ -495,13 +495,16 @@ html,
 
 .no-achievement-game:after { content : ' Pas de succès '; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 912px) {
     .site-navigation .list { 
 		background: rgba(17, 17, 19, 0.5);
 	}
 	.site-navigation__sub-item:hover .link {
 		color: var(--light-grey-retro);
 	}
+}
+
+@media only screen and (max-width: 768px) {
 
     .site-sidebar__back {
         position: relative;
