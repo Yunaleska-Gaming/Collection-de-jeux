@@ -22,10 +22,10 @@ class FooterElement extends HTMLElement {
             this.innerHTML = `
               <footer class="site-footer">
                   <ul class="${ulClasses}">
-                      <li class="site-footer__sub-item twitch"><a class="site-navigation__link" href="https://www.twitch.tv/yunaleska"></a></li>
-                      <li class="site-footer__sub-item youtube"><a class="site-navigation__link" href="https://www.youtube.com/@YunaleskaTwitch"></a></li>
-                      <li class="site-footer__sub-item twitter"><a class="site-navigation__link" href="https://x.com/YunaleskaTwitch"></a></li>
-                      <li class="site-footer__sub-item discord"><a class="site-navigation__link" href="https://discord.gg/r6M5Y2uuT4"></a></li>
+                      <li class="site-footer-item footer-twitch"><a href="https://www.twitch.tv/yunaleska"></a></li>
+                      <li class="site-footer-item footer-youtube"><a href="https://www.youtube.com/@YunaleskaTwitch"></a></li>
+                      <li class="site-footer-item footer-twitter"><a href="https://x.com/YunaleskaTwitch"></a></li>
+                      <li class="site-footer-item footer-discord"><a href="https://discord.gg/r6M5Y2uuT4"></a></li>
                   </ul>
                   <p class="site-footer copyright" ${copyrightId ? `id="${copyrightId}"` : ''}>
                     © 2024-2025 Yunaleska's Collection. Tous droits réservés.

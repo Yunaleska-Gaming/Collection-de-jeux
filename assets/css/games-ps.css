@@ -1,3 +1,17 @@
+.ps-main { 
+    margin-left: 250px;
+    padding-bottom: 155px;
+} 
+
+.ps-main.first-section, 
+.ps-main.second-section {
+	margin : auto;
+	display : flex;
+	flex-wrap : wrap;
+	justify-content : space-evenly;
+	gap : 1.5em;
+}
+
 .platinum { background-color : var(--platine-color);}
 .gold { background-color : var(--gold-color);}
 .silver { background-color : var(--silver-color);}
@@ -7,7 +21,7 @@
    margin: 10px;
    overflow: hidden;
    position: relative;
-   box-shadow: 0px 0px 5px #9b9b9b;
+   box-shadow: 0px 0px 5px var(--shadow-color);
 }
 
 .games-show .mask,
@@ -157,6 +171,7 @@
         width: 100%;
 		align-items: center;
 		justify-content: space-around;
+        top: 0;
     }
 
     .site-sidebar__avatar img { width: 100%; }
@@ -172,8 +187,7 @@
 
     .site-sidebar__informations { width: 70%; }
 	.item-line { margin-top : 12px; padding: 0; }
-    .section-title {font-size: 1rem;}
-    .ps-main { margin-left: 0; }
+    .section-title {font-size: 2rem;}
     #platine-responsive,
     #gold-responsive,
     #silver-responsive,

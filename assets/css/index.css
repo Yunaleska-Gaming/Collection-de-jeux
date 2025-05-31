@@ -1,22 +1,37 @@
-.site-main {
-    margin : 140px auto 0;
-    width: 95%;
+:root {
+    --blue-steam: #166bcc;
+    --boxes-text-color: #000;
+    --link-color: #0072ce;
 }
 
-.column-left {
+body {
+    color: var(--boxes-text-color)
+}
+
+body.dark {
+    --boxes-text-color: #fff;
+    --link-color: #838092;
+    --shadow-color: rgba(0,0,0,0.4);
+}
+
+.index-column:nth-child(1) {
     width: 35%;
 }
 
-.column-middle {
+.index-column:nth-child(2) {
     width: 20%;
 }
 
-.column-right {
+.index-column:nth-child(3) {
     width: 41%;
 }
 
-section .section-title {
-    margin : 50px auto;
+.informations-borders {
+	padding: 10px;
+	box-shadow: 0px 0px 5px var(--shadow-color);
+    background-color: var(--main-bg-background);
+    height : 359px;
+    overflow: auto;
 }
 
 .index-presentation {
@@ -27,16 +42,33 @@ section .section-title {
     margin-top : 1rem;
 }
 
-.informations-borders {
-	padding: 10px;
-	box-shadow: 0px 0px 5px #9b9b9b;
-    background-color: var(--white-color);
-    height : 359px;
+.paragraphes-informations a {
+    display: block;
+    width: 250px;
+    color: var(--accent-text-color);
+    margin: 30px auto 0;
+    background-color: var(--accent-color);
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: "Noto Sans";
+    font-weight: bold;
+}
+
+.paragraphes-informations a:hover {
+    color : var(--accent-color);
+    background-color: var(--main-bg-color);
+}
+
+.paragraphes-informations {
+    margin: 0;
+    text-align: justify;
+    font-size: 15px;
     overflow: auto;
+    padding: 0;
 }
 
 .index-challenges {
-    color: #000;
     font-size: 15px;
     text-transform: uppercase;
 }
@@ -50,18 +82,46 @@ section .section-title {
     content : " ► "
 }
 
-.paragraphes-informations {
-    margin: 0;
-    color: #000;
-    text-align: justify;
-    font-size: 15px;
-    overflow: auto;
-    padding: 0;
+.success-title { background-color: var(--youtube-color)!important; }
+.ingame-title { background-color: var(--twitch-color)!important; margin-top : 20px !important;}
+.stopped-title { background-color: rgb(243, 183, 70)!important; margin-top : 20px !important; }
+.future-title { margin-top : 20px !important; }
+
+.challenge-link {
+    color: var(--link-color);
 }
 
-.twitch-section { width: 100%;}
+.youtube-link:hover {
+    color: var(--youtube-color);
+}
 
-.twitch-title { margin : 50px auto; }
+.twitch-link:hover {
+    color: var(--twitch-color);
+}
+
+.fa-youtube,
+.fa-spin { color: var(--youtube-color); }
+.fa-twitch { color: var(--twitch-color); }
+.fa-circle-pause { color: rgb(243, 183, 70); }
+.fa-question, .fa-hourglass-half { color: var(--accent-color); }
+
+.index-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.games-panels {
+    width: 43.4%;
+}
+
+.twitch-section { 
+    width: 100%;
+}
+
+.twitch-title { 
+    margin : 50px auto; 
+}
 
 .twitch-rewards h2,
 .index-challenges h2 {
@@ -71,19 +131,13 @@ section .section-title {
     padding: 10px;
     margin: 0 0 20px 0;
     color: #fff;
+    background: var(--accent-color);
 }
-
-.twitch-rewards h2 { background: var(--second-color); }
-
-.success-title { background-color: var(--youtube-color); }
-.ingame-title { background-color: var(--twitch-color); margin-top : 20px !important;}
-.stopped-title { background-color: rgb(243, 183, 70); margin-top : 20px !important; }
-.future-title { background-color: var(--second-color); margin-top : 20px !important; }
 
 .twitch-screen {
     width : 100%;
     padding : 10px;
-    box-shadow: 0px 0px 5px #9b9b9b;
+    box-shadow: 0px 0px 5px var(--shadow-color);
 }
 
 iframe { width: 100%; height: 100%;}
@@ -91,7 +145,7 @@ iframe { width: 100%; height: 100%;}
 .twitch-rewards {
     height : 720px;
     padding : 10px;
-    box-shadow: 0px 0px 5px #9b9b9b;
+    box-shadow: 0px 0px 5px var(--shadow-color);
     width : 30%;
     overflow: auto;
 }
@@ -108,65 +162,11 @@ iframe { width: 100%; height: 100%;}
     width : 56px;
 }
 
-/*.twitch-rewards:last-of-type { width: 50%; overflow: hidden;}*/
-
-
 .twitch-section {
     display : flex;
     justify-content: space-evenly;
     gap: 1.5rem;
 }
-
-.paragraphes-informations a {
-    display: block;
-    width: 250px;
-    color: var(--white-color);
-    margin: 30px auto 0;
-    background-color: var(--second-color);
-    text-align: center;
-    padding: 10px;
-    text-transform: uppercase;
-    font-family: "Noto Sans";
-    font-weight: bold;
-}
-
-.paragraphes-informations a:hover {
-    color : var(--second-color);
-    background-color: var(--white-color);
-}
-
-.index-games {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    justify-content: space-between;
-}
-
-.games-panels {
-    width: 43.4%;
-}
-
-.games-panels h1 {
-    margin: 0;
-}
-
-.challenge-link {
-    color: var(--second-color);
-}
-
-.youtube-link:hover {
-    color: var(--youtube-color);
-}
-
-.twitch-link:hover {
-    color: var(--twitch-color);
-}
-
-.fa-youtube,
-.fa-spin { color: var(--youtube-color); }
-.fa-twitch { color: var(--twitch-color); }
-.fa-circle-pause { color: rgb(243, 183, 70); }
-.fa-question, .fa-hourglass-half { color: var(--second-color); }
 
 /* PLANNING */
 .week-planning {
@@ -183,19 +183,20 @@ iframe { width: 100%; height: 100%;}
 
 
 /* RESPONSIVE */
-
 @media only screen and (max-width: 1920px) {
     .section-title { 
-    font-size: 1.5rem; 
-    padding : 25px 0;
+        font-size: 1.5rem; 
+        padding : 25px 0;
     }
+
     .index-games {
         justify-content: center;
         gap: 1rem;
     }
-    .column-left {width: 23%;}
-	.column-middle {width: 20%;}
-	.column-right {width: 54%;}
+
+    .index-column:nth-child(1) {width: 23%;}
+	.index-column:nth-child(2) {width: 20%;}
+	.index-column:nth-child(3) {width: 54%;}
     .index-presentation, .index-challenges  {font-size : 13px;}
 }
 
@@ -208,10 +209,12 @@ iframe { width: 100%; height: 100%;}
 
 @media only screen and (max-width: 768px) {
     .site-main {
-       margin: 90px auto 0;
+       margin: 0 auto;
     }
 
-    .column-left, .column-middle, .column-right {
+    .index-column:nth-child(1),
+    .index-column:nth-child(2),
+    .index-column:nth-child(3) {
         width: 100%;
     }
 
@@ -258,10 +261,6 @@ iframe { width: 100%; height: 100%;}
 }
 
 @media only screen and (max-width: 480px) {
-    /*.twitch-rewards img:not(.index-planning) {
-        width: 51px;
-    }*/
-
     .twitch-screen {
         width : 96%;
         height : 378px;
@@ -282,4 +281,5 @@ iframe { width: 100%; height: 100%;}
         width : 95%;
     }
 }
+
 

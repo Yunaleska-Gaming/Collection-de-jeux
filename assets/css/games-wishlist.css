@@ -1,39 +1,47 @@
+:root {
+	--accent-color-ps: #0072ce;
+	--main-color-steam: #24282f;
+    --second-color-steam: #393f48;
+    --accent-color-steam: #166bcc;
+	--accent-color-nintendo: #c00000;
+}
+
 .site-main {
-	margin-left : 0;
+	padding: 5rem 0 200px 0;
 }
 
 #wish-ps {
-	background : var(--second-color);
+	background : var(--accent-color);
 }
 
 #wish-steam {
-	background-color : var(--dark-grey-steam);
+	background-color : var(--main-color-steam);
 }
 
 #wish-nintendo {
-	background-color : var(--nintendo-color);
+	background-color : var(--accent-color-nintendo);
 }
 
-.platinum-steam { width : 12.28%; background-color : var(--blue-steam);}
+.platinum-steam { width : 12.28%; background-color : var(--accent-color-steam);}
 
 .no-wished-game-background {
 	width : 94%;
 	margin : auto;
 	padding : 10px;
-	box-shadow: 0px 0px 5px var(--dark-grey-steam);
+	box-shadow: 0px 0px 5px var(--shadow-color);
 	text-align: center;
-	color : var(--nintendo-color);
+	color : var(--accent-color-nintendo);
 }
 
 #wish-steam-background {
-	background-color : var(--light-grey-steam);
+	background-color : var(--second-color-steam);
 }
 
 .games-show-steam {
    margin: 10px;
    overflow: hidden;
    position: relative;
-   box-shadow: 0px 0px 5px var(--dark-grey-steam);
+   box-shadow: 0px 0px 5px var(--main-color-steam);
 }
 
 .games-show-steam .mask,
@@ -47,11 +55,11 @@
 }
 
 .games-show-steam > img {
-   display: block;
-   position: relative;
-	 margin : auto;
-	 height : 432px;
-	 min-width : 288px;
+	display: block;
+	position: relative;
+	margin : auto;
+	height : 432px;
+	min-width : 288px;
 }
 
 .games-show-steam h2 {
@@ -144,7 +152,7 @@
 	position : absolute;
 	width : 600px;
 	height : 600px;
-	background-image : conic-gradient(transparent,transparent,transparent, var(--blue-steam));
+	background-image : conic-gradient(transparent,transparent,transparent, var(--accent-color-steam));
 	animation : animate 3s linear infinite;
 }
 
@@ -170,7 +178,7 @@
 	background-image :
     linear-gradient(black, black),
     url("https://zupimages.net/up/23/28/w9k3.png");
-  background-blend-mode : saturation;
+ 	background-blend-mode : saturation;
 	background-repeat : no-repeat;
 	width : 100%;
 	height : 70px;
@@ -194,7 +202,7 @@
 }
 
 .percent-games-steam {
-	background : var(--light-grey-steam);
+	background : var(--second-color-steam);
 	margin-right : 10px;
 	width : 100%;
 	height : 24px;
@@ -202,7 +210,7 @@
 }
 
 .percent-games-steam > div {
-	background-color : var(--blue-steam);
+	background-color : var(--accent-color-steam);
 	position : absolute;
 	top : 0;
 	left : 0;
@@ -217,7 +225,7 @@
 
 .zero-percent {
 	width : 100%;
-	background-color : var(--light-grey-steam)!important;
+	background-color : var(--second-color-steam)!important;
 }
 
 .cent-percent {

@@ -1,30 +1,46 @@
 /*RACINE & CSS GENERAL */
+:root {
+    --main-color: #24282f;
+    --second-color: #393f48;
+    --accent-color: #166bcc;
+    --link-color: #171d25;
+}
+
 ::-webkit-scrollbar {
-  width: 5px;
+    width: 5px;
 }
  
 ::-webkit-scrollbar-thumb{
-  background : #171d25;
+    background : #171d25;
 }
 
 html,
 .percentage-bar {
-	background : var(--light-grey-steam);
+	background : var(--second-color);
 }
 
-.link:hover { color : var(--light-grey-steam); }
-.selected:hover:after { border-color : transparent transparent var(--light-grey-steam) transparent; }
+.steam-main {
+    margin-left: 250px;
+    padding-bottom: 155px;
+    background-color: var(--second-color);
+}
+
+.link:hover { color : var(--link-color); }
+.selected:hover:after { border-color : transparent transparent var(--link-color) transparent; }
+
+/* BOUTON DARKMODE */
+.dark-options {
+    display: none;
+}
 
 /*SIDEBAR*/
-
-
 .footer-steam,
 #copyright-steam { background : #171d25; }
 
-.site-sidebar__back { background : var(--dark-grey-steam); }
+.site-sidebar__back { background : var(--main-color); }
 
 .section-title {
-	background : var(--dark-grey-steam);
+	background : var(--main-color);
 }
 
 .achievement-line {
@@ -41,11 +57,10 @@ html,
 
 .site-sidebar__p,
 .site-sidebar__items .trophies {
-	color : var(--white-color);
+	color : var(--text-color);
 }
 
-.site-sidebar__pseudo { color : var(--white-color); }
-
+.site-sidebar__pseudo { color : var(--text-color); }
 
 .trophies,
 .games-trophies {
@@ -62,41 +77,41 @@ html,
   background-image : none;  
 }
 
-.platinum-steam { background-color : var(--blue-steam);}
+.platinum-steam { background-color : var(--accent-color);}
 
 .games-show-steam {
-   margin: 10px;
-   overflow: hidden;
-   position: relative;
-   box-shadow: 0px 0px 5px var(--dark-grey-steam);
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 5px var(--main-color);
 }
 
 .games-show-steam .mask,
 .games-show-steam .content {
-   width: 308px;
-   height: 140px;
-   position: absolute;
-   overflow: hidden;
-   top: 0;
-   left: 0;
+    width: 308px;
+    height: 140px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
 }
 
 .games-show-steam > img {
-   display: block;
-   position: relative;
-	 margin : auto;
-	 height : 432px;
-	 min-width : 288px;
+    display: block;
+    position: relative;
+    margin : auto;
+    height : 432px;
+    min-width : 288px;
 }
 
 .games-show-steam h2 {
-   text-transform: uppercase;
-   text-align: center;
-   position: relative;
-   font-size: 16px;
-   padding: 10px;
-   background: rgba(0, 0, 0, 0.8);
-   margin: 20px 0 0 0;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
 }
 
 .effect-show-steam .mask-1,
@@ -175,6 +190,7 @@ html,
 	width : 288px;
 	height : 432px;
 	padding : 10px;
+    z-index: 0;
 }
 
 .platined-steam:before,
@@ -183,7 +199,7 @@ html,
 	position : absolute;
 	width : 600px;
 	height : 600px;
-	background-image : conic-gradient(transparent,transparent,transparent, var(--blue-steam));
+	background-image : conic-gradient(transparent,transparent,transparent, var(--accent-color));
 	animation : animate 3s linear infinite;
 }
 
@@ -209,7 +225,7 @@ html,
 	background-image :
     linear-gradient(black, black),
     url("../images/steam/icon-100.png");
-  background-blend-mode : saturation;
+    background-blend-mode : saturation;
 	background-repeat : no-repeat;
 	width : 100%;
 	height : 70px;
@@ -233,7 +249,7 @@ html,
 }
 
 .percent-games-steam {
-	background : var(--light-grey-steam);
+	background : var(--second-color);
 	margin-right : 10px;
 	width : 100%;
 	height : 24px;
@@ -241,7 +257,7 @@ html,
 }
 
 .percent-games-steam > div {
-	background-color : var(--blue-steam);
+	background-color : var(--accent-color);
 	position : absolute;
 	top : 0;
 	left : 0;
@@ -256,7 +272,7 @@ html,
 
 .zero-percent {
 	width : 100%;
-	background-color : var(--light-grey-steam)!important;
+	background-color : var(--second-color)!important;
 }
 
 .cent-percent {
@@ -270,7 +286,7 @@ html,
 		background: rgba(23, 29, 37, 0.5);
 	}
 	.site-navigation__sub-item:hover .link {
-		color: var(--light-grey-steam);
+		color: var(--second-color);
 	}
 }
 
