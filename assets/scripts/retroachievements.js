@@ -2,6 +2,17 @@
 
 import { fetchGamesData, adjustFontSizes, calculateGameStats, renderPlaystationGames, updatePlaystationGameCount } from './utils.js';
 
+const platformNames = {
+  ps1: "PS1",
+  ps2: "PS2",
+  psp: "PSP",
+  gc: "GameCube",
+  snes: "Super Nintendo",
+  gba: "Game Boy Advance",
+  ds: "Nintendo DS",
+  // Ajoute d'autres plateformes ici si besoin
+};
+
 async function fetchData() {
     // Chargement des données
     const ps1Games = await fetchGamesData('ps1');
@@ -60,7 +71,7 @@ function updateAchievementStats(games) {
         achievementsEl.innerHTML = `<img src="assets/images/retro/icon-achievement.png"class="site-sidebar-achievement"> ${totalEarned} / ${totalPossible} succès obtenus`;
     }
     if (platinedEl) {
-        platinedEl.textContent = `${totalCompleted} terminés à 100% / ${games.length} jeux`;
+        platinedEl.textContent = `${totalCompleted} jeux terminés à 100% / ${games.length} jeux`;
     }
     if (percentEl) {
         percentEl.style.width = `${completionPercent}%`;
@@ -94,7 +105,7 @@ function updatePerConsoleCompletion(games, platform) {
     const labelId = `games_platined_${platform}`;
     const label = document.getElementById(labelId);
     if (label) {
-        label.textContent = `${completed.length} / ${games.length} jeux terminés`;
+        label.textContent = `${completed.length} / ${games.length} jeux ${platformNames[platform] || platform} terminés`;
     }
 }
 
@@ -117,6 +128,5 @@ function updateCompletionTimeline(games) {
         lastEl.textContent = lastGame ? `Dernier 100% : ${lastGame.name}` : 'Dernier 100% : -';
     }
 }
-
 
 export default fetchData;

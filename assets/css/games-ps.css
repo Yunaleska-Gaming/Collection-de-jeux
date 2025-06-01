@@ -164,6 +164,8 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .site-main { margin : 0; padding-top: 5rem;} 
+
     .site-sidebar__back {
         position: relative;
         display: flex;
@@ -171,7 +173,7 @@
         width: 100%;
 		align-items: center;
 		justify-content: space-around;
-        top: 0;
+        top: 84px;
     }
 
     .site-sidebar__avatar img { width: 100%; }

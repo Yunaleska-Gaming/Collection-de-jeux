@@ -519,6 +519,11 @@ html,
 
 .no-achievement-game:after { content : ' Pas de succès '; }
 
+#ps1-count,
+#ps2-count,
+#psp-count,
+#gc-count { display:none;}
+
 @media only screen and (max-width: 912px) {
     .site-navigation .list { 
 		background: rgba(17, 17, 19, 0.5);
