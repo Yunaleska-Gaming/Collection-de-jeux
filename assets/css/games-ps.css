@@ -202,15 +202,15 @@
     .block-trophies { gap: 0.2rem; }
     .item-line { font-size: 0.7rem; }
     .site-sidebar__informations { font-size: 0.7rem; }
+    .trophies {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 425px) {
     .site-sidebar__pseudo { font-size : 0.6rem; }
     .block-trophies { gap: 0.1rem; }
     .item-line { font-size: 0.6rem; }
-    .trophies {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 }
