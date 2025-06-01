@@ -100,8 +100,8 @@ html,
     display: block;
     position: relative;
     margin : auto;
-    height : 432px;
-    min-width : 288px;
+    width: 100%;
+    max-width: 288px;
 }
 
 .games-show-steam h2 {
@@ -127,13 +127,13 @@ html,
 .effect-show-steam .mask-1 {
     left: auto;
     right: 0;
-    transform: rotate(34.2deg) translateX(-260px);
+    transform: rotate(34.2deg) translateX(-270px);
     transform-origin: 100% 0%;
 }
 .effect-show-steam .mask-2 {
     top: auto;
     bottom: 0;
-    transform: rotate(34.2deg) translateX(260px);
+    transform: rotate(34.2deg) translateX(270px);
     transform-origin: 0% 100%;
 }
 .effect-show-steam .content {
@@ -142,7 +142,7 @@ html,
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     filter: alpha(opacity=50);
     opacity: 0.5;
-    width: 361px;
+    width: 100%;
     overflow: hidden;
     transform: rotate(-33.5deg) translate(-112px, 166px);
     transform-origin: 0% 100%;
@@ -162,8 +162,8 @@ html,
     opacity: 0.9;
     top: 34.5%;
     transform: rotate(0deg) translate(0, 0);
-		position : absolute;
-		left : 0;
+	position : absolute;
+	left : 0;
 }
 
 .effect-show-steam:hover .mask-1,
@@ -187,8 +187,6 @@ html,
 	display : flex;
 	justify-content : center;
 	align-items : center;
-	width : 288px;
-	height : 432px;
 	padding : 10px;
     z-index: 0;
 }

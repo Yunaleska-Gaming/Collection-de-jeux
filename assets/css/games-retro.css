@@ -147,7 +147,6 @@ html,
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 305px;
     padding: 10px;
 }
 
@@ -155,8 +154,8 @@ html,
     display: block;
     position: relative;
     margin: auto;
-    height: 305px;
-    width: 305px;
+    width: 100%;
+    max-width: 305px;
 }
 
 .effect-show-ps1 .mask-1,
@@ -203,7 +202,7 @@ html,
 
 .effect-show-ps1:hover .content {
     height: 140px;
-    width: 325px;
+    width: 100%;
     opacity: 0.9;
     top: 31.8%;
     transform: rotate(0deg) translate(0, 0);
@@ -240,15 +239,16 @@ html,
     position: relative;
     object-fit: fill;
     margin: auto;
-    height: 495px;
+    width: 100%;
+    max-height: 475px;
 }
 
 .effect-show-ps2 .mask-1,
 .effect-show-ps2 .mask-2,
 .effect-show-gc .mask-1,
 .effect-show-gc .mask-2 {
-    height: 700px;
-    width: 700px;
+    height: 600px;
+    width: 600px;
     opacity: 1;
     transition: all 0.3s ease-in-out 0.6s;
 }
@@ -262,7 +262,7 @@ html,
 .effect-show-gc .mask-1 {
     left: auto;
     right: 0;
-    transform: rotate(34.1deg) translateX(-320px);
+    transform: rotate(34.15deg) translateX(-320px);
     transform-origin: 100% 0%;
 }
 
@@ -270,7 +270,7 @@ html,
 .effect-show-gc .mask-2 {
     top: auto;
     bottom: 0;
-    transform: rotate(34.1deg) translateX(320px);
+    transform: rotate(34.15deg) translateX(320px);
     transform-origin: 0% 100%;
 }
 
@@ -281,7 +281,7 @@ html,
     opacity: 0.5;
     width: 458px;
     overflow: hidden;
-    transform: rotate(-34.1deg) translate(-112px, 166px);
+    transform: rotate(-34.15deg) translate(-112px, 166px);
     transform-origin: 0% 100%;
     transition: all 0.4s ease-in-out 0.3s;
 }
@@ -313,12 +313,12 @@ html,
 
 .effect-show-ps2:hover .mask-1,
 .effect-show-gc:hover .mask-1 {
-    transform: rotate(34.1deg) translateX(0);
+    transform: rotate(34.15deg) translateX(0);
 }
 
 .effect-show-ps2:hover .mask-2,
 .effect-show-gc:hover .mask-2 {
-    transform: rotate(34.1deg) translateX(0);
+    transform: rotate(34.15deg) translateX(0);
 }
 
 /* Style PSP */
@@ -334,13 +334,14 @@ html,
     position: relative;
     object-fit: fill;
     margin: auto;
-    height: 495px;
+    width: 100%;
+    max-height: 475px;
 }
 
 .effect-show-psp .mask-1,
 .effect-show-psp .mask-2{
-    height: 700px;
-    width: 700px;
+    height: 600px;
+    width: 600px;
     background: rgba(17,17,19,0.5);
     opacity: 1;
     transition: all 0.3s ease-in-out 0.6s;

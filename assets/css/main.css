@@ -257,7 +257,7 @@ input:checked + .slider {
 }
 
 .social-list {
-	padding : 20px 0 40px;
+	padding : 20px 0 55px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
