@@ -564,3 +564,11 @@ input:checked + .slider {
 		right: 90px;
 	}
 }
+
+@media only screen and (max-width: 768px) {
+    .site-section {
+		font-size: 1rem;
+	}
+	
+	.ps-main { margin-left: 0; padding: 5rem 1rem;}
+}
