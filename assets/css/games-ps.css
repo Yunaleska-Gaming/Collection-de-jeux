@@ -164,8 +164,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .site-main { margin : 0; padding-top: 5rem;} 
-
     .site-sidebar__back {
         position: relative;
         display: flex;
@@ -173,7 +171,6 @@
         width: 100%;
 		align-items: center;
 		justify-content: space-around;
-        top: 84px;
     }
 
     .site-sidebar__avatar img { width: 100%; }
@@ -189,7 +186,8 @@
 
     .site-sidebar__informations { width: 70%; }
 	.item-line { margin-top : 12px; padding: 0; }
-    .section-title {font-size: 2rem;}
+    .section-title {font-size: 1rem;}
+    .ps-main { margin-left: 0; padding: 5rem 1rem;}
     #platine-responsive,
     #gold-responsive,
     #silver-responsive,
