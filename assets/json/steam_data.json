@@ -72,7 +72,7 @@
     {
         "img_src": "clair-obscur-33.jpg",
         "name": "Clair Obscur : Expedition 33",
-        "amount_achievement": "54/55"
+        "amount_achievement": "55/55"
     },
     {
         "img_src": "content-warning.jpg",
@@ -177,7 +177,7 @@
     {
         "img_src": "final-fantasy-9.jpg",
         "name": "Final Fantasy IX",
-        "amount_achievement": "7/85"
+        "amount_achievement": "19/85"
     },
     {
         "img_src": "final-fantasy-10.jpg",
@@ -315,6 +315,11 @@
         "amount_achievement": "0/47"
     },
     {
+        "img_src": "nioh.jpg",
+        "name": "Nioh: Complete Edition",
+        "amount_achievement": "6/79"
+    },
+    {
         "img_src": "octopath-traveler.jpg",
         "name": "Octopath Traveler",
         "amount_achievement": "0/88"
@@ -338,6 +343,11 @@
         "img_src": "ori-and-the-will-of-the-wisps.jpg",
         "name": "Ori and the Will of the Wisps",
         "amount_achievement": "28/37"
+    },
+    {
+        "img_src": "overcooked-2.jpg",
+        "name": "Overcooked! 2",
+        "amount_achievement": "6/54"
     },
     {
         "img_src": "pacify.jpg",
@@ -457,7 +467,7 @@
     {
         "img_src": "resident-evil-8.jpg",
         "name": "Resident Evil Village",
-        "amount_achievement": "30/56"
+        "amount_achievement": "47/56"
     },
     {
         "img_src": "resident-evil-revelation.jpg",

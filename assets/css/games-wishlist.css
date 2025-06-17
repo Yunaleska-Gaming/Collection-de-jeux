@@ -233,3 +233,7 @@
 }
 
 .no-achievement-game:after { content : ' Pas de succès '; }
+
+#lang-switcher {
+	display: none;
+}

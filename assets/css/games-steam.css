@@ -279,6 +279,10 @@ html,
 
 .no-achievement-game:after { content : ' Pas de succès '; }
 
+#lang-switcher {
+	display: none;
+}
+
 @media only screen and (max-width: 912px) {
     .site-navigation .list { 
 		background: rgba(23, 29, 37, 0.5);

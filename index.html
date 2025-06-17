@@ -7,7 +7,7 @@
 		<link href="assets/css/index.css" rel="stylesheet" />
 		<link href="assets/css/games-ps.css" rel="stylesheet" />
 		<link href="assets/css/games-steam-index.css" rel="stylesheet" />
-		<link href="assets/images/favicon.jpg" rel="icon" />
+		<link href="assets/images/favicon.png" rel="icon" />
 		<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans" />
 		<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css" />
@@ -26,25 +26,25 @@
 			<main class="site-main">
 				<section class="site-main__section first-section">
 					<div class="index-column">
-						<h1 class="section-title">Présentation</h1>
+						<h1 class="section-title" data-i18n="welcome">Présentation</h1>
 						<div class="informations-borders index-presentation">
-							<p class="paragraphes-informations">
+							<p class="paragraphes-informations" data-i18n="firstParagraph">
 								Bonjour et bienvenue sur ce petit site ! Le seul et unique intérêt de ce dernier est tout simplement de garder une trace et d'exposer ma petite collection de jeux-vidéos, toutes plateformes confondues. 
 							</p>
 	
-							<p class="paragraphes-informations">
+							<p class="paragraphes-informations" data-i18n="secondParagraph">
 								Je suis Yunaleska, anciennement connu sous le pseudo de Rydia. Je suis une petite streameuse qui aime se lancer des défis sur les jeux mais qui ne souhaite aussi que partager sa passion autour de discussions avec des amis 
 								ou même de nouvelles personnes qui pourraient se perdre sur mes lives. Une récompense sur twitch, qui coûte un peu chère je vous l'accorde, pourrait vous permettre de choisir un jeu auquel je jouerais et que je streamerais. 
 								Grâce à ce site, vous pouvez donc faire un choix. Ce n'est pas ce qu'il manque.
 	
 	
 							</p>
-							<p class="paragraphes-informations">
+							<p class="paragraphes-informations" data-i18n="thirdParagraph">
 								Un discord autour de l'univers du jeu vidéo est ouvert, si jamais vous souhaitez vous incruster ne serait-ce que pour discuter ou trouver des gens avec qui jouer. 
 								Vous êtes le ou la bienvenue le temps que vous êtes dans les règles !
-	
-								<a href="https://discord.gg/r6M5Y2uuT4">Rejoindre le Discord</a>
 							</p>
+							<a href="https://discord.gg/r6M5Y2uuT4" data-i18n="linkParagraph" class="paragraphes-informations-link">Rejoindre le Discord</a>
+							
 						</div>
 	
 					</div>
@@ -52,10 +52,20 @@
 						<h1 class="section-title">Challenges</h1>
 						<div class="informations-borders index-presentation">
 							<ul class="index-challenges">
-								<h2 class="success-title">Challenges réussis</h2>
+								<h2 class="success-title" data-i18n="completedChallenges">Challenges réussis</h2>
+								<li class="index-lists">Final Fantasy IX : 
+									<ul class="index-sublists">
+										<li><i class="fa-solid fa-spinner fa-spin"></i> No Trance, No Summons</a></li>
+									</ul>
+								</li>
 								<li class="index-lists">Final Fantasy X : 
 									<ul class="index-sublists">
 										<li><a href="https://www.youtube.com/playlist?list=PLT1mqwRlf2oqiZn8qQQV2MjffjtVnfnve" class="challenge-link youtube-link"><i class="fa-brands fa-youtube"></i> No Overdrive, No Swap, Sphérier Expert</a></li>
+									</ul>
+								</li>
+								<li class="index-lists">Resident Evil Classic :
+									<ul class="index-sublists">
+										<li><i class="fa-solid fa-spinner fa-spin"></i> No Save No Damage - Jill Best Ending</a></li>
 									</ul>
 								</li>
 								<li class="index-lists">Resident Evil 2 Classic :
@@ -70,18 +80,24 @@
 										<li><i class="fa-solid fa-spinner fa-spin"></i> No Upgrade, No Craft</li>
 									</ul>
 								</li>
-								<h2 class="ingame-title">Challenges en cours</h2>
-								<li class="index-lists">Final Fantasy IX :
+								<h2 class="ingame-title" data-i18n="ongoingChallenges">Challenges en cours</h2>
+								<li class="index-lists">Clair Obscur: Expedition 33
 									<ul class="index-sublists">
-										<li><a href="https://www.twitch.tv/yunaleska" class="challenge-link twitch-link"><i class="fa-brands fa-twitch"></i> No Trance, No Summons</li></a></li>
+										<li><a href="https://www.twitch.tv/yunaleska" class="challenge-link twitch-link"><i class="fa-brands fa-twitch"></i> No Pictos, No Luminas, Expert</li></a></li>
 									</ul> 
 								</li>
 								<li class="index-lists">Resident Evil Classic : 
 									<ul class="index-sublists">
-										<li><a href="https://www.twitch.tv/yunaleska" class="challenge-link twitch-link"><i class="fa-brands fa-twitch"></i> No Save No Damage - Jill Best Ending</a></li>
+										<li><a href="https://www.twitch.tv/yunaleska" class="challenge-link twitch-link"><i class="fa-brands fa-twitch"></i> No Save No Damage - Chris Best Ending</a></li>
 									</ul>
 								</li>
-								<h2 class="stopped-title">Challenges en pause</h2>
+								<li class="index-lists">Resident Evil 2 Classic : 
+									<ul class="index-sublists">
+										<li><a href="https://www.twitch.tv/yunaleska" class="challenge-link twitch-link"><i class="fa-brands fa-twitch"></i> No Save No Damage - Leon B (HARD)</a></li>
+										<li><a href="https://www.twitch.tv/yunaleska" class="challenge-link twitch-link"><i class="fa-brands fa-twitch"></i> No Save No Damage - Claire B (HARD)</a></li>
+									</ul>
+								</li>
+								<h2 class="stopped-title" data-i18n="pausedChallenges">Challenges en pause</h2>
 								<li class="index-lists">Final Fantasy VII :
 									<ul class="index-sublists">
 										<li><i class="fa-solid fa-circle-pause"></i> Starter Gear Only</li>
@@ -92,7 +108,7 @@
 										<li><i class="fa-solid fa-circle-pause"></i> No Save No Damage</li>
 									</ul>
 								</li>
-								<h2 class="future-title">Futurs challenges</h2>
+								<h2 class="future-title" data-i18n="futureChallenges">Futurs challenges</h2>
 								<li class="index-lists">Final Fantasy VIII :
 									<ul class="index-sublists">
 										<li><i class="fa-solid fa-question"></i> A définir</li>
@@ -129,7 +145,7 @@
 					</div>
 
 					<div class="index-column">
-						<h1 class="section-title">Les jeux en cours</h1>
+						<h1 class="section-title" data-i18n="ongoingGames">Les jeux en cours</h1>
 						<div class="index-games" id="game_container">
 
 						</div>
@@ -151,7 +167,7 @@
 								<img src="assets/images/emotes/UmbreonSleeping.png" />
 								<img src="assets/images/emotes/phoenix.png" />
 							</div>
-							<h2>ABONNEMENT TIER 1</h2>
+							<h2 data-i18n="subOne">ABONNEMENT TIER 1</h2>
 							<div class="twitch-rewards-img">
 								<img src="assets/images/emotes/love.png" />
 								<img src="assets/images/emotes/coffee.png" />
@@ -167,15 +183,15 @@
 								<img src="assets/images/emotes/raid.gif" />
 								<img src="assets/images/emotes/chocked.gif" />
 							</div>
-							<h2>ABONNEMENT TIER 2</h2>
+							<h2 data-i18n="subTwo">ABONNEMENT TIER 2</h2>
 							<div class="twitch-rewards-img">
 								<img src="assets/images/emotes/guncat.png" />
 							</div>
-							<h2>ABONNEMENT TIER 3</h2>
+							<h2 data-i18n="subThree">ABONNEMENT TIER 3</h2>
 							<div class="twitch-rewards-img">
 								<img src="assets/images/emotes/knife.png" />
 							</div>
-							<h2>BADGES ABONNES</h2>
+							<h2 data-i18n="subBadges">BADGES ABONNES</h2>
 							<div class="twitch-rewards-img">
 								<img src="assets/images/badges/rank1.png" />
 								<img src="assets/images/badges/rank2.png" />
@@ -186,7 +202,7 @@
 							</div>
 						</div>
 						<div class="twitch-rewards">
-							<h2>Calendrier hebdomadaire</h2>
+							<h2 data-i18n="weeklyCalendar">Calendrier hebdomadaire</h2>
 							<div class="week-planning">
 								<img src="assets/images/planning.png">
 							</div>
@@ -200,5 +216,7 @@
 		<script type="module">import fetchData from './assets/scripts/index.js';fetchData();</script>
 		<script src="assets/scripts/wherami.js"></script>
 		<script src="assets/scripts/darkmode.js"></script>
+		<script type="module" src="assets/scripts/lang.js"></script>
+
 	</body>
 </html>

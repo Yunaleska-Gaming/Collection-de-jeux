@@ -134,13 +134,6 @@ input:checked + .slider .thumb i {
     display: none;
 }
 
-#zoot, 
-#zelda-wild,
-#mhs { font-size : 14px; }
-#ffcc,
-#zelda-kingdom { font-size : 13px; }
-
-
 /*SWITCH*/
 
 .games-show-switch  {
@@ -248,6 +241,10 @@ input:checked + .slider .thumb i {
 	justify-content : center;
 	align-items : center;
 	padding : 10px;
+}
+
+#lang-switcher {
+	display: none;
 }
 
 @media only screen and (max-width: 912px) {

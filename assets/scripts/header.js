@@ -9,19 +9,29 @@ class HeaderElement extends HTMLElement {
                 <header class="site-header">
                     <div class="site-navigation limits">
                         <div class="${headerIconClass}"></div>
-                            <div class="menu-hamburger">
-                                <i class="fa-solid fa-bars icon-bars"></i>
-                                <i class="fa-solid fa-xmark icon-close"></i>
-                            </div>
+                         <div class="menu-hamburger">
+                            <i class="fa-solid fa-bars icon-bars"></i>
+                            <i class="fa-solid fa-xmark icon-close"></i>
+                        </div>
                         <nav class="site-navigation__back">
                             <ul class="${headerClasses}">
+                                <!-- Sélecteur de langue -->
+                                <div class="language-dropdown">
+                                    <button class="lang-button" id="lang-toggle">
+                                        <i class="fa-solid fa-globe"></i>
+                                    </button>
+                                    <ul class="lang-menu" id="lang-menu">
+                                        <li data-lang="fr">🇫🇷 Français</li>
+                                        <li data-lang="en">🇬🇧 English</li>
+                                    </ul>
+                                </div>
                                 <div class="dark-options">
-                                <label class="theme-toggle">
-                                    <input type="checkbox" id="toggle-theme">
-                                    <span class="slider">
-                                        <span class="thumb"><i class="fas fa-moon"></i></span>
-                                    </span>
-                                </label>
+                                    <label class="theme-toggle">
+                                        <input type="checkbox" id="toggle-theme">
+                                        <span class="slider">
+                                            <span class="thumb"><i class="fas fa-moon"></i></span>
+                                        </span>
+                                    </label>
                                 </div>
                                 <li class="site-navigation__sub-item"><a class="site-navigation link" href="index.html">Index</a></li>
                                 <li class="site-navigation__sub-item"><a class="site-navigation link" href="ps3.html">PS3</a></li>

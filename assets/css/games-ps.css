@@ -155,6 +155,12 @@
     z-index : -1;
 }
 
+
+#lang-switcher {
+	display: none;
+}
+
+
 @keyframes animate {
     0% {
         transform : rotate(0deg);
