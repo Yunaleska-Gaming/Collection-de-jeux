@@ -184,6 +184,7 @@ iframe { width: 100%; height: 100%;}
 .language-dropdown {
   position: relative;
   margin: 0 2rem;
+  display: flex!important;
 }
 
 .lang-button {

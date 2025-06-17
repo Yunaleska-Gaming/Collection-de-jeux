@@ -279,7 +279,7 @@ html,
 
 .no-achievement-game:after { content : ' Pas de succès '; }
 
-#lang-switcher {
+.language-dropdown {
 	display: none;
 }
 

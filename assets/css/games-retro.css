@@ -479,7 +479,7 @@ html,
 	z-index : -1;
 }
 
-#lang-switcher {
+.language-dropdown {
 	display: none;
 }
 

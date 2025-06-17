@@ -243,7 +243,7 @@ input:checked + .slider .thumb i {
 	padding : 10px;
 }
 
-#lang-switcher {
+.language-dropdown {
 	display: none;
 }
 
