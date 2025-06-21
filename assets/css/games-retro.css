@@ -456,6 +456,8 @@ html,
 	justify-content : center;
 	align-items : center;
 	padding : 10px;
+    position: relative;
+    z-index: 0;
 }
 
 #game_container_ps1 .platined-retro {
