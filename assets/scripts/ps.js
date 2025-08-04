@@ -1,4 +1,5 @@
 import { fetchGamesData, createPsItem, updateSidebarStatistics, adjustFontSizes } from './utils.js';
+import { createFilterButtons, initFilters } from './filter.js';
 
 async function fetchData(platform) {
     try {
@@ -41,6 +42,8 @@ async function fetchData(platform) {
             bronzeObtained,
             bronzeTotal
         });
+        createFilterButtons();
+        initFilters('game_container'); // ou 'game_container_ps4', etc.
     } catch (error) {
         console.error('Error fetching the JSON file:', error);
     }

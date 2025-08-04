@@ -73,26 +73,6 @@
         "gold_trophies_dlc": "0/0"
     },
     {
-        "img_src": "dead-space.png",
-        "name": "Dead Space",
-        "bronze_trophies": "7/41",
-        "silver_trophies": "0/4",
-        "gold_trophies": "0/3",
-        "bronze_trophies_dlc": "0/0",
-        "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
-    },
-    {
-        "img_src": "dead-space-2.png",
-        "name": "Dead Space 2",
-        "bronze_trophies": "42/43",
-        "silver_trophies": "4/4",
-        "gold_trophies": "1/3",
-        "bronze_trophies_dlc": "0/4",
-        "silver_trophies_dlc": "0/4",
-        "gold_trophies_dlc": "0/0"
-    },
-    {
         "img_src": "dead-or-alive-5.png",
         "name": "Dead or Alive 5",
         "bronze_trophies": "15/36",
@@ -112,6 +92,27 @@
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0"
     },
+    {
+        "img_src": "dead-space.png",
+        "name": "Dead Space",
+        "bronze_trophies": "7/41",
+        "silver_trophies": "0/4",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "dead-space-2.png",
+        "name": "Dead Space 2",
+        "bronze_trophies": "42/43",
+        "silver_trophies": "4/4",
+        "gold_trophies": "1/3",
+        "bronze_trophies_dlc": "0/4",
+        "silver_trophies_dlc": "0/4",
+        "gold_trophies_dlc": "0/0"
+    },
+
     {
         "img_src": "devil-may-cry-hd.png",
         "name": "Devil May Cry HD",

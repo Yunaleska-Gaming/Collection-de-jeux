@@ -137,7 +137,7 @@ input:checked + .slider .thumb i {
 }
 
 input:checked + .slider {
-  background-color: #0072ce;
+  background-color: #2196F3;
 }
 
 
@@ -436,6 +436,59 @@ input:checked + .slider {
 	color: var(--accent-text-color);
 }
 
+.filters {
+	position: fixed;
+	bottom: 2rem;
+	left: 1.5rem;
+	z-index: 999;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	width: 200px;
+}
+
+.filter-btn {
+	background: var(--accent-color);
+	border: none;
+	padding: 0 0.5rem;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: transform 0.2s, background-color 0.2s;
+	color: var(--accent-text-color);
+	font-size: 1.1rem;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+	width: 50px;
+	height: 50px;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+	background-color: var(--main-bg-color);
+  	transform: scale(1.1);
+	color: var(--accent-color);
+}
+
+.filter-btn i {
+    padding: 0;
+    margin: 0;
+}
+
+.color-platinum {
+	color: var(--platine-color) !important;
+}
+
+.color-gold {
+	color: var(--gold-color) !important;
+}
+
+.dark .filter-btn.active,
+.dark .filter-btn:hover {
+	color: white;
+}
+
+
 /* RESPONSIVE */
 @media only screen and (max-width: 1920px) {
 	.section-title { font-size: 1.5rem;}
@@ -573,3 +626,4 @@ input:checked + .slider {
 	
 	.ps-main { margin-left: 0; padding: 5rem 1rem;}
 }
+

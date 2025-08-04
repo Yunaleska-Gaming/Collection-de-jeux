@@ -283,6 +283,16 @@ html,
 	display: none;
 }
 
+.filter-btn {
+	background: #171d25;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+	background-color: var(--second-color);
+    color: white;
+}
+
 @media only screen and (max-width: 912px) {
     .site-navigation .list { 
 		background: rgba(23, 29, 37, 0.5);

@@ -1,5 +1,6 @@
 // steam.js
 import { calculateGameStats, createSteamItem, adjustFontSizes, fetchGamesData } from './utils.js';
+import { createFilterButtons, initFilters } from './filter.js';
 
 async function fetchData(platform) {
     try {
@@ -30,7 +31,8 @@ async function fetchData(platform) {
         document.getElementById('game_container').appendChild(fragment);
 
         adjustFontSizes();
-
+        createFilterButtons(); // génère les boutons
+        initFilters(); // initialise les comportements
         const percentCompletion = totalPossible > 0 
             ? (totalEarned / totalPossible) * 100 
             : 0;

@@ -5,7 +5,7 @@
 	<title>RetroAchievements</title>
 	<link href="assets/css/main.css" rel="stylesheet" />
 	<link href="assets/css/games-retro.css" rel="stylesheet" />
-	<link href="assets/images/favicon.jpg" rel="icon" />
+	<link href="assets/images/favicon.png" rel="icon" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -75,13 +75,23 @@
 
 					<li class="site-sidebar__items item-line achievement-line" id="achievements_count">
 					</li>
-					<li class="site-sidebar__items item-line" id="first_100">Premier 100% : -</li>
-                    <li class="site-sidebar__items item-line" id="last_100">Dernier 100% : -</li>
+					<li class="site-sidebar__items item-line" id="first_100">Premier 100% : Resident Evil (PS1)</li>
+                    <li class="site-sidebar__items item-line" id="last_100">Dernier 100% : Resident Evil (PS1)</li>
 				</ul>
 			</div>
 		</div>
 
 		<main class="site-main retro-main">
+			<div id="filters-container"></div>
+			<div class="filter-platforms">
+				<button data-platform="all" class="platform-btn active"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+				<button data-platform="ps1">PS1</button>
+				<button data-platform="ps2">PS2</button>
+				<button data-platform="psp">PSP</button>
+				<button data-platform="gc">GC</button>
+				<button id="filter-completed" class="completion-btn">•</button>
+			</div>
+
 			<h1 class="section-title">Collection Playstation 1</h1>
 			<section class="site-main__section first-section" id="game_container_ps1"></section>
 
