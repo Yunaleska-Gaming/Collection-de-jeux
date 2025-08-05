@@ -625,5 +625,35 @@ input:checked + .slider {
 	}
 	
 	.ps-main { margin-left: 0; padding: 5rem 1rem;}
+
+	.filters {
+		width: auto;
+		bottom: 1rem;
+		gap: 8px;
+		flex-direction: column;
+		left: 0.5rem;
+  }
+
+  .filter-btn {
+		width: 44px;
+		height: 44px;
+		font-size: 1rem;
+		padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 0.5rem;
+    gap: 6px;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .filters::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
 }
 
