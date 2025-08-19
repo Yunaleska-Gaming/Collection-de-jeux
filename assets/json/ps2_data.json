@@ -1,7 +1,7 @@
 [
     {
         "img_src": "dirge-of-cerberus.png",
-        "name": "Dirge of Cerberus: Final Fantasy VII",
+        "name": "Dirge of Cerberus : Final Fantasy VII",
         "amount_achievement": "0/173"
     },
     {
@@ -16,12 +16,12 @@
     },
     {
         "img_src": "project-zero-2.png",
-        "name": "Project Zero II: Crimson Butterfly",
+        "name": "Project Zero II : Crimson Butterfly",
         "amount_achievement": "0/128"
     },
     {
         "img_src": "project-zero-3.png",
-        "name": "Project Zero III: The Tormented",
+        "name": "Project Zero III : The Tormented",
         "amount_achievement": "0/80"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
         "img_src": "resident-evil-cvx.png",
-        "name": "Resident Evil Code: Veronica X",
+        "name": "Resident Evil Code : Veronica X",
         "amount_achievement": "0/90"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
         "img_src": "resident-evil-outbreak-2.png",
-        "name": "Resident Evil Outbreak: File #2",
+        "name": "Resident Evil Outbreak : File #2",
         "amount_achievement": "0/113"
     },
     {
@@ -56,12 +56,12 @@
     },
     {
         "img_src": "silent-hill-4.png",
-        "name": "Silent Hill 4: The Room",
+        "name": "Silent Hill 4 : The Room",
         "amount_achievement": "0/66"
     },
     {
         "img_src": "silent-hill-shattered-memories.png",
-        "name": "Silent Hill: Shattered Memories",
+        "name": "Silent Hill : Shattered Memories",
         "amount_achievement": "0/44"
     },
     {
@@ -91,17 +91,17 @@
     },
     {
         "img_src": "legend-of-spyro-1.png",
-        "name": "The Legend of Spyro: A New Beginning",
+        "name": "The Legend of Spyro : A New Beginning",
         "amount_achievement": "0/55"
     },
     {
         "img_src": "legend-of-spyro-2.png",
-        "name": "The Legend of Spyro: Dawn of the Dragon",
+        "name": "The Legend of Spyro : Dawn of the Dragon",
         "amount_achievement": "0/55"
     },
     {
         "img_src": "legend-of-spyro-3.png",
-        "name": "The Legend of Spyro: The Eternal Night",
+        "name": "The Legend of Spyro : The Eternal Night",
         "amount_achievement": "0/55"
     }
 ]

@@ -13,13 +13,14 @@ const translations = {
     subOne: "Abonnement tier 1",
     subTwo: "Abonnement tier 2",
     subThree: "Abonnement tier 3",
-    subBadges: "Badges d'abonnement"
+    subBadges: "Badges d'abonnement",
+    weeklyCalendar: "Calendrier hebdomadaire"
     // Ajoute toutes tes autres clés ici
   },
   en: {
-    welcome: "Introducing",
+    welcome: "Introduction",
     firstParagraph: "Hello and welcome to my website! The main purpose of it is to keep track and showcase my video-game collection with achievements, on every platform.",
-    secondParagraph: "I'm Yunaleska, known before as Rydia. I'm a small streamer who loves challenges on video-games but who also just wants to share her passion for gaming while having nice talks around, with friends or new comers who would join lives. You can redeem channel points on my Twitch, to let you decide the next game I will stream. The website can also be used to see which games I possess to help you make up your mind.",
+    secondParagraph: "I'm Yunaleska, known before as Rydia. I'm a small streamer who loves challenges on video-games but also just wants to share her passion for gaming while having nice talks with friends or new comers who would join lives. You can redeem channel points on my Twitch, to let you decide the next game I will stream. The website can also be used to see which games I possess to help you make up your mind.",
     thirdParagraph: "A community discord around the whole video-game universe is open. If you ever decide to join us, enjoy speaking with others or are scouting for teammates, know that you're welcome as long as you accept the rules. Any nationality is accepted, but we mainly use french here so if you're not, please let me know. I am currently waiting for more non-french people to create an english section.",
     linkParagraph: "Join on Discord",
     completedChallenges: "Completed Challenges",
@@ -30,7 +31,8 @@ const translations = {
     subOne: "Subscription tier 1",
     subTwo: "Subscription tier 2",
     subThree: "Subscription tier 3",
-    subBadges: "Subscription Badges"
+    subBadges: "Subscription Badges",
+    weeklyCalendar: "Weekly schedule"
     // Et les traductions ici
   }
 };
@@ -47,7 +49,7 @@ function setLanguage(lang) {
 }
 
 function initLanguageSwitcher() {
-  const lang = localStorage.getItem('lang') || navigator.language.startsWith('fr') ? 'fr' : 'en';
+  const lang = localStorage.getItem('lang') || (navigator.language.startsWith('fr') ? 'fr' : 'en');
   const select = document.getElementById('lang-switcher');
   if (select) {
     select.value = lang;

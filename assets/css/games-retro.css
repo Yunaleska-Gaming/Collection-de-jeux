@@ -4,12 +4,10 @@
     --second-color: #202020;
     --accent-color: #ffd700;
     --sidebar-accent-color: #0072ce;
+    --main-bg-color: #121214;
+    --main-text-color: #fff;
 }
 
-::-webkit-scrollbar {
-  width: 5px;
-}
- 
 ::-webkit-scrollbar-thumb{
   background : #121214;
 }
@@ -27,7 +25,7 @@ html,
     background-color: var(--second-color);
 }
 
-.link:hover { color : var(--second-color); }
+.link:hover { color : var(--second-color); background-color: var(--main-text-color); }
 .selected:hover:after { border-color : transparent transparent var(--second-color) transparent; }
 
 /* DARKMODE BOUTON */
@@ -69,9 +67,9 @@ html,
 }
 
 .site-sidebar-achievement {
-	 width : 20px;
-	 height : 20px;
-     margin-right: 5px;
+	width : 20px;
+	height : 20px;
+    margin-right: 5px;
 }
 
 .site-sidebar__p,
@@ -649,4 +647,18 @@ html,
     .site-sidebar__pseudo { font-size : 0.6rem; }
     .block-trophies { gap: 0.1rem; }
     .item-line { font-size: 0.6rem; }
+}
+
+@media screen and (max-height: 1080px) {
+	.filter-platforms {
+		width: 250px;
+		left: 0;
+        bottom: 1rem;
+	}
+
+	.filter-platforms button {
+		width: 40px;
+		height: 40px;
+		font-size: 0.9rem;
+	}
 }

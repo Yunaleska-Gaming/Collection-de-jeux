@@ -1,7 +1,7 @@
 [
     {
         "img_src": "fire-emblem-path-of-radiance.png",
-        "name": "Fire Emblem: Path of Radiance",
+        "name": "Fire Emblem : Path of Radiance",
         "amount_achievement": "0/72"
     },
     {
@@ -11,7 +11,7 @@
     },
     {
         "img_src": "mario-kart.png",
-        "name": "Mario Kart: Double Dash!!",
+        "name": "Mario Kart : Double Dash!!",
         "amount_achievement": "0/65"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
         "img_src": "metroid-prime-2.png",
-        "name": "Metroid Prime 2: Echoes",
+        "name": "Metroid Prime 2 : Echoes",
         "amount_achievement": "0/68"
     },
     {
@@ -41,12 +41,12 @@
     },
     {
         "img_src": "starfox-adventures.png",
-        "name": "Star Fox Adventures",
+        "name": "StarFox Adventures",
         "amount_achievement": "0/53"
     },
     {
         "img_src": "starfox-assault.png",
-        "name": "Star Fox: Assault",
+        "name": "StarFox : Assault",
         "amount_achievement": "0/47"
     },
     {
@@ -61,17 +61,17 @@
     },
     {
         "img_src": "zelda-ocarina-of-time-mq.png",
-        "name": "The Legend of Zelda: Ocarina of Time - Master Quest",
+        "name": "TLOZ : Ocarina of Time - Master Quest",
         "amount_achievement": "0/129"
     },
     {
         "img_src": "zelda-wind-waker.png",
-        "name": "The Legend of Zelda: The Wind Waker",
+        "name": "The Legend of Zelda : The Wind Waker",
         "amount_achievement": "0/126"
     },
     {
         "img_src": "zelda-twilight-princess.png",
-        "name": "The Legend of Zelda: Twilight Princess",
+        "name": "The Legend of Zelda : Twilight Princess",
         "amount_achievement": "0/149"
     }
 ]

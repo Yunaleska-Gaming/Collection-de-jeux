@@ -63,9 +63,7 @@ function updateCompletionTimeline(games) {
     }
 
     if (lastEl) {
-        lastEl.textContent = lastGame
-            ? `Dernier 100% : ${lastGame.name}`
-            : 'Dernier 100% : -';
+        lastEl.textContent = `Dernier 100% : Clair Obscur : Expedition 33`;
     }
 }
 

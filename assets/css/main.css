@@ -31,7 +31,7 @@
 }
 
 ::-webkit-scrollbar {
-  	width: 5px;
+  	width: 8px;
 }
  
 ::-webkit-scrollbar-thumb{
@@ -223,7 +223,8 @@ input:checked + .slider {
 	padding: 134px 2rem 200px 2rem;
 }
 
-.section-title {
+.section-title,
+.changelog-content h2 {
 	background : var(--accent-color);
 	color: var(--accent-text-color);
 	text-align : center;
@@ -488,6 +489,86 @@ input:checked + .slider {
 	color: white;
 }
 
+#changelog-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7); /* fond semi-transparent */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* très haut pour passer au-dessus du footer/header */
+}
+
+.changelog-content {
+  background: var(--main-bg-color, #fff);
+  color: var(--main-text-color, #000);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  font-size: 1rem;
+}
+
+.dark .changelog-content {
+	color: var(--accent-text-color);
+}
+
+.changelog-content h2 {
+	font-size: 2rem;
+}
+
+.changelog-content li:nth-of-type(2) {
+	margin-left: 20px;
+}
+
+#close-changelog {
+  padding: 0.5rem 1rem;
+  color: var(--accent-text-color);
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  text-align: center;
+  display: block;
+  margin: 2rem auto 0;
+}
+
+#close-changelog i {
+	padding: 0;
+	margin: 0;
+}
+
+#close-changelog:hover {
+  background: var(--accent-text-color);
+  color: var(--accent-color);
+}
+
+#see-changelog {
+	padding: 0.5rem 1rem;
+	color: var(--accent-text-color);
+	border: none;
+	font-size: 2.5rem;
+	border-radius: 6px;
+	cursor: pointer;
+	background-color: var(--ps1-color);
+	text-align: center;
+	display: block;
+	margin: 2rem auto 0;
+	position: absolute;
+	bottom: 1.8rem;
+	right: 1rem;
+	z-index: 999;
+}
+
+#see-changelog:hover {
+	background-color: var(--platine-color);
+}
+
 
 /* RESPONSIVE */
 @media only screen and (max-width: 1920px) {
@@ -626,7 +707,8 @@ input:checked + .slider {
 	
 	.ps-main { margin-left: 0; padding: 5rem 1rem;}
 
-	.filters {
+	.filters, 
+	.filter-platforms {
 		width: auto;
 		bottom: 1rem;
 		gap: 8px;
@@ -634,7 +716,8 @@ input:checked + .slider {
 		left: 0.5rem;
   }
 
-  .filter-btn {
+  .filter-btn,
+  .platform-btn {
 		width: 44px;
 		height: 44px;
 		font-size: 1rem;
@@ -657,3 +740,15 @@ input:checked + .slider {
   }
 }
 
+@media screen and (max-height: 1080px) {
+	.filters {
+		width: 250px;
+		left: 0;
+	}
+
+	.filter-btn {
+		width: 40px;
+		height: 40px;
+		font-size: 0.9rem;
+	}
+}

@@ -36,7 +36,7 @@
     },
     {
         "img_src": "black-myth-wukong.jpg",
-        "name": "Black Myth: Wukong",
+        "name": "Black Myth : Wukong",
         "amount_achievement": "0/81"
     },
     {
@@ -220,8 +220,8 @@
         "amount_achievement": "0/57"
     },
     {
-        "img_src": "grandblue-fantasy-relink.jpg",
-        "name": "Grandblue Fantasy: Relink",
+        "img_src": "granblue-fantasy-relink.jpg",
+        "name": "Granblue Fantasy : Relink",
         "amount_achievement": "41/54"
     },
     {
@@ -336,7 +336,7 @@
     },
     {
         "img_src": "ori-and-the-blind-forest-edition.jpg",
-        "name": "Ori and the Blind Forest : Definite Edtion",
+        "name": "Ori and the Blind Forest : Definitive Edtion",
         "amount_achievement": "50/57"
     },
     {
@@ -367,7 +367,7 @@
     {
         "img_src": "palworld.jpg",
         "name": "Palworld",
-        "amount_achievement": "15/44"
+        "amount_achievement": "15/56"
     },
     {
         "img_src": "pankapu.jpg",
@@ -421,7 +421,7 @@
     },
     {
         "img_src": "project-zero-la-pretresse-des-eaux-noires.jpg",
-        "name": "Project Zero : La Pr\u00c3\u00aatresse des Eaux Noires",
+        "name": "Project Zero : La Prêtresse des Eaux Noires",
         "amount_achievement": "21/39"
     },
     {
@@ -491,7 +491,7 @@
     },
     {
         "img_src": "ruined-king.jpg",
-        "name": "Ruined King: A League of Legend's Story",
+        "name": "Ruined King : A League of Legend's Story",
         "amount_achievement": "0/52"
     },
     {
@@ -501,7 +501,7 @@
     },
     {
         "img_src": "sekiro.jpg",
-        "name": "Sekiro: Shadow Die Twice",
+        "name": "Sekiro : Shadows Die Twice",
         "amount_achievement": "3/34"
     },
     {
@@ -566,8 +566,13 @@
     },
     {
         "img_src": "temtem-swarm.jpg",
-        "name": "Temtem: Swarm",
-        "amount_achievement": "25/76"
+        "name": "Temtem : Swarm",
+        "amount_achievement": "25/87"
+    },
+    {
+        "img_src": "terminull-brigade.jpg",
+        "name": "Terminull Brigade",
+        "amount_achievement": "0/0"
     },
     {
         "img_src": "the-evil-within.jpg",
@@ -588,6 +593,11 @@
         "img_src": "the-first-tree.jpg",
         "name": "The First Tree",
         "amount_achievement": "6/14"
+    },
+    {
+        "img_src": "jackbox-party-starter.jpg",
+        "name": "The Jackbox Party Starter",
+        "amount_achievement": "1/20"
     },
     {
         "img_src": "the-kings-bird.jpg",
@@ -617,7 +627,7 @@
     {
         "img_src": "the-spell-brigade.jpg",
         "name": "The Spell Brigade",
-        "amount_achievement": "65/73"
+        "amount_achievement": "65/80"
     },
     {
         "img_src": "them-and-us.jpg",

@@ -28,8 +28,18 @@ class FooterElement extends HTMLElement {
                       <li class="site-footer-item footer-discord"><a href="https://discord.gg/r6M5Y2uuT4"></a></li>
                   </ul>
                   <p class="site-footer copyright" ${copyrightId ? `id="${copyrightId}"` : ''}>
-                    © 2024-2025 Yunaleska's Collection. Tous droits réservés.
+                    © 2024-2025 Yunaleska's Collection Version 1.1. Tous droits réservés.
                   </p>
+
+                  <button id="see-changelog"><i class="fa-solid fa-newspaper"></i></button>
+                  <div id="update-popup" class="popup">
+                    <div class="popup-content">
+                      <h2 id="popup-title"></h2>
+                      <ul id="popup-list"></ul>
+                      <button id="close-popup">OK</button>
+                    </div>
+                  </div>
+                  
               </footer>
             `;
           } catch (error) {

@@ -1,32 +1,32 @@
 [
     {
         "img_src": "012-dissidia-final-fantasy.png",
-        "name": "Dissidia 012: Duodecim Final Fantasy",
+        "name": "Dissidia 012 : Duodecim Final Fantasy",
         "amount_achievement": "0/195"
     },
     {
         "img_src": "dissidia-final-fantasy.png",
-        "name": "Dissidia: Final Fantasy",
+        "name": "Dissidia : Final Fantasy",
         "amount_achievement": "0/152"
     },
     {
         "img_src": "hatsune-miku.png",
-        "name": "Hastune Miku: Project DIVA",
+        "name": "Hastune Miku : Project DIVA",
         "amount_achievement": "0/95"
     },
     {
         "img_src": "hatsune-miku-2.png",
-        "name": "Hastune Miku: Project DIVA 2nd",
+        "name": "Hastune Miku : Project DIVA 2nd",
         "amount_achievement": "0/108"
     },
     {
         "img_src": "hatsune-miku-extend.png",
-        "name": "Hastune Miku: Project DIVA Extend",
+        "name": "Hastune Miku : Project DIVA Extend",
         "amount_achievement": "0/107"
     },
     {
         "img_src": "soulcalibur-broken-destiny.png",
-        "name": "Soulcalibur: Broken Destiny",
+        "name": "Soulcalibur : Broken Destiny",
         "amount_achievement": "0/47"
     }
 ]
