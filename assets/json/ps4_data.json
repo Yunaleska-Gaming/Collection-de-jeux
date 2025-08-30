@@ -1163,7 +1163,7 @@
     {
         "img_src": "mortal-kombat-x.png",
         "name": "Mortal Kombat X",
-        "bronze_trophies": "34/54",
+        "bronze_trophies": "31/54",
         "silver_trophies": "1/5",
         "gold_trophies": "0/1",
         "bronze_trophies_dlc": "3/13",
@@ -1849,7 +1849,7 @@
         "bronze_trophies": "65/65",
         "silver_trophies": "2/2",
         "gold_trophies": "0/0",
-        "bronze_trophies_dlc": "0/32",
+        "bronze_trophies_dlc": "32/32",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0",
         "date_platined": "Platiné le 16/03/2024"
@@ -1860,7 +1860,7 @@
         "bronze_trophies": "62/62",
         "silver_trophies": "4/4",
         "gold_trophies": "0/0",
-        "bronze_trophies_dlc": "0/23",
+        "bronze_trophies_dlc": "23/23",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0",
         "date_platined": "Platiné le 15/02/2025"
@@ -1880,22 +1880,24 @@
     {
         "img_src": "tomb-raider-4.png",
         "name": "Tomb Raider : The Last Revelation Remastered",
-        "bronze_trophies": "19/58",
-        "silver_trophies": "0/6",
+        "bronze_trophies": "58/58",
+        "silver_trophies": "6/6",
         "gold_trophies": "0/0",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 25/08/2025"
     },
     {
         "img_src": "tomb-raider-5.png",
         "name": "Tomb Raider : Chronicles Remastered",
-        "bronze_trophies": "10/40",
-        "silver_trophies": "1/6",
-        "gold_trophies": "0/3",
+        "bronze_trophies": "40/40",
+        "silver_trophies": "6/6",
+        "gold_trophies": "3/3",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 26/08/2025"
     },
     {
         "img_src": "tomb-raider-6.png",

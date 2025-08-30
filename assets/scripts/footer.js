@@ -31,7 +31,9 @@ class FooterElement extends HTMLElement {
                     © 2024-2025 Yunaleska's Collection Version 1.1. Tous droits réservés.
                   </p>
 
-                  <button id="see-changelog"><i class="fa-solid fa-newspaper"></i></button>
+                  <button id="see-changelog" title="Voir les nouveautés">
+                    <i class="fa-solid fa-newspaper"></i>
+                  </button>
                   <div id="update-popup" class="popup">
                     <div class="popup-content">
                       <h2 id="popup-title"></h2>

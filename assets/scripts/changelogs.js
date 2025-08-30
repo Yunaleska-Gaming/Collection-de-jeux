@@ -15,17 +15,25 @@ function showChangelogPopup(force = false) {
   popup.innerHTML = `
     <div class="changelog-content">
       <h2>Version ${latestUpdate.version} (${latestUpdate.date})</h2>
-      <ul>
-        ${latestUpdate.messages[lang].map(msg => `<li>${msg}</li>`).join("")}
+      <ul class="changelog-section">
+        <h3>Nouveautés</h3>
+        ${latestUpdate.messages[lang].features.map(msg => `<li>${msg}</li>`).join("")}
+      </ul>
+      <ul class="changelog-section">
+        <h3>Corrections</h3>
+        ${latestUpdate.messages[lang].fixes.map(msg => `<li>${msg}</li>`).join("")}
       </ul>
       <button id="close-changelog">OK</button>
     </div>
   `;
 
   document.body.appendChild(popup);
+  setTimeout(() => popup.classList.add("active"), 10);
 
   document.getElementById("close-changelog").addEventListener("click", () => {
-    popup.remove();
+    popup.classList.remove("active");
+    setTimeout(() => popup.remove(), 400); // attendre la fin de l’anim
+
     localStorage.setItem("lastSeenUpdate", latestVersion);
   });
 }
@@ -39,3 +47,4 @@ document.addEventListener("DOMContentLoaded", () => {
 document.getElementById("see-changelog")?.addEventListener("click", () => {
   showChangelogPopup(true);
 });
+

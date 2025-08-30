@@ -500,7 +500,16 @@ input:checked + .slider {
   justify-content: center;
   align-items: center;
   z-index: 9999; /* très haut pour passer au-dessus du footer/header */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
 }
+
+#changelog-popup.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
 
 .changelog-content {
   background: var(--main-bg-color, #fff);
@@ -519,10 +528,22 @@ input:checked + .slider {
 
 .changelog-content h2 {
 	font-size: 2rem;
+	margin: 0;
 }
 
-.changelog-content li:nth-of-type(2) {
-	margin-left: 20px;
+.changelog-content h3 {
+	text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    color: #fff;
+    background: var(--accent-color);
+	margin: 20px 0;
+}
+
+.changelog-content ol {
+	margin-left: 2rem;
 }
 
 #close-changelog {
@@ -563,6 +584,19 @@ input:checked + .slider {
 	bottom: 1.8rem;
 	right: 1rem;
 	z-index: 999;
+}
+
+#see-changelog .badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: red;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 12px;
+  font-weight: bold;
+  animation: pulseBadge 1.5s infinite;
 }
 
 #see-changelog:hover {
