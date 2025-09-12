@@ -16,7 +16,7 @@ function showChangelogPopup(force = false) {
     <div class="changelog-content">
       <h2>Version ${latestUpdate.version} (${latestUpdate.date})</h2>
       <ul class="changelog-section">
-        <h3>Nouveautés</h3>
+        <h3>News</h3>
         ${latestUpdate.messages[lang].features.map(msg => `<li>${msg}</li>`).join("")}
       </ul>
       <ul class="changelog-section">
