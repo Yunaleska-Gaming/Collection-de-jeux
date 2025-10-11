@@ -19,7 +19,7 @@ function showChangelogPopup(force = false) {
         <h3>News</h3>
         ${latestUpdate.messages[lang].features.map(msg => `<li>${msg}</li>`).join("")}
       </ul>
-      <ul class="changelog-section">
+      <ul class="changelog-section" id="corrections">
         <h3>Corrections</h3>
         ${latestUpdate.messages[lang].fixes.map(msg => `<li>${msg}</li>`).join("")}
       </ul>

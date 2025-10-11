@@ -5,11 +5,6 @@
         "text": "En attente de date"
     },
     {
-        "img_src": "borderlands-4.jpg",
-        "name": "Borderlands 4",
-        "text": "12/09/2025"
-    },
-    {
         "img_src": "bravely-default-2.jpg",
         "name": "Bravely Default II",
         "text": "Priorité : Moyenne"
@@ -33,6 +28,11 @@
         "img_src": "little-nightmares-3.jpg",
         "name": "Little Nightmares III",
         "text": "En attente de date"
+    },
+    {
+        "img_src": "metaphor-re-fantazio.jpg",
+        "name": "Metaphor Re:Fantazio",
+        "text": "Priorité : Haute"
     },
     {
         "img_src": "split-fiction.jpg",

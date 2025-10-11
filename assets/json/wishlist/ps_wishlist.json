@@ -37,6 +37,12 @@
         "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Moyenne"
     },
     {
+        "name": "Metaphor Re:Fantazio",
+        "platform": "ps5",
+        "img_src": "metaphor-re-fantazio.png",
+        "text": "Platine disponible : Oui\n\t\t\t\t\t\t\t\tPriorité : Haute"
+    },
+    {
         "name": "Monster Hunter Rise",
         "platform": "ps5",
         "img_src": "monster-hunter-rise.png",

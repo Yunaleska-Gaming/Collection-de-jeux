@@ -5,16 +5,17 @@ const translations = {
     secondParagraph: "Je suis Yunaleska, anciennement connu sous le pseudo de Rydia. Je suis une petite streameuse qui aime se lancer des défis sur les jeux mais qui ne souhaite aussi que partager sa passion autour de discussions avec des amis ou même de nouvelles personnes qui pourraient se perdre sur mes lives. Une récompense sur twitch, qui coûte un peu chère je vous l'accorde, pourrait vous permettre de choisir un jeu auquel je jouerais et que je streamerais. Grâce à ce site, vous pouvez donc faire un choix. Ce n'est pas ce qu'il manque.",
     thirdParagraph: "Un discord autour de l'univers du jeu vidéo est ouvert, si jamais vous souhaitez vous incruster ne serait-ce que pour discuter ou trouver des gens avec qui jouer. Vous êtes le ou la bienvenue le temps que vous êtes dans les règles !",
     linkParagraph: "Rejoindre le discord",
-    completedChallenges: "Challenges réussis",
-    ongoingChallenges: "Challenges en cours",
-    pausedChallenges: "Challenges en pause",
-    futureChallenges: "Futurs Challenges",
+    completedTitle: "Challenges réussis",
+    ongoingTitle: "Challenges en cours",
+    pausedTitle: "Challenges en pause",
+    futureTitle: "Futurs Challenges",
     ongoingGames: "Les jeux en cours",
     subOne: "Abonnement tier 1",
     subTwo: "Abonnement tier 2",
     subThree: "Abonnement tier 3",
     subBadges: "Badges d'abonnement",
-    weeklyCalendar: "Calendrier hebdomadaire"
+    weeklyCalendar: "Evil October",
+    linkOctober: "Planning du mois"
     // Ajoute toutes tes autres clés ici
   },
   en: {
@@ -23,16 +24,17 @@ const translations = {
     secondParagraph: "I'm Yunaleska, known before as Rydia. I'm a small streamer who loves challenges on video-games but also just wants to share her passion for gaming while having nice talks with friends or new comers who would join lives. You can redeem channel points on my Twitch, to let you decide the next game I will stream. The website can also be used to see which games I possess to help you make up your mind.",
     thirdParagraph: "A community discord around the whole video-game universe is open. If you ever decide to join us, enjoy speaking with others or are scouting for teammates, know that you're welcome as long as you accept the rules. Any nationality is accepted, but we mainly use french here so if you're not, please let me know. I am currently waiting for more non-french people to create an english section.",
     linkParagraph: "Join on Discord",
-    completedChallenges: "Completed Challenges",
-    ongoingChallenges: "Ongoing Challenges",
-    pausedChallenges: "Paused Challenges",
-    futureChallenges: "Future Challenges",
+    completedTitle: "Completed Challenges",
+    ongoingTitle: "Ongoing Challenges",
+    pausedTitle: "Paused Challenges",
+    futureTitle: "Future Challenges",
     ongoingGames: "Ongoing Games",
     subOne: "Subscription tier 1",
     subTwo: "Subscription tier 2",
     subThree: "Subscription tier 3",
     subBadges: "Subscription Badges",
-    weeklyCalendar: "Weekly schedule"
+    weeklyCalendar: "Evil October",
+    linkOctober: "Monthly Schedule"
     // Et les traductions ici
   }
 };

@@ -603,6 +603,10 @@ input:checked + .slider {
 	background-color: var(--platine-color);
 }
 
+#corrections {
+	display: none;
+}
+
 
 /* RESPONSIVE */
 @media only screen and (max-width: 1920px) {

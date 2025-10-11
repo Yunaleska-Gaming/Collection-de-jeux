@@ -1,0 +1,128 @@
+{
+  "completed": [
+    {
+      "game": "Clair Obscur : Expedition 33",
+      "entries": [
+        { "title": "No Pictos No Luminas", "platform": "youtube", "url": "https://www.youtube.com/watch?v=J_jl2EIlz4Y&list=PLT1mqwRlf2opGM7hYsudJJJ689w1Ezmoh&pp=gAQB" }
+      ]
+    },
+    {
+      "game": "Final Fantasy IX",
+      "entries": [
+        { "title": "No Trance No Summons", "platform": "youtube", "url": "https://www.youtube.com/playlist?list=PLT1mqwRlf2ooKDeRgH0yvD0PNziAf0xax" }
+      ]
+    },
+    {
+      "game": "Final Fantasy X",
+      "entries": [
+        { "title": "No Overdrive, No Swap, Expert Grid", "platform": "youtube", "url": "https://www.youtube.com/playlist?list=PLT1mqwRlf2oqiZn8qQQV2MjffjtVnfnve" }
+      ]
+    },
+    {
+      "game": "Resident Evil 0 HD",
+      "entries": [
+        { "title": "New Game - No Heal", "platform": "youtube", "url": "https://www.youtube.com/playlist?list=PLT1mqwRlf2ooKiUxB1U-duUSnNcHLmfre" }
+      ]
+    },
+    {
+      "game": "Resident Evil Classic",
+      "entries": [
+        { "title": "No Save No Damage - Jill Best Ending" }
+      ]
+    },
+    {
+      "game": "Resident Evil 2 Classic",
+      "entries": [
+        { "title": "No Save No Damage - Claire A (HARD)", "platform": "youtube", "url": "https://youtu.be/5srQiN8KKIs" },
+        { "title": "No Save No Damage - Leon A (HARD)", "platform": "youtube", "url": "https://youtu.be/gNX40Jlcss8" },
+        { "title": "Knife Only - Leon A (NORMAL)", "platform": "youtube", "url": "https://youtu.be/u4LcjO04I2M" }
+      ]
+    },
+    {
+      "game": "Resident Evil Village",
+      "entries": [
+        { "title": "No Upgrade, No Craft" }
+      ]
+    },
+    {
+      "game": "The Evil Within",
+      "entries": [
+        { "title": "悪夢 Akumu Difficulty", "platform": "youtube", "url": "https://www.youtube.com/watch?v=t4f1OH7g44M&list=PLT1mqwRlf2oqedKdOetYcDvUUlsG3IH2Y&pp=gAQB" }
+      ]
+    }
+  ],
+  "ongoing": [
+    {
+      "game": "Resident Evil Classic",
+      "entries": [
+        { "title": "No Save No Damage - Chris Best Ending", "platform": "twitch", "url": "https://www.twitch.tv/yunaleska" }
+      ]
+    },
+    {
+      "game": "Resident Evil 2 Classic",
+      "entries": [
+        { "title": "No Save No Damage - Claire B (HARD)", "platform": "twitch", "url": "https://www.twitch.tv/yunaleska" },
+        { "title": "No Save No Damage - Leon B (HARD)", "platform": "twitch", "url": "https://www.twitch.tv/yunaleska" }
+      ]
+    },
+    {
+      "game": "Resident Evil 3 Remake",
+      "entries": [
+        { "title": "No Save No Damage - Hardcore", "platform": "twitch", "url": "https://www.twitch.tv/yunaleska" }
+      ]
+    }
+  ],
+  "paused": [
+    {
+      "game": "Resident Evil 3: Nemesis",
+      "entries": [
+        { "title": "No Save No Damage" }
+      ]
+    }
+  ],
+  "future": [
+    {
+      "game": "Final Fantasy VIII",
+      "entries": [
+        { "title": "Squall Only" }
+      ]
+    },
+    {
+      "game": "Final Fantasy XII",
+      "entries": [
+        { "title": "A définir" }
+      ]
+    },
+    {
+      "game": "Final Fantasy XIII",
+      "entries": [
+        { "title": "A définir" }
+      ]
+    },
+    {
+      "game": "Final Fantasy XIII-2",
+      "entries": [
+        { "title": "A définir" }
+      ]
+    },
+    {
+      "game": "Resident Evil 4",
+      "entries": [
+        { "title": "Knife Only" }
+      ]
+    },
+    {
+      "game": "Resident Evil 4 Remake",
+      "entries": [
+        { "title": "Knife Only" }
+      ]
+    },
+    {
+      "game": "Resident Evil Code: Veronica X",
+      "entries": [
+        { "title": "No Save No Damage" },
+        { "title": "Knife Only" }
+      ]
+    }
+  ]
+}

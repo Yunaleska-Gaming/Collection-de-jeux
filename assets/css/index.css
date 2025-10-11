@@ -55,12 +55,14 @@ body.dark {
     font-weight: bold;
 }
 
-.paragraphes-informations-link:hover {
+.paragraphes-informations-link:hover,
+.planning-link:hover {
     color : var(--accent-color);
     background-color: var(--main-bg-color);
 }
 
-.dark .paragraphes-informations-link:hover {
+.dark .paragraphes-informations-link:hover,
+.dark .planning-link:hover {
     background-color: white;
 }
 
@@ -106,7 +108,7 @@ body.dark {
 .fa-spin { color: var(--youtube-color); }
 .fa-twitch { color: var(--twitch-color); }
 .fa-circle-pause { color: rgb(243, 183, 70); }
-.fa-question, .fa-hourglass-half { color: var(--accent-color); }
+.fa-circle-question, .fa-hourglass-half { color: var(--accent-color); }
 
 .index-games {
     display: flex;
@@ -153,6 +155,10 @@ iframe { width: 100%; height: 100%;}
     overflow: auto;
 }
 
+.twitch-rewards:last-of-type {
+    overflow: hidden;
+}
+
 .twitch-rewards-img {
     display: flex;
     flex-wrap: wrap;
@@ -174,13 +180,27 @@ iframe { width: 100%; height: 100%;}
 /* PLANNING */
 .week-planning {
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
-    height: 656px;
+    overflow: hidden;
+}
+
+.planning-link {
+    display: block;
+    width: 250px;
+    color: var(--accent-text-color);
+    background-color: var(--accent-color);
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: "Noto Sans";
+    font-weight: bold;
 }
 
 .week-planning img {
-    width: 92%;
+    /*width: 92%;*/
     object-fit: scale-down;
 }
 

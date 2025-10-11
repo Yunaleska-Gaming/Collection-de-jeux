@@ -5,6 +5,11 @@
         "amount_achievement": "0/46"
     },
     {
+        "img_src": "ai-limit.jpg",
+        "name": "AI Limit",
+        "amount_achievement": "0/39"
+    },
+    {
         "img_src": "alan-wake.jpg",
         "name": "Alan Wake",
         "amount_achievement": "0/67"
@@ -42,7 +47,7 @@
     {
         "img_src": "borderlands-1.jpg",
         "name": "Borderlands",
-        "amount_achievement": "6/80"
+        "amount_achievement": "7/80"
     },
     {
         "img_src": "borderlands-presequel.jpg",
@@ -58,6 +63,11 @@
         "img_src": "borderlands-3.jpg",
         "name": "Borderlands 3",
         "amount_achievement": "62/81"
+    },
+    {
+        "img_src": "borderlands-4.jpg",
+        "name": "Borderlands 4",
+        "amount_achievement": "4/35"
     },
     {
         "img_src": "bright-memory.jpg",
@@ -108,6 +118,11 @@
         "img_src": "dead-island-riptide.jpg",
         "name": "Dead Island: Riptide Definitive Edition",
         "amount_achievement": "3/35"
+    },
+    {
+        "img_src": "dead-island-2.jpg",
+        "name": "Dead Island 2",
+        "amount_achievement": "0/59"
     },
     {
         "img_src": "dead-space.jpg",
@@ -245,6 +260,11 @@
         "amount_achievement": "0/37"
     },
     {
+        "img_src": "haven.jpg",
+        "name": "Haven",
+        "amount_achievement": "0/30"
+    },
+    {
         "img_src": "hollow-knight.jpg",
         "name": "Hollow Knight",
         "amount_achievement": "58/63"
@@ -252,7 +272,12 @@
     {
         "img_src": "hollow-knight-silksong.jpg",
         "name": "Hollow Knight : Silksong",
-        "amount_achievement": "10/52"
+        "amount_achievement": "16/52"
+    },
+    {
+        "img_src": "inzoi.jpg",
+        "name": "Inzoi",
+        "amount_achievement": "0/0"
     },
     {
         "img_src": "journey.jpg",
@@ -290,6 +315,11 @@
         "amount_achievement": "22/156"
     },
     {
+        "img_src": "lost-in-random.jpg",
+        "name": "Lost in Random",
+        "amount_achievement": "0/40"
+    },
+    {
         "img_src": "madison.jpg",
         "name": "MADiSON",
         "amount_achievement": "14/32"
@@ -298,6 +328,11 @@
         "img_src": "magic-duels.jpg",
         "name": "Magic Duels",
         "amount_achievement": "9/49"
+    },
+    {
+        "img_src": "megabonk.jpg",
+        "name": "Megabonk",
+        "amount_achievement": "72/102"
     },
     {
         "img_src": "monster-hunter-world.jpg",
@@ -390,6 +425,11 @@
         "amount_achievement": "0/56"
     },
     {
+        "img_src": "paranormal-night-shift.jpg",
+        "name": "Paranormal Night Shift",
+        "amount_achievement": "2/12"
+    },
+    {
         "img_src": "path-of-exile.jpg",
         "name": "Path of Exile",
         "amount_achievement": "17/127"
@@ -407,7 +447,7 @@
     {
         "img_src": "phasmophobia.jpg",
         "name": "Phasmophobia",
-        "amount_achievement": "30/54"
+        "amount_achievement": "32/54"
     },
     {
         "img_src": "planet-of-lana.jpg",
@@ -595,9 +635,14 @@
         "amount_achievement": "0/0"
     },
     {
+        "img_src": "the-demonologist.jpg",
+        "name": "The Demonologist",
+        "amount_achievement": "0/19"
+    },
+    {
         "img_src": "the-evil-within.jpg",
         "name": "The Evil Within",
-        "amount_achievement": "24/71"
+        "amount_achievement": "26/71"
     },
     {
         "img_src": "the-evil-within-2.jpg",
@@ -623,6 +668,11 @@
         "img_src": "the-kings-bird.jpg",
         "name": "The King's Bird",
         "amount_achievement": "0/13"
+    },
+    {
+        "img_src": "the-last-of-us-1.jpg",
+        "name": "The Last of Us Part I",
+        "amount_achievement": "14/29"
     },
     {
         "img_src": "the-room-1.jpg",
@@ -671,8 +721,13 @@
     },
     {
         "img_src": "tomb-raider-1-3.jpg",
-        "name": "TOmb Raider I - III Remastered",
+        "name": "Tomb Raider I - III Remastered",
         "amount_achievement": "31/269"
+    },
+    {
+        "img_src": "tomb-raider-4-6.jpg",
+        "name": "Tomb Raider I - III Remastered",
+        "amount_achievement": "0/168"
     },
     {
         "img_src": "tormented-souls.jpg",
