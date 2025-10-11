@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (!container) return;
 
   try {
-    const response = await fetch("/assets/json/challenges.json");
+    const response = await fetch("./assets/json/challenges.json");
     const data = await response.json();
 
     container.innerHTML = ""; // vider avant d'injecter
