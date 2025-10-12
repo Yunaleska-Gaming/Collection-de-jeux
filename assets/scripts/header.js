@@ -23,6 +23,7 @@ class HeaderElement extends HTMLElement {
                                     <ul class="lang-menu" id="lang-menu">
                                         <li data-lang="fr">🇫🇷 Français</li>
                                         <li data-lang="en">🇬🇧 English</li>
+                                        <li data-lang="pt">🇵🇹 Português</li>
                                     </ul>
                                 </div>
                                 <div class="dark-options">

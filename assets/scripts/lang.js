@@ -5,6 +5,7 @@ const translations = {
     secondParagraph: "Je suis Yunaleska, anciennement connu sous le pseudo de Rydia. Je suis une petite streameuse qui aime se lancer des défis sur les jeux mais qui ne souhaite aussi que partager sa passion autour de discussions avec des amis ou même de nouvelles personnes qui pourraient se perdre sur mes lives. Une récompense sur twitch, qui coûte un peu chère je vous l'accorde, pourrait vous permettre de choisir un jeu auquel je jouerais et que je streamerais. Grâce à ce site, vous pouvez donc faire un choix. Ce n'est pas ce qu'il manque.",
     thirdParagraph: "Un discord autour de l'univers du jeu vidéo est ouvert, si jamais vous souhaitez vous incruster ne serait-ce que pour discuter ou trouver des gens avec qui jouer. Vous êtes le ou la bienvenue le temps que vous êtes dans les règles !",
     linkParagraph: "Rejoindre le discord",
+    challenges: "Défis",
     completedTitle: "Challenges réussis",
     ongoingTitle: "Challenges en cours",
     pausedTitle: "Challenges en pause",
@@ -15,8 +16,8 @@ const translations = {
     subThree: "Abonnement tier 3",
     subBadges: "Badges d'abonnement",
     weeklyCalendar: "Evil October",
-    linkOctober: "Planning du mois"
-    // Ajoute toutes tes autres clés ici
+    linkOctober: "Planning du mois",
+    linkOctoberImg: "assets/images/fr-schedule.png" // <-- image du planning pour fr
   },
   en: {
     welcome: "Introduction",
@@ -24,6 +25,7 @@ const translations = {
     secondParagraph: "I'm Yunaleska, known before as Rydia. I'm a small streamer who loves challenges on video-games but also just wants to share her passion for gaming while having nice talks with friends or new comers who would join lives. You can redeem channel points on my Twitch, to let you decide the next game I will stream. The website can also be used to see which games I possess to help you make up your mind.",
     thirdParagraph: "A community discord around the whole video-game universe is open. If you ever decide to join us, enjoy speaking with others or are scouting for teammates, know that you're welcome as long as you accept the rules. Any nationality is accepted, but we mainly use french here so if you're not, please let me know. I am currently waiting for more non-french people to create an english section.",
     linkParagraph: "Join on Discord",
+    challenges: "Challenges",
     completedTitle: "Completed Challenges",
     ongoingTitle: "Ongoing Challenges",
     pausedTitle: "Paused Challenges",
@@ -34,18 +36,50 @@ const translations = {
     subThree: "Subscription tier 3",
     subBadges: "Subscription Badges",
     weeklyCalendar: "Evil October",
-    linkOctober: "Monthly Schedule"
-    // Et les traductions ici
+    linkOctober: "Monthly schedule",
+    linkOctoberImg: "assets/images/en-schedule.png" // <-- image du planning pour en
+  },
+  pt: {
+    welcome: "Introdução",
+    firstParagraph: "Olá e bem-vindo(a) ao meu site! O principal objetivo deste espaço é acompanhar e mostrar a minha coleção de videojogos e conquistas, em todas as plataformas.",
+    secondParagraph: "Sou a Yunaleska, anteriormente conhecida como Rydia. Sou uma pequena streamer que adora desafios em videojogos, mas que também quer simplesmente partilhar a sua paixão por jogos enquanto conversa com amigos ou com novas pessoas que se juntem às transmissões em direto. No meu canal da Twitch, podes usar pontos do canal para escolher o próximo jogo que irei transmitir. O site também serve para veres quais os jogos que possuo, ajudando-te a decidir qual sugerir.",
+    thirdParagraph: "Temos ainda um servidor de Discord dedicado a todo o universo dos videojogos. Se decidires juntar-te a nós, diverte-te a conversar com outras pessoas ou a procurar colegas de equipa — serás sempre bem-vindo(a), desde que respeites as regras. Aceitamos pessoas de todas as nacionalidades, mas a língua principal é o francês. Caso não fales francês, avisa-me, pois estou à espera de mais falantes de inglês para criar uma secção dedicada a essa língua.",
+    linkParagraph: "Entre no discord",
+    challenges: "Desafios",
+    completedTitle: "Desafios concluídos",
+    ongoingTitle: "Desafios em curso",
+    pausedTitle: "Desafios em pausa",
+    futureTitle: "Próximos desafios",
+    ongoingGames: "A jogar atualmente",
+    follower: "Seguidor",
+    subOne: "Subscrição Nível 1",
+    subTwo: "Subscrição Nível 2",
+    subThree: "Subscrição Nível 3",
+    subBadges: "Emblemas Subscriçãos",
+    weeklyCalendar: "Evil October",
+    linkOctober: "Programação mensal",
+    linkOctoberImg: "assets/images/pt-schedule.png" // <-- image du planning pour pt
   }
 };
 
 function setLanguage(lang) {
   localStorage.setItem('lang', lang);
+
+  // Texte
   const elements = document.querySelectorAll('[data-i18n]');
   elements.forEach(el => {
     const key = el.getAttribute('data-i18n');
     if (translations[lang] && translations[lang][key]) {
       el.textContent = translations[lang][key];
+    }
+  });
+
+  // Images
+  const imgElements = document.querySelectorAll('[data-i18n-img]');
+  imgElements.forEach(img => {
+    const key = img.getAttribute('data-i18n-img');
+    if (translations[lang] && translations[lang][key]) {
+      img.src = translations[lang][key];
     }
   });
 }
@@ -87,9 +121,8 @@ function setupLanguageGlobeDropdown() {
   });
 }
 
-
 // À lancer après chargement DOM
 document.addEventListener('DOMContentLoaded', () => {
   initLanguageSwitcher();
-  setupLanguageGlobeDropdown(); // ← ajout ici
+  setupLanguageGlobeDropdown();
 });
