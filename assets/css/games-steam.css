@@ -293,6 +293,15 @@ html,
     color: white;
 }
 
+.changelog-content {
+  background: var(--main-color);
+  color: var(--accent-text-color);
+}
+
+#close-changelog:hover {
+  color: var(--link-color);
+}
+
 @media only screen and (max-width: 912px) {
     .site-navigation .list { 
 		background: rgba(23, 29, 37, 0.5);

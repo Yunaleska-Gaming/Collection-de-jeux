@@ -1,73 +1,70 @@
 export const updates = [
   {
-    version: "1.26",
-    date: "12-10-2025",
+    version: "1.27",
+    date: "17-11-2025",
     messages: {
       fr: {
         features: [
-          "○ Mise à jour des succès Hollow Knight: Silksong (Steam)",
-          "○ Mise à jour des succès Phasmophobia (Steam)",
-          "○ Mise à jour des succès Borderlands 4 (Steam)",
-          "○ Mise à jour des succès Borderlands (Steam)",
+          "○ Calendrier hebdomadaire pour la semaine du 17 novembre 2025",
+
           "○ Mise à jour des succès The Evil Within (Steam)",
-          "○ Ajout du jeu Megabonk et de ses succès (Steam)",
-          "○ Ajout du jeu Paranormal Night Shift et de ses succès (Steam)",
-          "○ Ajout du jeu The Demonologist et de ses succès (Steam)",
-          "○ Ajout du jeu The Last of Us Part I et de ses succès (Steam)",
-          "○ Ajout du jeu Lost in Random et de ses succès (Steam)",
-          "○ Ajout du jeu Haven et de ses succès (Steam)",
-          "○ Ajout du jeu inZOI (Steam)",
-          "○ Ajout du jeu Dead Island 2 et de ses succès (Steam)",
-          "○ Ajout du jeu Tomb Raider IV-VI Remastered et de ses succès (Steam)",
-          "○ Ajout du jeu AI Limit et de ses succès (Steam)",
-          "○ Ajout de la traduction portuguaise."
+          "○ Mise à jour des succès Phasmophobia (Steam)",
+          "○ Mise à jour des succès Resident Evil 6 (Steam)",
+          "○ Mise à jour des succès Megabonk (Steam)",
+          "○ Mise à jour des succès Powerwash Simulator (Steam)",
+          "○ Mise à jour des trophées The Callisto Protocol (PS5)",
+
+          "○ Ajout du jeu Powerwash Simulator 2 et de ses succès (Steam)",
+          "○ Ajout du jeu Tormented Souls 2 et de ses succès (Steam)",
+          "○ Ajout du jeu Kitaria Fables et de ses succès (Steam)",
+          "○ Ajout du jeu Stray et de ses succès (Steam)",
+          "○ Ajout du jeu Biped 2 et de ses succès (Steam)",
+          "○ Ajout du jeu Bongo Cat et de ses succès (Steam)",
+          "○ Ajout du jeu Beacon Pines et de ses succès (Steam)",
+          "○ Ajout du jeu Elypse et de ses succès (Steam)",
+          "○ Ajout du jeu Alan Wake II et de ses trophées (PS5)",
+          "○ Ajout du jeu Tormented Souls II et de ses trophées (PS5)"
         ],
         fixes: [
-
+          "○ Correction de la couleur du patch notes sur la page Steam",
+          "○ La version sur le footer se met désormais automatiquement à jour",
+          "○ Réparation de la couleur indiquant que l'on est sur la page RetroAchievements"
         ]
       },
       en: {
         features: [
-          "○ Updated Hollow Knight achievements (Steam)",
-          "○ Updated Phasmophobia achievements (Steam)",
-          "○ Updated Borderlands 4 achievements (Steam) (Steam)",
-          "○ Updated Borderlands achievements (Steam)",
+          "○ Weekly schedule for the week of the 17th of november 2025",
+
           "○ Updated The Evil Within achievements (Steam)",
-          "○ Added the game Megabonk and its achievements",
-          "○ Added the game Paranormal Night Shift and its achievements",
-          "○ Added the game The Demonologist and its achievements",
-          "○ Added the game The Last of Us Part I and its achievements",
-          "○ Added the game Lost in Random and its achievements",
-          "○ Added the game Haven and its achievements",
-          "○ Added the game inZOI",
-          "○ Added the game Dead Island 2 and its achievements",
-          "○ Added the game Tomb Raider IV-VI Remastered and its achievements",
-          "○ Added the game AI Limit and its achievements",
-          "○ Added Portuguese translation"
+          "○ Updated Phasmophobia achievements (Steam)",
+          "○ Updated Resident Evil 6 achievements (Steam)",
+          "○ Updated Megabonk achievements (Steam)",
+          "○ Updated Powerwash Simulator achievements (Steam)",
+          "○ Updated The Callisto Protocol trophies (PS5)",
+
+          "○ Added the game Powerwash Simulator 2 and its achievements (Steam)",
+          "○ Added the game Tormented Souls 2 and its achievements (Steam)",
+          "○ Added the game Kitaria Fables and its achievements (Steam)",
+          "○ Added the game Stray and its achievements (Steam)",
+          "○ Added the game Biped 2 and its achievements (Steam)",
+          "○ Added the game Bongo Cat and its achievements (Steam)",
+          "○ Added the game Beacon Pines and its achievements (Steam)" ,
+          "○ Added the game Elypse and its achievements (Steam)",
+          "○ Added the game Alan Wake II and its trophies (PS5)",
+          "○ Added the game Tormented Souls II and its trophies (PS5)"
         ],
         fixes: [
+          "○ Fixed patch notes colors on the Steam page",
+          "○ Number of the website version is now updating itself in the footer",
+          "○ Fixed the color of the arrow, showing where we are on the RetroAchievements page"
         ]
       },
       pt: {
         features: [
-          "○ Conquistas atualizadas de Hollow Knight: Silksong (Steam)",
-          "○ Conquistas atualizadas de Phasmophobia (Steam)",
-          "○ Conquistas atualizadas de Borderlands 4 (Steam)",
-          "○ Conquistas atualizadas de Borderlands (Steam)",
-          "○ Conquistas atualizadas de The Evil Within (Steam)",
-          "○ Adição do jogo Megabonk e dos seus achievements",
-          "○ Adição do jogo Paranormal Night Shift e dos seus achievements",
-          "○ Adição do jogo The Demonologist e dos seus achievements",
-          "○ Adição do jogo The Last of Us Part I e dos seus achievements",
-          "○ Adição do jogo Lost in Random e dos seus achievements",
-          "○ Adição do jogo Haven e dos seus achievements",
-          "○ Adição do jogo inZOI (Steam)",
-          "○ Adição do jogo Dead Island 2 e dos seus achievements",
-          "○ Adição do jogo Tomb Raider IV-VI Remastered e dos seus achievements",
-          "○ Adição do jogo AI Limit e dos seus achievements",
-          "○ Adição da tradução para o português"
+          "Não disponível"
         ],
         fixes: [
+          "Não disponível"
         ]
       }
     }

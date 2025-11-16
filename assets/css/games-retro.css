@@ -26,6 +26,7 @@ html,
 }
 
 .link:hover { color : var(--second-color); background-color: var(--main-text-color); }
+.selected:after { border-color : transparent transparent var(--main-text-color) transparent; }
 .selected:hover:after { border-color : transparent transparent var(--second-color) transparent; }
 
 /* DARKMODE BOUTON */

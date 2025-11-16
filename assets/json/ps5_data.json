@@ -20,6 +20,16 @@
         "gold_trophies_dlc": "0/0"
     },
     {
+        "img_src": "alan-wake-2.png",
+        "name": "Alan Wake II",
+        "bronze_trophies": "58/65",
+        "silver_trophies": "1/1",
+        "gold_trophies": "0/0",
+        "bronze_trophies_dlc": "0/20",
+        "silver_trophies_dlc": "0/2",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
         "img_src": "aliens-dark-descent.png",
         "name": "Aliens : Dark Descent",
         "bronze_trophies": "0/36",
@@ -651,12 +661,12 @@
     {
         "img_src": "the-callisto-protocol.png",
         "name": "The Callisto Protocol",
-        "bronze_trophies": "0/24",
-        "silver_trophies": "0/11",
-        "gold_trophies": "0/11",
-        "bronze_trophies_dlc": "0/0",
-        "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "bronze_trophies": "9/10",
+        "silver_trophies": "8/9",
+        "gold_trophies": "4/7",
+        "bronze_trophies_dlc": "0/14",
+        "silver_trophies_dlc": "0/2",
+        "gold_trophies_dlc": "0/4"
     },
     {
         "img_src": "stanley-parable.png",
@@ -696,6 +706,16 @@
         "bronze_trophies": "11/13",
         "silver_trophies": "7/11",
         "gold_trophies": "2/5",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "tormented-souls-2.png",
+        "name": "Tormented Souls II",
+        "bronze_trophies": "10/20",
+        "silver_trophies": "1/7",
+        "gold_trophies": "0/6",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0"

@@ -15,9 +15,7 @@ const translations = {
     subTwo: "Abonnement tier 2",
     subThree: "Abonnement tier 3",
     subBadges: "Badges d'abonnement",
-    weeklyCalendar: "Evil October",
-    linkOctober: "Planning du mois",
-    linkOctoberImg: "assets/images/fr-schedule.png" // <-- image du planning pour fr
+    weeklyCalendar: "Calendrier hebdomadaire"
   },
   en: {
     welcome: "Introduction",
@@ -35,9 +33,7 @@ const translations = {
     subTwo: "Subscription tier 2",
     subThree: "Subscription tier 3",
     subBadges: "Subscription Badges",
-    weeklyCalendar: "Evil October",
-    linkOctober: "Monthly schedule",
-    linkOctoberImg: "assets/images/en-schedule.png" // <-- image du planning pour en
+    weeklyCalendar: "Weekly Schedule"
   },
   pt: {
     welcome: "Introdução",
@@ -56,9 +52,7 @@ const translations = {
     subTwo: "Subscrição Nível 2",
     subThree: "Subscrição Nível 3",
     subBadges: "Emblemas Subscriçãos",
-    weeklyCalendar: "Evil October",
-    linkOctober: "Programação mensal",
-    linkOctoberImg: "assets/images/pt-schedule.png" // <-- image du planning pour pt
+    weeklyCalendar: "Programação semanal"
   }
 };
 

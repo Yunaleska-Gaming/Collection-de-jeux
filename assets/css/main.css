@@ -603,9 +603,9 @@ input:checked + .slider {
 	background-color: var(--platine-color);
 }
 
-#corrections {
+/*#corrections {
 	display: none;
-}
+}*/
 
 
 /* RESPONSIVE */

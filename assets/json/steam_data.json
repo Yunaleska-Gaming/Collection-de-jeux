@@ -30,9 +30,25 @@
         "amount_achievement": "0/50"
     },
     {
+        "img_src": "beacon-pines.jpg",
+        "name": "Beacon Pines",
+        "amount_achievement": "0/11"
+    },
+    
+    {
         "img_src": "biped.jpg",
         "name": "Biped",
         "amount_achievement": "10/15"
+    },
+    {
+        "img_src": "biped-2.jpg",
+        "name": "Biped 2",
+        "amount_achievement": "2/25"
+    },
+    {
+        "img_src": "bongo-cat.jpg",
+        "name": "Bongo Cat",
+        "amount_achievement": "5/7"
     },
     {
         "img_src": "black-desert.jpg",
@@ -143,6 +159,11 @@
         "img_src": "dying-light.jpg",
         "name": "Dying Light",
         "amount_achievement": "0/78"
+    },
+    {
+        "img_src": "elypse.jpg",
+        "name": "Elypse",
+        "amount_achievement": "0/34"
     },
     {
         "img_src": "electrician-simulator.jpg",
@@ -285,6 +306,11 @@
         "amount_achievement": "0/14"
     },
     {
+        "img_src": "kitaria-fables.jpg",
+        "name": "Kitaria Fables",
+        "amount_achievement": "4/41"
+    },
+    {
         "img_src": "last-epoch.jpg",
         "name": "Last Epoch",
         "amount_achievement": "0/0"
@@ -332,7 +358,7 @@
     {
         "img_src": "megabonk.jpg",
         "name": "Megabonk",
-        "amount_achievement": "72/102"
+        "amount_achievement": "73/108"
     },
     {
         "img_src": "monster-hunter-world.jpg",
@@ -447,7 +473,7 @@
     {
         "img_src": "phasmophobia.jpg",
         "name": "Phasmophobia",
-        "amount_achievement": "32/54"
+        "amount_achievement": "33/54"
     },
     {
         "img_src": "planet-of-lana.jpg",
@@ -472,7 +498,12 @@
     {
         "img_src": "powerwash-simulator.jpg",
         "name": "PowerWash Simulator",
-        "amount_achievement": "6/100"
+        "amount_achievement": "20/100"
+    },
+     {
+        "img_src": "powerwash-simulator-2.jpg",
+        "name": "PowerWash Simulator 2",
+        "amount_achievement": "40/40"
     },
     {
         "img_src": "project-zero-masque-lunaire.jpg",
@@ -522,7 +553,7 @@
     {
         "img_src": "resident-evil-6.jpg",
         "name": "Resident Evil 6",
-        "amount_achievement": "33/70"
+        "amount_achievement": "42/70"
     },
     {
         "img_src": "resident-evil-7.jpg",
@@ -590,6 +621,11 @@
         "amount_achievement": "105/105"
     },
     {
+        "img_src": "stray.jpg",
+        "name": "Stray",
+        "amount_achievement": "6/24"
+    },
+    {
         "img_src": "tales-from-borderlands.jpg",
         "name": "Tales from the Borderlands",
         "amount_achievement": "0/35"
@@ -627,7 +663,7 @@
     {
         "img_src": "temtem-swarm.jpg",
         "name": "Temtem : Swarm",
-        "amount_achievement": "25/87"
+        "amount_achievement": "25/105"
     },
     {
         "img_src": "terminull-brigade.jpg",
@@ -642,7 +678,7 @@
     {
         "img_src": "the-evil-within.jpg",
         "name": "The Evil Within",
-        "amount_achievement": "26/71"
+        "amount_achievement": "27/71"
     },
     {
         "img_src": "the-evil-within-2.jpg",
@@ -733,6 +769,11 @@
         "img_src": "tormented-souls.jpg",
         "name": "Tormented Souls",
         "amount_achievement": "25/29"
+    },
+    {
+        "img_src": "tormented-souls-2.jpg",
+        "name": "Tormented Souls II",
+        "amount_achievement": "24/33"
     },
     {
         "img_src": "tunic.jpg",
