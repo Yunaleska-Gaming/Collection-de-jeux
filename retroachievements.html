@@ -5,6 +5,7 @@
 	<title>RetroAchievements</title>
 	<link href="assets/css/main.css" rel="stylesheet" />
 	<link href="assets/css/games-retro.css" rel="stylesheet" />
+	<link href="assets/css/profile.css" rel="stylesheet" />
 	<link href="assets/images/favicon.png" rel="icon" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css" />
@@ -13,7 +14,9 @@
 
 <body>
 	<div class="site">
+
 		<custom-header></custom-header>
+		<custom-topbar></custom-topbar>
 
 		<div class="site-sidebar__back">
 			<div class="site-sidebar__avatar-pseudo">
@@ -109,6 +112,7 @@
 	</div>
 
 	<script src="assets/scripts/header.js"></script>
+	<script src="assets/scripts/topbar.js"></script>
 	<script src="assets/scripts/footer.js" type="module"></script>
 	<script src="assets/scripts/wherami.js"></script>
 	<script type="module" src="assets/scripts/utils.js"></script>
@@ -116,5 +120,6 @@
 	<script type="module">import fetchData from './assets/scripts/retroachievements.js'; fetchData();</script>
 	<script type="module" src="assets/scripts/updates.js"></script>
 	<script type="module" src="assets/scripts/changelogs.js"></script>
+	<script src="assets/scripts/profile-popup.js" type="module"></script>
 </body>
 </html>

@@ -6,10 +6,6 @@
 	--accent-color-nintendo: #c00000;
 }
 
-.site-main {
-	padding: 5rem 0 200px 0;
-}
-
 #wish-ps {
 	background : var(--accent-color);
 }

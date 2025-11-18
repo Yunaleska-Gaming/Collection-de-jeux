@@ -1,11 +1,12 @@
 export const updates = [
   {
-    version: "1.27",
-    date: "17-11-2025",
+    version: "1.3",
+    date: "18-11-2025",
     messages: {
       fr: {
         features: [
           "○ Calendrier hebdomadaire pour la semaine du 17 novembre 2025",
+          "○ Ajout d'une barre secondaire avec le profil 'Yuna'",
 
           "○ Mise à jour des succès The Evil Within (Steam)",
           "○ Mise à jour des succès Phasmophobia (Steam)",
@@ -28,12 +29,14 @@ export const updates = [
         fixes: [
           "○ Correction de la couleur du patch notes sur la page Steam",
           "○ La version sur le footer se met désormais automatiquement à jour",
-          "○ Réparation de la couleur indiquant que l'on est sur la page RetroAchievements"
+          "○ Réparation de la couleur indiquant que l'on est sur la page RetroAchievements",
+          "○ Version mobile maintenant adaptée correctement",
         ]
       },
       en: {
         features: [
           "○ Weekly schedule for the week of the 17th of november 2025",
+          "○ Added a secondary bar with a Yuna's Profile button",
 
           "○ Updated The Evil Within achievements (Steam)",
           "○ Updated Phasmophobia achievements (Steam)",
@@ -56,7 +59,8 @@ export const updates = [
         fixes: [
           "○ Fixed patch notes colors on the Steam page",
           "○ Number of the website version is now updating itself in the footer",
-          "○ Fixed the color of the arrow, showing where we are on the RetroAchievements page"
+          "○ Fixed the color of the arrow, showing where we are on the RetroAchievements page",
+          "○ Mobile version now adapted properly",
         ]
       },
       pt: {

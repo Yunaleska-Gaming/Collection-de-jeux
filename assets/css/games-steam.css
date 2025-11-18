@@ -1,9 +1,10 @@
 /*RACINE & CSS GENERAL */
 :root {
+    --main-bg-color: #393f48;
     --main-color: #24282f;
-    --second-color: #393f48;
     --accent-color: #166bcc;
     --link-color: #171d25;
+	--shadow-color: #9b9b9b;
 }
 
 ::-webkit-scrollbar {
@@ -11,21 +12,27 @@
 }
  
 ::-webkit-scrollbar-thumb{
-    background : #171d25;
+    background : var(--link-color);
 }
 
 html,
 .percentage-bar {
-	background : var(--second-color);
+	background : var(--main-bg-color);
+    color: var(--accent-text-color);
+}
+
+.top-bar {
+    background-color: var(--main-color);
 }
 
 .steam-main {
     margin-left: 250px;
     padding-bottom: 155px;
-    background-color: var(--second-color);
+    background-color: var(--main-bg-color);
 }
 
-.link:hover { color : var(--link-color); }
+.link:hover { color : var(--link-color); background-color: var(--accent-text-color);}
+.selected:after {border-color : transparent transparent var(--accent-text-color) transparent;}
 .selected:hover:after { border-color : transparent transparent var(--link-color) transparent; }
 
 /* BOUTON DARKMODE */
@@ -35,7 +42,7 @@ html,
 
 /*SIDEBAR*/
 .footer-steam,
-#copyright-steam { background : #171d25; }
+#copyright-steam { background : var(--link-color); }
 
 .site-sidebar__back { background : var(--main-color); }
 
@@ -247,7 +254,7 @@ html,
 }
 
 .percent-games-steam {
-	background : var(--second-color);
+	background : var(--main-bg-color);
 	margin-right : 10px;
 	width : 100%;
 	height : 24px;
@@ -270,7 +277,7 @@ html,
 
 .zero-percent {
 	width : 100%;
-	background-color : var(--second-color)!important;
+	background-color : var(--main-bg-color)!important;
 }
 
 .cent-percent {
@@ -284,22 +291,13 @@ html,
 }
 
 .filter-btn {
-	background: #171d25;
+	background: var(--link-color);
 }
 
 .filter-btn.active,
 .filter-btn:hover {
-	background-color: var(--second-color);
-    color: white;
-}
-
-.changelog-content {
-  background: var(--main-color);
-  color: var(--accent-text-color);
-}
-
-#close-changelog:hover {
-  color: var(--link-color);
+	background-color: var(--main-bg-color);
+    color: var(--accent-text-color)!important;
 }
 
 @media only screen and (max-width: 912px) {
@@ -307,13 +305,17 @@ html,
 		background: rgba(23, 29, 37, 0.5);
 	}
 	.site-navigation__sub-item:hover .link {
-		color: var(--second-color);
+		color: var(--main-bg-color);
 	}
+
+    .selected:after {border-color : transparent var(--accent-text-color) transparent transparent;}
+    .selected:hover:after { border-color : transparent var(--link-color) transparent transparent; }
 }
 
 @media only screen and (max-width: 768px) {
     .site-sidebar__back {
         position: relative;
+        top: 124px;
         display: flex;
         gap: 1rem;
         width: 100%;
@@ -335,7 +337,7 @@ html,
     .site-sidebar__informations { width: 70%; }
 	.item-line { margin-top : 12px; padding: 0; }
     .section-title {font-size: 1rem;}
-    .steam-main { margin-left: 0; }
+    .steam-main { margin-left: 0;}
 }
 
 @media only screen and (max-width: 480px) {

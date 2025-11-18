@@ -1,3 +1,6 @@
+body.dark {
+    color: var(--accent-text-color);
+}
 .ps-main { 
     margin-left: 250px;
     padding-bottom: 155px;
@@ -173,11 +176,13 @@
 @media only screen and (max-width: 768px) {
     .site-sidebar__back {
         position: relative;
+        top: 132px;
         display: flex;
         gap: 1rem;
         width: 100%;
 		align-items: center;
 		justify-content: space-around;
+        
     }
 
     .site-sidebar__avatar img { width: 100%; }
@@ -194,7 +199,7 @@
     .site-sidebar__informations { width: 70%; }
 	.item-line { margin-top : 12px; padding: 0; }
     .section-title {font-size: 1rem;}
-    .ps-main { margin-left: 0; padding: 5rem 1rem;}
+    .ps-main { margin-left: 0;}
     #platine-responsive,
     #gold-responsive,
     #silver-responsive,

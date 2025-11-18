@@ -15,7 +15,22 @@ const translations = {
     subTwo: "Abonnement tier 2",
     subThree: "Abonnement tier 3",
     subBadges: "Badges d'abonnement",
-    weeklyCalendar: "Calendrier hebdomadaire"
+    weeklyCalendar: "Calendrier hebdomadaire",
+    langTitle: "Changer la langue",
+    profileTitle: "Yunaleska",
+    changelogTitle: "Voir les nouveautés",
+    profileVGlover: "Passionnée de jeux vidéo",
+    profileHunter: "Chasseuse de trophées & succès",
+    profileDev: "Développeuse web & graphiste indépendante",
+    profileCreator: "Créatrice d’overlays et de contenus",
+    profileStatsTitle: "Statistiques Globales",
+    profileGames: "Jeux",
+    profileTrophies: "Trophées",
+    profileAchiev: "Succès Steam",
+    profileRetro: "Succès Retro",
+    profileProgress: "Progression générale : ",
+    profileChall: "Défis préférés",
+    profileLinks: "Liens"
   },
   en: {
     welcome: "Introduction",
@@ -33,7 +48,22 @@ const translations = {
     subTwo: "Subscription tier 2",
     subThree: "Subscription tier 3",
     subBadges: "Subscription Badges",
-    weeklyCalendar: "Weekly Schedule"
+    weeklyCalendar: "Weekly Schedule",
+    langTitle: "Change language",
+    profileTitle: "Yunaleska",
+    changelogTitle: "See what's new",
+    profileVGlover: "Video-game lover",
+    profileHunter: "Trophies & achievements hunter",
+    profileDev: "Independant Web developer & designer",
+    profileCreator: "Content & overlays creator",
+    profileStatsTitle: "Global Statistics",
+    profileGames: "Games",
+    profileTrophies: "Trophies",
+    profileAchiev: "SteamAchievements",
+    profileRetro: "RetroAchievements",
+    profileProgress: "General progression: ",
+    profileChall: "Favourite challenges",
+    profileLinks: "Links"
   },
   pt: {
     welcome: "Introdução",
@@ -52,7 +82,11 @@ const translations = {
     subTwo: "Subscrição Nível 2",
     subThree: "Subscrição Nível 3",
     subBadges: "Emblemas Subscriçãos",
-    weeklyCalendar: "Programação semanal"
+    weeklyCalendar: "Programação semanal",
+    langTitle: "Mudar o idioma",
+    profileTitle: "Yunaleska",
+    changelogTitle: "Ver novidades",
+
   }
 };
 
@@ -74,6 +108,15 @@ function setLanguage(lang) {
     const key = img.getAttribute('data-i18n-img');
     if (translations[lang] && translations[lang][key]) {
       img.src = translations[lang][key];
+    }
+  });
+
+  // Tooltips (titles)
+  const titleElements = document.querySelectorAll('[data-i18n-title]');
+  titleElements.forEach(el => {
+    const key = el.getAttribute('data-i18n-title');
+    if (translations[lang] && translations[lang][key]) {
+      el.setAttribute('title', translations[lang][key]);
     }
   });
 }

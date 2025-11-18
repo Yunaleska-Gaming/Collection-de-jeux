@@ -3,7 +3,7 @@
     --main-color: #161616;
     --second-color: #202020;
     --accent-color: #ffd700;
-    --sidebar-accent-color: #0072ce;
+    --secondary-accent-color: #0072ce;
     --main-bg-color: #121214;
     --main-text-color: #fff;
 }
@@ -36,7 +36,7 @@ html,
 
 /*SIDEBAR*/
 .footer-retro,
-#copyright-retro { background : #121214; }
+#copyright-retro { background : var(--main-bg-color); }
 
 .site-sidebar__back { background : var(--main-color); }
 
@@ -60,11 +60,11 @@ html,
 	display : flex;
 	justify-content : center;
 	align-items : center;
-    background-color: var(--sidebar-accent-color);
+    background-color: var(--secondary-accent-color);
 }
 
 .item-line {
-    background-color: var(--sidebar-accent-color);
+    background-color: var(--secondary-accent-color);
 }
 
 .site-sidebar-achievement {
@@ -78,7 +78,7 @@ html,
 	color : var(--accent-color);
 }
 
-.site-sidebar__pseudo { color : var(--sidebar-accent-color); }
+.site-sidebar__pseudo { color : var(--secondary-accent-color); }
 
 .trophies,
 .games-trophies {
@@ -92,7 +92,7 @@ html,
 }
 
 .site-header {
-  background-color : #121214;
+  background : var(--main-bg-color);
   background-image : none;  
 }
 
@@ -501,7 +501,7 @@ html,
 }
 
 .filter-platforms button {
-	background: var(--sidebar-accent-color);
+	background: var(--secondary-accent-color);
 	border: none;
 	border-radius: 8px;
 	cursor: pointer;
@@ -600,6 +600,41 @@ html,
 #psp-count,
 #gc-count { display:none;}
 
+.top-bar button, 
+.top-bar button i,
+.changelog-section h3,
+.changelog-content h2,
+#close-changelog,
+.profile-popup-content h2,
+.profile-popup-content h3,
+.profile-links a,
+.profile-links .fa-twitch,
+.profile-links .fa-youtube {
+    color: black !important;
+}
+
+.profile-desc span:nth-of-type(even),
+.profile-stats span:nth-of-type(even),
+.profile-challenges i {
+    color: var(--secondary-accent-color) !important;
+}
+
+#global-progress-fill {
+    background: linear-gradient(90deg, var(--accent-color), var(--secondary-accent-color))!important;
+}
+
+#close-profile i,
+.profile-links a:hover,
+#close-changelog:hover,
+.profile-links a:hover .fa-twitch,
+.profile-links a:hover .fa-youtube {
+    color: var(--secondary-accent-color) !important;
+}
+
+#close-profile i:hover {
+    color: var(--accent-color) !important;
+}
+
 @media only screen and (max-width: 912px) {
     .site-navigation .list { 
 		background: rgba(17, 17, 19, 0.5);
@@ -607,12 +642,16 @@ html,
 	.site-navigation__sub-item:hover .link {
 		color: var(--second-color);
 	}
+
+    .selected:after {border-color : transparent var(--accent-text-color) transparent transparent;}
+    .selected:hover:after { border-color : transparent var(--link-color) transparent transparent; }
 }
 
 @media only screen and (max-width: 768px) {
 
     .site-sidebar__back {
         position: relative;
+        top: 113px;
         display: flex;
         gap: 1rem;
         width: 100%;

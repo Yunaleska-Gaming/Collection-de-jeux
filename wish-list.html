@@ -5,6 +5,7 @@
 		<title>Wishlist</title>
 		<link href="assets/css/main.css" rel="stylesheet" />
 		<link href="assets/css/games-wishlist.css" rel="stylesheet" />
+		<link href="assets/css/profile.css" rel="stylesheet" />
 		<link href="assets/css/games-ps4.css" rel="stylesheet" />
 		<link href="assets/css/games-ps5.css" rel="stylesheet" />
 		<link href="assets/images/favicon.png" rel="icon" />
@@ -19,6 +20,7 @@
 		<div class="site">
 		
 			<custom-header></custom-header>
+			<custom-topbar></custom-topbar>
 			
 			<main class="site-main">
 				<h1 class="section-title" id="wish-ps">Liste d'envie PlayStation</h1>
@@ -43,10 +45,12 @@
 		<script type="module">import createWishItem from './assets/scripts/wishlist.js';createWishItem('steam');</script>
 		<script type="module">import createWishItem from './assets/scripts/wishlist.js';createWishItem('ds');</script>
 		<script src="assets/scripts/header.js"></script>
+		<script src="assets/scripts/topbar.js"></script>
 		<script src="assets/scripts/footer.js" type="module"></script>
 		<script src="assets/scripts/wherami.js"></script>
 		<script src="assets/scripts/darkmode.js"></script>
 		<script type="module" src="assets/scripts/updates.js"></script>
 		<script type="module" src="assets/scripts/changelogs.js"></script>
+		<script src="assets/scripts/profile-popup.js" type="module"></script>
 	</body>
 </html>

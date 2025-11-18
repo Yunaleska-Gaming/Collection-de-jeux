@@ -11,6 +11,7 @@
 	--main-bg-color: #fff;
 	--accent-text-color: #fff;
 	--accent-color: #0072ce;
+	--lighter-accent-color: #5cb8ff;
 	--shadow-color: #9b9b9b;
 	--platine-color : #A0B2C6;
 	--gold-color : #cf9836;
@@ -50,7 +51,6 @@ body {
 	height : 100%;
 	font-size: 100%;
 	overflow-x: hidden;
-	transition: all 0.4s ease-in-out;
 }
 
 a { 
@@ -61,6 +61,7 @@ a {
 body.dark {
 	--main-bg-color: #1a191f;
 	--accent-color: #302f39;
+	--lighter-accent-color: #656470;
     --shadow-color: #000;
 }
 
@@ -140,12 +141,38 @@ input:checked + .slider {
   background-color: #2196F3;
 }
 
+/* TOPBAR */
+.top-bar {
+	width: 100%;
+	background-color: var(--accent-color);
+}
+
+.top-bar-limits {
+	padding: 0.5rem 4rem;
+	display: flex;
+	justify-content: flex-end;
+	gap: 2rem;
+}
+
+.top-bar button {
+	background: transparent;
+    border: none;
+    color: var(--accent-text-color);
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-left: 10px;
+	transition: transform 0.25s ease;
+}
+
+.top-bar button:hover {
+  transform: scale(1.2);
+}
 
 /*HEADER */
 .site-header {
 	background : var(--bg-header);
 	box-shadow : 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-	position : fixed;
+	position : sticky;
 	top : 0;
 	left : 0;
 	z-index : 1;
@@ -220,7 +247,7 @@ input:checked + .slider {
 
 /*PAGES PRINCIPALES*/
 .site-main {
-	padding: 134px 2rem 200px 2rem;
+	padding: 3rem 2rem 200px 2rem;
 }
 
 .section-title,
@@ -493,13 +520,13 @@ input:checked + .slider {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.7); /* fond semi-transparent */
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.7);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999; /* très haut pour passer au-dessus du footer/header */
+  z-index: 9999;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.4s ease;
@@ -512,8 +539,8 @@ input:checked + .slider {
 
 
 .changelog-content {
-  background: var(--main-bg-color, #fff);
-  color: var(--main-text-color, #000);
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
   padding: 2rem;
   border-radius: 12px;
   max-width: 600px;
@@ -534,7 +561,7 @@ input:checked + .slider {
 .changelog-content h3 {
 	text-transform: uppercase;
     text-align: center;
-    font-size: 16px;
+    font-size: 1.5rem;
     padding: 10px;
     margin: 0 0 20px 0;
     color: #fff;
@@ -569,23 +596,6 @@ input:checked + .slider {
   color: var(--accent-color);
 }
 
-#see-changelog {
-	padding: 0.5rem 1rem;
-	color: var(--accent-text-color);
-	border: none;
-	font-size: 2.5rem;
-	border-radius: 6px;
-	cursor: pointer;
-	background-color: var(--ps1-color);
-	text-align: center;
-	display: block;
-	margin: 2rem auto 0;
-	position: absolute;
-	bottom: 1.8rem;
-	right: 1rem;
-	z-index: 999;
-}
-
 #see-changelog .badge {
   position: absolute;
   top: -6px;
@@ -597,10 +607,6 @@ input:checked + .slider {
   border-radius: 12px;
   font-weight: bold;
   animation: pulseBadge 1.5s infinite;
-}
-
-#see-changelog:hover {
-	background-color: var(--platine-color);
 }
 
 /*#corrections {
@@ -621,6 +627,7 @@ input:checked + .slider {
 
 	.site-header {
 		height: 84px;
+		position: fixed;
 	}
 
 	.site-navigation .list { 
@@ -672,7 +679,7 @@ input:checked + .slider {
 
 	.menu-hamburger { 
 		display: block;
-		position: fixed;
+		position: absolute;
 		top: 30px;
 		right: 30px;
 		z-index: 1;
@@ -732,9 +739,11 @@ input:checked + .slider {
 	}
 	
 	.dark-options {
-		position: absolute;
-		top: 28px;
-		right: 90px;
+		transform: scale(0.9);
+	}
+
+	.top-bar-limits {
+		padding-right: 30px!important;
 	}
 }
 
@@ -761,6 +770,22 @@ input:checked + .slider {
 		font-size: 1rem;
 		padding: 0;
   }
+
+  	.site-header {
+        position: fixed;
+        z-index: 9999;
+    }
+
+    .top-bar {
+        position: absolute;
+        top: 84px;
+        left: 0;
+        z-index: 1;
+    }
+
+	.site-main {
+		padding: 8rem 2rem 200px 2rem;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -771,11 +796,30 @@ input:checked + .slider {
     padding: 0 0.5rem;
     gap: 6px;
     scrollbar-width: none; /* Firefox */
+	width: auto!important;
   }
 
   .filters::-webkit-scrollbar {
     display: none; /* Chrome/Safari */
   }
+
+  .changelog-content {
+	width: 75%;
+	font-size: 0.8rem;
+	overflow: auto;
+	max-height: 400px;
+  }
+
+  .changelog-content h2 {
+	font-size: 1.4rem;
+	padding: 1rem;
+  }
+
+  .changelog-content h3 {
+	font-size: 0.9rem;
+	padding: 0.5rem;
+  }
+
 }
 
 @media screen and (max-height: 1080px) {
@@ -788,5 +832,9 @@ input:checked + .slider {
 		width: 40px;
 		height: 40px;
 		font-size: 0.9rem;
+	}
+
+	.top-bar-limits {
+		padding-right: 3rem;
 	}
 }

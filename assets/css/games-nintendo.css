@@ -1,6 +1,12 @@
 /*RACINE & CSS GENERAL */
 :root {
     --accent-color : #e60012;
+    --lighter-accent-color: #ff4b59;
+}
+
+body.dark {
+    --accent-color : #95000c;
+    --lighter-accent-color: #e60012;
 }
 
 /* BOUTON DARKMODE + DARKMODE */
@@ -247,6 +253,10 @@ input:checked + .slider .thumb i {
 	display: none;
 }
 
+.dark .profile-popup-content {
+    color: var(--accent-text-color);
+}
+
 @media only screen and (max-width: 912px) {
     .site-navigation .list { 
 		background: rgba(230, 0, 19, 0.5);
@@ -255,8 +265,9 @@ input:checked + .slider .thumb i {
 
 
 @media only screen and (max-width: 768px) {
-        .site-sidebar__back {
+    .site-sidebar__back {
         position: relative;
+        top: 132px;
         display: flex;
         gap: 1rem;
         width: 100%;

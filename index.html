@@ -7,6 +7,7 @@
 		<link href="assets/css/index.css" rel="stylesheet" />
 		<link href="assets/css/games-ps.css" rel="stylesheet" />
 		<link href="assets/css/games-steam-index.css" rel="stylesheet" />
+		<link href="assets/css/profile.css" rel="stylesheet" />
 		<link href="assets/images/favicon.png" rel="icon" />
 		<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans" />
 		<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
@@ -20,9 +21,10 @@
 	
 	<body>
 		<div class="site">
-		
+			
 			<custom-header></custom-header>
-
+			<custom-topbar></custom-topbar>
+			
 			<main class="site-main">
 				<section class="site-main__section first-section">
 					<div class="index-column">
@@ -121,9 +123,11 @@
 				</section>
 			</main>
 			<custom-footer></custom-footer>
+			<profile-popup></profile-popup>
 		</div>
 
 		<script src="assets/scripts/header.js"></script>
+		<script src="assets/scripts/topbar.js"></script>
 		<script src="assets/scripts/footer.js" type="module"></script>
 		<script type="module">import fetchData from './assets/scripts/index.js';fetchData();</script>
 		<script src="assets/scripts/wherami.js"></script>
@@ -132,6 +136,6 @@
 		<script type="module" src="assets/scripts/updates.js"></script>
 		<script type="module" src="assets/scripts/changelogs.js"></script>
 		<script type="module" src="assets/scripts/challenges.js"></script>
-
+		<script src="assets/scripts/profile-popup.js" type="module"></script>
 	</body>
 </html>
