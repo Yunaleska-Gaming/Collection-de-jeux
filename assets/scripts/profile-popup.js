@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="profile-banner"></div>
 
       <div class="profile-header">
-        <img src="/assets/images/avatar-profile.png" class="profile-avatar" alt="Avatar">
+        <img src="assets/images/avatar-profile.png" class="profile-avatar" alt="Avatar">
         <h2 class="profile-name">Yunaleska</h2>
         <p class="profile-desc">
           <span data-i18n="profileVGlover">Passionnée de jeux vidéo</span> 
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
     for (const consoleName of psConsoles) {
       try {
-        const res = await fetch(`/assets/json/${consoleName}_data.json`);
+        const res = await fetch(`./assets/json/${consoleName}_data.json`);
         if (!res.ok) continue;
         const games = await res.json();
         totalGames += games.length;
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // --- STEAM ---
     try {
-      const res = await fetch(`/assets/json/steam_data.json`);
+      const res = await fetch(`./assets/json/steam_data.json`);
       if (res.ok) {
         const steamGames = await res.json();
         totalGames += steamGames.length;
@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     for (const file of retroFiles) {
       try {
-        const res = await fetch(`/assets/json/${file}`);
+        const res = await fetch(`./assets/json/${file}`);
         if (!res.ok) continue;
         const games = await res.json();
         totalGames += games.length;
