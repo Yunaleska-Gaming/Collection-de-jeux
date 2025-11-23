@@ -308,7 +308,7 @@
     {
         "img_src": "kitaria-fables.jpg",
         "name": "Kitaria Fables",
-        "amount_achievement": "4/41"
+        "amount_achievement": "5/41"
     },
     {
         "img_src": "last-epoch.jpg",
@@ -498,7 +498,7 @@
     {
         "img_src": "powerwash-simulator.jpg",
         "name": "PowerWash Simulator",
-        "amount_achievement": "20/100"
+        "amount_achievement": "40/100"
     },
      {
         "img_src": "powerwash-simulator-2.jpg",
@@ -713,7 +713,7 @@
     {
         "img_src": "the-room-1.jpg",
         "name": "The Room",
-        "amount_achievement": "0/5"
+        "amount_achievement": "5/5"
     },
     {
         "img_src": "the-room-2.jpg",
