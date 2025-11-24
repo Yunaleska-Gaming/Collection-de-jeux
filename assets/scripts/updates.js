@@ -9,7 +9,8 @@ export const updates = [
 
           "○ Mise à jour des succès The Room (100%) (Steam)",
           "○ Mise à jour des succès Kitaria Fables (Steam)",
-          "○ Mise à jour des succès Powerwash Simulator (Steam)"
+          "○ Mise à jour des succès Powerwash Simulator (Steam)",
+          "○ Mise à jour des succès Bongo Cat (Steam)"
         ],
         fixes: [
         ]
@@ -20,7 +21,8 @@ export const updates = [
 
           "○ Updated The Room achievements (100%) (Steam)",
           "○ Updated Kitaria Fables achievements (Steam)",
-          "○ Updated Powerwash Simulator achievements (Steam)"
+          "○ Updated Powerwash Simulator achievements (Steam)",
+          "○ Updated Bondgo Cat achievements (Steam)"
         ],
         fixes: [
         ]
