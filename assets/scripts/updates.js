@@ -1,28 +1,43 @@
 export const updates = [
   {
-    version: "1.31",
-    date: "23-11-2025",
+    version: "1.32",
+    date: "03-12-2025",
     messages: {
       fr: {
         features: [
-          "○ Calendrier hebdomadaire pour la semaine du 24 novembre 2025",
+          "○ Calendrier mensuel pour décembre",
 
-          "○ Mise à jour des succès The Room (100%) (Steam)",
-          "○ Mise à jour des succès Kitaria Fables (Steam)",
-          "○ Mise à jour des succès Powerwash Simulator (Steam)",
-          "○ Mise à jour des succès Bongo Cat (Steam)"
+          "○ Mise à jour des succès Bongo Cat (100%) (Steam)",
+          "○ Mise à jour des succès Dead Island 2 (Steam)",
+          "○ Mise à jour des succès Phasmophobia (Steam)",
+          "○ Mise à jour des succès The Evil Within (Steam)",
+
+          "○ Ajout de Ghost Watchers et de ses succès (Steam)",
+          "○ Ajout de Soundfall et de ses succès (Steam)",
+          "○ Ajout de Nexomon: Extinction et de ses succès (Steam)",
+          "○ Ajout de Digimon Story Cyber Sleuth: Complete Edition et de ses succès (Steam)",
+          "○ Ajout de Ys I & II Chronicles + et de leurs succès (Steam)",
+          "○ Ajout de The Hunt Begins (Steam)",
         ],
         fixes: [
         ]
       },
       en: {
         features: [
-          "○ Weekly schedule for the week of the 24th of november 2025",
+          "○ Monthly Schedule for December",
 
-          "○ Updated The Room achievements (100%) (Steam)",
-          "○ Updated Kitaria Fables achievements (Steam)",
-          "○ Updated Powerwash Simulator achievements (Steam)",
-          "○ Updated Bondgo Cat achievements (Steam)"
+          "○ Updated Bongo Cat achievements (100%) (Steam)",
+          "○ Updated Dead Island 2 achievements (Steam)",
+          "○ Updated Phasmophobia achievements (Steam)",
+          "○ Updated The Evil Within achievements (Steam)",
+
+          "○ Added Ghost Watchers and its achievements (Steam)",
+          "○ Added Soundfall and its achievements (Steam)",
+          "○ Added Ghost Watchers and its achievements (Steam)",
+          "○ Added Nexomon: Extinction and its achievements (Steam)",
+          "○ Added Digimon Story Cyber Sleuth: Complete Edition and its achievements (Steam)",
+          "○ Added Ys I & II Chronicles + and its achievements (Steam)",
+          "○ Added The Hunt Begins (Steam)",
         ],
         fixes: [
         ]

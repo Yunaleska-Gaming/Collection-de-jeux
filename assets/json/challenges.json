@@ -39,6 +39,12 @@
       ]
     },
     {
+      "game": "Resident Evil Code: Veronica X",
+      "entries": [
+        { "title": "Knife Only", "platform": "youtube", "url": "https://youtu.be/ZSiXABpnOC4" }
+      ]
+    },
+    {
       "game": "Resident Evil Village",
       "entries": [
         { "title": "No Upgrade, No Craft" }
@@ -120,8 +126,7 @@
     {
       "game": "Resident Evil Code: Veronica X",
       "entries": [
-        { "title": "No Save No Damage" },
-        { "title": "Knife Only" }
+        { "title": "No Save No Damage" }
       ]
     }
   ]

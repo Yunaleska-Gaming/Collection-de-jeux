@@ -48,7 +48,7 @@
     {
         "img_src": "bongo-cat.jpg",
         "name": "Bongo Cat",
-        "amount_achievement": "6/7"
+        "amount_achievement": "7/7"
     },
     {
         "img_src": "black-desert.jpg",
@@ -138,7 +138,7 @@
     {
         "img_src": "dead-island-2.jpg",
         "name": "Dead Island 2",
-        "amount_achievement": "0/59"
+        "amount_achievement": "8/59"
     },
     {
         "img_src": "dead-space.jpg",
@@ -154,6 +154,16 @@
         "img_src": "dead-space-3.jpg",
         "name": "Dead Space 3",
         "amount_achievement": "0/59"
+    },
+    {
+        "img_src": "demonologist.jpg",
+        "name": "Demonologist",
+        "amount_achievement": "0/19"
+    },
+    {
+        "img_src": "digimon-story-cyber.jpg",
+        "name": "Digimon Story Cyber Sleuth : Complete",
+        "amount_achievement": "0/103"
     },
     {
         "img_src": "dying-light.jpg",
@@ -266,6 +276,11 @@
         "amount_achievement": "0/57"
     },
     {
+        "img_src": "ghost-watchers.jpg",
+        "name": "Ghost Watchers",
+        "amount_achievement": "3/50"
+    },
+    {
         "img_src": "granblue-fantasy-relink.jpg",
         "name": "Granblue Fantasy : Relink",
         "amount_achievement": "41/54"
@@ -308,7 +323,7 @@
     {
         "img_src": "kitaria-fables.jpg",
         "name": "Kitaria Fables",
-        "amount_achievement": "5/41"
+        "amount_achievement": "6/41"
     },
     {
         "img_src": "last-epoch.jpg",
@@ -379,6 +394,11 @@
         "img_src": "neva.jpg",
         "name": "Neva",
         "amount_achievement": "0/18"
+    },
+    {
+        "img_src": "nexomon-extinction.jpg",
+        "name": "Nexomon : Extinction",
+        "amount_achievement": "0/56"
     },
     {
         "img_src": "nier-replicant.jpg",
@@ -473,7 +493,7 @@
     {
         "img_src": "phasmophobia.jpg",
         "name": "Phasmophobia",
-        "amount_achievement": "33/54"
+        "amount_achievement": "34/54"
     },
     {
         "img_src": "planet-of-lana.jpg",
@@ -616,6 +636,11 @@
         "amount_achievement": "0/44"
     },
     {
+        "img_src": "soundfall.jpg",
+        "name": "Soundfall",
+        "amount_achievement": "7/45"
+    },
+    {
         "img_src": "spyro.jpg",
         "name": "Spyro Reignited Trilogy",
         "amount_achievement": "105/105"
@@ -671,14 +696,9 @@
         "amount_achievement": "0/0"
     },
     {
-        "img_src": "the-demonologist.jpg",
-        "name": "The Demonologist",
-        "amount_achievement": "0/19"
-    },
-    {
         "img_src": "the-evil-within.jpg",
         "name": "The Evil Within",
-        "amount_achievement": "27/71"
+        "amount_achievement": "30/71"
     },
     {
         "img_src": "the-evil-within-2.jpg",
@@ -699,6 +719,11 @@
         "img_src": "jackbox-party-starter.jpg",
         "name": "The Jackbox Party Starter",
         "amount_achievement": "1/20"
+    },
+    {
+        "img_src": "the-hunt-begins.jpg",
+        "name": "The Hunt Begins",
+        "amount_achievement": "0/0"
     },
     {
         "img_src": "the-kings-bird.jpg",
@@ -733,7 +758,7 @@
     {
         "img_src": "the-spell-brigade.jpg",
         "name": "The Spell Brigade",
-        "amount_achievement": "65/80"
+        "amount_achievement": "65/88"
     },
     {
         "img_src": "them-and-us.jpg",
@@ -819,6 +844,16 @@
         "img_src": "blades-of-time.jpg",
         "name": "Blades of Time",
         "amount_achievement": "9/35"
+    },
+    {
+        "img_src": "ys-1-2.jpg",
+        "name": "Ys I",
+        "amount_achievement": "0/17"
+    },
+    {
+        "img_src": "ys-1-2.jpg",
+        "name": "Ys II",
+        "amount_achievement": "0/21"
     },
     {
         "img_src": "yugioh-duel-links.jpg",

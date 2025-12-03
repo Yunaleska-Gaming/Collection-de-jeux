@@ -357,3 +357,19 @@ iframe { width: 100%; height: 100%;}
 }
 
 
+.schedule-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 91%;
+}
+
+.schedule-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
