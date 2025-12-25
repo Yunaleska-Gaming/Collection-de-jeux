@@ -1,23 +1,27 @@
 export const updates = [
   {
-    version: "1.32",
-    date: "03-12-2025",
+    version: "1.33",
+    date: "25-12-2025",
     messages: {
       fr: {
         features: [
-          "○ Calendrier mensuel pour décembre",
+          "○ Affiche pour le blind test du 28/12/2025 à 15h00",
 
-          "○ Mise à jour des succès Bongo Cat (100%) (Steam)",
+          "○ Mise à jour des succès Final Fantasy VIII Remastered (Steam)",
           "○ Mise à jour des succès Dead Island 2 (Steam)",
           "○ Mise à jour des succès Phasmophobia (Steam)",
-          "○ Mise à jour des succès The Evil Within (Steam)",
+          "○ Mise à jour des succès Tomb Raider I-III Remastered (Steam)",
+          "○ Mise à jour des succès The Room 2 (100%) (Steam)",
+          "○ Mise à jour des succès The Room 3 (Steam)",
 
-          "○ Ajout de Ghost Watchers et de ses succès (Steam)",
-          "○ Ajout de Soundfall et de ses succès (Steam)",
-          "○ Ajout de Nexomon: Extinction et de ses succès (Steam)",
-          "○ Ajout de Digimon Story Cyber Sleuth: Complete Edition et de ses succès (Steam)",
-          "○ Ajout de Ys I & II Chronicles + et de leurs succès (Steam)",
-          "○ Ajout de The Hunt Begins (Steam)",
+          "○ Ajout de Final Fantasy VII Remake Intergrade et de ses succès (Steam)",
+          "○ Ajout de Final Fantasy VII Rebirth et de ses succès (Steam)",
+          "○ Ajout de Sworn et de ses succès (Steam)",
+          "○ Ajout de Oaken et de ses succès (Steam)",
+          "○ Ajout de Metaphor: ReFantazio et de ses succès (Steam)",
+          "○ Ajout de House of Necrosis et de leurs succès (Steam)",
+          "○ Ajout de A League of Legends Story : Convergence (Steam)",
+          "○ Ajout de A League of Legends Story : The Mageseeker (Steam)"
         ],
         fixes: [
         ]
@@ -26,18 +30,21 @@ export const updates = [
         features: [
           "○ Monthly Schedule for December",
 
-          "○ Updated Bongo Cat achievements (100%) (Steam)",
+          "○ Updated Final Fantasy VIII Remastered achievements (Steam)",
           "○ Updated Dead Island 2 achievements (Steam)",
           "○ Updated Phasmophobia achievements (Steam)",
-          "○ Updated The Evil Within achievements (Steam)",
+          "○ Updated Tomb Raider I-III Remastered achievements (Steam)",
+          "○ Updated The Room 2 achievements (100%) (Steam)",
+          "○ Updated The Room 3 achievements (Steam)",
 
-          "○ Added Ghost Watchers and its achievements (Steam)",
-          "○ Added Soundfall and its achievements (Steam)",
-          "○ Added Ghost Watchers and its achievements (Steam)",
-          "○ Added Nexomon: Extinction and its achievements (Steam)",
-          "○ Added Digimon Story Cyber Sleuth: Complete Edition and its achievements (Steam)",
-          "○ Added Ys I & II Chronicles + and its achievements (Steam)",
-          "○ Added The Hunt Begins (Steam)",
+          "○ Added Final Fantasy VII Remake Intergrade and its achievements (Steam)",
+          "○ Added Final Fantasy VII Rebirth and its achievements (Steam)",
+          "○ Added Sworn and its achievements (Steam)",
+          "○ Added Oaken and its achievements (Steam)",
+          "○ Added Metaphor: ReFantazio and its achievements (Steam)",
+          "○ Added House of Necrosis and its achievements (Steam)",
+          "○ Added A League of Legends Story : Convergence (Steam)",
+          "○ Added A League of Legends Story : The Mageseeker (Steam)"
         ],
         fixes: [
         ]

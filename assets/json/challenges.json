@@ -7,6 +7,12 @@
       ]
     },
     {
+      "game": "Final Fantasy VIII Remastered",
+      "entries": [
+        { "title": "Squall Only" }
+      ]
+    },
+    {
       "game": "Final Fantasy IX",
       "entries": [
         { "title": "No Trance No Summons", "platform": "youtube", "url": "https://www.youtube.com/playlist?list=PLT1mqwRlf2ooKDeRgH0yvD0PNziAf0xax" }
@@ -87,12 +93,6 @@
     }
   ],
   "future": [
-    {
-      "game": "Final Fantasy VIII",
-      "entries": [
-        { "title": "Squall Only" }
-      ]
-    },
     {
       "game": "Final Fantasy XII",
       "entries": [
