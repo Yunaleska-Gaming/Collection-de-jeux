@@ -1,7 +1,7 @@
 export const updates = [
   {
     version: "1.4",
-    date: "12-01-2025",
+    date: "12-01-2026",
     messages: {
       fr: {
         features: [
