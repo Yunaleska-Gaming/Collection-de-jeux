@@ -2,6 +2,7 @@
     --blue-steam: #166bcc;
     --boxes-text-color: #000;
     --link-color: #0072ce;
+    --light-grey-steam: #393f48;
 }
 
 body {
@@ -183,7 +184,7 @@ iframe { width: 100%; height: 100%;}
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    height: 645px;
+    /*height: 645px;*/
 }
 
 .planning-link {
@@ -354,22 +355,4 @@ iframe { width: 100%; height: 100%;}
     .twitch-rewards, .twitch-rewards:last-of-type {
         width : 95%;
     }
-}
-
-
-.schedule-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 91%;
-}
-
-.schedule-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    text-align: center;
 }

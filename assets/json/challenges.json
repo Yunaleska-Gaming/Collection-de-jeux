@@ -41,6 +41,7 @@
       "entries": [
         { "title": "No Save No Damage - Claire A (HARD)", "platform": "youtube", "url": "https://youtu.be/5srQiN8KKIs" },
         { "title": "No Save No Damage - Leon A (HARD)", "platform": "youtube", "url": "https://youtu.be/gNX40Jlcss8" },
+        { "title": "No Save No Damage - Leon B (HARD)"},
         { "title": "Knife Only - Leon A (NORMAL)", "platform": "youtube", "url": "https://youtu.be/u4LcjO04I2M" }
       ]
     },
@@ -73,8 +74,7 @@
     {
       "game": "Resident Evil 2 Classic",
       "entries": [
-        { "title": "No Save No Damage - Claire B (HARD)", "platform": "twitch", "url": "https://www.twitch.tv/yunaleska" },
-        { "title": "No Save No Damage - Leon B (HARD)", "platform": "twitch", "url": "https://www.twitch.tv/yunaleska" }
+        { "title": "No Save No Damage - Claire B (HARD)", "platform": "twitch", "url": "https://www.twitch.tv/yunaleska" }        
       ]
     },
     {

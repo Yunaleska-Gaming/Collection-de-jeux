@@ -158,7 +158,7 @@
     {
         "img_src": "dead-island-2.jpg",
         "name": "Dead Island 2",
-        "amount_achievement": "14/59"
+        "amount_achievement": "21/59"
     },
     {
         "img_src": "dead-space.jpg",
@@ -293,7 +293,7 @@
     {
         "img_src": "final-fantasy-7-remake.jpg",
         "name": "Final Fantasy VII Remake Intergrade",
-        "amount_achievement": "19/63"
+        "amount_achievement": "23/63"
     },
     {
         "img_src": "final-fantasy-7-rebirth.jpg",
@@ -439,6 +439,11 @@
         "img_src": "neva.jpg",
         "name": "Neva",
         "amount_achievement": "0/18"
+    },
+    {
+        "img_src": "nexomon.jpg",
+        "name": "Nexomon",
+        "amount_achievement": "13/62"
     },
     {
         "img_src": "nexomon-extinction.jpg",
@@ -662,6 +667,11 @@
         "amount_achievement": "3/34"
     },
     {
+        "img_src": "shape-of-dreams.jpg",
+        "name": "Shape of Dreams",
+        "amount_achievement": "39/83"
+    },
+    {
         "img_src": "silent-hill-2.jpg",
         "name": "Silent Hill 2",
         "amount_achievement": "0/43"
@@ -694,7 +704,7 @@
     {
         "img_src": "sworn.jpg",
         "name": "Sworn",
-        "amount_achievement": "0/27"
+        "amount_achievement": "27/27"
     },
     {
         "img_src": "tales-from-borderlands.jpg",
@@ -734,7 +744,7 @@
     {
         "img_src": "temtem-swarm.jpg",
         "name": "Temtem : Swarm",
-        "amount_achievement": "25/105"
+        "amount_achievement": "28/105"
     },
     {
         "img_src": "terminull-brigade.jpg",
@@ -804,7 +814,7 @@
     {
         "img_src": "the-spell-brigade.jpg",
         "name": "The Spell Brigade",
-        "amount_achievement": "65/88"
+        "amount_achievement": "72/88"
     },
     {
         "img_src": "them-and-us.jpg",
@@ -828,12 +838,12 @@
     },
     {
         "img_src": "tomb-raider-1-3.jpg",
-        "name": "Tomb Raider I - III Remastered",
-        "amount_achievement": "57/269"
+        "name": "Tomb Raider I•II•III Remastered",
+        "amount_achievement": "74/269"
     },
     {
         "img_src": "tomb-raider-4-6.jpg",
-        "name": "Tomb Raider I - III Remastered",
+        "name": "Tomb Raider IV•V•VI Remastered",
         "amount_achievement": "0/168"
     },
     {

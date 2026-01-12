@@ -15,7 +15,7 @@ const translations = {
     subTwo: "Abonnement tier 2",
     subThree: "Abonnement tier 3",
     subBadges: "Badges d'abonnement",
-    weeklyCalendar: "Hotte Yunasmas",
+    weeklyCalendar: "Calendrier Hebdomadaire",
     langTitle: "Changer la langue",
     profileTitle: "Yunaleska",
     changelogTitle: "Voir les nouveautés",
