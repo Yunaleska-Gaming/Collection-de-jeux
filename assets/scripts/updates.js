@@ -1,25 +1,20 @@
 export const updates = [
   {
-    version: "1.4",
-    date: "12-01-2026",
+    version: "1.41",
+    date: "19-01-2026",
     messages: {
       fr: {
         features: [
-          "○ Planning de la semaine du 12 janvier 2026",
+          "○ Planning de la semaine du 19 janvier 2026",
 
-          "○ Mise à jour des succès Dead Island 2 (Steam)",
-          "○ Mise à jour des succès The Spell Brigade (Steam)",
-          "○ Mise à jour des succès Sworn (100%) (Steam)",
-          "○ Mise à jour des succès Final Fantasy VII Remake Intergrade (Steam)",
           "○ Mise à jour des succès Temtem Swarm (Steam)",
           "○ Mise à jour des succès Tomb Raider I•II•III Remastered (Steam)",
-
-          "○ Ajout de Shape of Dreams et de ses succès (Steam)",
-          "○ Ajout de Nexomon et de ses succès (Steam)"
+          "○ Mise à jour des succès Shape of Dreams (Steam)",
+          "○ Mise à jour des succès Nexomon (Steam)",
+          "○ Mise à jour des succès Metaphor: ReFantazio (Steam)"
         ],
         fixes: [
-          "○ Bon nom du jeu sur Tomb Raider IV•V•VI (I - III auparavant)",
-          "○ Changement de nom Tomb Raider I - 3 → I•II•III Remastered"
+          
         ]
       },
       en: {

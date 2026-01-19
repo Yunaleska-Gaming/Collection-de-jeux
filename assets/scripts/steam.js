@@ -63,7 +63,7 @@ function updateCompletionTimeline(games) {
     }
 
     if (lastEl) {
-        lastEl.textContent = `Dernier 100% : Bongo Cat`;
+        lastEl.textContent = `Dernier 100% : SWORN`;
     }
 }
 
