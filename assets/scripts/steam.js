@@ -59,11 +59,11 @@ function updateCompletionTimeline(games) {
     const lastEl = document.getElementById('last_100');
 
     if (firstEl) {
-        firstEl.textContent = `Premier 100% : Spyro Reignited Trilogy`;
+        firstEl.textContent = `Premier 100% : Spyro Trilogy`;
     }
 
     if (lastEl) {
-        lastEl.textContent = `Dernier 100% : SWORN`;
+        lastEl.textContent = `Dernier 100% : Nexomon`;
     }
 }
 

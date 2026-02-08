@@ -3,7 +3,7 @@
     {
       "game": "Clair Obscur : Expedition 33",
       "entries": [
-        { "title": "No Pictos No Luminas", "platform": "youtube", "url": "https://www.youtube.com/watch?v=J_jl2EIlz4Y&list=PLT1mqwRlf2opGM7hYsudJJJ689w1Ezmoh&pp=gAQB" }
+        { "title": "No Pictos No Luminas, Expert Difficulty", "platform": "youtube", "url": "https://www.youtube.com/watch?v=J_jl2EIlz4Y&list=PLT1mqwRlf2opGM7hYsudJJJ689w1Ezmoh&pp=gAQB" }
       ]
     },
     {
@@ -42,6 +42,7 @@
         { "title": "No Save No Damage - Claire A (HARD)", "platform": "youtube", "url": "https://youtu.be/5srQiN8KKIs" },
         { "title": "No Save No Damage - Leon A (HARD)", "platform": "youtube", "url": "https://youtu.be/gNX40Jlcss8" },
         { "title": "No Save No Damage - Leon B (HARD)"},
+        { "title": "No Save No Damage - Claire B (HARD)"},
         { "title": "Knife Only - Leon A (NORMAL)", "platform": "youtube", "url": "https://youtu.be/u4LcjO04I2M" }
       ]
     },
@@ -66,21 +67,9 @@
   ],
   "ongoing": [
     {
-      "game": "Resident Evil Classic",
+      "game": "Resident Evil 2 Remake",
       "entries": [
-        { "title": "No Save No Damage - Chris Best Ending", "platform": "twitch", "url": "https://www.twitch.tv/yunaleska" }
-      ]
-    },
-    {
-      "game": "Resident Evil 2 Classic",
-      "entries": [
-        { "title": "No Save No Damage - Claire B (HARD)", "platform": "twitch", "url": "https://www.twitch.tv/yunaleska" }        
-      ]
-    },
-    {
-      "game": "Resident Evil 3 Remake",
-      "entries": [
-        { "title": "No Save No Damage - Hardcore", "platform": "twitch", "url": "https://www.twitch.tv/yunaleska" }
+        { "title": "No Save No Damage - Hardcore (All Scenarios)",  "platform": "twitch", "url": "https://www.twitch.tv/yunaleska"  }
       ]
     }
   ],
@@ -89,6 +78,18 @@
       "game": "Resident Evil 3: Nemesis",
       "entries": [
         { "title": "No Save No Damage" }
+      ]
+    },
+    {
+      "game": "Resident Evil Classic",
+      "entries": [
+        { "title": "No Save No Damage - Chris Best Ending"}
+      ]
+    },
+    {
+      "game": "Resident Evil 3 Remake",
+      "entries": [
+        { "title": "No Save No Damage - Hardcore"}
       ]
     }
   ],

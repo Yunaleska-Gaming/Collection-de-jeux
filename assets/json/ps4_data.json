@@ -590,17 +590,18 @@
     {
         "img_src": "final-fantasy-4.png",
         "name": "Final Fantasy IV : Pixel Remaster",
-        "bronze_trophies": "12/14",
-        "silver_trophies": "3/9",
-        "gold_trophies": "0/6",
+        "bronze_trophies": "14/14",
+        "silver_trophies": "9/9",
+        "gold_trophies": "6/6",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 06/02/2026"
     },
     {
         "img_src": "final-fantasy-5.png",
         "name": "Final Fantasy V : Pixel Remaster",
-        "bronze_trophies": "0/22",
+        "bronze_trophies": "16/22",
         "silver_trophies": "0/12",
         "gold_trophies": "0/4",
         "bronze_trophies_dlc": "0/0",
@@ -1948,7 +1949,8 @@
         "gold_trophies": "5/5",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 22/01/2026"
     },
     {
         "img_src": "trivial-pursuit-2.png",
