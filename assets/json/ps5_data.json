@@ -464,6 +464,16 @@
         "gold_trophies_dlc": "0/4"
     },
     {
+        "img_src": "rayman-anniversary.png",
+        "name": "Rayman: 30th Anniversary Edition",
+        "bronze_trophies": "2/8",
+        "silver_trophies": "0/9",
+        "gold_trophies": "0/7",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
         "img_src": "resident-evil-2.png",
         "name": "Resident Evil 2",
         "bronze_trophies": "28/28",

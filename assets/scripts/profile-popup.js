@@ -47,8 +47,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       <h3 class="profile-subtitle" data-i18n="profileChall">Défis préférés</h3>
       <ul class="profile-challenges">
-        <li><i class="fa-solid fa-fire-flame-curved"></i> Knife Only</li>
         <li><i class="fa-solid fa-fire-flame-curved"></i> No Save No Damage</li>
+        <li><i class="fa-solid fa-fire-flame-curved"></i> Knife Only</li>
         <li><i class="fa-solid fa-fire-flame-curved"></i> No Pictos No Luminas</li>
         <li><i class="fa-solid fa-fire-flame-curved"></i> Akumu Mode</li>
       </ul>

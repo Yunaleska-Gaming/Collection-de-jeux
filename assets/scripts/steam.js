@@ -63,7 +63,7 @@ function updateCompletionTimeline(games) {
     }
 
     if (lastEl) {
-        lastEl.textContent = `Dernier 100% : Nexomon`;
+        lastEl.textContent = `Dernier 100% : Shape of Dreams`;
     }
 }
 

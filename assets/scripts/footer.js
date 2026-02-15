@@ -34,7 +34,7 @@ class FooterElement extends HTMLElement {
                     </ul>
 
                     <p class="site-footer copyright" ${copyrightId ? `id="${copyrightId}"` : ''}>
-                        © 2024-2025 Yunaleska's Collection — Version ${latestVersion}. Tous droits réservés.
+                        © 2024-2026 Yunaleska's Collection — Version ${latestVersion}. Tous droits réservés.
                     </p>
 
                    

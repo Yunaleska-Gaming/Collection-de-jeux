@@ -1,18 +1,19 @@
 export const updates = [
   {
-    version: "1.43",
-    date: "08-02-2026",
+    version: "1.44",
+    date: "15-02-2026",
     messages: {
       fr: {
         features: [
-          "○ Planning de la semaine du 09 février 2026",
+          "○ Planning de la semaine du 16 février 2026",
 
           "○ Mise à jour des succès Tomb Raider I•II•III Remastered (Steam)",
-          "○ Mise à jour des succès Shape of Dreams (Steam)",
-          "○ Mise à jour des succès Nexomon [100%] (Steam)",
-          "○ Mise à jour des trophées Tormented Souls II (Steam)",
-          "○ Mise à jour des trophées Final Fantasy IV : Pixel Remaster [Platine] (PS4)",
-          "○ Mise à jour des trophées Final Fantasy V : Pixel Remaster (PS4)"
+          "○ Mise à jour des succès Shape of Dreams [100%] (Steam)",
+          "○ Mise à jour des trophées Final Fantasy V : Pixel Remaster [Platine] (PS4)",
+          "○ Mise à jour des trophées Final Fantasy VI : Pixel Remaster (PS4)",
+
+          "○ Ajout de Goblin Cleanup et de ses succès (Steam)",
+          "○ Ajout de Rayman: 30th Anniversary Edition et de ses trophées (PS5)"
         ],
         fixes: [
           
@@ -20,14 +21,15 @@ export const updates = [
       },
       en: {
         features: [
-          "○ Weekly Schedule from the 9th of February 2026",
+          "○ Weekly Schedule from the 16th of February 2026",
 
           "○ Updated Tomb Raider I•II•III Remastered achievements (Steam)",
           "○ Updated Shape of Dreams achievements (Steam)",
-          "○ Updated Nexomon [100%] (Steam)",
-          "○ Updated Tormented Souls II achievements (Steam)",
-          "○ Updated Final Fantasy IV : Pixel Remaster [Platinum] trophies (PS4)",
-          "○ Updated Final Fantasy V : Pixel Remaster trophies (PS4)"
+          "○ Updated Final Fantasy V : Pixel Remaster [Platinum] trophies (PS4)",
+          "○ Updated Final Fantasy VI : Pixel Remaster trophies (PS4)",
+
+          "○ Added Goblin Cleanup ands its achievements (Steam)",
+          "○ Added Rayman: 30th Anniversary Edition ands its trophies (PS5)"
         ],
         fixes: [
           

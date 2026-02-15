@@ -601,17 +601,18 @@
     {
         "img_src": "final-fantasy-5.png",
         "name": "Final Fantasy V : Pixel Remaster",
-        "bronze_trophies": "16/22",
-        "silver_trophies": "0/12",
-        "gold_trophies": "0/4",
+        "bronze_trophies": "22/22",
+        "silver_trophies": "12/12",
+        "gold_trophies": "4/4",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 14/02/2026"
     },
     {
         "img_src": "final-fantasy-6.png",
         "name": "Final Fantasy VI : Pixel Remaster",
-        "bronze_trophies": "0/18",
+        "bronze_trophies": "7/18",
         "silver_trophies": "0/14",
         "gold_trophies": "0/4",
         "bronze_trophies_dlc": "0/0",
