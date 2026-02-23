@@ -1,19 +1,19 @@
 export const updates = [
   {
-    version: "1.44",
-    date: "15-02-2026",
+    version: "1.45",
+    date: "23-02-2026",
     messages: {
       fr: {
         features: [
-          "○ Planning de la semaine du 16 février 2026",
+          "○ Planning de la semaine du 23 février 2026",
 
           "○ Mise à jour des succès Tomb Raider I•II•III Remastered (Steam)",
-          "○ Mise à jour des succès Shape of Dreams [100%] (Steam)",
-          "○ Mise à jour des trophées Final Fantasy V : Pixel Remaster [Platine] (PS4)",
+          "○ Mise à jour des succès Tormented Souls II (Steam)",
+          "○ Mise à jour des succès Resident Evil Village (Steam)",
+          "○ Mise à jour des succès Goblin Cleanup (Steam)",
           "○ Mise à jour des trophées Final Fantasy VI : Pixel Remaster (PS4)",
 
-          "○ Ajout de Goblin Cleanup et de ses succès (Steam)",
-          "○ Ajout de Rayman: 30th Anniversary Edition et de ses trophées (PS5)"
+          "○ Ajout de Wicked Seed et de ses succès (Steam)"
         ],
         fixes: [
           
@@ -21,15 +21,15 @@ export const updates = [
       },
       en: {
         features: [
-          "○ Weekly Schedule from the 16th of February 2026",
+          "○ Weekly Schedule from the 23rd of February 2026",
 
           "○ Updated Tomb Raider I•II•III Remastered achievements (Steam)",
-          "○ Updated Shape of Dreams achievements (Steam)",
-          "○ Updated Final Fantasy V : Pixel Remaster [Platinum] trophies (PS4)",
+          "○ Updated Tormented Souls II achievements (Steam)",
+          "○ Updated Resident Evil Village achievements (Steam)",
+          "○ Updated Goblin Cleanup achievements (Steam)",
           "○ Updated Final Fantasy VI : Pixel Remaster trophies (PS4)",
 
-          "○ Added Goblin Cleanup ands its achievements (Steam)",
-          "○ Added Rayman: 30th Anniversary Edition ands its trophies (PS5)"
+          "○ Added Wicked Seed and its achievements (Steam)"
         ],
         fixes: [
           
