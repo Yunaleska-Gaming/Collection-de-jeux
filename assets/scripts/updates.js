@@ -1,19 +1,19 @@
 export const updates = [
   {
-    version: "1.45",
-    date: "23-02-2026",
+    version: "1.46",
+    date: "08-03-2026",
     messages: {
       fr: {
         features: [
-          "○ Planning de la semaine du 23 février 2026",
+          "○ Planning de la semaine du 09 mars 2026",
 
           "○ Mise à jour des succès Tomb Raider I•II•III Remastered (Steam)",
-          "○ Mise à jour des succès Tormented Souls II (Steam)",
-          "○ Mise à jour des succès Resident Evil Village (Steam)",
-          "○ Mise à jour des succès Goblin Cleanup (Steam)",
-          "○ Mise à jour des trophées Final Fantasy VI : Pixel Remaster (PS4)",
+          "○ Mise à jour des succès Wicked Seed [100%] (Steam)",
+          "○ Mise à jour des succès Megabonk (Steam)",
+          "○ Mise à jour des succès Dying Light (Steam)",
 
-          "○ Ajout de Wicked Seed et de ses succès (Steam)"
+          "○ Ajout de Savara et de ses succès (Steam)",
+          "○ Ajout de Resident Evil requiem et de ses succès (Steam)"
         ],
         fixes: [
           
@@ -21,15 +21,15 @@ export const updates = [
       },
       en: {
         features: [
-          "○ Weekly Schedule from the 23rd of February 2026",
+          "○ Weekly Schedule from the 9th of March 2026",
 
           "○ Updated Tomb Raider I•II•III Remastered achievements (Steam)",
-          "○ Updated Tormented Souls II achievements (Steam)",
-          "○ Updated Resident Evil Village achievements (Steam)",
-          "○ Updated Goblin Cleanup achievements (Steam)",
-          "○ Updated Final Fantasy VI : Pixel Remaster trophies (PS4)",
+          "○ Updated Wicked Seed achievements [100%] (Steam)",
+          "○ Updated Megabonk achievements (Steam)",
+          "○ Updated Dying Light achievements (Steam)",
 
-          "○ Added Wicked Seed and its achievements (Steam)"
+          "○ Added Savara and its achievements (Steam)",
+          "○ Added Resident Evil requiem and its achievements (Steam)"
         ],
         fixes: [
           
