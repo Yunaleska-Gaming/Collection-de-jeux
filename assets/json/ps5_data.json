@@ -527,6 +527,16 @@
         "gold_trophies_dlc": "0/1"
     },
     {
+        "img_src": "resident-evil-9.png",
+        "name": "Resident Evil requiem",
+        "bronze_trophies": "36/40",
+        "silver_trophies": "1/6",
+        "gold_trophies": "0/3",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
         "img_src": "returnal.png",
         "name": "Returnal",
         "bronze_trophies": "0/18",

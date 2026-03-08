@@ -13,7 +13,8 @@ export const updates = [
           "○ Mise à jour des succès Dying Light (Steam)",
 
           "○ Ajout de Savara et de ses succès (Steam)",
-          "○ Ajout de Resident Evil requiem et de ses succès (Steam)"
+          "○ Ajout de Resident Evil requiem et de ses succès (Steam)",
+          "○ Ajout de Resident Evil requiem et de ses trophées (PS5)"
         ],
         fixes: [
           
@@ -29,7 +30,8 @@ export const updates = [
           "○ Updated Dying Light achievements (Steam)",
 
           "○ Added Savara and its achievements (Steam)",
-          "○ Added Resident Evil requiem and its achievements (Steam)"
+          "○ Added Resident Evil requiem and its achievements (Steam)",
+          "○ Added Resident Evil requiem and its trophies (PS5)"
         ],
         fixes: [
           
