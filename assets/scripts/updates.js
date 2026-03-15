@@ -1,20 +1,20 @@
 export const updates = [
   {
-    version: "1.46",
-    date: "08-03-2026",
+    version: "1.47",
+    date: "15-03-2026",
     messages: {
       fr: {
         features: [
-          "○ Planning de la semaine du 09 mars 2026",
+          "○ Planning de la semaine du 15 mars 2026",
 
           "○ Mise à jour des succès Tomb Raider I•II•III Remastered (Steam)",
-          "○ Mise à jour des succès Wicked Seed [100%] (Steam)",
-          "○ Mise à jour des succès Megabonk (Steam)",
           "○ Mise à jour des succès Dying Light (Steam)",
+          "○ Mise à jour des succès Bongo Cat (Steam)",
+          "○ Mise à jour des succès Savara (Steam)",
+          "○ Mise à jour des succès Tormented Souls II (Steam)",
+          "○ Mise à jour des succès Final Fantasy XII: The Zodiac Age (Steam)",
 
-          "○ Ajout de Savara et de ses succès (Steam)",
-          "○ Ajout de Resident Evil requiem et de ses succès (Steam)",
-          "○ Ajout de Resident Evil requiem et de ses trophées (PS5)"
+          "○ Ajout de Fatal Frame II: Crimson Butterfly Remake et de ses succès (Steam)"
         ],
         fixes: [
           
@@ -22,16 +22,17 @@ export const updates = [
       },
       en: {
         features: [
-          "○ Weekly Schedule from the 9th of March 2026",
+          "○ Weekly Schedule from the 15th of March 2026",
 
           "○ Updated Tomb Raider I•II•III Remastered achievements (Steam)",
-          "○ Updated Wicked Seed achievements [100%] (Steam)",
-          "○ Updated Megabonk achievements (Steam)",
           "○ Updated Dying Light achievements (Steam)",
+          "○ Updated Bongo Cat achievements (Steam)",
+          "○ Updated Savara achievements (Steam)",
+          "○ Updated Tormented Souls II (Steam)",
+          "○ Updated Final Fantasy XII: The Zodiac Age achievements (Steam)",
 
-          "○ Added Savara and its achievements (Steam)",
-          "○ Added Resident Evil requiem and its achievements (Steam)",
-          "○ Added Resident Evil requiem and its trophies (PS5)"
+          "○ Added Fatal Frame II: Crimson Butterfly Remake and its achievements (Steam)"
+
         ],
         fixes: [
           

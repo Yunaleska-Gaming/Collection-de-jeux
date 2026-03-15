@@ -67,13 +67,19 @@
   ],
   "ongoing": [
     {
-      "game": "Resident Evil 2 Remake",
+      "game": "Final Fantasy XII",
       "entries": [
-        { "title": "No Save No Damage - Hardcore (All Scenarios)",  "platform": "twitch", "url": "https://www.twitch.tv/yunaleska"  }
+        { "title": "Same & Random Classes, No Myst",  "platform": "twitch", "url": "https://www.twitch.tv/yunaleska"   }
       ]
     }
   ],
   "paused": [
+    {
+      "game": "Resident Evil 2 Remake",
+      "entries": [
+        { "title": "No Save No Damage - Hardcore (All Scenarios)"}
+      ]
+    },
     {
       "game": "Resident Evil 3: Nemesis",
       "entries": [
@@ -94,13 +100,7 @@
     }
   ],
   "future": [
-    {
-      "game": "Final Fantasy XII",
-      "entries": [
-        { "title": "A définir" }
-      ]
-    },
-    {
+        {
       "game": "Final Fantasy XIII",
       "entries": [
         { "title": "A définir" }
