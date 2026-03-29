@@ -1,11 +1,11 @@
 export const updates = [
   {
-    version: "1.47",
-    date: "15-03-2026",
+    version: "1.48",
+    date: "29-03-2026",
     messages: {
       fr: {
         features: [
-          "○ Planning de la semaine du 15 mars 2026",
+          "○ Planning de la semaine du 30 mars 2026",
 
           "○ Mise à jour des succès Tomb Raider I•II•III Remastered (Steam)",
           "○ Mise à jour des succès Dying Light (Steam)",
@@ -14,7 +14,8 @@ export const updates = [
           "○ Mise à jour des succès Tormented Souls II (Steam)",
           "○ Mise à jour des succès Final Fantasy XII: The Zodiac Age (Steam)",
 
-          "○ Ajout de Fatal Frame II: Crimson Butterfly Remake et de ses succès (Steam)"
+          "○ Ajout de Fatal Frame II: Crimson Butterfly Remake et de ses succès (Steam)",
+          "○ Ajout de Godbreakers et de ses succès (Steam)"
         ],
         fixes: [
           
@@ -31,7 +32,8 @@ export const updates = [
           "○ Updated Tormented Souls II (Steam)",
           "○ Updated Final Fantasy XII: The Zodiac Age achievements (Steam)",
 
-          "○ Added Fatal Frame II: Crimson Butterfly Remake and its achievements (Steam)"
+          "○ Added Fatal Frame II: Crimson Butterfly Remake and its achievements (Steam)",
+          "○ Added Godbreakers and its achievements (Steam)"
 
         ],
         fixes: [
