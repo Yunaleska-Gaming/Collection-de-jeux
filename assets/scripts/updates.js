@@ -23,12 +23,13 @@ export const updates = [
           "○ Ajout de Final Fantasy VIII et de ses succès (Retro-PS1)",
           "○ Ajout de Final Fantasy IX et de ses succès (Retro-PS1)",
           "○ Ajout de Spyro the Dragon et de ses succès (Retro-PS1)",
-          "○ Ajout de Spyro 2:Ripto's Rage et de ses succès (Retro-PS1)",
+          "○ Ajout de Spyro 2: Ripto's Rage et de ses succès (Retro-PS1)",
           "○ Ajout de Spyro Year of the Dragon et de ses succès (Retro-PS1)",
         ],
         fixes: [
           "○ Correction de l'affichage des détails des jeux Nintendo",
-          "○ Désactivation temporaire des boutons filtres pour les petits écrans"
+          "○ Désactivation temporaire des boutons filtres pour les petits écrans",
+          "○ Correction des images de trophées qui n'apparaissaient plus"
         ]
       },
       en: {
@@ -51,13 +52,14 @@ export const updates = [
           "○ Added Final Fantasy VIII and its achievements (Retro-PS1)",
           "○ Added Final Fantasy IX and its achievements (Retro-PS1)",
           "○ Added Spyro the Dragon and its achievements (Retro-PS1)",
-          "○ Added Spyro 2:Ripto's Rage and its achievements (Retro-PS1)",
+          "○ Added Spyro 2: Ripto's Rage and its achievements (Retro-PS1)",
           "○ Added Spyro Year of the Dragon and its achievements (Retro-PS1)"
 
         ],
         fixes: [
           "○ Fixed the details window of Nintendo games",
-          "Temporary removed filters for small monitors"
+          "○ Temporary removed filters for small monitors",
+          "○ Fixed trophies pictures which were not appearing anymore"
         ]
       },
       pt: {

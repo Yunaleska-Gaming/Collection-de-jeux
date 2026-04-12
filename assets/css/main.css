@@ -17,11 +17,11 @@
 	--gold-color : #cf9836;
 	--silver-color : #9ea6a8;
 	--bronze-color : #b65f52;
-	--no-platine-img : url("https://static.psthc.fr/trophees_ps5/2020-platinum-impossible-small.png");
-	--platine-img : url("https://static.psthc.fr/trophees_ps5/2020-platinum-trophy-small.png");
-	--gold-img : url("https://static.psthc.fr/trophees_ps5/2020-gold-trophy-small.png");
-	--silver-img : url("https://static.psthc.fr/trophees_ps5/2020-silver-trophy-small.png");
-	--bronze-img : url("https://static.psthc.fr/trophees_ps5/2020-bronze-trophy-small.png");
+	--no-platine-img : url("../images/no-platinum.png");
+	--platine-img : url("../images/platinum.png");
+	--gold-img : url("../images/gold.png");
+	--silver-img : url("../images/silver.png");
+	--bronze-img : url("../images/bronze.png");
 	--bg-header : url("../images/menu-background.jpg") no-repeat top center;
 	--ps1-color : #666971;
 	--ps2-color : #445c8f;
@@ -396,8 +396,8 @@ input:checked + .slider {
 .trophies-pictures {
 	width : 17px;
 	height : 17px;
+	background-size: 100%;
 	background-repeat : no-repeat;
-	margin : 5px;
 }
 
 .no-platine-picture {
@@ -434,8 +434,13 @@ input:checked + .slider {
 	width : 100%;
 	padding-top : 3px;
 	display : flex;
-	align-items : baseline;
+	align-items : center;
 	justify-content : center;
+	gap: 10px;
+}
+
+.games-trophies {
+	margin-top: 5px;
 }
 
 .trophies {
