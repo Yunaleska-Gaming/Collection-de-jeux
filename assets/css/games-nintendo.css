@@ -125,7 +125,15 @@ input:checked + .slider .thumb i {
 }
 .effect-show-nintendo:hover .mask-2 {
     transform: rotate(44.9deg) translateX(0);
-}	
+}
+
+.games-trophies {
+    display: block;
+}
+
+.completion-nintendo {
+    text-align: center;
+}
 
 .ds-nintendo {
 	display : flex;

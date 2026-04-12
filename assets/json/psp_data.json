@@ -28,5 +28,10 @@
         "img_src": "soulcalibur-broken-destiny.png",
         "name": "Soulcalibur : Broken Destiny",
         "amount_achievement": "0/47"
+    },
+    {
+        "img_src": "the-3-birthday.png",
+        "name": "The 3rd Birthday",
+        "amount_achievement": "0/74"
     }
 ]

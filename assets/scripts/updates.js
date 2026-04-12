@@ -1,45 +1,63 @@
 export const updates = [
   {
-    version: "1.48",
-    date: "29-03-2026",
+    version: "1.5",
+    date: "12-04-2026",
     messages: {
       fr: {
         features: [
-          "○ Planning de la semaine du 30 mars 2026",
+          "○ Planning de la semaine du 12 avril 2026",
 
-          "○ Mise à jour des succès Tomb Raider I•II•III Remastered (Steam)",
+        
           "○ Mise à jour des succès Dying Light (Steam)",
-          "○ Mise à jour des succès Bongo Cat (Steam)",
-          "○ Mise à jour des succès Savara (Steam)",
-          "○ Mise à jour des succès Tormented Souls II (Steam)",
+          "○ Mise à jour des succès Resident Evil 5 (Steam)",
+          "○ Mise à jour des succès Resident Evil Requiem (Steam)",
+          "○ Mise à jour des succès Tomb Raider I-III Remastered (Steam)",
           "○ Mise à jour des succès Final Fantasy XII: The Zodiac Age (Steam)",
-          "○ Mise à jour des succès Parasite Eve II (PS1)",
 
-          "○ Ajout de Fatal Frame II: Crimson Butterfly Remake et de ses succès (Steam)",
-          "○ Ajout de Godbreakers et de ses succès (Steam)"
+          "○ Ajout de The 3rd Birthday et de ses succès (Retro-PSP)",
+          "○ Ajout de Alundra et de ses succès (Retro-PS1)",
+          "○ Ajout de Alundra 2: A New Legend Begins et de ses succès (Retro-PS1)",
+          "○ Ajout de Galerians et de ses succès (Retro-PS1)",
+          "○ Ajout de Rayman et de ses succès (Retro-PS1)",
+          "○ Ajout de Final Fantasy VII et de ses succès (Retro-PS1)",
+          "○ Ajout de Final Fantasy VIII et de ses succès (Retro-PS1)",
+          "○ Ajout de Final Fantasy IX et de ses succès (Retro-PS1)",
+          "○ Ajout de Spyro the Dragon et de ses succès (Retro-PS1)",
+          "○ Ajout de Spyro 2:Ripto's Rage et de ses succès (Retro-PS1)",
+          "○ Ajout de Spyro Year of the Dragon et de ses succès (Retro-PS1)",
         ],
         fixes: [
-          
+          "○ Correction de l'affichage des détails des jeux Nintendo",
+          "○ Désactivation temporaire des boutons filtres pour les petits écrans"
         ]
       },
       en: {
         features: [
-          "○ Weekly Schedule from the 15th of March 2026",
+          "○ Weekly Schedule from the 12th of April 2026",
 
-          "○ Updated Tomb Raider I•II•III Remastered achievements (Steam)",
+          
           "○ Updated Dying Light achievements (Steam)",
-          "○ Updated Bongo Cat achievements (Steam)",
-          "○ Updated Savara achievements (Steam)",
-          "○ Updated Tormented Souls II (Steam)",
+          "○ Updated Resident Evil 5 achievements (Steam)",
+          "○ Updated Resident Evil Requiem achievements (Steam)",
+          "○ Updated Tomb Raider I-III Remastered achievements (Steam)",
           "○ Updated Final Fantasy XII: The Zodiac Age achievements (Steam)",
-          "○ Updated Parasite Eve II achievements (PS1)",
 
-          "○ Added Fatal Frame II: Crimson Butterfly Remake and its achievements (Steam)",
-          "○ Added Godbreakers and its achievements (Steam)"
+          "○ Added The 3rd Birthday and its achievements (Retro-PSP)",
+          "○ Added Alundra and its achievements (Retro-PS1)",
+          "○ Added Alundra 2: A New Legend Begins and its achievements (Retro-PS1)",
+          "○ Added Galerians and its achievements (Retro-PS1)",
+          "○ Added Rayman and its achievements (Retro-PS1)",
+          "○ Added Final Fantasy VII and its achievements (Retro-PS1)",
+          "○ Added Final Fantasy VIII and its achievements (Retro-PS1)",
+          "○ Added Final Fantasy IX and its achievements (Retro-PS1)",
+          "○ Added Spyro the Dragon and its achievements (Retro-PS1)",
+          "○ Added Spyro 2:Ripto's Rage and its achievements (Retro-PS1)",
+          "○ Added Spyro Year of the Dragon and its achievements (Retro-PS1)"
 
         ],
         fixes: [
-          
+          "○ Fixed the details window of Nintendo games",
+          "Temporary removed filters for small monitors"
         ]
       },
       pt: {

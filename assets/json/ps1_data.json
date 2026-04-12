@@ -1,5 +1,15 @@
 [
     {
+        "img_src": "alundra.png",
+        "name": "Alundra",
+        "amount_achievement": "0/76"
+    },
+    {
+        "img_src": "alundra-2.png",
+        "name": "Alundra 2: A New Legend Begins",
+        "amount_achievement": "0/57"
+    },
+    {
         "img_src": "battle-hunter.png",
         "name": "Battle Hunter",
         "amount_achievement": "0/47"
@@ -15,6 +25,11 @@
         "amount_achievement": "0/73"
     },
     {
+        "img_src": "darkstalkers-3.png",
+        "name": "Darkstalkers 3",
+        "amount_achievement": "0/33"
+    },
+    {
         "img_src": "dino-crisis.png",
         "name": "Dino Crisis",
         "amount_achievement": "0/65"
@@ -23,6 +38,26 @@
         "img_src": "dino-crisis-2.png",
         "name": "Dino Crisis 2",
         "amount_achievement": "0/52"
+    },
+    {
+        "img_src": "final-fantasy-7.png",
+        "name": "Final Fantasy VII",
+        "amount_achievement": "0/207"
+    },
+    {
+        "img_src": "final-fantasy-8.png",
+        "name": "Final Fantasy VIII",
+        "amount_achievement": "0/104"
+    },
+    {
+        "img_src": "final-fantasy-9.png",
+        "name": "Final Fantasy IX",
+        "amount_achievement": "0/104"
+    },
+    {
+        "img_src": "galerians.png",
+        "name": "Galerians",
+        "amount_achievement": "0/36"
     },
     {
         "img_src": "parasite-eve.png",
@@ -38,6 +73,11 @@
         "img_src": "rayman.png",
         "name": "Rayman",
         "amount_achievement": "0/58"
+    },
+    {
+        "img_src": "rayman-2.png",
+        "name": "Rayman 2: The Great Escape",
+        "amount_achievement": "0/69"
     },
     {
         "img_src": "resident-evil.png",
@@ -63,6 +103,21 @@
         "img_src": "silent-hill.png",
         "name": "Silent Hill",
         "amount_achievement": "0/66"
+    },
+    {
+        "img_src": "spyro-1.png",
+        "name": "Spyro the Dragon",
+        "amount_achievement": "0/65"
+    },
+    {
+        "img_src": "spyro-2.png",
+        "name": "Spyro 2: Ripto's Rage!",
+        "amount_achievement": "0/54"
+    },
+    {
+        "img_src": "spyro-3.png",
+        "name": "Spyro: Year of the Dragon",
+        "amount_achievement": "0/65"
     },
     {
         "img_src": "tekken.png",
