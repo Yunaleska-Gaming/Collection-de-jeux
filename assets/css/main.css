@@ -614,9 +614,11 @@ input:checked + .slider {
   animation: pulseBadge 1.5s infinite;
 }
 
-/*#corrections {
+#corrections,
+h3[data-i18n="fixesTitle"] {
 	display: none;
-}*/
+}
+
 
 
 /* RESPONSIVE */

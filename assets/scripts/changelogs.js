@@ -15,17 +15,30 @@ function showChangelogPopup(force = false) {
   popup.innerHTML = `
     <div class="changelog-content">
       <h2>Version ${latestUpdate.version} (${latestUpdate.date})</h2>
+      <h3 data-i18n="newsTitle">News</h3>
       <ul class="changelog-section">
-        <h3>News</h3>
         ${latestUpdate.messages[lang].features.map(msg => `<li>${msg}</li>`).join("")}
       </ul>
+      <h3 data-i18n="fixesTitle">Corrections</h3>
       <ul class="changelog-section" id="corrections">
-        <h3>Corrections</h3>
         ${latestUpdate.messages[lang].fixes.map(msg => `<li>${msg}</li>`).join("")}
+      </ul>
+      
+      <h3 data-i18n="issuesTitle">Problèmes connus</h3>
+      <ul class="changelog-section" id="issues">
+        ${latestUpdate.messages[lang].issues.map(msg => `<li>${msg}</li>`).join("")}
       </ul>
       <button id="close-changelog">OK</button>
     </div>
   `;
+
+ document.body.appendChild(popup);
+
+  const currentLang = localStorage.getItem('lang') || (navigator.language.startsWith('fr') ? 'fr' : 'en');
+
+  if (window.setLanguage) {
+    window.setLanguage(currentLang);
+  }
 
   document.body.appendChild(popup);
   setTimeout(() => popup.classList.add("active"), 10);

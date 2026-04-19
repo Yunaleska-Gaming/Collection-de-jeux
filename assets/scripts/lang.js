@@ -30,7 +30,11 @@ const translations = {
     profileRetro: "Succès Retro",
     profileProgress: "Progression générale : ",
     profileChall: "Défis préférés",
-    profileLinks: "Liens"
+    profileLinks: "Liens",
+    newsTitle: "Nouveautés",
+    fixesTitle: "Corrections",
+    issuesTitle: "Problèmes connus",
+    footerCopyrights: "Tous droits réservés"
   },
   en: {
     welcome: "Introduction",
@@ -63,7 +67,11 @@ const translations = {
     profileRetro: "RetroAchievements",
     profileProgress: "General progression: ",
     profileChall: "Favourite challenges",
-    profileLinks: "Links"
+    profileLinks: "Links",
+    newsTitle: "News",
+    fixesTitle: "Fixes",
+    issuesTitle: "Known issues",
+    footerCopyrights: "All rights reserved",
   },
   pt: {
     welcome: "Introdução",
@@ -86,7 +94,22 @@ const translations = {
     langTitle: "Mudar o idioma",
     profileTitle: "Yunaleska",
     changelogTitle: "Ver novidades",
-
+    profileVGlover: "Apaixonada por videojogos",
+    profileHunter: "Caçadora de troféus e conquistas",
+    profileDev: "Desenvolvedora web e designer gráfica freelance",
+    profileCreator: "Criadora de overlays e conteúdos",
+    profileStatsTitle: "Estatísticas gerais",
+    profileGames: "Jogos",
+    profileTrophies: "Troféus",
+    profileAchiev: "Conquistas Steam",
+    profileRetro: "Conquistas Retro",
+    profileProgress: "Progresso geral: ",
+    profileChall: "Desafios favoritos",
+    profileLinks: "Links",
+    newsTitle: "Novidades",
+    fixesTitle: "Correções",
+    issuesTitle: "Problemas conhecidos",
+    footerCopyrights: "Todos os direitos reservados"
   }
 };
 
@@ -157,6 +180,8 @@ function setupLanguageGlobeDropdown() {
     }
   });
 }
+
+window.setLanguage = setLanguage;
 
 // À lancer après chargement DOM
 document.addEventListener('DOMContentLoaded', () => {
