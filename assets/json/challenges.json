@@ -25,6 +25,12 @@
       ]
     },
     {
+      "game": "Final Fantasy XII",
+      "entries": [
+        { "title": "Same & Random Classes, No Myst" }
+      ]
+    },
+    {
       "game": "Resident Evil 0 HD",
       "entries": [
         { "title": "New Game - No Heal", "platform": "youtube", "url": "https://www.youtube.com/playlist?list=PLT1mqwRlf2ooKiUxB1U-duUSnNcHLmfre" }
@@ -66,12 +72,7 @@
     }
   ],
   "ongoing": [
-    {
-      "game": "Final Fantasy XII",
-      "entries": [
-        { "title": "Same & Random Classes, No Myst",  "platform": "twitch", "url": "https://www.twitch.tv/yunaleska"   }
-      ]
-    }
+    
   ],
   "paused": [
     {

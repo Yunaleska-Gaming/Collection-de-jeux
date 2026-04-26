@@ -1,16 +1,17 @@
 export const updates = [
   {
-    version: "1.51",
-    date: "19-04-2026",
+    version: "1.52",
+    date: "27-04-2026",
     messages: {
       fr: {
         features: [
-          "○ Planning de la semaine du 20 avril 2026",
+          "○ Planning de la semaine du 27 avril 2026",
         
-          "○ Mise à jour des succès Sworn [100%] (Steam)",
+          "○ Mise à jour des succès Nexomon : Extinction (Steam)",
           "○ Mise à jour des succès Resident Evil Requiem (Steam)",
           "○ Mise à jour des succès Godbreakers (Steam)",
-          "○ Mise à jour des succès Tomb Raider I•III Remastered (Steam)",
+          "○ Mise à jour des succès Tomb Raider IV•V•VI Remastered (Steam)",
+          "○ Mise à jour des succès Resident Evil 5 (Steam)"
         ],
         fixes: [
           
@@ -23,12 +24,13 @@ export const updates = [
       },
       en: {
         features: [
-          "○ Weekly Schedule from the 20th of April 2026",
+          "○ Weekly Schedule from the 27th of April 2026",
 
-          "○ Updated Sworn achievements [100%] (Steam)",
+          "○ Updated Nexomon : Extinction achievements (Steam)",
           "○ Updated Resident Evil Requiem achievements (Steam)",
           "○ Updated Godbreakers achievements (Steam)",
-          "○ Updated Tomb Raider I•III Remastered achievements (Steam)"
+          "○ Updated Tomb Raider I•III Remastered achievements (Steam)",
+          "○ Updated Resident Evil 5 achievements (Steam)"
 
         ],
         fixes: [
@@ -43,12 +45,11 @@ export const updates = [
         features: [
            "○ Agenda da semana de 20 de abril de 2026",
 
-           "○ Atualização das conquistas de Sworn [100%] (Steam)",
+           "○ Atualização das conquistas de Nexomon : Extinction (Steam)",
            "○ Atualização das conquistas de Resident Evil Requiem (Steam)",
            "○ Atualização das conquistas de Godbreakers (Steam)",
            "○ Atualização das conquistas de Tomb Raider I•III Remastered (Steam)",
-
-           "○ Atualização das conquistas de Sworn [100%] (Steam)",
+           "○ Atualização das conquistas de Resident Evil 5 Remastered (Steam)"
         ],
         fixes: [
           
