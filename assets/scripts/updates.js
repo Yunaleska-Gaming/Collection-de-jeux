@@ -1,17 +1,18 @@
 export const updates = [
   {
-    version: "1.52",
-    date: "27-04-2026",
+    version: "1.53",
+    date: "03-05-2026",
     messages: {
       fr: {
         features: [
-          "○ Planning de la semaine du 27 avril 2026",
+          "○ Planning de la semaine du 04 mai 2026",
         
           "○ Mise à jour des succès Nexomon : Extinction (Steam)",
-          "○ Mise à jour des succès Resident Evil Requiem (Steam)",
-          "○ Mise à jour des succès Godbreakers (Steam)",
+          "○ Mise à jour des succès The Evil Within (Steam)",
+          "○ Mise à jour des succès The Spell Brigade (Steam)",
           "○ Mise à jour des succès Tomb Raider IV•V•VI Remastered (Steam)",
-          "○ Mise à jour des succès Resident Evil 5 (Steam)"
+          "○ Mise à jour des succès Resident Evil 2 (PS1)",
+          "○ Ajout du lien vers la playlist pour le challenge Final Fantasy VIII"
         ],
         fixes: [
           
@@ -24,13 +25,14 @@ export const updates = [
       },
       en: {
         features: [
-          "○ Weekly Schedule from the 27th of April 2026",
+          "○ Weekly Schedule from the 4th of May 2026",
 
           "○ Updated Nexomon : Extinction achievements (Steam)",
-          "○ Updated Resident Evil Requiem achievements (Steam)",
-          "○ Updated Godbreakers achievements (Steam)",
-          "○ Updated Tomb Raider I•III Remastered achievements (Steam)",
-          "○ Updated Resident Evil 5 achievements (Steam)"
+          "○ Updated The Evil Within achievements (Steam)",
+          "○ Updated The Spell Brigade achievements (Steam)",
+          "○ Updated Tomb Raider IV•V•VI Remastered achievements (Steam)",
+          "○ Updated Resident Evil 2 achievements (PS1)",
+          "○ Added a link to the playlist of the Final Fantasy VIII Challenge"
 
         ],
         fixes: [
@@ -43,13 +45,13 @@ export const updates = [
       },
       pt: {
         features: [
-           "○ Agenda da semana de 20 de abril de 2026",
+           "○ Agenda da semana de 04 de maio de 2026",
 
            "○ Atualização das conquistas de Nexomon : Extinction (Steam)",
-           "○ Atualização das conquistas de Resident Evil Requiem (Steam)",
-           "○ Atualização das conquistas de Godbreakers (Steam)",
-           "○ Atualização das conquistas de Tomb Raider I•III Remastered (Steam)",
-           "○ Atualização das conquistas de Resident Evil 5 Remastered (Steam)"
+           "○ Atualização das conquistas de The Evil Within (Steam)",
+           "○ Atualização das conquistas de The Spell Brigade (Steam)",
+           "○ Atualização das conquistas de Tomb Raider IV•V•VI Remastered (Steam)",
+           "○ Atualização das conquistas de Resident Evil 2 (PS1)"
         ],
         fixes: [
           
