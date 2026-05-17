@@ -265,12 +265,12 @@
     {
         "img_src": "genshin-impact.png",
         "name": "Genshin Impact",
-        "bronze_trophies": "11/46",
-        "silver_trophies": "2/17",
-        "gold_trophies": "1/8",
-        "bronze_trophies_dlc": "0/0",
-        "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "bronze_trophies": "11/23",
+        "silver_trophies": "2/10",
+        "gold_trophies": "1/4",
+        "bronze_trophies_dlc": "0/60",
+        "silver_trophies_dlc": "0/13",
+        "gold_trophies_dlc": "0/8"
     },
     {
         "img_src": "ghostrunner.png",
@@ -288,9 +288,9 @@
         "bronze_trophies": "27/27",
         "silver_trophies": "7/7",
         "gold_trophies": "4/4",
-        "bronze_trophies_dlc": "6/9",
-        "silver_trophies_dlc": "10/12",
-        "gold_trophies_dlc": "2/3",
+        "bronze_trophies_dlc": "6/13",
+        "silver_trophies_dlc": "10/29",
+        "gold_trophies_dlc": "2/4",
         "date_platined": "Platiné le 12/11/2023"
     },
     {
@@ -401,6 +401,16 @@
         "gold_trophies": "0/2",
         "bronze_trophies_dlc": "0/16",
         "silver_trophies_dlc": "0/4",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
+        "img_src": "neverness-to-everness.png",
+        "name": "Neverness to Everness",
+        "bronze_trophies": "15/22",
+        "silver_trophies": "3/9",
+        "gold_trophies": "2/4",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0"
     },
     {
@@ -529,12 +539,13 @@
     {
         "img_src": "resident-evil-9.png",
         "name": "Resident Evil requiem",
-        "bronze_trophies": "36/40",
-        "silver_trophies": "1/6",
-        "gold_trophies": "0/3",
+        "bronze_trophies": "40/40",
+        "silver_trophies": "6/6",
+        "gold_trophies": "3/3",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 10/03/2026"
     },
     {
         "img_src": "returnal.png",
