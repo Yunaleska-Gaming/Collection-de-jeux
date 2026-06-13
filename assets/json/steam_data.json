@@ -123,7 +123,7 @@
     {
         "img_src": "content-warning.jpg",
         "name": "Content Warning",
-        "amount_achievement": "0/0"
+        "amount_achievement": "0/48"
     },
     {
         "img_src": "dark-souls-1.jpg",
@@ -186,20 +186,26 @@
         "amount_achievement": "0/103"
     },
     {
+        "img_src": "epic-mickey-mouse-rebrushed.jpg",
+        "name": "Disney Epic Mickey: Rebrushed",
+        "amount_achievement": "0/39"
+    },
+    {
         "img_src": "dying-light.jpg",
         "name": "Dying Light",
         "amount_achievement": "42/78"
-    },
-    {
-        "img_src": "electrician-simulator.jpg",
-        "name": "Electrician Simulator",
-        "amount_achievement": "7/26"
     },
     {
         "img_src": "elden-ring.jpg",
         "name": "Elden Ring",
         "amount_achievement": "30/42"
     },
+    {
+        "img_src": "electrician-simulator.jpg",
+        "name": "Electrician Simulator",
+        "amount_achievement": "7/26"
+    },
+    
     {
         "img_src": "elypse.jpg",
         "name": "Elypse",
@@ -214,6 +220,11 @@
         "img_src": "ender-magnolia.jpg",
         "name": "Ender Magnolia",
         "amount_achievement": "0/40"
+    },
+    {
+        "img_src": "endling.jpg",
+        "name": "Endling : Extinction is Forever",
+        "amount_achievement": "0/28"
     },
     {
         "img_src": "evergate.jpg",
@@ -318,7 +329,7 @@
     {
         "img_src": "goblin-cleanup.jpg",
         "name": "Goblin Cleanup",
-        "amount_achievement": "14/16"
+        "amount_achievement": "14/26"
     },
     {
         "img_src": "godbreakers.jpg",
@@ -334,6 +345,11 @@
         "img_src": "gris.jpg",
         "name": "Gris",
         "amount_achievement": "17/17"
+    },
+    {
+        "img_src": "ground-zero.jpg",
+        "name": "Ground Zero",
+        "amount_achievement": "0/44"
     },
     {
         "img_src": "have-a-nice-death.jpg",
@@ -356,6 +372,11 @@
         "amount_achievement": "16/52"
     },
     {
+        "img_src": "house-flipper-2.jpg",
+        "name": "house Flipper 2",
+        "amount_achievement": "7/60"
+    },
+    {
         "img_src": "house-of-necrosis.jpg",
         "name": "House of Necrosis",
         "amount_achievement": "0/28"
@@ -373,7 +394,7 @@
     {
         "img_src": "kitaria-fables.jpg",
         "name": "Kitaria Fables",
-        "amount_achievement": "6/41"
+        "amount_achievement": "41/41"
     },
     {
         "img_src": "last-epoch.jpg",
@@ -491,6 +512,11 @@
         "amount_achievement": "0/88"
     },
     {
+        "img_src": "octopath-traveler-2.jpg",
+        "name": "Octopath Traveler II",
+        "amount_achievement": "0/33"
+    },
+    {
         "img_src": "okami-hd.jpg",
         "name": "Okami HD",
         "amount_achievement": "13/51"
@@ -590,10 +616,15 @@
         "name": "PowerWash Simulator",
         "amount_achievement": "40/100"
     },
-     {
+    {
         "img_src": "powerwash-simulator-2.jpg",
         "name": "PowerWash Simulator 2",
         "amount_achievement": "40/40"
+    },
+    {
+        "img_src": "pragmata.jpg",
+        "name": "Pragmata",
+        "amount_achievement": "0/35"
     },
     {
         "img_src": "project-zero-masque-lunaire.jpg",
@@ -693,7 +724,7 @@
     {
         "img_src": "shape-of-dreams.jpg",
         "name": "Shape of Dreams",
-        "amount_achievement": "83/83"
+        "amount_achievement": "85/85"
     },
     {
         "img_src": "silent-hill-2.jpg",
@@ -716,9 +747,19 @@
         "amount_achievement": "7/45"
     },
     {
+        "img_src": "spirit-of-the-north.jpg",
+        "name": "Spirit of the North",
+        "amount_achievement": "0/24"
+    },
+    {
         "img_src": "spyro.jpg",
         "name": "Spyro Reignited Trilogy",
         "amount_achievement": "105/105"
+    },
+    {
+        "img_src": "star-fire.jpg",
+        "name": "Star Fire : Eternal Cycle",
+        "amount_achievement": "0/51"
     },
     {
         "img_src": "stray.jpg",
@@ -778,7 +819,7 @@
     {
         "img_src": "the-evil-within.jpg",
         "name": "The Evil Within",
-        "amount_achievement": "40/71"
+        "amount_achievement": "54/71"
     },
     {
         "img_src": "the-evil-within-2.jpg",
@@ -796,15 +837,16 @@
         "amount_achievement": "6/14"
     },
     {
-        "img_src": "jackbox-party-starter.jpg",
-        "name": "The Jackbox Party Starter",
-        "amount_achievement": "1/20"
-    },
-    {
         "img_src": "the-hunt-begins.jpg",
         "name": "The Hunt Begins",
         "amount_achievement": "0/0"
     },
+    {
+        "img_src": "jackbox-party-starter.jpg",
+        "name": "The Jackbox Party Starter",
+        "amount_achievement": "1/20"
+    },
+    
     {
         "img_src": "the-kings-bird.jpg",
         "name": "The King's Bird",
@@ -828,12 +870,12 @@
     {
         "img_src": "the-room-3.jpg",
         "name": "The Room Three",
-        "amount_achievement": "4/10"
+        "amount_achievement": "10/10"
     },
     {
         "img_src": "the-room-4.jpg",
         "name": "The Room 4 Old Sins",
-        "amount_achievement": "0/9"
+        "amount_achievement": "9/9"
     },
     {
         "img_src": "the-spell-brigade.jpg",
@@ -868,7 +910,7 @@
     {
         "img_src": "tomb-raider-4-6.jpg",
         "name": "Tomb Raider IV•V•VI Remastered",
-        "amount_achievement": "25/168"
+        "amount_achievement": "49/168"
     },
     {
         "img_src": "tormented-souls.jpg",

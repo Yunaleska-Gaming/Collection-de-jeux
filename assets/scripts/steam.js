@@ -63,7 +63,7 @@ function updateCompletionTimeline(games) {
     }
 
     if (lastEl) {
-        lastEl.textContent = `Dernier 100% : Wicked Seed`;
+        lastEl.textContent = `Dernier 100% : Kitaria Fables`;
     }
 }
 

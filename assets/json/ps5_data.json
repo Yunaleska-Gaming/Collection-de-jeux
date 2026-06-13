@@ -265,12 +265,12 @@
     {
         "img_src": "genshin-impact.png",
         "name": "Genshin Impact",
-        "bronze_trophies": "11/23",
-        "silver_trophies": "2/10",
-        "gold_trophies": "1/4",
-        "bronze_trophies_dlc": "0/60",
-        "silver_trophies_dlc": "0/13",
-        "gold_trophies_dlc": "0/8"
+        "bronze_trophies": "23/23",
+        "silver_trophies": "10/10",
+        "gold_trophies": "3/4",
+        "bronze_trophies_dlc": "10/60",
+        "silver_trophies_dlc": "2/13",
+        "gold_trophies_dlc": "2/8"
     },
     {
         "img_src": "ghostrunner.png",
@@ -406,8 +406,8 @@
     {
         "img_src": "neverness-to-everness.png",
         "name": "Neverness to Everness",
-        "bronze_trophies": "15/22",
-        "silver_trophies": "3/9",
+        "bronze_trophies": "19/22",
+        "silver_trophies": "4/9",
         "gold_trophies": "2/4",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
@@ -630,6 +630,16 @@
         "gold_trophies_dlc": "0/0"
     },
     {
+        "img_src": "star-wars-survivor.png",
+        "name": "Star Wars Jedi : Survivor",
+        "bronze_trophies": "0/44",
+        "silver_trophies": "0/7",
+        "gold_trophies": "0/2",
+        "bronze_trophies_dlc": "0/0",
+        "silver_trophies_dlc": "0/0",
+        "gold_trophies_dlc": "0/0"
+    },
+    {
         "img_src": "star-wars-lego.png",
         "name": "Star Wars Lego : The Skywalker Saga",
         "bronze_trophies": "0/32",
@@ -817,11 +827,11 @@
     {
         "img_src": "wuthering-waves.png",
         "name": "Wuthering Waves",
-        "bronze_trophies": "26/30",
-        "silver_trophies": "3/9",
+        "bronze_trophies": "27/30",
+        "silver_trophies": "5/9",
         "gold_trophies": "2/3",
-        "bronze_trophies_dlc": "0/10",
-        "silver_trophies_dlc": "0/0",
+        "bronze_trophies_dlc": "10/36",
+        "silver_trophies_dlc": "1/4",
         "gold_trophies_dlc": "0/0"
     }
 ]

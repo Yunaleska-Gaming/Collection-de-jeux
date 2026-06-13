@@ -200,7 +200,7 @@ iframe { width: 100%; height: 100%;}
 }
 
 .week-planning img {
-    /*width: 92%;*/
+    width: 90%;
     object-fit: scale-down;
 }
 
