@@ -53,8 +53,7 @@
         "img_src": "beacon-pines.jpg",
         "name": "Beacon Pines",
         "amount_achievement": "0/11"
-    },
-    
+    },    
     {
         "img_src": "biped.jpg",
         "name": "Biped",
@@ -329,7 +328,7 @@
     {
         "img_src": "goblin-cleanup.jpg",
         "name": "Goblin Cleanup",
-        "amount_achievement": "14/26"
+        "amount_achievement": "15/26"
     },
     {
         "img_src": "godbreakers.jpg",
@@ -440,6 +439,11 @@
         "img_src": "madison.jpg",
         "name": "MADiSON",
         "amount_achievement": "14/32"
+    },
+    {
+        "img_src": "mages-of-mystralia.jpg",
+        "name": "Mages of Mystralia",
+        "amount_achievement": "2/30"
     },
     {
         "img_src": "magic-duels.jpg",
@@ -910,7 +914,7 @@
     {
         "img_src": "tomb-raider-4-6.jpg",
         "name": "Tomb Raider IV•V•VI Remastered",
-        "amount_achievement": "49/168"
+        "amount_achievement": "59/168"
     },
     {
         "img_src": "tormented-souls.jpg",
