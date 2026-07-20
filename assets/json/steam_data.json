@@ -27,7 +27,7 @@
     {
         "img_src": "song-of-nunu.jpg",
         "name": "A League of Legends Sotry : Song of Nunu",
-        "amount_achievement": "0/44"
+        "amount_achievement": "18/44"
     },
     {
         "img_src": "the-mageseeker.jpg",
@@ -421,6 +421,11 @@
         "amount_achievement": "7/22"
     },
     {
+        "img_src": "lort.jpg",
+        "name": "LORT",
+        "amount_achievement": "22/52"
+    },
+    {
         "img_src": "lost-ark.jpg",
         "name": "Lost Ark",
         "amount_achievement": "22/156"
@@ -443,7 +448,7 @@
     {
         "img_src": "mages-of-mystralia.jpg",
         "name": "Mages of Mystralia",
-        "amount_achievement": "2/30"
+        "amount_achievement": "4/30"
     },
     {
         "img_src": "magic-duels.jpg",
@@ -563,7 +568,7 @@
     {
         "img_src": "palworld.jpg",
         "name": "Palworld",
-        "amount_achievement": "15/56"
+        "amount_achievement": "15/75"
     },
     {
         "img_src": "pankapu.jpg",
@@ -823,7 +828,7 @@
     {
         "img_src": "the-evil-within.jpg",
         "name": "The Evil Within",
-        "amount_achievement": "54/71"
+        "amount_achievement": "71/71"
     },
     {
         "img_src": "the-evil-within-2.jpg",
@@ -914,7 +919,7 @@
     {
         "img_src": "tomb-raider-4-6.jpg",
         "name": "Tomb Raider IV•V•VI Remastered",
-        "amount_achievement": "59/168"
+        "amount_achievement": "81/168"
     },
     {
         "img_src": "tormented-souls.jpg",
@@ -965,6 +970,11 @@
         "img_src": "wild-hearts.jpg",
         "name": "Wild Hearts",
         "amount_achievement": "2/48"
+    },
+    {
+        "img_src": "witchspire.jpg",
+        "name": "Witchspire",
+        "amount_achievement": "10/70"
     },
     {
         "img_src": "x-blades.jpg",

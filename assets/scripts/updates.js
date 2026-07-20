@@ -1,16 +1,18 @@
 export const updates = [
   {
-    version: "1.56",
-    date: "28-06-2026",
+    version: "1.57",
+    date: "20-07-2026",
     messages: {
       fr: {
         features: [
-          "○ Planning de la semaine du 28 juin 2026",
+          "○ Planning de la semaine du 20 juillet 2026",
         
           "○ Mise à jour des succès Tomb Raider IV•V•VI Remastered (Steam)",
-          "○ Mise à jour des succès Goblin Cleanup (Steam)",
+          "○ Mise à jour des succès Mages of Mystralia (Steam)",
+          "○ Mise à jour des succès The Evil Within (Steam)",
 
-          "○ Ajout du jeu Mages of Mystralia et de ses succès (Steam)",
+          "○ Ajout du jeu LORT et de ses succès (Steam)",
+          "○ Ajout du jeu Witchspire et de ses succès (Steam)"
         ],
         fixes: [
           
@@ -23,12 +25,14 @@ export const updates = [
       },
       en: {
         features: [
-          "○ Weekly Schedule from the 28th of June 2026",
+          "○ Weekly Schedule from the 20th of June 2026",
 
           "○ Updated Tomb Raider IV•V•VI Remastered achievements (Steam)",
-          "○ Updated Goblin Cleanup achievements (Steam)",
+          "○ Updated Mages of Mystralia achievements (Steam)",
+          "○ Updated The Evil Within achievements (Steam)",
 
-          "○ Added the game Mages of Mystralia and its achievements (Steam)",
+          "○ Added the game LORT and its achievements (Steam)",
+          "○ Added the game Witchspire and its achievements (Steam)"
 
         ],
         fixes: [
