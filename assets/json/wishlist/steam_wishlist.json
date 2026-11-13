@@ -1,13 +1,38 @@
 [
     {
+        "img_src": "dinoblade.jpg",
+        "name": "Dinoblade",
+        "text": "Priorité : Haute"
+    },
+    {
+        "img_src": "dragonsword-awakening.jpg",
+        "name": "Dragonsword: Awakening",
+        "text": "Priorité : Haute"
+    },
+    {
+        "img_src": "beast-of-reincarnation.jpg",
+        "name": "Beast of Reincarnation",
+        "text": "Priorité : Haute"
+    },
+    {
+        "img_src": "adventure-of-elliot.jpg",
+        "name": "The Adventures of Elliot: The Millennium Tales",
+        "text": "Priorité : Haute"
+    },
+    {
         "img_src": "bravely-default-2.jpg",
         "name": "Bravely Default II",
+        "text": "Priorité : Moyenne"
+    },    
+    {
+        "img_src": "fellowship.jpg",
+        "name": "Fellowship",
         "text": "Priorité : Moyenne"
     },
     {
         "img_src": "little-nightmares-3.jpg",
         "name": "Little Nightmares III",
-        "text": "En attente de date"
+        "text": "Priorité : Moyenne"
     },
     {
         "img_src": "split-fiction.jpg",

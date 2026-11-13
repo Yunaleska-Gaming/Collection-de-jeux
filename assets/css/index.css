@@ -356,3 +356,32 @@ iframe { width: 100%; height: 100%;}
         width : 95%;
     }
 }
+
+.site-notice {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin: 25px 0;
+  background: var(--background-secondary);
+  border: 1px solid var(--accent-color);
+}
+
+.site-notice > i {
+  font-size: 1.8rem;
+  color: var(--accent-color);
+}
+
+.site-notice h3 {
+  margin: 0 0 8px;
+  color: var(--accent-color);
+}
+
+.site-notice p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.first-section {
+    justify-content: space-between;
+}
